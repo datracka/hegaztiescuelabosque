@@ -4,6 +4,7 @@ import Header from "@/components/Header.tsx";
 import Hero from "@/components/Hero.tsx";
 import CallToAction from "@/components/CallToAction.tsx";
 import Services from "@/components/Services.tsx";
+import Footer from "@/components/Footer.tsx";
 
 export default function Home(ctx: PageProps) {
   const { url } = ctx;
@@ -19,6 +20,7 @@ export default function Home(ctx: PageProps) {
       <Hero />
       <CallToAction />
       <Services />
+      <Footer />
     </>
   );
 }
