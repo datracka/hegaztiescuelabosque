@@ -1,11 +1,12 @@
 import { HeadElement } from "@/components/HeadElement.tsx";
+import { css, tw } from "twind/css";
 import { PageProps } from "$fresh/server.ts";
 import Header from "@/components/Header.tsx";
 import Hero from "@/components/Hero.tsx";
 import CallToAction from "@/components/CallToAction.tsx";
 import Services from "@/components/Services.tsx";
 import Footer from "@/components/Footer.tsx";
-import { css, tw } from "twind/css";
+import NavBar from "@/components/NavBar.tsx";
 
 const bImage = css`
     background-color: transparent;
@@ -16,17 +17,50 @@ export default function Home(ctx: PageProps) {
   const { url } = ctx;
   return (
     <>
-      <header
-        class={tw(
+      <NavBar />
+
+      {
+        /*  <Header />
+      <Hero />
+      <CallToAction />
+      <Services />
+      <Footer /> */
+      }
+    </>
+  );
+}
+
+/*
+
+<header
+        className={tw(
           "flex items-center justify-center h-screen mb-12 bg-fixed bg-center bg-cover",
           bImage,
         )}
       >
+        <div
+          className={tw(
+            "p-5 text-white bg-purple-300 bg-opacity-50 rounded-xl text-2xl",
+          )}
+        >
+          Creciendo en la Naturaleza
+        </div>
+      </header>
+
+        /* <HeadElement
+        description="Meerkat Interactive Cool Descriptipon"
+        image={url.href + "og-image.png"}
+        title="Meerkat Interactive | IT for Marketers"
+        url={url}
+      />
+      <header class="flex items-center justify-center h-screen mb-12 bg-fixed bg-center bg-cover custom-img">
         <div class="p-5 text-2xl text-white bg-purple-300 bg-opacity-50 rounded-xl">
           Welcome to my site!
         </div>
       </header>
-      <div class="max-w-lg m-auto">
+
+
+ <div className={tw`max-w-lg m-auto`}>
         <p class="mb-4">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
           placerat a magna non varius. Proin leo felis, euismod non porta eget,
@@ -89,24 +123,4 @@ export default function Home(ctx: PageProps) {
           Donec eget sodales risus, quis dignissim neque.
         </p>
       </div>
-      {
-        /* <HeadElement
-        description="Meerkat Interactive Cool Descriptipon"
-        image={url.href + "og-image.png"}
-        title="Meerkat Interactive | IT for Marketers"
-        url={url}
-      />
-      <header class="flex items-center justify-center h-screen mb-12 bg-fixed bg-center bg-cover custom-img">
-        <div class="p-5 text-2xl text-white bg-purple-300 bg-opacity-50 rounded-xl">
-          Welcome to my site!
-        </div>
-      </header>
-      <Header />
-      <Hero />
-      <CallToAction />
-      <Services />
-      <Footer /> */
-      }
-    </>
-  );
-}
+      */
