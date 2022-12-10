@@ -6,7 +6,7 @@ import Hero from "@/components/Hero.tsx";
 import CallToAction from "@/components/CallToAction.tsx";
 import Services from "@/components/Services.tsx";
 import Footer from "@/components/Footer.tsx";
-import NavBar from "@/components/NavBar.tsx";
+import NavBar from "@/components/NavBar/index.tsx";
 
 const bImage = css`
     background-color: transparent;
@@ -18,7 +18,6 @@ export default function Home(ctx: PageProps) {
   return (
     <>
       <NavBar />
-
       {
         /*  <Header />
       <Hero />
