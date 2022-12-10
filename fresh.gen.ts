@@ -10,7 +10,10 @@ import * as $3 from "./routes/index.tsx";
 import * as $4 from "./routes/infantil.tsx";
 import * as $5 from "./routes/madre-de-dia.tsx";
 import * as $6 from "./routes/primaria.tsx";
-import * as $7 from "./routes/proyecto.tsx";
+import * as $7 from "./routes/quienes-somos-espacios.tsx";
+import * as $8 from "./routes/quienes-somos-faq.tsx";
+import * as $9 from "./routes/quienes-somos-hegazti.tsx";
+import * as $10 from "./routes/quienes-somos-proyecto.tsx";
 import * as $$0 from "./islands/Counter.tsx";
 
 const manifest = {
@@ -22,7 +25,10 @@ const manifest = {
     "./routes/infantil.tsx": $4,
     "./routes/madre-de-dia.tsx": $5,
     "./routes/primaria.tsx": $6,
-    "./routes/proyecto.tsx": $7,
+    "./routes/quienes-somos-espacios.tsx": $7,
+    "./routes/quienes-somos-faq.tsx": $8,
+    "./routes/quienes-somos-hegazti.tsx": $9,
+    "./routes/quienes-somos-proyecto.tsx": $10,
   },
   islands: {
     "./islands/Counter.tsx": $$0,
