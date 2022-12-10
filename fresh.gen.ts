@@ -4,12 +4,12 @@
 
 import config from "./deno.json" assert { type: "json" };
 import * as $0 from "./routes/api/joke.ts";
-import * as $1 from "./routes/extraescolares-ludoteca.tsx";
-import * as $2 from "./routes/extraescolares-sabado-en-familia.tsx";
-import * as $3 from "./routes/index.tsx";
-import * as $4 from "./routes/infantil.tsx";
-import * as $5 from "./routes/madre-de-dia.tsx";
-import * as $6 from "./routes/primaria.tsx";
+import * as $1 from "./routes/aula-extraescolares-ludoteca.tsx";
+import * as $2 from "./routes/aula-extraescolares-sabado-en-familia.tsx";
+import * as $3 from "./routes/aula-infantil.tsx";
+import * as $4 from "./routes/aula-madre-de-dia.tsx";
+import * as $5 from "./routes/aula-primaria.tsx";
+import * as $6 from "./routes/index.tsx";
 import * as $7 from "./routes/quienes-somos-espacios.tsx";
 import * as $8 from "./routes/quienes-somos-faq.tsx";
 import * as $9 from "./routes/quienes-somos-hegazti.tsx";
@@ -19,12 +19,12 @@ import * as $$0 from "./islands/Counter.tsx";
 const manifest = {
   routes: {
     "./routes/api/joke.ts": $0,
-    "./routes/extraescolares-ludoteca.tsx": $1,
-    "./routes/extraescolares-sabado-en-familia.tsx": $2,
-    "./routes/index.tsx": $3,
-    "./routes/infantil.tsx": $4,
-    "./routes/madre-de-dia.tsx": $5,
-    "./routes/primaria.tsx": $6,
+    "./routes/aula-extraescolares-ludoteca.tsx": $1,
+    "./routes/aula-extraescolares-sabado-en-familia.tsx": $2,
+    "./routes/aula-infantil.tsx": $3,
+    "./routes/aula-madre-de-dia.tsx": $4,
+    "./routes/aula-primaria.tsx": $5,
+    "./routes/index.tsx": $6,
     "./routes/quienes-somos-espacios.tsx": $7,
     "./routes/quienes-somos-faq.tsx": $8,
     "./routes/quienes-somos-hegazti.tsx": $9,

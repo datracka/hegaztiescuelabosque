@@ -1,9 +1,9 @@
 import { RouteConfig } from "$fresh/server.ts";
 
 export const config: RouteConfig = {
-  routeOverride: "/(abcd|efgh|ijkl|mnop|qrst|uvwx|yz)",
+  routeOverride: "/(aula-madre-de-dia|daily-mother-schoolroom)",
 };
 
-export default function MadreDeDia() {
+export default function AulaMadreDeDia() {
   return <div>Madre De Dia</div>;
 }

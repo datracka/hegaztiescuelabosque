@@ -1,3 +1,3 @@
 export default function Infantil() {
-  return <div>Infantil</div>;
+  return <div>Aula - Infantil</div>;
 }
