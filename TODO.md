@@ -10,6 +10,8 @@ Styling resources
 - https://tailwindui.com/components/preview
 - https://headlessui.com/react/disclosure
 
+- [ ] Fix it to preact
+- [ ] fix it to twind
 - [ ] Create layout so navbar is shared along all components
 - [ ] Create state so we know which menu main option selected (not necessary)
 - [ ] Hover when selecting an item in sub menu
