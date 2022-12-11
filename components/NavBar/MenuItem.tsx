@@ -9,11 +9,11 @@ type MenuItemProps = {
 export default function ({ url, name, children }: MenuItemProps) {
   return (
     // add children as option
-    <li role="menuitem">
+    <li role="menuitem" className={tw`${!!children && "relative"}`}>
       {children
         ? (
           <span
-            className={tw`bg-gray-900 text-white px-3 py-2 rounded-md text-sm font-medium`}
+            className={tw`bg-gray-900 text-white px-3 py-2 rounded-md text-sm font-medium hover:bg-gray-700 hover:text-white`}
           >
             {name}
             {children}
@@ -22,7 +22,7 @@ export default function ({ url, name, children }: MenuItemProps) {
         : (
           <a
             href={url}
-            className={tw`bg-gray-900 text-white px-3 py-2 rounded-md text-sm font-medium`}
+            className={tw`bg-gray-900 text-white px-3 py-2 rounded-md text-sm font-medium hover:bg-gray-700 hover:text-white`}
             aria-current="page"
           >
             {name}
