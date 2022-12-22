@@ -4,7 +4,7 @@ import { useState } from "preact/hooks";
 
 type AnimatedMenuItemProps = {
   name: string;
-  options: {
+  options?: {
     url: string;
     name: string;
   }[];
