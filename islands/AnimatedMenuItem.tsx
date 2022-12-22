@@ -30,7 +30,7 @@ export default function AnimatedMenuItem(
             aria-labelledby="user-menu-button"
             tabIndex={-1}
           >
-            {options.map(({ url, name }) => (
+            {options?.map(({ url, name }) => (
               <li role="menuitem">
                 <a
                   href={url}
