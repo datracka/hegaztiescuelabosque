@@ -13,7 +13,7 @@ type AnimatedMenuItemProps = {
 export default function AnimatedMenuItem(
   { name, options }: AnimatedMenuItemProps,
 ) {
-  const [open, setOpen] = useState(true);
+  const [open, setOpen] = useState(false);
   return (
     (
       <li
