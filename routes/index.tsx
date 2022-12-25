@@ -6,7 +6,7 @@ import Hero from "@/components/Hero.tsx";
 import CallToAction from "@/components/CallToAction.tsx";
 import Services from "@/components/Services.tsx";
 import Footer from "@/components/Footer.tsx";
-import NavBar from "@/components/NavBar/index.tsx";
+import NavBar from "@/islands/NavBar.tsx";
 
 const bImage = css`
     background-color: transparent;

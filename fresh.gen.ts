@@ -16,6 +16,9 @@ import * as $9 from "./routes/quienes-somos-hegazti.tsx";
 import * as $10 from "./routes/quienes-somos-proyecto.tsx";
 import * as $$0 from "./islands/AnimatedMenuItem.tsx";
 import * as $$1 from "./islands/Counter.tsx";
+import * as $$2 from "./islands/Hamburger.tsx";
+import * as $$3 from "./islands/MobileMenu.tsx";
+import * as $$4 from "./islands/NavBar.tsx";
 
 const manifest = {
   routes: {
@@ -34,6 +37,9 @@ const manifest = {
   islands: {
     "./islands/AnimatedMenuItem.tsx": $$0,
     "./islands/Counter.tsx": $$1,
+    "./islands/Hamburger.tsx": $$2,
+    "./islands/MobileMenu.tsx": $$3,
+    "./islands/NavBar.tsx": $$4,
   },
   baseUrl: import.meta.url,
   config,

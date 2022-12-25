@@ -1,5 +1,5 @@
 import { RouteConfig } from "$fresh/server.ts";
-import NavBar from "@/components/NavBar/index.tsx";
+import NavBar from "@/islands/NavBar.tsx";
 
 export const config: RouteConfig = {
   routeOverride: "/(aula-madre-de-dia|daily-mother-schoolroom)",
