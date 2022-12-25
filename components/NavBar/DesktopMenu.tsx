@@ -5,7 +5,7 @@ import menu from "@/data/menu.ts";
 
 export default function () {
   return (
-    <ul role="menu" className={tw`hidden sm:ml-6 sm:flex list-none space-x-4`}>
+    <ul role="list" className={tw`hidden sm:ml-6 sm:flex list-none space-x-4`}>
       <AnimatedMenuItem name={menu[0].name} options={menu[0].subOptions} />
       <MenuItem name={menu[1].name} url={menu[1].url} />
       <MenuItem name={menu[2].name} url={menu[2].url} />
