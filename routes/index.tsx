@@ -18,7 +18,7 @@ export default function Home(ctx: PageProps) {
   return (
     <>
       <NavBar />
-      <Hero />
+      <Hero text1="Creciendo en la naturaleza" text2="Hegazti Escuela Bosque" />
       {
         /*  <Header />
       <Hero />
