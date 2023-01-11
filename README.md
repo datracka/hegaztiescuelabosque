@@ -1,5 +1,9 @@
 # fresh project
 
+dependencies
+
+- [Deno](https://deno.land/)
+
 ### Usage
 
 Start the project:
