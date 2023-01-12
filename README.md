@@ -3,6 +3,7 @@
 dependencies
 
 - [Deno](https://deno.land/)
+- [fresh](https://fresh.deno.dev/)
 - [preact](https://preactjs.com/)
 - [twind](https://twind.dev/)
 
