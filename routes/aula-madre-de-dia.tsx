@@ -9,6 +9,7 @@ export default function AulaMadreDeDia() {
   return (
     <>
       <NavBar />
+      Hola@
     </>
   );
 }

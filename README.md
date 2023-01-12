@@ -3,6 +3,8 @@
 dependencies
 
 - [Deno](https://deno.land/)
+- [preact](https://preactjs.com/)
+- [twind](https://twind.dev/)
 
 ### Usage
 
