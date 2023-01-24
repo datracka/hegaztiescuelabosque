@@ -21,6 +21,7 @@ export default function Home(ctx: PageProps) {
       <NavBar />
       <Hero text1="Creciendo en la naturaleza" text2="Hegazti Escuela Bosque" />
       <Description />
+
       <CallToAction />
 
       <section class="container flex items-center justify-center h-screen m-auto mb-12 bg-fixed bg-center bg-cover custom-img">
