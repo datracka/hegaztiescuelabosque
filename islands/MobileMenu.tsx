@@ -11,7 +11,7 @@ export default function ({ opened }: MobileMenuProps) {
       {opened && menu.map((menuOption) => (
         <a
           href={menuOption.url}
-          className={tw`bg-gray-900 text-white block px-3 py-2 rounded-md text-base font-medium`}
+          className={tw`bg-[#415a30] text-white block px-3 py-2 rounded-md text-base font-medium`}
           aria-current="page"
         >
           {menuOption.name}
