@@ -2,7 +2,7 @@ import { HeadElement } from "@/components/HeadElement.tsx";
 import { css, tw } from "twind/css";
 import { PageProps } from "$fresh/server.ts";
 import Header from "@/components/Header.tsx";
-import Hero from "@/components/Hero.tsx";
+import Hero from "@/components/Shared/Hero.tsx";
 import CallToAction from "@/components/Home/CallToAction.tsx";
 import SectionLearnInNature from "@/components/Home/SectionLearnInNature.tsx";
 import SectionForestAsClassroom from "@/components/Home/SectionForestAsClassroom.tsx";

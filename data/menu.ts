@@ -7,11 +7,11 @@ type menuType = {
 const menu: menuType[] = [
   {
     name: "El bosque como aula",
-    subOptions: [{ url: "aula-madre-de-dia", name: "Made de día" }, {
+    subOptions: [{ url: "aula-madre-de-dia", name: "Madre de día" }, {
       url: "aula-infantil",
       name: "Aula Infantil",
     }, {
-      url: "primaria",
+      url: "aula-primaria",
       name: "Primaria",
     }, {
       url: "extraescolares-ludoteca",
