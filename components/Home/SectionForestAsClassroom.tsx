@@ -1,7 +1,6 @@
 import { css, tw } from "twind/css";
-import { JSX } from "preact/jsx-runtime";
 
-const Description = () => (
+const SectionForestAsClassroom = () => (
   <section className={tw`mx-auto max-w-7xl px-2 sm:px-6 lg:px-8`}>
     <div class={tw`flex flex-col sm:flex-row gap-4`}>
       <div>
@@ -34,4 +33,4 @@ const Description = () => (
   </section>
 );
 
-export default Description;
+export default SectionForestAsClassroom;

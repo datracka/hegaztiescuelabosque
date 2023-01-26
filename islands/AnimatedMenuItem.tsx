@@ -20,7 +20,7 @@ export default function AnimatedMenuItem(
         role="listitem"
         onMouseEnter={() => setOpen(true)}
         onMouseLeave={() => setOpen(false)}
-        className={tw`bg-gray-900 text-white px-3 py-2 rounded-md text-sm font-medium hover:bg-gray-700 hover:text-white`}
+        className={tw`bg-[#415a30] text-white px-3 py-2 rounded-md text-sm font-medium hover:bg-[#516a40] hover:text-white`}
       >
         {name}
         <div className={tw`relative ${!open && "hidden"}`}>

@@ -1,24 +1,32 @@
 import { css, tw } from "twind/css";
 
-const bImage = css`
--webkit-background-size: cover;
--moz-background-size: cover;
--o-background-size: cover;
-background-size: cover;
-background: url("imgs/home-image-2.jpg") no-repeat center center fixed;
-`;
+type callToActionProps = {
+  title: string;
+  backgroundImage: string;
+  buttonText: string;
+  buttonLink: string;
+};
 
-const CallToAction = () => (
+const CallToAction = (ctx: callToActionProps) => (
   <section
     className={tw(
-      "container flex items-center justify-center h-screen m-auto mb-12 bg-fixed bg-center bg-cover",
-      bImage,
+      "flex items-center justify-center h-screen m-auto mb-12 bg-fixed bg-center bg-cover bg-no-repeat",
+      css`background-image: url(${ctx.backgroundImage})`,
     )}
   >
     <div
-      className={tw`p-5 text-2xl text-white bg-purple-300 bg-opacity-50 rounded-xl`}
+      className={tw`flex flex-col items-center p-5 text-white`}
     >
-      Parralax inline
+      <h3 class={tw("text-4xl text-center")}>{ctx.title}</h3>
+      <a
+        href={ctx.buttonLink}
+        class={tw(
+          "bg-transparent mt-8 py-4 px-8 border border-white-500 rounded",
+          "hover:bg-white-500 hover:border-transparent",
+        )}
+      >
+        {ctx.buttonText}
+      </a>
     </div>
   </section>
 );
