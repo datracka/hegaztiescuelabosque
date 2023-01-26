@@ -6,7 +6,7 @@ import Hero from "@/components/Shared/Hero.tsx";
 import CallToAction from "@/components/Home/CallToAction.tsx";
 import SectionLearnInNature from "@/components/Home/SectionLearnInNature.tsx";
 import SectionForestAsClassroom from "@/components/Home/SectionForestAsClassroom.tsx";
-import SectionSaying from "@/components/Home/SectionSaying.tsx";
+import SectionSaying from "@/components/Shared/SectionSaying.tsx";
 import Services from "@/components/Services.tsx";
 import SectionFooter from "@/components/Shared/SectionFooter.tsx";
 import NavBar from "@/islands/NavBar.tsx";
