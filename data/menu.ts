@@ -14,10 +14,10 @@ const menu: menuType[] = [
       url: "aula-primaria",
       name: "Primaria",
     }, {
-      url: "extraescolares-ludoteca",
+      url: "aula-extraescolares-ludoteca",
       name: "Extraescolares - Ludoteca",
     }, {
-      url: "extraescolares-sabados-en-familia",
+      url: "aula-extraescolares-sabado-en-familia",
       name: "Extraescolares - Sábados en familia",
     }],
   },
