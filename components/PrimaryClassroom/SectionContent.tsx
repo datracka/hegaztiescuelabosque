@@ -17,7 +17,7 @@ const SectionContent = ({ staticPath }: ContentProps) => (
     )}
   >
     <div
-      className={tw`bg-slate-500 order-2 sm:order-1 sm:w-[48%] sm:flex-grow`}
+      className={tw`order-2 sm:order-1 sm:w-[48%] sm:flex-grow`}
     >
       <img
         src={`${staticPath}/img-1.jpg`}
@@ -28,7 +28,7 @@ const SectionContent = ({ staticPath }: ContentProps) => (
         className={tw("w-full object-cover", css`aspect-ratio:1/1`)}
       />
     </div>
-    <div className={tw`bg-slate-500 order-1 sm:w-[48%] sm:flex-grow`}>
+    <div className={tw`order-1 sm:w-[48%] sm:flex-grow`}>
       <p className={tw("mb-4")}>
         Escuela Bosque Hegazti Primaria es un espacio natural en el que niñas y
         niños de 6 a 12 años aprenden a través de la exploración y la
