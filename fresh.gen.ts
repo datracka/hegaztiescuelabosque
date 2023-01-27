@@ -10,10 +10,11 @@ import * as $3 from "./routes/aula-infantil.tsx";
 import * as $4 from "./routes/aula-madre-de-dia.tsx";
 import * as $5 from "./routes/aula-primaria.tsx";
 import * as $6 from "./routes/index.tsx";
-import * as $7 from "./routes/quienes-somos-espacios.tsx";
-import * as $8 from "./routes/quienes-somos-faqs.tsx";
-import * as $9 from "./routes/quienes-somos-hegazti.tsx";
-import * as $10 from "./routes/quienes-somos-proyecto.tsx";
+import * as $7 from "./routes/politica-de-cookies.tsx";
+import * as $8 from "./routes/quienes-somos-espacios.tsx";
+import * as $9 from "./routes/quienes-somos-faqs.tsx";
+import * as $10 from "./routes/quienes-somos-hegazti.tsx";
+import * as $11 from "./routes/quienes-somos-proyecto.tsx";
 import * as $$0 from "./islands/AnimatedMenuItem.tsx";
 import * as $$1 from "./islands/Counter.tsx";
 import * as $$2 from "./islands/Hamburger.tsx";
@@ -29,10 +30,11 @@ const manifest = {
     "./routes/aula-madre-de-dia.tsx": $4,
     "./routes/aula-primaria.tsx": $5,
     "./routes/index.tsx": $6,
-    "./routes/quienes-somos-espacios.tsx": $7,
-    "./routes/quienes-somos-faqs.tsx": $8,
-    "./routes/quienes-somos-hegazti.tsx": $9,
-    "./routes/quienes-somos-proyecto.tsx": $10,
+    "./routes/politica-de-cookies.tsx": $7,
+    "./routes/quienes-somos-espacios.tsx": $8,
+    "./routes/quienes-somos-faqs.tsx": $9,
+    "./routes/quienes-somos-hegazti.tsx": $10,
+    "./routes/quienes-somos-proyecto.tsx": $11,
   },
   islands: {
     "./islands/AnimatedMenuItem.tsx": $$0,
