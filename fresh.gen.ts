@@ -11,7 +11,7 @@ import * as $4 from "./routes/aula-madre-de-dia.tsx";
 import * as $5 from "./routes/aula-primaria.tsx";
 import * as $6 from "./routes/index.tsx";
 import * as $7 from "./routes/quienes-somos-espacios.tsx";
-import * as $8 from "./routes/quienes-somos-faq.tsx";
+import * as $8 from "./routes/quienes-somos-faqs.tsx";
 import * as $9 from "./routes/quienes-somos-hegazti.tsx";
 import * as $10 from "./routes/quienes-somos-proyecto.tsx";
 import * as $$0 from "./islands/AnimatedMenuItem.tsx";
@@ -30,7 +30,7 @@ const manifest = {
     "./routes/aula-primaria.tsx": $5,
     "./routes/index.tsx": $6,
     "./routes/quienes-somos-espacios.tsx": $7,
-    "./routes/quienes-somos-faq.tsx": $8,
+    "./routes/quienes-somos-faqs.tsx": $8,
     "./routes/quienes-somos-hegazti.tsx": $9,
     "./routes/quienes-somos-proyecto.tsx": $10,
   },
