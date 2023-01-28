@@ -10,16 +10,19 @@ import * as $3 from "./routes/aula-infantil.tsx";
 import * as $4 from "./routes/aula-madre-de-dia.tsx";
 import * as $5 from "./routes/aula-primaria.tsx";
 import * as $6 from "./routes/index.tsx";
-import * as $7 from "./routes/politica-de-cookies.tsx";
-import * as $8 from "./routes/quienes-somos-espacios.tsx";
-import * as $9 from "./routes/quienes-somos-faqs.tsx";
-import * as $10 from "./routes/quienes-somos-hegazti.tsx";
-import * as $11 from "./routes/quienes-somos-proyecto.tsx";
+import * as $7 from "./routes/legal-aviso-legal.tsx";
+import * as $8 from "./routes/legal-politica-de-cookies.tsx";
+import * as $9 from "./routes/legal-politica-de-privacidad.tsx";
+import * as $10 from "./routes/quienes-somos-espacios.tsx";
+import * as $11 from "./routes/quienes-somos-faqs.tsx";
+import * as $12 from "./routes/quienes-somos-hegazti.tsx";
+import * as $13 from "./routes/quienes-somos-proyecto.tsx";
 import * as $$0 from "./islands/AnimatedMenuItem.tsx";
-import * as $$1 from "./islands/Counter.tsx";
-import * as $$2 from "./islands/Hamburger.tsx";
-import * as $$3 from "./islands/MobileMenu.tsx";
-import * as $$4 from "./islands/NavBar.tsx";
+import * as $$1 from "./islands/CookieBanner.tsx";
+import * as $$2 from "./islands/Counter.tsx";
+import * as $$3 from "./islands/Hamburger.tsx";
+import * as $$4 from "./islands/MobileMenu.tsx";
+import * as $$5 from "./islands/NavBar.tsx";
 
 const manifest = {
   routes: {
@@ -30,18 +33,21 @@ const manifest = {
     "./routes/aula-madre-de-dia.tsx": $4,
     "./routes/aula-primaria.tsx": $5,
     "./routes/index.tsx": $6,
-    "./routes/politica-de-cookies.tsx": $7,
-    "./routes/quienes-somos-espacios.tsx": $8,
-    "./routes/quienes-somos-faqs.tsx": $9,
-    "./routes/quienes-somos-hegazti.tsx": $10,
-    "./routes/quienes-somos-proyecto.tsx": $11,
+    "./routes/legal-aviso-legal.tsx": $7,
+    "./routes/legal-politica-de-cookies.tsx": $8,
+    "./routes/legal-politica-de-privacidad.tsx": $9,
+    "./routes/quienes-somos-espacios.tsx": $10,
+    "./routes/quienes-somos-faqs.tsx": $11,
+    "./routes/quienes-somos-hegazti.tsx": $12,
+    "./routes/quienes-somos-proyecto.tsx": $13,
   },
   islands: {
     "./islands/AnimatedMenuItem.tsx": $$0,
-    "./islands/Counter.tsx": $$1,
-    "./islands/Hamburger.tsx": $$2,
-    "./islands/MobileMenu.tsx": $$3,
-    "./islands/NavBar.tsx": $$4,
+    "./islands/CookieBanner.tsx": $$1,
+    "./islands/Counter.tsx": $$2,
+    "./islands/Hamburger.tsx": $$3,
+    "./islands/MobileMenu.tsx": $$4,
+    "./islands/NavBar.tsx": $$5,
   },
   baseUrl: import.meta.url,
   config,

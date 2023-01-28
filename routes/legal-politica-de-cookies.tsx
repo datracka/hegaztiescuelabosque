@@ -143,7 +143,6 @@ export default function politicaDeCookies() {
           contenidos Sociales (La excepción sólo se aplica para usuarios que han
           decidido mantener la sesión abierta)
         </p>
-
         <h3 className={tw(`text-2xl pt-8 pb-4`)}>REVOCACIÓN</h3>
         <p className={tw(`mb-4`)}>
           En todo momento podrá acceder a la configuración de su navegador
@@ -201,7 +200,6 @@ export default function politicaDeCookies() {
             https://support.mozilla.org/es/kb/habilitar-y-deshabilitar-cookies-sitios-web-rastrear-preferencias
           </a>
         </p>
-        <p className={tw(`mb-4`)}>&nbsp;</p>
         <p className={tw(`mb-4`)}>
           <strong>Safari, iPad y iPhone:</strong>
         </p>
@@ -294,9 +292,11 @@ export default function politicaDeCookies() {
           finalidad y la duración de la cookie, y como ha garantizado su
           privacidad.
         </p>
-        <h3 className={tw(`text-2xl pt-8 pb-4`)}>
-          ¿Quién es el responsable del tratamiento de sus datos personales?
-        </h3>
+        <p className={tw(`mb-4`)}>
+          <strong>
+            ¿Quién es el responsable del tratamiento de sus datos personales?
+          </strong>
+        </p>
         <p className={tw(`mb-4`)}>
           &nbsp;<strong>
             ASOCIACIÓN PARA EL DESARROLLO DE LAS TERAPIAS ECUESTRES CAMINANDO
@@ -309,9 +309,9 @@ export default function politicaDeCookies() {
             caminandoconcaballos20@gmail.com
           </a>.
         </p>
-        <h3 className={tw(`text-2xl pt-8 pb-4`)}>
-          ¿Para qué utilizamos sus datos personales?
-        </h3>
+        <p className={tw(`mb-4`)}>
+          <strong>¿Para qué utilizamos sus datos personales?</strong>
+        </p>
         <p className={tw(`mb-4`)}>
           &nbsp;La información recopilada a través de las cookies propias
           (cookies de sesión y de entrada de usuario) se suelen utilizar para
@@ -344,9 +344,14 @@ export default function politicaDeCookies() {
           Para ver exactamente el uso de las cookies véase el cuadro sobre el
           uso de las cookies en esta web.
         </p>
-        <h3 className={tw(`text-2xl pt-8 pb-4`)}>
-          ¿Cuál es la base legal para el tratamiento de sus datos personales?
-        </h3>
+        <p className={tw(`mb-4`)}>
+          <strong>&nbsp;</strong>
+        </p>
+        <p className={tw(`mb-4`)}>
+          <strong>
+            ¿Cuál es la base legal para el tratamiento de sus datos personales?
+          </strong>
+        </p>
         <p className={tw(`mb-4`)}>
           La legitimación para el tratamiento de sus datos personales viene dada
           por su consentimiento, otorgado en el momento de ponerse en contacto
@@ -355,22 +360,24 @@ export default function politicaDeCookies() {
           personalización, la legitimación para el tratamiento viene dada por el
           interés legítimo del prestador (responsable del tratamiento).
         </p>
-        <h3 className={tw(`text-2xl pt-8 pb-4`)}>
-          A quién comunicamos sus datos?
-        </h3>
+        <p className={tw(`mb-4`)}>
+          <strong>¿A quién comunicamos sus datos?</strong>
+        </p>
         <p className={tw(`mb-4`)}>
           No se cederán ni comunicarán datos a terceros, salvo por obligación
           legal o a los terceros indicados en el caso de uso de cookies
           gestionadas por éstos.
         </p>
-        <h3 className={tw(`text-2xl pt-8 pb-4`)}>
-          ¿Cuál es el plazo de conservación de sus datos?
-        </h3>
+        <p className={tw(`mb-4`)}>
+          <strong>¿Cuál es el plazo de conservación de sus datos?</strong>
+        </p>
         <p className={tw(`mb-4`)}>
           El plazo de conservación de los datos recogidos es el indicado en el
           cuadro sobre el uso de las cookies en esta web.
         </p>
-        <h3 className={tw(`text-2xl pt-8 pb-4`)}>¿Cuáles son sus derechos?</h3>
+        <p className={tw(`mb-4`)}>
+          <strong>¿Cuáles son sus derechos?</strong>
+        </p>
         <p className={tw(`mb-4`)}>
           Los derechos que amparan al usuario son los de acceso, rectificación,
           supresión, portabilidad de los mismos, retirada del consentimiento
