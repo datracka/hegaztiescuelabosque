@@ -1,5 +1,5 @@
 import SectionContact from "@/components/Shared/SectionContact.tsx";
-
+import CookieBanner from "@/islands/CookieBanner.tsx";
 import { css, tw } from "twind/css";
 
 const SectionFooter = () => (
@@ -38,6 +38,7 @@ const SectionFooter = () => (
         <a href="#" class={tw`block sm:inline-block px-2 mx-2`}>CONTACTO</a>
       </p>
     </div>
+    <CookieBanner />
   </div>
 );
 export default SectionFooter;
