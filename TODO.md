@@ -1,5 +1,6 @@
 # TODO
 
+- [ ] Typescript -> variable iframe!
 - [ ] Add daisy UI
 
 * daisyui should be added as a plugin of twind
