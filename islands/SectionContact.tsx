@@ -43,13 +43,17 @@ const ContactUs = () => (
   </div>
 ); */
 
-// adjust height dinamically https://www.geeksforgeeks.org/how-to-adjust-the-width-and-height-of-iframe-to-fit-with-content-in-it/
 const SectionContact = () => {
-  const iframeRef = useRef(null);
+  const iframeRef = useRef<HTMLIFrameElement>(null);
 
   useEffect(() => {
-    const iframe = iframeRef.current;
-    console.log(iframe);
+    if (iframeRef.current !== null) {
+      const iframe = iframeRef.current;
+      iframe.style.height = iframe.contentWindow!.document.body.scrollHeight +
+        "px";
+      iframe.style.width = iframe.contentWindow!.document.body.scrollWidth +
+        "px";
+    }
   });
 
   return (
@@ -69,8 +73,17 @@ const SectionContact = () => {
         <h2 class={tw(`text-4xl pb-4 mb-8 border-b-2`)}>
           CONTACTA CON NOSOTROS
         </h2>
-        <div>
-        </div>
+        <iframe
+          ref={iframeRef}
+          tittle="Formulario de contacto"
+          id="Form1"
+          allowtransparency="true"
+          allowfullscreen="true"
+          allow="geolocation; microphone; camera"
+          src="https://my.forms.app/form/63d29af9597af40147d33f6f"
+          frameborder="0"
+        >
+        </iframe>
       </div>
     </div>
   );
