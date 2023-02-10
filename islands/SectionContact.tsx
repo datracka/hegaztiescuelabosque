@@ -1,5 +1,5 @@
 import { css, tw } from "twind/css";
-import FromEmbedder from "@/components/Shared/FormEmbedder.tsx";
+import FormEmbedder from "@/components/Shared/FormEmbedder.tsx";
 
 const WhereAreWe = () => (
   <div className={tw`text-white`}>
@@ -31,7 +31,7 @@ const ContactUs = () => (
     <h2 class={tw(`text-4xl pb-4 mb-8 border-b-2`)}>
       CONTACTA CON NOSOTROS
     </h2>
-    <FromEmbedder src="https://my.forms.app/form/63e634616c5c2579e224d0e7" />
+    <FormEmbedder src="https://my.forms.app/form/63e634616c5c2579e224d0e7" />
   </div>
 );
 
@@ -41,7 +41,7 @@ const SectionContact = () => {
       className={tw`flex flex-col justify-between sm:flex-row mx-auto max-w-7xl gap-8 `}
     >
       <WhereAreWe />
-      <ContactUs />
+      {/*  <ContactUs /> */}
     </div>
   );
 };
