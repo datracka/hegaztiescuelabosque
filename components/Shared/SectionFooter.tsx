@@ -1,4 +1,4 @@
-import SectionContact from "@/components/Shared/SectionContact.tsx";
+import SectionContact from "@/islands/SectionContact.tsx";
 import CookieBanner from "@/islands/CookieBanner.tsx";
 import { css, tw } from "twind/css";
 
