@@ -1,5 +1,6 @@
 import { useEffect, useRef } from "preact/hooks";
 import { css, tw } from "twind/css";
+import FromEmbedder from "@/components/Shared/FormEmbedder";
 
 const WhereAreWe = () => (
   <div className={tw`text-white`}>
@@ -73,17 +74,7 @@ const SectionContact = () => {
         <h2 class={tw(`text-4xl pb-4 mb-8 border-b-2`)}>
           CONTACTA CON NOSOTROS
         </h2>
-        <iframe
-          ref={iframeRef}
-          tittle="Formulario de contacto"
-          id="Form1"
-          allowtransparency="true"
-          allowfullscreen="true"
-          allow="geolocation; microphone; camera"
-          src="https://my.forms.app/form/63d29af9597af40147d33f6f"
-          frameborder="0"
-        >
-        </iframe>
+        <FromEmbedder src="https://my.forms.app/form/63d29af9597af40147d33f6f" />
       </div>
     </div>
   );

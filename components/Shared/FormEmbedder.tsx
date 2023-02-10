@@ -3,13 +3,14 @@ import { css, tw } from "twind/css";
 
 const iframeStyle = css({ overflow: "hidden", border: "none" });
 
-const isObject = (variable) => {
-  return typeof variable === "object" &&
-    !Array.isArray(variable) &&
-    variable !== null;
+const isObject = (data) => {
+  console.log("data", data);
+  return typeof data === "object" &&
+    !Array.isArray(data) &&
+    data !== null;
 };
 
-const MyJobFormEmbed = ({ src }: { src: string }) => {
+const FromEmbedder = ({ src }: { src: string }) => {
   const iframeRef = useRef<HTMLIFrameElement>(null);
 
   const handleIframeMessage = (e) => {
@@ -42,4 +43,4 @@ const MyJobFormEmbed = ({ src }: { src: string }) => {
   );
 };
 
-export default MyJobFormEmbed;
+export default FromEmbedder;
