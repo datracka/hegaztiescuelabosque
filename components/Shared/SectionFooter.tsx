@@ -28,14 +28,27 @@ const SectionFooter = () => (
         </a>
       </p>
       <p class={tw`my-10`}>
-        <a href="#" class={tw`block sm:inline-block px-2 mx-2`}>
+        <a
+          href="/legal-politica-de-cookies"
+          class={tw`block sm:inline-block px-2 mx-2`}
+        >
           POLÍTICA DE COOKIES
         </a>
-        <a href="#" class={tw`block sm:inline-block px-2 mx-2`}>
+        <a
+          href="/legal-politica-de-privacidad"
+          class={tw`block sm:inline-block px-2 mx-2`}
+        >
           POLÍTICA DE PRIVACIDAD
         </a>
-        <a href="#" class={tw`block sm:inline-block px-2 mx-2`}>AVISO LEGAL</a>
-        <a href="#" class={tw`block sm:inline-block px-2 mx-2`}>CONTACTO</a>
+        <a
+          href="/legal-aviso-legal"
+          class={tw`block sm:inline-block px-2 mx-2`}
+        >
+          AVISO LEGAL
+        </a>
+        <a href="/mas-informacion" class={tw`block sm:inline-block px-2 mx-2`}>
+          CONTACTO
+        </a>
       </p>
     </div>
     <CookieBanner />

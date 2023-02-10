@@ -23,7 +23,16 @@ const menu: menuType[] = [
   },
   {
     name: "Quienes somos",
-    url: "quienes-somos",
+    subOptions: [{ url: "quienes-somos-proyecto", name: "Proyecto" }, {
+      url: "quienes-somos-espacios",
+      name: "Naturaleza y espacios",
+    }, {
+      url: "quienes-somos-hegazti",
+      name: "Un dia en Hegazti",
+    }, {
+      url: "quienes-somos-faqs",
+      name: "Preguntas frecuentes",
+    }],
   },
   {
     name: "Mas información",

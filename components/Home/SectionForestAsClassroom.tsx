@@ -4,29 +4,35 @@ const SectionForestAsClassroom = () => (
   <section className={tw`mx-auto max-w-7xl px-2 sm:px-6 lg:px-8`}>
     <div class={tw`flex flex-col sm:flex-row gap-4`}>
       <div>
-        <h3 class={tw`text-3xl`}>Aprender en la Naturaleza</h3>
+        <h3 className={tw`text-3xl`}>El bosque como aula</h3>
+        <p>
+          Creatividad / Descubrimiento / Experienias Vividas / Inteligencia
+          Emocional / Juego Libre / Conciencia Ecológica / Valores Solidarios /
+          Habilidades Cognitivas, emocionales y sociales/ Desarrollo Integral
+        </p>
       </div>
       <div>
         <p className="mb-4">
-          Nuestra esencia la libertad, nuestro medio la naturaleza, el don de la
-          infancia la inquietud motora y cognitiva.
+          Aprendizajes vivenciales en el medio natural. El bosque, por su
+          naturaleza multisensorial, se convierte en la mejor aula que podemos
+          ofrecer a la infancia. La variedad de recursos que ofrece es
+          prácticamente ilimitada y dichos recursos son de gran valor educativo
+          son funcionales, reales y vividos.
         </p>
         <p className={tw`mb-4`}>
-          Aprender en armonía con lo que somos, seres libres y diversos, seres
-          vivos, que sienten, y piensan.
+          Nuestros objetivos, promover el desarrollo integral de todas las
+          personas involucradas. Abrir espacio a personas resilientes, seguras
+          de sí mismas, autónomas y creativas. En{" "}
+          <strong>Hegazti Escuela Bosque</strong>, desarrollar la inteligencia
+          emocional es igual de importante que trabajar en la resolución de
+          problemas.
         </p>
         <p className={tw`mb-12`}>
-          En el aula viva la Naturaleza. Donde puedes ver el cielo, tocar la
-          tierra, oler las flores, sentir, moverte libremente, investigar el
-          medio, observar el contexto real.
+          Las personas dirigen su aprendizaje la mayor parte del tiempo.
         </p>
         <p className={tw`mb-12`}>
-          Este aula nutre las necesidades de un ser humano, alimenta la
-          curiosidad, estimula los sentidos, y permite los sentires, la conexión
-          con la diversidad de cada persona.
-        </p>
-        <p className={tw`mb-12`}>
-          Es un aula integradora, donde cada ser tiene su lugar.
+          El rol del guía es enriquecer la experiencia, ofrecer apoyo,
+          herramientas y conocimiento.
         </p>
       </div>
     </div>
