@@ -38,7 +38,7 @@ const FromEmbedder = ({ src }: { src: string }) => {
   return (
     <iframe
       ref={iframeRef}
-      title="jotform"
+      title="formsapp"
       src={src}
       className={tw(iframeStyle)}
     />
