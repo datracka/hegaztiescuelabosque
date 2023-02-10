@@ -41,7 +41,7 @@ const SectionContact = () => {
       className={tw`flex flex-col justify-between sm:flex-row mx-auto max-w-7xl gap-8 `}
     >
       <WhereAreWe />
-      {/*  <ContactUs /> */}
+      <ContactUs />
     </div>
   );
 };
