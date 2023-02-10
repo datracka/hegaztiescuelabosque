@@ -1,6 +1,5 @@
-import { useEffect, useRef } from "preact/hooks";
 import { css, tw } from "twind/css";
-import FromEmbedder from "@/components/Shared/FormEmbedder";
+import FromEmbedder from "@/components/Shared/FormEmbedder.tsx";
 
 const WhereAreWe = () => (
   <div className={tw`text-white`}>
@@ -25,10 +24,6 @@ const WhereAreWe = () => (
   </div>
 );
 
-// inspiration https://codesandbox.io/s/serene-wright-ts2ov4?file=/src/App.js
-// https://www.npmjs.com/package/react-jotform-embe
-// https://github.com/xurei/react-jotform-embed/blob/master/src/react-jotform-embed.js
-
 const ContactUs = () => (
   <div className={tw`text-white`}>
     <h2 class={tw(`text-4xl pb-4 mb-8 border-b-2`)}>CONTACTA CON NOSOTROS</h2>
@@ -45,18 +40,6 @@ const ContactUs = () => (
 ); */
 
 const SectionContact = () => {
-  const iframeRef = useRef<HTMLIFrameElement>(null);
-
-  useEffect(() => {
-    if (iframeRef.current !== null) {
-      const iframe = iframeRef.current;
-      iframe.style.height = iframe.contentWindow!.document.body.scrollHeight +
-        "px";
-      iframe.style.width = iframe.contentWindow!.document.body.scrollWidth +
-        "px";
-    }
-  });
-
   return (
     <div
       className={tw`flex flex-col justify-between sm:flex-row mx-auto max-w-7xl gap-8 `}
