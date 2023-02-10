@@ -1,12 +1,13 @@
 # TODO
 
+- [ ] Typescript -> variable iframe!
 - [ ] Add daisy UI
 
 * daisyui should be added as a plugin of twind
 * daisuui is just css a plugin in
 * twind is basically a set of csss
 
-- [ ] Add Hero
+- [ ] Add Analytics
 
 ## Others
 
