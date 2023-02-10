@@ -7,7 +7,7 @@ import CallToAction from "@/components/Home/CallToAction.tsx";
 import SectionLearnInNature from "@/components/Home/SectionLearnInNature.tsx";
 import SectionForestAsClassroom from "@/components/Home/SectionForestAsClassroom.tsx";
 import SectionSaying from "@/components/Shared/SectionSaying.tsx";
-import Services from "@/components/Services.tsx";
+import SectionServices from "@/components/Home/SectionServices.tsx";
 import SectionFooter from "@/components/Shared/SectionFooter.tsx";
 import NavBar from "@/islands/NavBar.tsx";
 import SectionGallery from "@/components/Home/SectionGallery.tsx";
@@ -35,6 +35,7 @@ export default function Home(ctx: PageProps) {
         buttonText="MÁS INFO"
         buttonLink="#"
       />
+      <SectionServices />
       <SectionForestAsClassroom />
       <SectionGallery
         list={[{
@@ -67,7 +68,6 @@ export default function Home(ctx: PageProps) {
         text="Dímelo y lo olvido. Enseñame y lo recuerdo. Involúcrame y lo aprendo."
         author="Benjamin Franklin"
       />
-      <SectionExtracurricular />
       <SectionFooter />
     </>
   );

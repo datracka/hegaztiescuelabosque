@@ -9,7 +9,7 @@ export default function CookieBanner(): JSX.Element {
 
     const accept = () => {
       setValue(1);
-      console.log("accepted");
+      //console.log("accepted");
     };
     return (
       <>
@@ -35,7 +35,7 @@ export default function CookieBanner(): JSX.Element {
             <p className={tw("text-center sm:text-right")}>
               <button
                 className={tw(
-                  "border-2 border-black inline-display py-4 px-8 hover:(text-white bg-black)",
+                  "border-2 border-black inline-block py-4 px-8 hover:(text-white bg-black)",
                 )}
                 onClick={accept}
               >
