@@ -4,6 +4,7 @@ import Hero from "@/components/Shared/Hero.tsx";
 import SectionContent from "@/components/InfantClassroom/SectionContent.tsx";
 import SectionSaying from "@/components/Shared/SectionSaying.tsx";
 import SectionGrid from "@/components/Shared/SectionGrid.tsx";
+import SectionCallToAction from "@/components/Shared/SectionCallToAction.tsx";
 
 export default function AulaInfantil() {
   const staticPath = "/imgs/infant-classroom";
@@ -16,6 +17,13 @@ export default function AulaInfantil() {
         backgroundImage={`${staticPath}/hero-image.jpg`}
       />
       <SectionContent staticPath={staticPath} />
+      <SectionCallToAction
+        title="INSCRIPCIONES <br/>ABIERTAS"
+        description="MARZO A JUNIO"
+        image={`${staticPath}/cta-img-01.jpg`}
+        buttonText="MÁS <br/>INFORMACIÓN"
+        buttonLink="/mas-informacion"
+      />
       <SectionSaying
         text="Mira profundamente en la naturaleza y entonces comprenderás todo mejor."
         author="ALBERT EINSTEIN"
