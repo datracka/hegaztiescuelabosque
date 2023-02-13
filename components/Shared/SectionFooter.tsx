@@ -51,7 +51,7 @@ const SectionFooter = () => (
         </a>
       </p>
     </div>
-    <CookieBanner />
+    {/*<CookieBanner />*/}
   </div>
 );
 export default SectionFooter;

@@ -43,7 +43,7 @@ const SectionContent = ({ staticPath }: ContentProps) => (
         lugar seguro y amoroso en el que desarrollarse y crecer de manera sana,
         en contacto con la naturaleza y con sus propias necesidades.
       </p>
-      <h3 className={tw("text-3xl my-8 p-8 border-l-1")}>
+      <h3 className={tw("hegazti-h3 my-8 p-8 border-l-1")}>
         GENERAMOS EXPERIENCIAS PARA QUE DESCUBRAN EL MUNDO DE MANERA INTEGRADA,
         DESDE SUS NECESIDADES Y AL RITMO QUE NECESITAN
       </h3>
@@ -57,7 +57,7 @@ const SectionContent = ({ staticPath }: ContentProps) => (
       </p>
     </div>
     <div className={tw`order-3 sm:w-[48%] sm:flex-grow  flex flex-col`}>
-      <h2 className={tw("text-2xl mb-4")}>LA YURTA</h2>
+      <h3 className={tw("hegazti-h3 my-4")}>LA YURTA</h3>
       <p className={tw("mb-4")}>
         La yurta de La Casita Abejorro es un ambiente cálido y familiar en el
         que se generan experiencias de amor, confianza y sencillez que favorecen
@@ -71,9 +71,9 @@ const SectionContent = ({ staticPath }: ContentProps) => (
       />
     </div>
     <div className={tw`order-3 sm:w-[48%] sm:flex-grow flex flex-col`}>
-      <h2 className={tw("text-2xl mb-4")}>
+      <h3 className={tw("hegazti-h3 my-4")}>
         ACOMPAÑANTE
-      </h2>
+      </h3>
       <p className={tw("mb-4")}>
         Me llamo Esther, soy mamá de dos niñas y la magia de la vida me ha
         traido a Caminando con caballos. Comparto con la Bosqueescuela Hegazti
