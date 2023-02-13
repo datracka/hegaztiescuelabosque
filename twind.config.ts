@@ -30,8 +30,9 @@ export default {
     "hegazti-h1":
       `text-[32px] sm:(text-[80px] text-center) font-light tracking-[.01em] leading-[1.4em] normal-case`,
     "hegazti-h2":
-      `text-[40px] font-normal tracking-[.02em] leading-[1.2em] normal-case not-italic`,
+      `text-[24px] sm:text-[40px] font-normal tracking-[.02em] leading-[1.2em] normal-case not-italic`,
     "hegazti-h3":
-      `text-[24px] font-light tracking-[.035px] leading-[1.4em] uppercase`,
+      `text-[20px] sm:text-[24px] font-light tracking-[.035px] leading-[1.4em] uppercase`,
+    "hegazti-h2-footer": "hegazti-h2",
   },
 } as Options;
