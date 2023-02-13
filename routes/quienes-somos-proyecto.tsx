@@ -19,7 +19,7 @@ export default function QuienesSomosProyecto() {
           `mx-auto max-w-7xl px-2 sm:px-6 lg:px-8 `,
         )}
       >
-        <h2 className={tw(`text-3xl py-14 px-4 text-center mb-8`)}>
+        <h2 className={tw(`hegazti-h2  py-14 px-4 text-center mb-8`)}>
           PRINCIPIOS DE LA ESCUELA
         </h2>
       </section>

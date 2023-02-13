@@ -15,14 +15,14 @@ const Hero = (
       css`background-image: url(${ctx.backgroundImage})`,
     )}
   >
-    <div className="relative px-6 lg:px-8">
+    <div className="relative px-6 lg:px-8 ">
       <div className="mx-auto max-w-3xl pt-20 pb-32 sm:pt-64 sm:pb-64 text-white">
         <div>
           <div>
-            <h1 className="text-4xl font-bold tracking-tight sm:text-center sm:text-6xl">
+            <h1 className="hegazti-h1">
               {ctx.title}
             </h1>
-            <p className="mt-6 text-lg leading-8 sm:text-center text-white">
+            <p className="hegazti-h3 sm:text-center mt-6">
               {ctx.description}
             </p>
           </div>

@@ -4,7 +4,7 @@ const SectionLearnInNature = () => (
   <section className={tw`mx-auto max-w-7xl px-2 sm:px-6 lg:px-8`}>
     <div class={tw`flex flex-col sm:flex-row gap-4`}>
       <div>
-        <h3 class={tw`text-3xl`}>Aprender en la Naturaleza</h3>
+        <h2 class={tw`hegazti-h2`}>Aprender en la Naturaleza</h2>
       </div>
       <div>
         <p className="mb-4">

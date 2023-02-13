@@ -22,7 +22,7 @@ const ListItem = (item: ListItemProps) => (
       alt={item.title}
       className={tw(`w-full object-cover`, css`aspect-ratio:1/1`)}
     />
-    <h3 className={tw(`text-2xl py-6`)}>{item.title}</h3>
+    <h3 className={tw(`hegazti-h3  py-6`)}>{item.title}</h3>
     <p className={tw(`pb-6`)}>{item.description}</p>
   </div>
 );

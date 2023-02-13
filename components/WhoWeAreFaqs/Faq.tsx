@@ -29,7 +29,7 @@ const Faq = (faq: FaqProp) => (
       </div>
     </div>
     <div className={tw`sm:w-[48%] sm:flex-grow`}>
-      <h2 className={tw(`text-2xl mb-4`)}>{faq.question}</h2>
+      <h2 className={tw(`hegazti-h3 mb-4`)}>{faq.question}</h2>
       {faq.children}
     </div>
   </div>

@@ -18,7 +18,7 @@ export default function AulaExtraescolaresLudoteca() {
           `mx-auto max-w-7xl px-2 sm:px-6 lg:px-8 `,
         )}
       >
-        <h2 className={tw(`text-3xl py-14 px-4 text-center border-b-1 mb-8`)}>
+        <h2 className={tw(`hegazti-h2 py-14 px-4 text-center border-b-1 mb-8`)}>
           LUDOTECAS DE INVIERNO, PRIMAVERA Y VERANO
         </h2>
       </section>
@@ -37,7 +37,7 @@ export default function AulaExtraescolaresLudoteca() {
           />
         </div>
         <div className={tw`order-1 sm:order-2 sm:w-[48%] sm:flex-grow`}>
-          <h3 className={tw("mb-4 text-2xl")}>
+          <h3 className={tw("hegazti-h3  mb-4 ")}>
             EXPERIMENTANDO LA NATURALEZA
           </h3>
           <p className={tw("mb-4")}>

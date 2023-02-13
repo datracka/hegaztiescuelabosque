@@ -17,7 +17,7 @@ const CallToAction = (ctx: callToActionProps) => (
     <div
       className={tw`flex flex-col items-center p-5 text-white`}
     >
-      <h3 class={tw("text-4xl text-center")}>{ctx.title}</h3>
+      <h2 class={tw("hegazti-h2 text-center")}>{ctx.title}</h2>
       <a
         href={ctx.buttonLink}
         class={tw(

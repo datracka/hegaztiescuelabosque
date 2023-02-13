@@ -47,7 +47,7 @@ const SectionContent = ({ staticPath }: ContentProps) => (
         estados, y sentires. Igualmente se respetan los tiempos, las
         circunstancias, necesidades y elecciones de cada uno/a.
       </p>
-      <h3 className={tw("text-3xl my-8 p-8 border-l-1")}>
+      <h3 className={tw("hegazti-h3 my-8 p-8 border-l-1")}>
         DAR ESPACIO A LA NECESIDAD MOTORA EN LA INFANCIA ES ABRIR LA PUERTA AL
         BIENESTAR PSICOLÓGICO Y AL EQUILIBRIO EMOCIONAL.
       </h3>

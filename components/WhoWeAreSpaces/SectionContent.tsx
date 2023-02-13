@@ -33,7 +33,7 @@ const SectionContent = ({ staticPath }: ContentProps) => (
       />
     </div>
     <div className={tw`order-1 sm:w-[48%] sm:flex-grow`}>
-      <h2 className={tw(`text-3xl`)}>¿POR QUÉ EN LA NATURALEZA?</h2>
+      <h2 className={tw(`hegazti-h2 `)}>¿POR QUÉ EN LA NATURALEZA?</h2>
       <p className={tw("mb-4")}>
         La infancia temprana es especialmente sensible a la naturaleza, pues los
         niños se identifican con ella de una manera holística, integrada, se

@@ -26,14 +26,16 @@ const ServiceItem = (item: ServiceItemProps) => (
       </div>
     </div>
     <div className={tw`sm:w-[48%] sm:flex-grow flex flex-col`}>
-      <h3 className={tw(`text-2xl`)}>{item.title}</h3>
+      <h3 className={tw(`hegazti-h3 text-left!`)}>{item.title}</h3>
       <p dangerouslySetInnerHTML={{ __html: item.description }}></p>
-      <a
-        href={item.link}
-        className={tw`mt-auto mr-auto border-2 border-black inline-block py-4 px-8 hover:text-white hover:bg-black`}
-      >
-        Saber más
-      </a>
+      <div className={tw`mt-auto mr-auto`}>
+        <a
+          href={item.link}
+          className={tw`mt-4 border-2 border-black inline-block py-4 px-8 hover:text-white hover:bg-black`}
+        >
+          Saber más
+        </a>
+      </div>
     </div>
     <div className={tw`border-b-1 mb-8 sm:w-[48%] sm:flex-grow`}>
     </div>
@@ -46,7 +48,7 @@ const SectionServices = () => (
       `mx-auto max-w-7xl px-2 sm:px-6 lg:px-8 `,
     )}
   >
-    <h2 className={tw`text-3xl`}>SERVICIOS</h2>
+    <h2 className={tw`hegazti-h2 mb-6`}>SERVICIOS</h2>
     <ServiceItem
       title="Madre de día, casita abejorro"
       description="En la <strong>Casita Abejorro</strong>, las niñas y niños de 0 a 3 años, pueden vivenciar cada día un espacio de calma y respeto en contacto con la naturaleza. Creemos que las niñas y los niños son seres completos que necesitan un lugar seguro y amoroso en el que desarrollarse y crecer de manera sana, en contacto con la naturaleza y con sus propias necesidades."

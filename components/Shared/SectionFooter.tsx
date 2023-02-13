@@ -5,8 +5,8 @@ import { css, tw } from "twind/css";
 const SectionFooter = () => (
   <div className={tw(`w-full p-4 sm:p-6 lg:p-8 bg-[#415a30] text-white`)}>
     <SectionContact />
-    <div className={tw`m-8 mx-auto max-w-3xl text-center`}>
-      <p class={tw`my-10`}>
+    <div className={tw`my-4 mx-auto max-w-3xl text-center`}>
+      <p class={tw`text-lg font-normal my-10 leading-none	`}>
         Carretera de Aras nº 6, 31230, Navarra, España +34 669 575 406
         hegaztiescuelabosque@gmail.com
       </p>
@@ -27,7 +27,7 @@ const SectionFooter = () => (
           Intagram
         </a>
       </p>
-      <p class={tw`my-10`}>
+      <p class={tw`text-xs my-10`}>
         <a
           href="/legal-politica-de-cookies"
           class={tw`block sm:inline-block px-2 mx-2`}
@@ -51,7 +51,7 @@ const SectionFooter = () => (
         </a>
       </p>
     </div>
-    <CookieBanner />
+    {/*<CookieBanner />*/}
   </div>
 );
 export default SectionFooter;

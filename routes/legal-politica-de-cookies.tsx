@@ -13,7 +13,7 @@ export default function politicaDeCookies() {
           `mx-auto max-w-7xl px-2 sm:px-6 lg:px-8`,
         )}
       >
-        <h1 className={tw(`text-3xl py-8`)}>
+        <h1 className={tw(`hegazti-h1 text-left! py-8`)}>
           POLÍTICA DE COOKIES
         </h1>
         <h3 className={tw(`text-2xl pt-8 pb-4`)}>ANTECEDENTES</h3>

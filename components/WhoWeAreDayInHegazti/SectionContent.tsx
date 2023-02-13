@@ -39,7 +39,7 @@ const SectionContent = (ctx: ContentProps) => (
       </div>
     </div>
     <div className={tw`sm:w-[48%] sm:flex-grow`}>
-      <h2 className={tw(`text-2xl`)}>{ctx.title}</h2>
+      <h2 className={tw(`hegazti-h2`)}>{ctx.title}</h2>
       {ctx.children}
     </div>
     <div className={tw`border-b-1 mb-8 sm:w-[48%] sm:flex-grow`}>

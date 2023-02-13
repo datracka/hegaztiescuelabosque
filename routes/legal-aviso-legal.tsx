@@ -11,7 +11,7 @@ export default function avisoLegal() {
           `mx-auto max-w-7xl px-2 sm:px-6 lg:px-8`,
         )}
       >
-        <h1 className={tw(`text-3xl py-8`)}>
+        <h1 className={tw(`hegazti-h1 py-8 text-left!`)}>
           AVISO LEGAL
         </h1>
 
