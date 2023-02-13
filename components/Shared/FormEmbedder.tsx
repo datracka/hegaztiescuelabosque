@@ -1,7 +1,7 @@
 import { useEffect, useRef } from "preact/hooks";
 import { css, tw } from "twind/css";
 
-const iframeStyle = css({ overflow: "hidden", border: "none" });
+const iframeStyle = css({ overflow: "hidden", border: "none", width: "100%" });
 
 const isObject = (data: string) => {
   return typeof data === "object" &&
@@ -15,11 +15,13 @@ const FromEmbedder = ({ src }: { src: string }) => {
   const handleIframeMessage = ({ data: message }: {
     data: string;
   }) => {
+    console.log("message", message);
     if (!isObject(message) && iframeRef.current) {
       const i = message.indexOf(":");
       const first_half = message.substring(0, i);
       const second_half = message.substring(i + 1);
       const json_object = JSON.parse(second_half);
+      console.log("first_half", first_half);
       switch (first_half) {
         case "formsapp-setHeight":
           iframeRef.current.height = json_object.height;
