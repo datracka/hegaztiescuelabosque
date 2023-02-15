@@ -1,4 +1,4 @@
-type menuType = {
+export type menuType = {
   name: string;
   url?: string;
   subOptions?: { url: string; name: string }[];
