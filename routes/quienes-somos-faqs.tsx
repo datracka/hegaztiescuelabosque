@@ -146,7 +146,7 @@ export default function QuienesSomosFaqs() {
           de ayudarte.
         </p>
         <a
-          href="#"
+          href="mas-informacion"
           className={tw(
             "inline-block my-6 py-4 px-8 bg-[#415a30] text-white hover:bg-[#416a40]",
           )}

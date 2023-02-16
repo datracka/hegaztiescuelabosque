@@ -2,6 +2,8 @@ import SectionContact from "@/islands/SectionContact.tsx";
 import CookieBanner from "@/islands/CookieBanner.tsx";
 import { css, tw } from "twind/css";
 
+const staticPath = "/imgs/shared";
+
 const SectionFooter = () => (
   <div className={tw(`w-full p-4 sm:p-6 lg:p-8 bg-[#415a30] text-white`)}>
     <SectionContact />
@@ -13,18 +15,28 @@ const SectionFooter = () => (
 
       <p class={tw`my-10`}>
         <a
+          rel="noopener"
           class={tw`inline-block`}
-          href="https://www.facebook.com/Hegazti-Escuela-Bosque-110555641506877"
+          href="https://www.facebook.com/www.hegaztiescuelabosque.org/"
           target="_blank"
         >
-          Facebook
+          <img
+            title="facebook"
+            src={`${staticPath}/facebook.svg`}
+            className={tw`${css`filter: invert(100%) sepia(0%) saturate(7498%) hue-rotate(296deg) brightness(103%) contrast(101%);`}`}
+          />
         </a>
         <a
+          rel="noopener"
           class={tw`inline-block`}
           href="https://www.instagram.com/hegazti_escuela_bosque/"
           target="_blank"
         >
-          Intagram
+          <img
+            title="instagram"
+            src={`${staticPath}/instagram.svg`}
+            className={tw`${css`filter: invert(100%) sepia(0%) saturate(7498%) hue-rotate(296deg) brightness(103%) contrast(101%);`}`}
+          />
         </a>
       </p>
       <p class={tw`text-xs my-10`}>

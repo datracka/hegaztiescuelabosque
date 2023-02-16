@@ -10,7 +10,7 @@ export default function QuienesSomosEspacios() {
     <>
       <NavBar />
       <Hero
-        title=""
+        title="Naturaleza y espacios"
         description=""
         backgroundImage={`${staticPath}/hero-image.jpg`}
       />

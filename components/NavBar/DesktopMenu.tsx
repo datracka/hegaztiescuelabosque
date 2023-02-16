@@ -9,7 +9,7 @@ export default function () {
       <AnimatedMenuItem name={menu[0].name} options={menu[0].subOptions} />
       <AnimatedMenuItem name={menu[1].name} options={menu[1].subOptions} />
       <MenuItem name={menu[2].name} url={menu[2].url} />
-      <MenuItem name={menu[3].name} url={menu[3].url} />
+      {/* <MenuItem name={menu[3].name} url={menu[3].url} /> */}
     </ul>
   );
 }

@@ -22,7 +22,7 @@ const FromEmbedder = ({ src }: { src: string }) => {
       const json_object = JSON.parse(second_half);
       switch (first_half) {
         case "formsapp-setHeight":
-          iframeRef.current.height = json_object.height;
+          iframeRef.current.height = json_object.height + 2;
           break;
         default:
           console.log("do nothing");
