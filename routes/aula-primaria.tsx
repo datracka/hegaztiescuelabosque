@@ -22,14 +22,14 @@ export default function AulaPrimaria() {
       />
       <SectionGrid
         list={[
-          { alt: "Grid 1", img: `${staticPath}/grid-img-01.jpg` },
-          { alt: "Grid 2", img: `${staticPath}/grid-img-02.jpg` },
-          { alt: "Grid 3", img: `${staticPath}/grid-img-01.jpg` },
-          { alt: "Grid 4", img: `${staticPath}/grid-img-02.jpg` },
-          { alt: "Grid 5", img: `${staticPath}/grid-img-01.jpg` },
-          { alt: "Grid 6", img: `${staticPath}/grid-img-02.jpg` },
-          { alt: "Grid 7", img: `${staticPath}/grid-img-01.jpg` },
-          { alt: "Grid 8", img: `${staticPath}/grid-img-02.jpg` },
+          { alt: "Primaria 1", img: `${staticPath}/primaria-01.jpg` },
+          { alt: "Primaria 2", img: `${staticPath}/primaria-02.jpg` },
+          { alt: "Primaria 3", img: `${staticPath}/primaria-03.jpg` },
+          { alt: "Primaria 4", img: `${staticPath}/primaria-04.jpg` },
+          { alt: "Primaria 5", img: `${staticPath}/primaria-05.jpg` },
+          { alt: "Primaria 6", img: `${staticPath}/primaria-06.jpg` },
+          { alt: "Primaria 7", img: `${staticPath}/primaria-07.jpg` },
+          { alt: "Primaria 8", img: `${staticPath}/primaria-08.jpg` },
         ]}
       />
       <SectionFooter />

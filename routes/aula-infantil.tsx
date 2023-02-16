@@ -17,27 +17,29 @@ export default function AulaInfantil() {
         backgroundImage={`${staticPath}/hero-image.jpg`}
       />
       <SectionContent staticPath={staticPath} />
-      <SectionCallToAction
+      {
+        /* <SectionCallToAction
         title="INSCRIPCIONES <br/>ABIERTAS"
         description="MARZO A JUNIO"
         image={`${staticPath}/cta-img-01.jpg`}
         buttonText="MÁS <br/>INFORMACIÓN"
         buttonLink="/mas-informacion"
-      />
+      /> */
+      }
       <SectionSaying
         text="Mira profundamente en la naturaleza y entonces comprenderás todo mejor."
         author="ALBERT EINSTEIN"
       />
       <SectionGrid
         list={[
-          { alt: "Grid 1", img: `${staticPath}/grid-img-01.jpg` },
-          { alt: "Grid 2", img: `${staticPath}/grid-img-02.jpg` },
-          { alt: "Grid 3", img: `${staticPath}/grid-img-01.jpg` },
-          { alt: "Grid 4", img: `${staticPath}/grid-img-02.jpg` },
-          { alt: "Grid 5", img: `${staticPath}/grid-img-01.jpg` },
-          { alt: "Grid 6", img: `${staticPath}/grid-img-02.jpg` },
-          { alt: "Grid 7", img: `${staticPath}/grid-img-01.jpg` },
-          { alt: "Grid 8", img: `${staticPath}/grid-img-02.jpg` },
+          { alt: "Infantial 1", img: `${staticPath}/infantil-01.jpg` },
+          { alt: "Infantial 2", img: `${staticPath}/infantil-02.jpg` },
+          { alt: "Infantial 3", img: `${staticPath}/infantil-03.jpg` },
+          { alt: "Infantial 4", img: `${staticPath}/infantil-04.jpg` },
+          { alt: "Infantial 5", img: `${staticPath}/infantil-05.jpg` },
+          { alt: "Infantial 6", img: `${staticPath}/infantil-06.jpg` },
+          { alt: "Infantial 7", img: `${staticPath}/infantil-07.jpg` },
+          { alt: "Infantial 8", img: `${staticPath}/infantil-08.jpg` },
         ]}
       />
       <SectionFooter />

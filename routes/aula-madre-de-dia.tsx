@@ -27,22 +27,22 @@ export default function AulaMadreDeDia() {
       />
       <SectionGrid
         list={[
-          { alt: "Grid 1", img: `${staticPath}/grid-img-01.jpg` },
-          { alt: "Grid 2", img: `${staticPath}/grid-img-02.jpg` },
-          { alt: "Grid 3", img: `${staticPath}/grid-img-03.jpg` },
-          { alt: "Grid 4", img: `${staticPath}/grid-img-04.jpg` },
-          { alt: "Grid 5", img: `${staticPath}/grid-img-02.jpg` },
-          { alt: "Grid 6", img: `${staticPath}/grid-img-01.jpg` },
-          { alt: "Grid 7", img: `${staticPath}/grid-img-04.jpg` },
-          { alt: "Grid 8", img: `${staticPath}/grid-img-03.jpg` },
-          { alt: "Grid 1", img: `${staticPath}/grid-img-01.jpg` },
-          { alt: "Grid 2", img: `${staticPath}/grid-img-02.jpg` },
-          { alt: "Grid 3", img: `${staticPath}/grid-img-03.jpg` },
-          { alt: "Grid 4", img: `${staticPath}/grid-img-04.jpg` },
-          { alt: "Grid 5", img: `${staticPath}/grid-img-02.jpg` },
-          { alt: "Grid 6", img: `${staticPath}/grid-img-01.jpg` },
-          { alt: "Grid 7", img: `${staticPath}/grid-img-04.jpg` },
-          { alt: "Grid 8", img: `${staticPath}/grid-img-03.jpg` },
+          { alt: "Aula Madre De Dia 1", img: `${staticPath}/madre-01.jpg` },
+          { alt: "Aula Madre De Dia 2", img: `${staticPath}/madre-02.jpg` },
+          { alt: "Aula Madre De Dia 3", img: `${staticPath}/madre-03.jpg` },
+          { alt: "Aula Madre De Dia 4", img: `${staticPath}/madre-04.jpg` },
+          { alt: "Aula Madre De Dia 5", img: `${staticPath}/madre-05.jpg` },
+          { alt: "Aula Madre De Dia 6", img: `${staticPath}/madre-06.jpg` },
+          { alt: "Aula Madre De Dia 7", img: `${staticPath}/madre-07.jpg` },
+          { alt: "Aula Madre De Dia 8", img: `${staticPath}/madre-08.jpg` },
+          { alt: "Aula Madre De Dia 1", img: `${staticPath}/madre-09.jpg` },
+          { alt: "Aula Madre De Dia 2", img: `${staticPath}/madre-10.jpg` },
+          { alt: "Aula Madre De Dia 3", img: `${staticPath}/madre-11.jpg` },
+          { alt: "Aula Madre De Dia 4", img: `${staticPath}/madre-12.jpg` },
+          { alt: "Aula Madre De Dia 5", img: `${staticPath}/madre-13.jpg` },
+          { alt: "Aula Madre De Dia 6", img: `${staticPath}/madre-14.jpg` },
+          { alt: "Aula Madre De Dia 7", img: `${staticPath}/madre-15.jpg` },
+          { alt: "Aula Madre De Dia 8", img: `${staticPath}/madre-16.jpg` },
         ]}
       />
       <SectionFooter />
