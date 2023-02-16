@@ -2,12 +2,16 @@ import { HeadElement } from "@/components/HeadElement.tsx";
 import { css, tw } from "twind/css";
 import { PageProps } from "$fresh/server.ts";
 import Header from "@/components/Header.tsx";
-import Hero from "@/components/Hero.tsx";
+import Hero from "@/components/Shared/Hero.tsx";
 import CallToAction from "@/components/Home/CallToAction.tsx";
-import Description from "@/components/Home/Description.tsx";
-import Services from "@/components/Services.tsx";
-import Footer from "@/components/Footer.tsx";
+import SectionLearnInNature from "@/components/Home/SectionLearnInNature.tsx";
+import SectionForestAsClassroom from "@/components/Home/SectionForestAsClassroom.tsx";
+import SectionSaying from "@/components/Shared/SectionSaying.tsx";
+import SectionServices from "@/components/Home/SectionServices.tsx";
+import SectionFooter from "@/components/Shared/SectionFooter.tsx";
 import NavBar from "@/islands/NavBar.tsx";
+import SectionGallery from "@/components/Home/SectionGallery.tsx";
+import SectionExtracurricular from "@/components/Home/SectionExtracurricular.tsx";
 
 const bImage = css`
     background-color: transparent;
@@ -19,137 +23,52 @@ export default function Home(ctx: PageProps) {
   return (
     <>
       <NavBar />
-      <Hero text1="Creciendo en la naturaleza" text2="Hegazti Escuela Bosque" />
-      <Description />
-      <CallToAction />
-
-      <section class="container flex items-center justify-center h-screen m-auto mb-12 bg-fixed bg-center bg-cover custom-img">
-        <div class="p-5 text-2xl text-white bg-purple-300 bg-opacity-50 rounded-xl">
-          Parralax inline
-        </div>
-      </section>
-      <div class="max-w-lg m-auto">
-        <p class="mb-4">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
-          placerat a magna non varius. Proin leo felis, euismod non porta eget,
-          varius sit amet sapien. Maecenas in nulla at leo convallis consectetur
-          id a sapien. Nulla nec pulvinar nisi. Vivamus non facilisis lacus, et
-          volutpat libero. Nulla ac odio aliquam, accumsan arcu ut, lacinia est.
-          Nulla eu sem elit. Fusce nec laoreet sem, semper molestie libero.
-        </p>
-        <p class="mb-4">
-          Ut sagittis lacus consequat accumsan venenatis. Sed sollicitudin,
-          lectus et fringilla ultrices, dolor nisi scelerisque tortor, vel
-          finibus magna massa non nunc. Phasellus massa quam, egestas a nisl
-          sed, porta volutpat metus. Nunc sed elit ac tellus tempor cursus.
-          Suspendisse potenti. Vestibulum varius rutrum nisl nec consequat.
-          Suspendisse semper dignissim sem viverra semper. Nulla porttitor,
-          purus nec accumsan pharetra, nisi dolor condimentum ipsum, id
-          consequat nulla nunc in ligula.
-        </p>
-        <p class="mb-4">
-          Nulla pharetra lacinia nisi, vitae mollis tellus euismod id. Mauris
-          porta dignissim hendrerit. Cras id velit varius, fermentum lectus
-          vitae, ultricies dolor. In bibendum rhoncus purus vel rutrum. Nam
-          vulputate imperdiet fringilla. Donec blandit libero massa. Suspendisse
-          dictum diam mauris, vitae fermentum dolor tincidunt in. Pellentesque
-          sollicitudin venenatis dolor, vitae scelerisque elit ultrices eu.
-          Donec eget sodales risus, quis dignissim neque.
-        </p>
-      </div>
+      <Hero
+        title="Creciendo en la naturaleza"
+        description="Hegazti Escuela Bosque"
+        backgroundImage="imgs/home/home-image-1.jpg"
+      />
+      <SectionLearnInNature />
+      <CallToAction
+        title="MATRÍCULAS ABIERTAS"
+        backgroundImage="imgs/home/home-image-2.jpg"
+        buttonText="MÁS INFO"
+        buttonLink="#"
+      />
+      <SectionServices />
+      <SectionForestAsClassroom />
+      <SectionGallery
+        list={[{
+          title: "PASEOS POR EL MONTE",
+          description: "TODOS LOS DIAS",
+          image: "imgs/home/home-gallery-item-01.jpg",
+        }, {
+          title: "ELEMENTOS NATURALES",
+          description: "DESPERTANDO LA CURIOSIDAD",
+          image: "imgs/home/home-gallery-item-02.jpg",
+        }, {
+          title: "CONSTRUYENDO JUNTOS",
+          description: "TRABAJO EN EQUIPO",
+          image: "imgs/home/home-gallery-item-03.jpg",
+        }, {
+          title: "OBSERVACIÓN",
+          description: "SEGUIENDO LOS CICLOS",
+          image: "imgs/home/home-gallery-item-04.jpg",
+        }, {
+          title: "JUEGO LIBRE",
+          description: "SIGUIENDO EL IMPULSO",
+          image: "imgs/home/home-gallery-item-05.jpg",
+        }, {
+          title: "CUIDANDO DE LOS CABALLOS",
+          description: "RESPONSABILIDAD Y EMPATÍA",
+          image: "imgs/home/home-gallery-item-06.jpg",
+        }]}
+      />
+      <SectionSaying
+        text="Dímelo y lo olvido. Enseñame y lo recuerdo. Involúcrame y lo aprendo."
+        author="Benjamin Franklin"
+      />
+      <SectionFooter />
     </>
   );
 }
-
-/*
-export default function Home(ctx: PageProps) {
-  const { url } = ctx;
-  return (
-    <>
-      <header
-        className={tw(
-          "flex items-center justify-center h-screen mb-12 bg-fixed bg-center bg-cover",
-          bImage,
-        )}
-      >
-        <div
-          className={tw(
-            "p-5 text-white bg-purple-300 bg-opacity-50 rounded-xl text-2xl",
-          )}
-        >
-          Creciendo en la Naturaleza
-        </div>
-      </header>
-      <header class="flex items-center justify-center h-screen mb-12 bg-fixed bg-center bg-cover custom-img">
-        <div class="p-5 text-2xl text-white bg-purple-300 bg-opacity-50 rounded-xl">
-          Welcome to my site!
-        </div>
-      </header>
-
-      <div className={tw`max-w-lg m-auto`}>
-        <p class="mb-4">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
-          placerat a magna non varius. Proin leo felis, euismod non porta eget,
-          varius sit amet sapien. Maecenas in nulla at leo convallis consectetur
-          id a sapien. Nulla nec pulvinar nisi. Vivamus non facilisis lacus, et
-          volutpat libero. Nulla ac odio aliquam, accumsan arcu ut, lacinia est.
-          Nulla eu sem elit. Fusce nec laoreet sem, semper molestie libero.
-        </p>
-        <p class="mb-4">
-          Ut sagittis lacus consequat accumsan venenatis. Sed sollicitudin,
-          lectus et fringilla ultrices, dolor nisi scelerisque tortor, vel
-          finibus magna massa non nunc. Phasellus massa quam, egestas a nisl
-          sed, porta volutpat metus. Nunc sed elit ac tellus tempor cursus.
-          Suspendisse potenti. Vestibulum varius rutrum nisl nec consequat.
-          Suspendisse semper dignissim sem viverra semper. Nulla porttitor,
-          purus nec accumsan pharetra, nisi dolor condimentum ipsum, id
-          consequat nulla nunc in ligula.
-        </p>
-        <p class="mb-12">
-          Nulla pharetra lacinia nisi, vitae mollis tellus euismod id. Mauris
-          porta dignissim hendrerit. Cras id velit varius, fermentum lectus
-          vitae, ultricies dolor. In bibendum rhoncus purus vel rutrum. Nam
-          vulputate imperdiet fringilla. Donec blandit libero massa. Suspendisse
-          dictum diam mauris, vitae fermentum dolor tincidunt in. Pellentesque
-          sollicitudin venenatis dolor, vitae scelerisque elit ultrices eu.
-          Donec eget sodales risus, quis dignissim neque.
-        </p>
-      </div>
-      <section class="container flex items-center justify-center h-screen m-auto mb-12 bg-fixed bg-center bg-cover custom-img">
-        <div class="p-5 text-2xl text-white bg-purple-300 bg-opacity-50 rounded-xl">
-          Parralax inline
-        </div>
-      </section>
-      <div class="max-w-lg m-auto">
-        <p class="mb-4">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
-          placerat a magna non varius. Proin leo felis, euismod non porta eget,
-          varius sit amet sapien. Maecenas in nulla at leo convallis consectetur
-          id a sapien. Nulla nec pulvinar nisi. Vivamus non facilisis lacus, et
-          volutpat libero. Nulla ac odio aliquam, accumsan arcu ut, lacinia est.
-          Nulla eu sem elit. Fusce nec laoreet sem, semper molestie libero.
-        </p>
-        <p class="mb-4">
-          Ut sagittis lacus consequat accumsan venenatis. Sed sollicitudin,
-          lectus et fringilla ultrices, dolor nisi scelerisque tortor, vel
-          finibus magna massa non nunc. Phasellus massa quam, egestas a nisl
-          sed, porta volutpat metus. Nunc sed elit ac tellus tempor cursus.
-          Suspendisse potenti. Vestibulum varius rutrum nisl nec consequat.
-          Suspendisse semper dignissim sem viverra semper. Nulla porttitor,
-          purus nec accumsan pharetra, nisi dolor condimentum ipsum, id
-          consequat nulla nunc in ligula.
-        </p>
-        <p class="mb-4">
-          Nulla pharetra lacinia nisi, vitae mollis tellus euismod id. Mauris
-          porta dignissim hendrerit. Cras id velit varius, fermentum lectus
-          vitae, ultricies dolor. In bibendum rhoncus purus vel rutrum. Nam
-          vulputate imperdiet fringilla. Donec blandit libero massa. Suspendisse
-          dictum diam mauris, vitae fermentum dolor tincidunt in. Pellentesque
-          sollicitudin venenatis dolor, vitae scelerisque elit ultrices eu.
-          Donec eget sodales risus, quis dignissim neque.
-        </p>
-      </div>
-    </>
-  );
-}
- */

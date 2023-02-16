@@ -1,4 +1,4 @@
-# fresh project
+# Hegazti Escuela Bosque Website
 
 dependencies
 

@@ -11,7 +11,7 @@ export default function (): JSX.Element {
   const onClickHandler: () => void = (): void => setOpen(!opened);
 
   return (
-    <nav className={tw`bg-gray-800`}>
+    <nav className={tw`bg-[#415a30]`}>
       <div className={tw`mx-auto max-w-7xl px-2 sm:px-6 lg:px-8`}>
         <div className={tw`relative flex h-32 items-center justify-between`}>
           <Hamburger onClick={onClickHandler} />
