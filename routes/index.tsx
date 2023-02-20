@@ -1,8 +1,7 @@
-import { HeadElement } from "@/components/HeadElement.tsx";
-import { css, tw } from "twind/css";
+import { Head } from "$fresh/runtime.ts";
 import { PageProps } from "$fresh/server.ts";
-import Header from "@/components/Header.tsx";
 import Hero from "@/components/Shared/Hero.tsx";
+import { css } from "twind/css";
 import CallToAction from "@/components/Home/CallToAction.tsx";
 import SectionLearnInNature from "@/components/Home/SectionLearnInNature.tsx";
 import SectionForestAsClassroom from "@/components/Home/SectionForestAsClassroom.tsx";
@@ -13,7 +12,7 @@ import NavBar from "@/islands/NavBar.tsx";
 import SectionGallery from "@/components/Home/SectionGallery.tsx";
 import SectionExtracurricular from "@/components/Home/SectionExtracurricular.tsx";
 
-const bImage = css`
+const bImage = css` 
     background-color: transparent;
     background-image: url("https://images.unsplash.com/photo-1454496522488-7a8e488e8606?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1955&q=80");
 `;
@@ -22,6 +21,9 @@ export default function Home(ctx: PageProps) {
   const { url } = ctx;
   return (
     <>
+      <Head>
+        <meta name="description" content="Hello world!" />
+      </Head>
       <NavBar />
       <Hero
         title="Creciendo en la naturaleza"
