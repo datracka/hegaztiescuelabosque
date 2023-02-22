@@ -1,5 +1,3 @@
-import { HeadElement } from "@/components/HeadElement.tsx";
-import { css, tw } from "twind/css";
 import { Head } from "$fresh/runtime.ts";
 import { PageProps } from "$fresh/server.ts";
 import Hero from "@/components/Shared/Hero.tsx";
