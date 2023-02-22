@@ -26,7 +26,7 @@ export default function AulaMadreDeDia() {
       <Hero
         title="MADRE DE DÍA"
         description="CASITA ABEJORRO"
-        backgroundImage={`${staticPath}/hero-image.jpg`}
+        backgroundImage={`${staticPath}/hero-image-aula-madre-de-dia.jpg`}
       />
       <SectionContent staticPath={staticPath} />
       <SectionSaying
@@ -35,22 +35,49 @@ export default function AulaMadreDeDia() {
       />
       <SectionGrid
         list={[
-          { alt: "Aula Madre De Dia 1", img: `${staticPath}/madre-01.jpg` },
-          { alt: "Aula Madre De Dia 2", img: `${staticPath}/madre-02.jpg` },
-          { alt: "Aula Madre De Dia 3", img: `${staticPath}/madre-03.jpg` },
-          { alt: "Aula Madre De Dia 4", img: `${staticPath}/madre-04.jpg` },
-          { alt: "Aula Madre De Dia 5", img: `${staticPath}/madre-05.jpg` },
-          { alt: "Aula Madre De Dia 6", img: `${staticPath}/madre-06.jpg` },
-          { alt: "Aula Madre De Dia 7", img: `${staticPath}/madre-07.jpg` },
-          { alt: "Aula Madre De Dia 8", img: `${staticPath}/madre-08.jpg` },
-          { alt: "Aula Madre De Dia 1", img: `${staticPath}/madre-09.jpg` },
-          { alt: "Aula Madre De Dia 2", img: `${staticPath}/madre-10.jpg` },
-          { alt: "Aula Madre De Dia 3", img: `${staticPath}/madre-11.jpg` },
-          { alt: "Aula Madre De Dia 4", img: `${staticPath}/madre-12.jpg` },
-          { alt: "Aula Madre De Dia 5", img: `${staticPath}/madre-13.jpg` },
-          { alt: "Aula Madre De Dia 6", img: `${staticPath}/madre-14.jpg` },
-          { alt: "Aula Madre De Dia 7", img: `${staticPath}/madre-15.jpg` },
-          { alt: "Aula Madre De Dia 8", img: `${staticPath}/madre-16.jpg` },
+          { alt: "Niña Pintando", img: `${staticPath}/nina-pintando.jpg` },
+          {
+            alt: "Frase Movimiento Libre",
+            img: `${staticPath}/frase-movimiento-libre.jpg`,
+          },
+          {
+            alt: "Jugando con animales",
+            img: `${staticPath}/jugando-con-animales.jpg`,
+          },
+          { alt: "Frase Confianza", img: `${staticPath}/frase-confianza.jpg` },
+          { alt: "Frase Cuidado", img: `${staticPath}/frase-cuidado.jpg` },
+          { alt: "Bosque", img: `${staticPath}/bosque.jpg` },
+          { alt: "Frase Calidez", img: `${staticPath}/frase-calidez.jpg` },
+          { alt: "Niños Jugando", img: `${staticPath}/ninos-jugando.jpg` },
+          {
+            alt: "Caballos y niños",
+            img: `${staticPath}/caballos-y-ninos.jpg`,
+          },
+          {
+            alt: "Frase Ritmo Calmado",
+            img: `${staticPath}/frase-ritmo-calmado.jpg`,
+          },
+          {
+            alt: "Frase Naturaleza",
+            img: `${staticPath}/nino-y-caracola.jpg`,
+          },
+          { alt: "Niño y caracola", img: `${staticPath}/frase-cuidado-2.jpg` },
+          {
+            alt: "Frase Cuidado",
+            img: `${staticPath}/frase-acompanamiento.jpg`,
+          },
+          {
+            alt: "Madre y niño abrazado",
+            img: `${staticPath}/madre-y-nino-abrazado.jpg`,
+          },
+          {
+            alt: "Frase Naturaleza",
+            img: `${staticPath}/frase-naturaleza.jpg`,
+          },
+          {
+            alt: "Niños y animales",
+            img: `${staticPath}/ninos-y-animales.jpg`,
+          },
         ]}
       />
       <SectionFooter />
