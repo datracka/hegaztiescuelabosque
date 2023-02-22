@@ -2,12 +2,22 @@ import NavBar from "@/islands/NavBar.tsx";
 import { css, tw } from "twind/css";
 import SectionCardList from "@/components/Shared/SectionCardList.tsx";
 import SectionFooter from "@/components/Shared/SectionFooter.tsx";
+import { Head } from "$fresh/runtime.ts";
 import Hero from "@/components/Shared/Hero.tsx";
 
 export default function QuienesSomosProyecto() {
   const staticPath = "/imgs/who-we-are-project";
   return (
     <>
+      <Head>
+        <title>
+          Hegazti Escuela Bosque | Quienes Somos - Proyecto
+        </title>
+        <meta
+          name="description"
+          content="Este texto describe los principios fundamentales de la Escuela, que se centran en la convivencia diaria con la naturaleza y el aprendizaje experiencial. La escuela fomenta el juego libre, el vínculo emocional, el acompañamiento emocional, la comunicación no violenta, la convivencia y el movimiento libre como medios para desarrollar la creatividad, la imaginación, la autonomía y la autosuficiencia en los niños. La escuela también promueve valores solidarios y el cuidado de los demás."
+        />
+      </Head>
       <NavBar />
       <Hero
         title="NUESTRO PROYECTO"

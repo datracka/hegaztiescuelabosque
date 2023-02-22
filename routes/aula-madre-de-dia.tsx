@@ -1,5 +1,6 @@
 import { RouteConfig } from "$fresh/server.ts";
 import NavBar from "@/islands/NavBar.tsx";
+import { Head } from "$fresh/runtime.ts";
 import SectionFooter from "@/components/Shared/SectionFooter.tsx";
 import Hero from "@/components/Shared/Hero.tsx";
 import SectionContent from "@/components/DailyMother/SectionContent.tsx";
@@ -14,6 +15,13 @@ export default function AulaMadreDeDia() {
   const staticPath = "/imgs/daily-mother-schoolroom";
   return (
     <>
+      <Head>
+        <title>Hegazti Escuela Bosque | Aula - Madre de dia</title>
+        <meta
+          name="description"
+          content="La Casita Abejorro es un centro de cuidado de niños y niñas de 0 a 3 años que ofrece un ambiente de calma y respeto en contacto con la naturaleza. Se enfoca en el movimiento libre y el acompañamiento respetuoso para generar un vínculo seguro entre las criaturas y la persona que acompaña. La yurta es el ambiente cálido y familiar en el que se generan experiencias de amor, confianza y sencillez para favorecer que los niños puedan ser. El centro está dirigido por Esther, una madre de dos niñas, que se une al proyecto con la ilusión de aportar su experiencia vital en el acompañamiento respetuoso a las criaturas."
+        />
+      </Head>
       <NavBar />
       <Hero
         title="MADRE DE DÍA"

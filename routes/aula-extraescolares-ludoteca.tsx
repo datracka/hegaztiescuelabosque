@@ -1,12 +1,20 @@
 import NavBar from "@/islands/NavBar.tsx";
 import { css, tw } from "twind/css";
 import SectionFooter from "@/components/Shared/SectionFooter.tsx";
+import { Head } from "$fresh/runtime.ts";
 import Hero from "@/components/Shared/Hero.tsx";
 
 export default function AulaExtraescolaresLudoteca() {
   const staticPath = "/imgs/extracurricular-toy-library";
   return (
     <>
+      <Head>
+        <title>Hegazti Escuela Bosque | Extraescolares - Ludoteca</title>
+        <meta
+          name="description"
+          content="La Escuela Bosque ofrece actividades extraescolares para niños/as de 3 a 12 años en contacto con la naturaleza y los animales. Ofrecen ludoteca y ludotecas de invierno, primavera y verano en un horario de 9:00 a 14:00 horas. Se invita a los interesados a hacer su reserva con anticipación."
+        />
+      </Head>
       <NavBar />
       <Hero
         title="EXTRAESCOLARES"

@@ -1,6 +1,7 @@
 import { css, tw } from "twind/css";
 import NavBar from "@/islands/NavBar.tsx";
 import SectionFooter from "@/components/Shared/SectionFooter.tsx";
+import { Head } from "$fresh/runtime.ts";
 import Hero from "@/components/Shared/Hero.tsx";
 import SectionContent from "@/components/WhoWeAreDayInHegazti/SectionContent.tsx";
 
@@ -8,6 +9,15 @@ export default function QuienesSomosHegazti() {
   const staticPath = "/imgs/who-we-are-day-in-hegazti";
   return (
     <>
+      <Head>
+        <title>
+          Hegazti Escuela Bosque | Quienes Somos - Naturaleza y espacios
+        </title>
+        <meta
+          name="description"
+          content="La Escuela Bosque Hegazti es un lugar especializado en educación infantil, con cuatro áreas diferenciadas por edad, cada una con una dinámica diferente en la que los niños aprenden jugando en contacto con la naturaleza. El enfoque principal es el aprendizaje basado en proyectos y las actividades al aire libre en un entorno natural, ofreciendo a los niños la oportunidad de explorar y descubrir el mundo a través de su propia curiosidad."
+        />
+      </Head>
       <NavBar />
       <Hero
         title="UN DIA EN HEGAZTI"

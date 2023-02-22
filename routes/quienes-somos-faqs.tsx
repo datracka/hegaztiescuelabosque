@@ -2,12 +2,22 @@ import { css, tw } from "twind/css";
 import NavBar from "@/islands/NavBar.tsx";
 import SectionFooter from "@/components/Shared/SectionFooter.tsx";
 import Hero from "@/components/Shared/Hero.tsx";
+import { Head } from "$fresh/runtime.ts";
 import Faq from "@/components/WhoWeAreFaqs/Faq.tsx";
 
 export default function QuienesSomosFaqs() {
   const staticPath = "/imgs/who-we-are-faqs";
   return (
     <>
+      <Head>
+        <title>
+          Hegazti Escuela Bosque | Quienes Somos - Preguntas frecuentes
+        </title>
+        <meta
+          name="description"
+          content="Somos una escuela bosque que ofrece un enfoque educativo basado en el contacto con la naturaleza y el aprendizaje a través de la experiencia. Nuestro horario es de lunes a viernes de 9.00 a 14.00, y los grupos tienen diferentes ratios de acompañantes por persona. Para asistir a la escuela, se recomienda usar ropa cómoda y tener botas de agua y chubasquero en caso de lluvia. Contamos con un seguro de responsabilidad civil y un seguro laboral para los acompañantes. Los alumnos/as traen su propia comida. Pasamos la mayoría del tiempo afuera, aunque se valoran las condiciones climáticas y físicas del grupo. Las visitas a la escuela se hacen con cita previa. Las normas y límites son construidos por el grupo y se enfatiza la importancia de cuidarse y cuidar a los demás. Aunque existen riesgos al jugar en el bosque, se minimizan al máximo mediante el acompañamiento y el desarrollo de habilidades en el medio."
+        />
+      </Head>
       <NavBar />
       <Hero
         title="PREGUNTAS FRECUENTES"

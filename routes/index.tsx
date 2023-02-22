@@ -1,7 +1,7 @@
 import { HeadElement } from "@/components/HeadElement.tsx";
 import { css, tw } from "twind/css";
+import { Head } from "$fresh/runtime.ts";
 import { PageProps } from "$fresh/server.ts";
-import Header from "@/components/Header.tsx";
 import Hero from "@/components/Shared/Hero.tsx";
 import CallToAction from "@/components/Home/CallToAction.tsx";
 import SectionLearnInNature from "@/components/Home/SectionLearnInNature.tsx";
@@ -11,7 +11,6 @@ import SectionServices from "@/components/Home/SectionServices.tsx";
 import SectionFooter from "@/components/Shared/SectionFooter.tsx";
 import NavBar from "@/islands/NavBar.tsx";
 import SectionGallery from "@/components/Home/SectionGallery.tsx";
-import SectionExtracurricular from "@/components/Home/SectionExtracurricular.tsx";
 
 const bImage = css`
     background-color: transparent;
@@ -22,6 +21,14 @@ export default function Home(ctx: PageProps) {
   const { url } = ctx;
   return (
     <>
+      <Head>
+        <title>Hegazti Escuela Bosque | Home</title>
+        <meta
+          name="description"
+          content="Hegazti Escuela Bosque es una escuela que ofrece un enfoque educativo basado en el aprendizaje en la naturaleza y la conexión con el medio ambiente. Ofrecemos una variedad de servicios que incluyen Casitas Abejorro, del Bosque, del Árbol y Nido de Pájaro para niños y niñas de 0 a 12 años. También ofrecemos actividades extracurriculares como ludotecas de invierno, primavera y verano, y sábados en familia. En nuestra escuela, el aprendizaje es un proceso holístico que se vive de manera funcional y se integra en la vida cotidiana. Nuestros objetivos son promover el desarrollo integral de todas las personas involucradas y desarrollar la inteligencia emocional junto con la resolución de problemas. En nuestro aula viva, los niños pueden explorar, investigar y aprender en contacto directo con la naturaleza, mientras nuestros guías les brindan apoyo y herramientas para enriquecer su experiencia.
+"
+        />
+      </Head>
       <NavBar />
       <Hero
         title="Creciendo en la naturaleza"
