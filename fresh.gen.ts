@@ -22,11 +22,12 @@ import * as $$0 from "./islands/AnimatedMenuItem.tsx";
 import * as $$1 from "./islands/AnimatedMobileMenuItem.tsx";
 import * as $$2 from "./islands/CookieBanner.tsx";
 import * as $$3 from "./islands/Counter.tsx";
-import * as $$4 from "./islands/Hamburger.tsx";
-import * as $$5 from "./islands/MobileMenu.tsx";
-import * as $$6 from "./islands/NavBar.tsx";
-import * as $$7 from "./islands/SectionContact.tsx";
-import * as $$8 from "./islands/SectionMasInformacion.tsx";
+import * as $$4 from "./islands/Gtm.tsx";
+import * as $$5 from "./islands/Hamburger.tsx";
+import * as $$6 from "./islands/MobileMenu.tsx";
+import * as $$7 from "./islands/NavBar.tsx";
+import * as $$8 from "./islands/SectionContact.tsx";
+import * as $$9 from "./islands/SectionMasInformacion.tsx";
 
 const manifest = {
   routes: {
@@ -51,11 +52,12 @@ const manifest = {
     "./islands/AnimatedMobileMenuItem.tsx": $$1,
     "./islands/CookieBanner.tsx": $$2,
     "./islands/Counter.tsx": $$3,
-    "./islands/Hamburger.tsx": $$4,
-    "./islands/MobileMenu.tsx": $$5,
-    "./islands/NavBar.tsx": $$6,
-    "./islands/SectionContact.tsx": $$7,
-    "./islands/SectionMasInformacion.tsx": $$8,
+    "./islands/Gtm.tsx": $$4,
+    "./islands/Hamburger.tsx": $$5,
+    "./islands/MobileMenu.tsx": $$6,
+    "./islands/NavBar.tsx": $$7,
+    "./islands/SectionContact.tsx": $$8,
+    "./islands/SectionMasInformacion.tsx": $$9,
   },
   baseUrl: import.meta.url,
   config,
