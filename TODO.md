@@ -3,7 +3,7 @@
 - [ ] Improvements SEO
   - [ ] Add alt / title to images
     - [ ] Home (in process)
-    - [ ] Aula Madre
+    - [x] Aula Madre
     - [ ] Aula Infantil
     - [ ] Aula Primaria
     - [ ] Quienes Somos Espacios

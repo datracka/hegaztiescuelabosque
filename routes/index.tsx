@@ -26,12 +26,12 @@ export default function Home(ctx: PageProps) {
       <Hero
         title="Creciendo en la naturaleza"
         description="Hegazti Escuela Bosque"
-        backgroundImage="imgs/home/home-image-1.jpg"
+        backgroundImage="imgs/home/home-nino-riendo.jpg"
       />
       <SectionLearnInNature />
       <CallToAction
         title="MATRÍCULAS ABIERTAS"
-        backgroundImage="imgs/home/home-image-2.jpg"
+        backgroundImage="imgs/home/home-pina.jpg"
         buttonText="MÁS INFO"
         buttonLink="#"
       />
@@ -41,27 +41,27 @@ export default function Home(ctx: PageProps) {
         list={[{
           title: "PASEOS POR EL MONTE",
           description: "TODOS LOS DIAS",
-          image: "imgs/home/home-gallery-item-01.jpg",
+          image: "imgs/home/home-nino-riendo.jpg",
         }, {
           title: "ELEMENTOS NATURALES",
           description: "DESPERTANDO LA CURIOSIDAD",
-          image: "imgs/home/home-gallery-item-02.jpg",
+          image: "imgs/home/home-lagartija.jpg",
         }, {
           title: "CONSTRUYENDO JUNTOS",
           description: "TRABAJO EN EQUIPO",
-          image: "imgs/home/home-gallery-item-03.jpg",
+          image: "imgs/home/home-ninos-arboles.jpg",
         }, {
           title: "OBSERVACIÓN",
           description: "SEGUIENDO LOS CICLOS",
-          image: "imgs/home/home-gallery-item-04.jpg",
+          image: "imgs/home/home-lagartija.jpg",
         }, {
           title: "JUEGO LIBRE",
           description: "SIGUIENDO EL IMPULSO",
-          image: "imgs/home/home-gallery-item-05.jpg",
+          image: "imgs/home/home-pintar.jpg",
         }, {
           title: "CUIDANDO DE LOS CABALLOS",
           description: "RESPONSABILIDAD Y EMPATÍA",
-          image: "imgs/home/home-gallery-item-06.jpg",
+          image: "imgs/home/home-caballos.jpg",
         }]}
       />
       <SectionSaying
