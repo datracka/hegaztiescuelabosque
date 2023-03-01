@@ -21,7 +21,7 @@ export default function QuienesSomosProyecto() {
       <NavBar />
       <Hero
         title="NUESTRO PROYECTO"
-        description="Quienes somos - Proyecto"
+        description="Que nos ha llevado a construir Hegazti"
         backgroundImage={`${staticPath}/hero-quienes-somos-proyecto.jpg`}
       />
       <section
