@@ -35,7 +35,7 @@ const menu: menuType[] = [
     }],
   },
   {
-    name: "Mas información",
+    name: "Contacto",
     url: "mas-informacion",
   },
   {
