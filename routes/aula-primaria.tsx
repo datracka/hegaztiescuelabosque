@@ -7,7 +7,7 @@ import SectionSaying from "@/components/Shared/SectionSaying.tsx";
 import SectionGrid from "@/components/Shared/SectionGrid.tsx";
 
 export default function AulaPrimaria() {
-  const staticPath = "/imgs/primary-classroom";
+  const staticPath = "/imgs/aula-primaria";
   return (
     <>
       <Head>

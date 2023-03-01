@@ -5,7 +5,7 @@ import { Head } from "$fresh/runtime.ts";
 import Hero from "@/components/Shared/Hero.tsx";
 
 export default function AulaExtraescolaresLudoteca() {
-  const staticPath = "/imgs/extracurricular-toy-library";
+  const staticPath = "/imgs/aula-extraescolares-ludoteca";
   return (
     <>
       <Head>
@@ -17,7 +17,7 @@ export default function AulaExtraescolaresLudoteca() {
       </Head>
       <NavBar />
       <Hero
-        title="extraescolares - ludoteca"
+        title="LUDOTECA"
         description="Ludoteca para niños de 3 a 12 años."
         backgroundImage={`${staticPath}/hero-extraescolares-ludoteca.jpg`}
       />

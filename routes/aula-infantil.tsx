@@ -8,7 +8,7 @@ import SectionGrid from "@/components/Shared/SectionGrid.tsx";
 // import SectionCallToAction from "@/components/Shared/SectionCallToAction.tsx";
 
 export default function AulaInfantil() {
-  const staticPath = "/imgs/infant-classroom";
+  const staticPath = "/imgs/aula-infantil";
   return (
     <>
       <Head>

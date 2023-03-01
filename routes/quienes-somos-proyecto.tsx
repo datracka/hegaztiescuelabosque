@@ -6,7 +6,7 @@ import { Head } from "$fresh/runtime.ts";
 import Hero from "@/components/Shared/Hero.tsx";
 
 export default function QuienesSomosProyecto() {
-  const staticPath = "/imgs/who-we-are-project";
+  const staticPath = "/imgs/quienes-somos-proyecto";
   return (
     <>
       <Head>

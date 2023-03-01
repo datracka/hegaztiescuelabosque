@@ -6,7 +6,7 @@ import { Head } from "$fresh/runtime.ts";
 import Faq from "@/components/WhoWeAreFaqs/Faq.tsx";
 
 export default function QuienesSomosFaqs() {
-  const staticPath = "/imgs/who-we-are-faqs";
+  const staticPath = "/imgs/quienes-somos-faqs";
   return (
     <>
       <Head>
@@ -39,7 +39,7 @@ export default function QuienesSomosFaqs() {
         </Faq>
         <Faq
           question="¿Cuál es el ratio en cada grupo?"
-          img={`${staticPath}/horaraio-de-cada-grupo.jpg`}
+          img={`${staticPath}/horario-de-cada-grupo.jpg`}
         >
           <p className={tw("mb-4")}>
             En Casita Abejorro es de 4 personas por acompañante.

@@ -16,7 +16,8 @@
   - [ ] Resize Images
   - [ ] Images to webmp
 - [ ] Add Analytics
-- [ ] Redirect a Naroa
+- [ ] Redirect Email a Naroa
+- [ ] Add SEO recommendations from chatGPT
 
 Styling resources
 

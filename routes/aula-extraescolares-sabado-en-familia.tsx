@@ -5,7 +5,7 @@ import { Head } from "$fresh/runtime.ts";
 import Hero from "@/components/Shared/Hero.tsx";
 
 export default function AulaExtraescolaresSabadoEnFamilia() {
-  const staticPath = "/imgs/extracurricular-saturdays-with-the-family";
+  const staticPath = "/imgs/aula-extraescolares-sabados-en-familia";
   return (
     <>
       <Head>
@@ -19,8 +19,8 @@ export default function AulaExtraescolaresSabadoEnFamilia() {
       </Head>
       <NavBar />
       <Hero
-        title="Extraescolares - Sábados en Familia"
-        description="Sábados en familia, para vivir la naturaleza y la educación en familia."
+        title="SÁBADOS EN FAMILIA"
+        description="Para vivir la naturaleza y la educación en familia."
         backgroundImage={`${staticPath}/hero-extraescolares-sabados-en-familia.jpg`}
       />
       <section

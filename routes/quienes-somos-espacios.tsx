@@ -6,7 +6,7 @@ import SectionContent from "@/components/WhoWeAreSpaces/SectionContent.tsx";
 import SectionGrid from "@/components/Shared/SectionGrid.tsx";
 
 export default function QuienesSomosEspacios() {
-  const staticPath = "/imgs/who-we-are-spaces";
+  const staticPath = "/imgs/quienes-somos-espacios";
   return (
     <>
       <Head>

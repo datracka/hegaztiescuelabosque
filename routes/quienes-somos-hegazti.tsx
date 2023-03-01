@@ -6,7 +6,7 @@ import Hero from "@/components/Shared/Hero.tsx";
 import SectionContent from "@/components/WhoWeAreDayInHegazti/SectionContent.tsx";
 
 export default function QuienesSomosHegazti() {
-  const staticPath = "/imgs/who-we-are-day-in-hegazti";
+  const staticPath = "/imgs/quienes-somos-hegazti";
   return (
     <>
       <Head>

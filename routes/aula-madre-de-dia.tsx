@@ -12,7 +12,7 @@ export const config: RouteConfig = {
 };
 
 export default function AulaMadreDeDia() {
-  const staticPath = "/imgs/daily-mother-schoolroom";
+  const staticPath = "/imgs/aula-madre-de-dia";
   return (
     <>
       <Head>
