@@ -6,9 +6,9 @@
     - [x] Aula Madre
     - [x] Aula Infantil
     - [x] Aula Primaria
-    - [ ] Extraescolares - Ludoteca
-    - [ ] Extraescolares - Sabados en Familia
-    - [ ] Quienes Somos Espacios
+    - [x] Extraescolares - Ludoteca
+    - [x] Extraescolares - Sabados en Familia
+    - [x] Quienes Somos Espacios
     - [ ] Quienes Somos Proyecto
     - [ ] Quienes Somos Hegazti
     - [ ] Quienes Somos Faq
