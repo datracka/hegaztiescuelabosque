@@ -17,9 +17,9 @@ export default function AulaExtraescolaresLudoteca() {
       </Head>
       <NavBar />
       <Hero
-        title="EXTRAESCOLARES"
-        description="Ludoteca"
-        backgroundImage={`${staticPath}/hero-image.jpg`}
+        title="extraescolares - ludoteca"
+        description="Ludoteca para niños de 3 a 12 años."
+        backgroundImage={`${staticPath}/hero-extraescolares-ludoteca.jpg`}
       />
       <section
         className={tw(
@@ -40,7 +40,8 @@ export default function AulaExtraescolaresLudoteca() {
           className={tw`order-2 sm:order-1 sm:w-[48%] sm:flex-grow`}
         >
           <img
-            src={`${staticPath}/img-1.jpg`}
+            title="Adulto acompañando a niño en la naturaleza"
+            src={`${staticPath}/adulto-acompanando-nino-en-naturaleza.jpg`}
             className={tw("w-full mb-4 object-cover", css`aspect-ratio:1/1`)}
           />
         </div>

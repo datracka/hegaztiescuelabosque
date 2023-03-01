@@ -19,9 +19,9 @@ export default function AulaExtraescolaresSabadoEnFamilia() {
       </Head>
       <NavBar />
       <Hero
-        title="EXTRAESCOLARES"
-        description="Sábados en familia"
-        backgroundImage={`${staticPath}/hero-image.jpg`}
+        title="Extraescolares - Sábados en Familia"
+        description="Sábados en familia, para vivir la naturaleza y la educación en familia."
+        backgroundImage={`${staticPath}/hero-extraescolares-sabados-en-familia.jpg`}
       />
       <section
         className={tw(
@@ -60,6 +60,14 @@ export default function AulaExtraescolaresSabadoEnFamilia() {
           <br />
           Adultos: ENTRADA LIBRE
         </p>
+        <img
+          src={`${staticPath}/saltando-en-charcos.jpg`}
+          className={tw(
+            "w-full mb-4 object-cover",
+            css`aspect-ratio:16/5`,
+            css`${screen("sm")} {aspect-ratio:16/3}`,
+          )}
+        />
         <p className={tw("mb-8 text-center")}>
           <a
             href="#"
@@ -70,14 +78,6 @@ export default function AulaExtraescolaresSabadoEnFamilia() {
             MÁS INFORMACIÓN
           </a>
         </p>
-        <img
-          src={`${staticPath}/img-1.jpg`}
-          className={tw(
-            "w-full mb-4 object-cover",
-            css`aspect-ratio:16/5`,
-            css`${screen("sm")} {aspect-ratio:16/3}`,
-          )}
-        />
       </section>
       <SectionFooter />
     </>

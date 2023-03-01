@@ -5,7 +5,9 @@
     - [z] Home (in process)
     - [x] Aula Madre
     - [x] Aula Infantil
-    - [ ] Aula Primaria
+    - [x] Aula Primaria
+    - [ ] Extraescolares - Ludoteca
+    - [ ] Extraescolares - Sabados en Familia
     - [ ] Quienes Somos Espacios
     - [ ] Quienes Somos Proyecto
     - [ ] Quienes Somos Hegazti
