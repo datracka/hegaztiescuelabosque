@@ -22,7 +22,7 @@ export default function AulaInfantil() {
       <Hero
         title="INFANTIL"
         description="CASITA DEL BOSQUE"
-        backgroundImage={`${staticPath}/hero-image.jpg`}
+        backgroundImage={`${staticPath}/hero-casita-del-bosque.jpg`}
       />
       <SectionContent staticPath={staticPath} />
       {
@@ -40,14 +40,35 @@ export default function AulaInfantil() {
       />
       <SectionGrid
         list={[
-          { alt: "Infantial 1", img: `${staticPath}/infantil-01.jpg` },
-          { alt: "Infantial 2", img: `${staticPath}/infantil-02.jpg` },
-          { alt: "Infantial 3", img: `${staticPath}/infantil-03.jpg` },
-          { alt: "Infantial 4", img: `${staticPath}/infantil-04.jpg` },
-          { alt: "Infantial 5", img: `${staticPath}/infantil-05.jpg` },
-          { alt: "Infantial 6", img: `${staticPath}/infantil-06.jpg` },
-          { alt: "Infantial 7", img: `${staticPath}/infantil-07.jpg` },
-          { alt: "Infantial 8", img: `${staticPath}/infantil-08.jpg` },
+          {
+            alt: "Niñas acariciando caballos",
+            img: `${staticPath}/ninas-acariciando-caballos.jpg`,
+          },
+          {
+            alt: "Mano con lagartija",
+            img: `${staticPath}/mano-con-lagartija.jpg`,
+          },
+          { alt: "Yurta", img: `${staticPath}/yurta.jpg` },
+          {
+            alt: "Haciendo pasteles juntos",
+            img: `${staticPath}/haciendo-pasteles-juntos.jpg`,
+          },
+          {
+            alt: "Jugando en el rio",
+            img: `${staticPath}/jugando-en-el-rio.jpg`,
+          },
+          {
+            alt: "Paseando por el campo",
+            img: `${staticPath}/paseando-por-el-campo.jpg`,
+          },
+          {
+            alt: "Haciendo figuras de barro",
+            img: `${staticPath}/haciendo-figuras-de-barro.jpg`,
+          },
+          {
+            alt: "Jugando en la yurta",
+            img: `${staticPath}/jugando-en-la-yurta.jpg`,
+          },
         ]}
       />
       <SectionFooter />

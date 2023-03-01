@@ -2,7 +2,7 @@
 
 - [ ] Improvements SEO
   - [ ] Add alt / title to images
-    - [ ] Home (in process)
+    - [z] Home (in process)
     - [x] Aula Madre
     - [ ] Aula Infantil
     - [ ] Aula Primaria
