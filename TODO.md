@@ -9,14 +9,14 @@
     - [x] Extraescolares - Ludoteca
     - [x] Extraescolares - Sabados en Familia
     - [x] Quienes Somos Espacios
-    - [ ] Quienes Somos Proyecto
-    - [ ] Quienes Somos Hegazti
+    - [x] Quienes Somos Proyecto
+    - [x] Quienes Somos Hegazti
     - [ ] Quienes Somos Faq
 - [ ] Improvements performance
   - [ ] Resize Images
   - [ ] Images to webmp
 - [ ] Add Analytics
-- [ ] Add daisy UI
+- [ ] Redirect a Naroa
 
 Styling resources
 

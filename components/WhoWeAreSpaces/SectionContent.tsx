@@ -20,7 +20,8 @@ const SectionContent = ({ staticPath }: ContentProps) => (
       className={tw`order-2 sm:order-1 sm:w-[48%] sm:flex-grow`}
     >
       <img
-        src={`${staticPath}/img-1.jpg`}
+        title="Niño con caracola"
+        src={`${staticPath}/nino-con-caracola.jpg`}
         className={tw("w-full mb-4 object-cover", css`aspect-ratio:1/1`)}
       />
       <SectionSaying
@@ -28,7 +29,8 @@ const SectionContent = ({ staticPath }: ContentProps) => (
         author="JEAN-JACQUES"
       />
       <img
-        src={`${staticPath}/img-2.jpg`}
+        title="Manos conjuntas"
+        src={`${staticPath}/manos-conjuntas.jpg`}
         className={tw("w-full object-cover", css`aspect-ratio:1/1`)}
       />
     </div>

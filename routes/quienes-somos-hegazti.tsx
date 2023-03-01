@@ -21,7 +21,7 @@ export default function QuienesSomosHegazti() {
       <NavBar />
       <Hero
         title="UN DIA EN HEGAZTI"
-        description=""
+        description="Quienes Somos - Naturaleza y espacios"
         backgroundImage={`${staticPath}/hero-image.jpg`}
       />
 
