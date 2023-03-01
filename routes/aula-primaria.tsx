@@ -2,7 +2,7 @@ import NavBar from "@/islands/NavBar.tsx";
 import SectionFooter from "@/components/Shared/SectionFooter.tsx";
 import Hero from "@/components/Shared/Hero.tsx";
 import { Head } from "$fresh/runtime.ts";
-import SectionContent from "@/components/InfantClassroom/SectionContent.tsx";
+import SectionContent from "@/components/PrimaryClassroom/SectionContent.tsx";
 import SectionSaying from "@/components/Shared/SectionSaying.tsx";
 import SectionGrid from "@/components/Shared/SectionGrid.tsx";
 
@@ -21,7 +21,7 @@ export default function AulaPrimaria() {
       <Hero
         title="PRIMARIA"
         description="CASITA DEL ÁRBOL & NIDO DE PÁJARO"
-        backgroundImage={`${staticPath}/hero-image.jpg`}
+        backgroundImage={`${staticPath}/hero-primaria-pies-nino.jpg`}
       />
       <SectionContent staticPath={staticPath} />
       <SectionSaying
@@ -30,14 +30,26 @@ export default function AulaPrimaria() {
       />
       <SectionGrid
         list={[
-          { alt: "Primaria 1", img: `${staticPath}/primaria-01.jpg` },
-          { alt: "Primaria 2", img: `${staticPath}/primaria-02.jpg` },
-          { alt: "Primaria 3", img: `${staticPath}/primaria-03.jpg` },
-          { alt: "Primaria 4", img: `${staticPath}/primaria-04.jpg` },
-          { alt: "Primaria 5", img: `${staticPath}/primaria-05.jpg` },
-          { alt: "Primaria 6", img: `${staticPath}/primaria-06.jpg` },
-          { alt: "Primaria 7", img: `${staticPath}/primaria-07.jpg` },
-          { alt: "Primaria 8", img: `${staticPath}/primaria-08.jpg` },
+          { alt: "Yurta", img: `${staticPath}/yurta.jpg` },
+          { alt: "Niña leyendo", img: `${staticPath}/nina-leyendo.jpg` },
+          {
+            alt: "Corazón de piedras",
+            img: `${staticPath}/corazon-de-piedras.jpg`,
+          },
+          {
+            alt: "Caballos pastando",
+            img: `${staticPath}/caballos-pastando.jpg`,
+          },
+          {
+            alt: "Manos llenas de barro",
+            img: `${staticPath}/manos-llenas-de-barro.jpg`,
+          },
+          { alt: "Cabritas", img: `${staticPath}/cabritas.jpg` },
+          {
+            alt: "Espacio para jugar",
+            img: `${staticPath}/espacio-para-jugar.jpg`,
+          },
+          { alt: "Vocales", img: `${staticPath}/vocales.jpg` },
         ]}
       />
       <SectionFooter />

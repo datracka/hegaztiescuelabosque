@@ -4,7 +4,7 @@
   - [ ] Add alt / title to images
     - [z] Home (in process)
     - [x] Aula Madre
-    - [ ] Aula Infantil
+    - [x] Aula Infantil
     - [ ] Aula Primaria
     - [ ] Quienes Somos Espacios
     - [ ] Quienes Somos Proyecto
