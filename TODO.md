@@ -1,19 +1,23 @@
 # TODO
 
-- [ ] Typescript -> variable iframe!
-- [ ] Add daisy UI
-
-* daisyui should be added as a plugin of twind
-* daisuui is just css a plugin in
-* twind is basically a set of csss
-
+- [ ] Improvements SEO
+  - [ ] Add alt / title to images
+    - [z] Home (in process)
+    - [x] Aula Madre
+    - [x] Aula Infantil
+    - [x] Aula Primaria
+    - [x] Extraescolares - Ludoteca
+    - [x] Extraescolares - Sabados en Familia
+    - [x] Quienes Somos Espacios
+    - [x] Quienes Somos Proyecto
+    - [x] Quienes Somos Hegazti
+    - [ ] Quienes Somos Faq
+- [ ] Improvements performance
+  - [ ] Resize Images
+  - [ ] Images to webmp
 - [ ] Add Analytics
-
-## Others
-
-- [ ] Style Navbar following [hegazti](https://www.hegaztiescuelabosque.org/)and
-      (document
-      structure)[https://docs.google.com/document/d/1fuX4mLE3RlHCdIch2idxoCOCbH2If6hxQPkZwCQV3WA/edit?usp=sharing]
+- [ ] Redirect Email a Naroa
+- [ ] Add SEO recommendations from chatGPT
 
 Styling resources
 

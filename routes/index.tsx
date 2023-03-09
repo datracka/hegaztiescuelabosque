@@ -1,7 +1,5 @@
-import { HeadElement } from "@/components/HeadElement.tsx";
-import { css, tw } from "twind/css";
+import { Head } from "$fresh/runtime.ts";
 import { PageProps } from "$fresh/server.ts";
-import Header from "@/components/Header.tsx";
 import Hero from "@/components/Shared/Hero.tsx";
 import CallToAction from "@/components/Home/CallToAction.tsx";
 import SectionLearnInNature from "@/components/Home/SectionLearnInNature.tsx";
@@ -11,27 +9,29 @@ import SectionServices from "@/components/Home/SectionServices.tsx";
 import SectionFooter from "@/components/Shared/SectionFooter.tsx";
 import NavBar from "@/islands/NavBar.tsx";
 import SectionGallery from "@/components/Home/SectionGallery.tsx";
-import SectionExtracurricular from "@/components/Home/SectionExtracurricular.tsx";
-
-const bImage = css`
-    background-color: transparent;
-    background-image: url("https://images.unsplash.com/photo-1454496522488-7a8e488e8606?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1955&q=80");
-`;
 
 export default function Home(ctx: PageProps) {
   const { url } = ctx;
   return (
     <>
+      <Head>
+        <title>Hegazti Escuela Bosque | Home</title>
+        <meta
+          name="description"
+          content="Hegazti Escuela Bosque es una escuela que ofrece un enfoque educativo basado en el aprendizaje en la naturaleza y la conexión con el medio ambiente. Ofrecemos una variedad de servicios que incluyen Casitas Abejorro, del Bosque, del Árbol y Nido de Pájaro para niños y niñas de 0 a 12 años. También ofrecemos actividades extracurriculares como ludotecas de invierno, primavera y verano, y sábados en familia. En nuestra escuela, el aprendizaje es un proceso holístico que se vive de manera funcional y se integra en la vida cotidiana. Nuestros objetivos son promover el desarrollo integral de todas las personas involucradas y desarrollar la inteligencia emocional junto con la resolución de problemas. En nuestro aula viva, los niños pueden explorar, investigar y aprender en contacto directo con la naturaleza, mientras nuestros guías les brindan apoyo y herramientas para enriquecer su experiencia.
+"
+        />
+      </Head>
       <NavBar />
       <Hero
         title="Creciendo en la naturaleza"
         description="Hegazti Escuela Bosque"
-        backgroundImage="imgs/home/home-image-1.jpg"
+        backgroundImage="imgs/home/home-nino-riendo.jpg"
       />
       <SectionLearnInNature />
       <CallToAction
         title="MATRÍCULAS ABIERTAS"
-        backgroundImage="imgs/home/home-image-2.jpg"
+        backgroundImage="imgs/home/home-pina.jpg"
         buttonText="MÁS INFO"
         buttonLink="#"
       />
@@ -41,27 +41,27 @@ export default function Home(ctx: PageProps) {
         list={[{
           title: "PASEOS POR EL MONTE",
           description: "TODOS LOS DIAS",
-          image: "imgs/home/home-gallery-item-01.jpg",
+          image: "imgs/home/home-nino-riendo.jpg",
         }, {
           title: "ELEMENTOS NATURALES",
           description: "DESPERTANDO LA CURIOSIDAD",
-          image: "imgs/home/home-gallery-item-02.jpg",
+          image: "imgs/home/home-lagartija.jpg",
         }, {
           title: "CONSTRUYENDO JUNTOS",
           description: "TRABAJO EN EQUIPO",
-          image: "imgs/home/home-gallery-item-03.jpg",
+          image: "imgs/home/home-ninos-arboles.jpg",
         }, {
           title: "OBSERVACIÓN",
           description: "SEGUIENDO LOS CICLOS",
-          image: "imgs/home/home-gallery-item-04.jpg",
+          image: "imgs/home/home-lagartija.jpg",
         }, {
           title: "JUEGO LIBRE",
           description: "SIGUIENDO EL IMPULSO",
-          image: "imgs/home/home-gallery-item-05.jpg",
+          image: "imgs/home/home-pintar.jpg",
         }, {
           title: "CUIDANDO DE LOS CABALLOS",
           description: "RESPONSABILIDAD Y EMPATÍA",
-          image: "imgs/home/home-gallery-item-06.jpg",
+          image: "imgs/home/home-caballos.jpg",
         }]}
       />
       <SectionSaying

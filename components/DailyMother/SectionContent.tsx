@@ -20,18 +20,20 @@ const SectionContent = ({ staticPath }: ContentProps) => (
       className={tw`order-2 sm:order-1 sm:w-[48%] sm:flex-grow`}
     >
       <img
-        src={`${staticPath}/img-1.jpg`}
+        title="Casita Abejorro, jugando juntos"
+        src={`${staticPath}/casita-abejorro-jugando-juntos.jpg`}
         className={tw("w-full mb-4 object-cover", css`aspect-ratio:1/1`)}
       />
       <img
-        src={`${staticPath}/img-2.jpg`}
+        title="Casita Abejorro, niña curiosa"
+        src={`${staticPath}/casita-abejorro-nina-curiosa.jpg`}
         className={tw("w-full object-cover", css`aspect-ratio:1/1`)}
       />
     </div>
     <div className={tw`order-1 sm:w-[48%] sm:flex-grow`}>
       <h2 title="Casita Abejorro">
         <img
-          src={`${staticPath}/logo-abejorros2.jpg`}
+          src={`${staticPath}/logo-abejorros.jpg`}
           className={tw("w-full mb-4")}
           alt="Casita Abejorro"
         />
@@ -66,7 +68,8 @@ const SectionContent = ({ staticPath }: ContentProps) => (
         vida, de manera orgánica y natural.
       </p>
       <img
-        src={`${staticPath}/img-3.jpg`}
+        title="La Yurta"
+        src={`${staticPath}/casita-abejorro-la-yurta.jpg`}
         className={tw("mt-auto obejct-cover", css`aspect-ratio:1/1`)}
       />
     </div>
@@ -83,7 +86,8 @@ const SectionContent = ({ staticPath }: ContentProps) => (
         nos rodean.
       </p>
       <img
-        src={`${staticPath}/img-4.jpg`}
+        title="Casita Abejorro, madre y niños"
+        src={`${staticPath}/casita-abejorro-madre-y-ninos.jpg`}
         className={tw("mt-auto object-cover", css`aspect-ratio:1/1`)}
       />
     </div>

@@ -20,11 +20,13 @@ const SectionContent = ({ staticPath }: ContentProps) => (
       className={tw`order-2 sm:order-1 sm:w-[48%] sm:flex-grow`}
     >
       <img
-        src={`${staticPath}/img-1.jpg`}
+        title="Niña recogiendo flores"
+        src={`${staticPath}/nina-recogiendo-flores.jpg`}
         className={tw("w-full mb-4 object-cover", css`aspect-ratio:1/1`)}
       />
       <img
-        src={`${staticPath}/img-2.jpg`}
+        title="Niños aprendiendo y leyendo"
+        src={`${staticPath}/ninos-aprendiendo-y-leyendo.jpg`}
         className={tw("w-full object-cover", css`aspect-ratio:1/1`)}
       />
     </div>

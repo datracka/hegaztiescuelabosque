@@ -1,10 +1,17 @@
-import { css, tw } from "twind/css";
+import { tw } from "twind/css";
 import NavBar from "@/islands/NavBar.tsx";
+import { Head } from "$fresh/runtime.ts";
 import SectionFooter from "@/components/Shared/SectionFooter.tsx";
 
 export default function avisoLegal() {
   return (
     <>
+      <Head>
+        <title>
+          Hegazti Escuela Bosque | Aviso Legal
+        </title>
+        <meta name="robots" content="noindex" />
+      </Head>
       <NavBar />
       <section
         className={tw(

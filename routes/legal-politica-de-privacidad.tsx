@@ -1,5 +1,6 @@
 import { css, tw } from "twind/css";
 import NavBar from "@/islands/NavBar.tsx";
+import { Head } from "$fresh/runtime.ts";
 import SectionFooter from "@/components/Shared/SectionFooter.tsx";
 import Hero from "@/components/Shared/Hero.tsx";
 import Faq from "@/components/WhoWeAreFaqs/Faq.tsx";
@@ -7,6 +8,12 @@ import Faq from "@/components/WhoWeAreFaqs/Faq.tsx";
 export default function politicaDePrivacidad() {
   return (
     <>
+      <Head>
+        <title>
+          Hegazti Escuela Bosque | Politica de privacidad
+        </title>
+        <meta name="robots" content="noindex" />
+      </Head>
       <NavBar />
       <section
         className={tw(

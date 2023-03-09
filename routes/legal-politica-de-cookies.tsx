@@ -1,12 +1,17 @@
 import { css, tw } from "twind/css";
 import NavBar from "@/islands/NavBar.tsx";
 import SectionFooter from "@/components/Shared/SectionFooter.tsx";
-import Hero from "@/components/Shared/Hero.tsx";
-import Faq from "@/components/WhoWeAreFaqs/Faq.tsx";
+import { Head } from "$fresh/runtime.ts";
 
 export default function politicaDeCookies() {
   return (
     <>
+      <Head>
+        <title>
+          Hegazti Escuela Bosque | Cookies
+        </title>
+        <meta name="robots" content="noindex" />
+      </Head>
       <NavBar />
       <section
         className={tw(

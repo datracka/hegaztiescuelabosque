@@ -2,10 +2,18 @@ import { tw } from "twind/css";
 import NavBar from "@/islands/NavBar.tsx";
 import SectionFooter from "@/components/Shared/SectionFooter.tsx";
 import SectionMasInformacion from "@/islands/SectionMasInformacion.tsx";
+import { Head } from "$fresh/runtime.ts";
 
 export default function MasInformacion() {
   return (
     <>
+      <Head>
+        <title>Hegazti Escuela Bosque | Mas Información</title>
+        <meta
+          name="description"
+          content="Formulario para preguntar por más información."
+        />
+      </Head>
       <NavBar />
       <section
         className={tw(

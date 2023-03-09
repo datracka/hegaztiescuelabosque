@@ -10,7 +10,11 @@ const WhereAreWe = () => (
       Estamos ubicados en el Paraje de Valdearas a 1 kilómetro de Viana y a 9 km
       de Logroño.
     </p>
-    <img src="imgs/google-maps-location.jpg" class={tw`w-full mb-4`} />
+    <img
+      title="¿Donde estamos?"
+      src="imgs/google-maps-location.jpg"
+      class={tw`w-full mb-4`}
+    />
     <p class={tw(`mb-4`)}>
       <strong className={tw`font-bold`}>Horario de Escuela Bosque:</strong>
       <br />
