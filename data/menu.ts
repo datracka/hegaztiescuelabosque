@@ -39,7 +39,7 @@ const menu: menuType[] = [
     url: "mas-informacion",
   },
   {
-    name: "blog",
+    name: "Blog",
     url: "//blog.hegaztiescuelabosque.org",
   },
 ];
