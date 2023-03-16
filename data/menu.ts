@@ -40,7 +40,7 @@ const menu: menuType[] = [
   },
   {
     name: "blog",
-    url: "//blog.hegaztiescuelabosque.com",
+    url: "//blog.hegaztiescuelabosque.org",
   },
 ];
 
