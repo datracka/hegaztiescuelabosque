@@ -39,11 +39,12 @@ const SectionContent = ({ staticPath }: ContentProps) => (
         />
       </h2>
       <p>
-        En la Casita Abejorro, las niñas y niños de 0 a 3 años, pueden vivenciar
-        cada día un espacio de calma y respeto en contacto con la naturaleza.
-        Creemos que las niñas y los niños son seres completos que necesitan un
-        lugar seguro y amoroso en el que desarrollarse y crecer de manera sana,
-        en contacto con la naturaleza y con sus propias necesidades.
+        En la Casita Abejorro, las niñas y niños de 18 meses a 3 años, pueden
+        vivenciar cada día un espacio de calma y respeto en contacto con la
+        naturaleza. Creemos que las niñas y los niños son seres completos que
+        necesitan un lugar seguro y amoroso en el que desarrollarse y crecer de
+        manera sana, en contacto con la naturaleza y con sus propias
+        necesidades.
       </p>
       <h3 className={tw("hegazti-h3 my-8 p-8 border-l-1")}>
         GENERAMOS EXPERIENCIAS PARA QUE DESCUBRAN EL MUNDO DE MANERA INTEGRADA,
