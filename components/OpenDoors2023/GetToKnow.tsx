@@ -10,7 +10,7 @@ const GetToKnow = () => (
         <p className="mb-4">
           ¡Bienvenidos a la Jornada de Puertas Abiertas de la Escuela Bosque
           Hegazti! Te invitamos a unirte a nosotros para descubrir nuestra
-          manera única de enseñar
+          manera única de enseñar.
         </p>
         <p className={tw`mb-4`}>
           En la Escuela Bosque Hegazti, creemos en la libertad y la naturaleza
