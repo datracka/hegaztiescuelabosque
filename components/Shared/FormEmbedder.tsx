@@ -15,7 +15,7 @@ const FromEmbedder = ({ src }: { src: string }) => {
   const handleIframeMessage = ({ data: message }: {
     data: string;
   }) => {
-    console.log("message", message);
+    // console.log("message", message);
     if (!isObject(message) && iframeRef.current) {
       const i = message.indexOf(":");
       const first_half = message.substring(0, i);
