@@ -1,10 +1,11 @@
-export type menuType = {
+export type menuTypeProps = {
   name: string;
   url?: string;
   subOptions?: { url: string; name: string }[];
+  highlighted?: boolean;
 };
 
-const menu: menuType[] = [
+const menu: menuTypeProps[] = [
   {
     name: "El bosque como aula",
     subOptions: [{ url: "aula-madre-de-dia", name: "Madre de día" }, {
@@ -37,6 +38,11 @@ const menu: menuType[] = [
   {
     name: "Contacto",
     url: "mas-informacion",
+  },
+  {
+    name: "Jornada de puertas abiertas",
+    url: "jornada-puertas-abiertas-2023",
+    highlighted: true,
   },
   {
     name: "Blog",
