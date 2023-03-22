@@ -36,6 +36,10 @@ const GetToKnow = () => (
           viva es el ambiente perfecto para nutrir la curiosidad y la conexión
           con el mundo. ¡Esperamos verte pronto en la Escuela Bosque Hegazti!
         </p>
+        <p className={tw`mb-12`}>
+          Llámanos al 697 24 57 75 o envíanos un email a
+          hegaztiescuelabosque@gmail.com si quieres saber más. ¡Te esperamos!
+        </p>
       </div>
     </div>
   </section>

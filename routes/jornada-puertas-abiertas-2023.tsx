@@ -20,18 +20,10 @@ export default function JornadaPuertasAbiertas() {
       <NavBar />
       <Hero
         title="Jornada de puertas abiertas"
-        description="21 y 22 de Abril en Viana Navarra... Desarrollo, Ritmos, Vivencias, Ven a vivir la experiencia!"
+        description="21 y 22 de Abril en Viana Navarra... Desarrollo, Ritmos, Vivencias, ¡Ven a vivir la experiencia!"
         backgroundImage={`${staticPath}/ninos-jugando.jpg`}
       />
       <GetToKnow />
-      <section
-        className={tw`mx-auto max-w-7xl px-2 sm:px-6 lg:px-8`}
-      >
-        <h1 className={tw`hegazti-h1 text-left! py-8`}>
-          VEN A CONOCERNOS
-        </h1>
-        <SectionMasInformacion />
-      </section>
       <SectionFooter />
     </>
   );
