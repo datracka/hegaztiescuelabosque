@@ -1,4 +1,4 @@
-import { useEffect, useRef } from "preact/hooks";
+import { useEffect, useRef, useState } from "preact/hooks";
 import { css, tw } from "twind/css";
 
 const iframeStyle = css({ overflow: "hidden", border: "none", width: "100%" });
@@ -11,22 +11,29 @@ const isObject = (data: string) => {
 
 const FromEmbedder = ({ src }: { src: string }) => {
   const iframeRef = useRef<HTMLIFrameElement>(null);
+  const [filled, setFilled] = useState(false);
 
   const handleIframeMessage = ({ data: message }: {
     data: string;
   }) => {
-    // console.log("message", message);
-    if (!isObject(message) && iframeRef.current) {
+    if (!isObject(message) && iframeRef.current && !filled) {
       const i = message.indexOf(":");
-      const first_half = message.substring(0, i);
-      const second_half = message.substring(i + 1);
-      const json_object = JSON.parse(second_half);
-      switch (first_half) {
-        case "formsapp-setHeight":
-          iframeRef.current.height = json_object.height + 2;
-          break;
-        default:
-          console.log("do nothing");
+      if (i !== -1) {
+        const first_half = message.substring(0, i);
+        const second_half = message.substring(i + 1);
+        const json_object = JSON.parse(second_half);
+        switch (first_half) {
+          case "formsapp-setHeight":
+            iframeRef.current.height = json_object.height + 2;
+            break;
+          default:
+            console.log("do nothing");
+        }
+      } else {
+        if (message === "formSubmitted") {
+          console.log("formSubmitted");
+          setFilled(true);
+        }
       }
     }
   };
