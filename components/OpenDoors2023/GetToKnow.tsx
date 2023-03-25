@@ -36,10 +36,15 @@ const GetToKnow = () => (
           viva es el ambiente perfecto para nutrir la curiosidad y la conexión
           con el mundo. ¡Esperamos verte pronto en la Escuela Bosque Hegazti!
         </p>
-        <p className={tw`mb-12`}>
+        <p className={tw`mb-4`}>
           Llámanos al 697 24 57 75 o envíanos un email a
           hegaztiescuelabosque@gmail.com si quieres saber más. ¡Te esperamos!
         </p>
+        <img
+          className={tw`mb-12`}
+          src="/imgs/jornada-puertas-abiertas-2023/cartel.png"
+          alt="hero"
+        />
       </div>
     </div>
   </section>
