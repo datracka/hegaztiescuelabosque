@@ -42,9 +42,16 @@ const GetToKnow = () => (
         </p>
         <img
           className={tw`mb-12`}
-          src="/imgs/jornada-puertas-abiertas-2023/cartel.png"
+          src="/imgs/jornada-puertas-abiertas-2023/puertas_abiertas.png"
           alt="hero"
         />
+        {
+          /*  <img
+          className={tw`mb-12`}
+          src="/imgs/jornada-puertas-abiertas-2023/cartel.png"
+          alt="hero"
+        /> */
+        }
       </div>
     </div>
   </section>

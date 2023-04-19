@@ -19,7 +19,7 @@ export default function JornadaPuertasAbiertas() {
       </Head>
       <NavBar />
       <Hero
-        title="Jornada de puertas abiertas 17 y 21 de Abril"
+        title="Jornada de puertas abiertas 21 y 22 de Abril"
         description="Desarrollo, Ritmos, Vivencias, ¡Ven a vivir la experiencia!"
         backgroundImage={`${staticPath}/ninos-jugando.jpg`}
       />
