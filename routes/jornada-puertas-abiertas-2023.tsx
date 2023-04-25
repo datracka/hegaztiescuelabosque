@@ -11,15 +11,15 @@ export default function JornadaPuertasAbiertas() {
   return (
     <>
       <Head>
-        <title>Hegazti Escuela Bosque | Jornada de pueetas abiertas</title>
+        <title>Hegazti Escuela Bosque | Ven a Conocernos</title>
         <meta
           name="description"
-          content="El próximo mes, los dias 17 y 21 de Abril, tendremos una jornada de puertas abiertas para que puedas conocer nuestra escuela y nuestro proyecto educativo."
+          content="El próximo mes, el dia 14 de Mayo, tendremos una jornada de puertas abiertas para que puedas conocer nuestra escuela y nuestro proyecto educativo."
         />
       </Head>
       <NavBar />
       <Hero
-        title="Jornada de puertas abiertas 21 y 22 de Abril"
+        title="Jornada de puertas abiertas 14 de Mayo"
         description="Desarrollo, Ritmos, Vivencias, ¡Ven a vivir la experiencia!"
         backgroundImage={`${staticPath}/ninos-jugando.jpg`}
       />
