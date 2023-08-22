@@ -1,6 +1,7 @@
 export type menuTypeProps = {
   name: string;
   url?: string;
+  target?: string;
   subOptions?: { url: string; name: string }[];
   highlighted?: boolean;
 };
@@ -58,6 +59,12 @@ const menu: menuTypeProps[] = [
   {
     name: "Blog",
     url: "//blog.hegaztiescuelabosque.org",
+    target: "_blank",
+  },
+  {
+    name: "Calendario Escolar 23/24",
+    url: "//docs.google.com/document/d/1XqFKeLvVd8WmztnCU26WADujMDG91ETA/edit?usp=sharing&ouid=118369217814042900460&rtpof=true&sd=true",
+    target: "_blank",
   },
 ];
 

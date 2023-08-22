@@ -4,11 +4,14 @@ import { JSX } from "preact/jsx-runtime";
 type MenuItemProps = {
   name: string;
   url?: string;
+  target?: string;
   children?: JSX.Element;
   highlighted?: boolean;
 };
 
-export default function MenuItem({ url, name, highlighted }: MenuItemProps) {
+export default function MenuItem(
+  { url, name, highlighted, target }: MenuItemProps,
+) {
   return (
     <li
       role="menuitem"
@@ -18,6 +21,7 @@ export default function MenuItem({ url, name, highlighted }: MenuItemProps) {
     >
       <a
         href={url}
+        target={target}
         aria-current="page"
       >
         {name}
