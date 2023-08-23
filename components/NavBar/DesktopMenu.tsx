@@ -20,6 +20,7 @@ export default function () {
               name={menuOption.name}
               url={menuOption.url}
               highlighted={menuOption.highlighted}
+              target={menuOption.target}
             />
           )
       ))}
