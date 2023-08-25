@@ -63,7 +63,7 @@ const menu: menuTypeProps[] = [
   },
   {
     name: "Calendario Escolar 23/24",
-    url: "//docs.google.com/document/d/1XqFKeLvVd8WmztnCU26WADujMDG91ETA/edit?usp=sharing&ouid=118369217814042900460&rtpof=true&sd=true",
+    url: "//docs.google.com/document/d/1Dk-Hd-NI8Y8oh9TxotYUyBzqWnu9dXUMpjkJ1dkAsCY/edit?usp=sharing",
     target: "_blank",
   },
 ];
