@@ -9,6 +9,11 @@ import SectionServices from "@/components/Home/SectionServices.tsx";
 import SectionFooter from "@/components/Shared/SectionFooter.tsx";
 import NavBar from "@/islands/NavBar.tsx";
 import SectionGallery from "@/components/Home/SectionGallery.tsx";
+import t, { i18n } from "@/components/i18n.ts";
+
+const title = t("es"); // or t("en")
+console.log(title("home.title")); // based on the passed locale
+console.log(i18n.t("home.title")); // based on current locale
 
 export default function Home(ctx: PageProps) {
   const { url } = ctx;
