@@ -1,5 +1,13 @@
 # TODO
 
+## Localization
+
+- [ ] Think how to set all texts in json in an order way
+- [ ] Translate to english
+- [ ] Switch to another language with a flag
+
+## Others
+
 - [ ] Improvements SEO
   - [ ] Add alt / title to images
     - [z] Home (in process)
@@ -31,8 +39,6 @@ Styling resources
 - [ ] Create state so we know which menu main option selected (not necessary)
 - [ ] Hover when selecting an item in sub menu
 - [ ] Create common Hero for all of them
-
-- [ ] Add localization paths https://phrase.com/blog/posts/website-i18n-deno/
 
 https://stackoverflow.com/questions/66703855/how-can-i-localize-routes-with-the-nextjs-and-next-i18next-like-an-url-alias
 
