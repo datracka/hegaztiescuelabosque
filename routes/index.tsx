@@ -9,14 +9,13 @@ import SectionServices from "@/components/Home/SectionServices.tsx";
 import SectionFooter from "@/components/Shared/SectionFooter.tsx";
 import NavBar from "@/islands/NavBar.tsx";
 import SectionGallery from "@/components/Home/SectionGallery.tsx";
-import t, { i18n } from "@/components/i18n.ts";
+import getFixedT, { i18n } from "@/components/i18n.ts";
 
-const title = t("es"); // or t("en")
-console.log(title("home.title")); // based on the passed locale
-console.log(i18n.t("home.title")); // based on current locale
+export default function Home({ url }: PageProps) {
+  const u = new URL(url);
+  const language = u.searchParams.get("language");
+  const t = getFixedT(language);
 
-export default function Home(ctx: PageProps) {
-  const { url } = ctx;
   return (
     <>
       <Head>
@@ -27,10 +26,10 @@ export default function Home(ctx: PageProps) {
 "
         />
       </Head>
-      <NavBar />
+      <NavBar language={language} />
       <Hero
-        title="Creciendo en la naturaleza"
-        description="Hegazti Escuela Bosque"
+        title={t("home.title")}
+        description={t("home.subtitle")}
         backgroundImage="imgs/home/home-nino-riendo.jpg"
       />
       <SectionLearnInNature />

@@ -1,6 +1,7 @@
 {
   "home": {
-    "title": "Hello World!!!"
+    "title": "Growing with the nature",
+    "subtitle": "HEGAZTI ESCUELA BOSQUE"
   },
   "server": {
     "started": "The server serves on port {{port}}."

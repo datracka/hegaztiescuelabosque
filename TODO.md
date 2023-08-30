@@ -2,6 +2,12 @@
 
 ## Localization
 
+- [ ] Issue with changing language
+
+https://phrase.com/blog/posts/website-i18n-deno/
+https://fresh.deno.dev/docs/concepts/middleware example middleware:
+https://fresh.deno.dev/docs/examples/using-deno-kv-oauth
+
 - [ ] Think how to set all texts in json in an order way
 - [ ] Translate to english
 - [ ] Switch to another language with a flag

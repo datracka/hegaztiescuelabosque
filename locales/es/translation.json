@@ -1,8 +1,9 @@
 {
   "home": {
-    "title": "Hola Mundo!!!"
+    "title": "Creciendo en la naturaleza",
+    "subtitle": "HEGAZTI ESCUELA BOSQUE"
   },
   "server": {
-    "started": "El servidor sirve en puerto {{port}}."
+    "started": "The server serves on port {{port}}."
   }
 }
