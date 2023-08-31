@@ -43,12 +43,10 @@ export const middleware = i18nextMiddleware;
 export const handle = i18nextMiddleware.handle(i18next);
 
 i18next.on("languageChanged", (currentLanguage: string) => {
-  console.log("location", location);
   if (location !== undefined) {
     const currentURL = new URL(location.href);
     currentURL.searchParams.set("language", currentLanguage);
     console.log("languageChanged", currentLanguage);
     window.location.href = currentURL.toString();
-    console.log(location);
   }
 });

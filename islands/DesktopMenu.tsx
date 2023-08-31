@@ -3,8 +3,9 @@ import MenuItem from "@/components/NavBar/MenuItem.tsx";
 import AnimatedMenuItem from "@/islands/AnimatedMenuItem.tsx";
 import menu from "@/data/menu.ts";
 import { type menuTypeProps } from "@/data/menu.ts";
+import LanguageSelector from "@/islands/LanguageSelector.tsx";
 
-export default function () {
+export default function ({ language }: { language: string }) {
   return (
     <>
       <ul
@@ -28,6 +29,7 @@ export default function () {
               />
             )
         ))}
+        <LanguageSelector language={language} />
       </ul>
     </>
   );

@@ -26,10 +26,11 @@ import * as $$2 from "./islands/CookieBanner.tsx";
 import * as $$3 from "./islands/Counter.tsx";
 import * as $$4 from "./islands/DesktopMenu.tsx";
 import * as $$5 from "./islands/Hamburger.tsx";
-import * as $$6 from "./islands/MobileMenu.tsx";
-import * as $$7 from "./islands/NavBar.tsx";
-import * as $$8 from "./islands/SectionContact.tsx";
-import * as $$9 from "./islands/SectionMasInformacion.tsx";
+import * as $$6 from "./islands/LanguageSelector.tsx";
+import * as $$7 from "./islands/MobileMenu.tsx";
+import * as $$8 from "./islands/NavBar.tsx";
+import * as $$9 from "./islands/SectionContact.tsx";
+import * as $$10 from "./islands/SectionMasInformacion.tsx";
 
 const manifest = {
   routes: {
@@ -59,10 +60,11 @@ const manifest = {
     "./islands/Counter.tsx": $$3,
     "./islands/DesktopMenu.tsx": $$4,
     "./islands/Hamburger.tsx": $$5,
-    "./islands/MobileMenu.tsx": $$6,
-    "./islands/NavBar.tsx": $$7,
-    "./islands/SectionContact.tsx": $$8,
-    "./islands/SectionMasInformacion.tsx": $$9,
+    "./islands/LanguageSelector.tsx": $$6,
+    "./islands/MobileMenu.tsx": $$7,
+    "./islands/NavBar.tsx": $$8,
+    "./islands/SectionContact.tsx": $$9,
+    "./islands/SectionMasInformacion.tsx": $$10,
   },
   baseUrl: import.meta.url,
 };
