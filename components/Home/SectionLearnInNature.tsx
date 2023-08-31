@@ -1,13 +1,21 @@
-import { css, tw } from "twind/css";
+import { tw } from "twind/css";
 
-const SectionLearnInNature = () => (
+const SectionLearnInNature = ({ t }: { t: any }) => (
   <section className={tw`mx-auto max-w-7xl px-2 sm:px-6 lg:px-8`}>
     <div class={tw`flex flex-col sm:flex-row gap-4`}>
       <div>
-        <h2 class={tw`hegazti-h2`}>Aprender en la Naturaleza</h2>
+        <h2 class={tw`hegazti-h2`}>{t("home.learnInNatureHeader")}</h2>
       </div>
-      <div>
-        <p className="mb-4">
+      <div
+        dangerouslySetInnerHTML={{
+          __html: t("home.learnInNatureBody", {
+            "openParagraph": '<p className="mb-4">',
+            "closeParagraph": "</p>",
+          }),
+        }}
+      >
+        {
+          /* <p className="mb-4">
           Nuestra esencia la libertad, nuestro medio la naturaleza, el don de la
           infancia la inquietud motora y cognitiva.
         </p>
@@ -27,7 +35,8 @@ const SectionLearnInNature = () => (
         </p>
         <p className={tw`mb-12`}>
           Es un aula integradora, donde cada ser tiene su lugar.
-        </p>
+        </p> */
+        }
       </div>
     </div>
   </section>

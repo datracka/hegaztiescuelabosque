@@ -2,10 +2,8 @@ import i18next from "https://deno.land/x/i18next@v23.4.6/index.js";
 import Backend from "https://deno.land/x/i18next_fs_backend@v2.1.5/index.js";
 import i18nextMiddleware from "https://deno.land/x/i18next_http_middleware@v3.3.2/index.js";
 
-const systemLocale = Intl.DateTimeFormat().resolvedOptions().locale;
-
 i18next
-  //  .use(Backend)
+  // .use(Backend)
   .use(i18nextMiddleware.LanguageDetector)
   .init({
     debug: false,
@@ -13,30 +11,27 @@ i18next
     backend: {
       loadPath: "locales/{{lng}}/{{ns}}.json",
     },
-    /* resources: {
+    resources: {
       en: {
         translation: {
           home: {
-            title: "Home",
-            subtitle: "Welcome to the home page",
+            claim: "House of the nature",
           },
         },
       },
       es: {
         translation: {
           home: {
-            title: "casa",
-            subtitle: "Bienvenido a la página de inicio",
+            claim: "Aula de Naturaleza",
           },
         },
       },
-    }, */
+    },
     fallbackLng: "en",
     preload: ["en", "es"],
   });
 
-export default (lng: string | undefined | null) =>
-  i18next.getFixedT(lng || systemLocale);
+export default (lng: string | undefined | null) => i18next.getFixedT(lng);
 
 export const i18n = i18next;
 export const middleware = i18nextMiddleware;

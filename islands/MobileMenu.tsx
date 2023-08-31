@@ -1,7 +1,7 @@
 import { tw } from "twind";
 import menu, { menuTypeProps } from "@/data/menu.ts";
 import AnimatedMobileMenuItem from "./AnimatedMobileMenuItem.tsx";
-import LanguageSelector from "@/islands/LanguageSelector.tsx";
+import LanguageSelector from "@/islands/Language.tsx";
 
 type MobileMenuProps = {
   opened: boolean;
@@ -11,7 +11,7 @@ type MobileMenuProps = {
 export default function ({ opened, language }: MobileMenuProps) {
   return (
     <div className={tw`space-y-1 px-2 pt-2 pb-3 sm:hidden`} id="mobile-menu">
-      {opened && menu.map((menuOption: menuTypeProps) => {
+      {opened && menu().map((menuOption: menuTypeProps) => {
         return (
           <ul>
             {"subOptions" in menuOption

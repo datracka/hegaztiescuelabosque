@@ -9,13 +9,9 @@ import SectionServices from "@/components/Home/SectionServices.tsx";
 import SectionFooter from "@/components/Shared/SectionFooter.tsx";
 import NavBar from "@/islands/NavBar.tsx";
 import SectionGallery from "@/components/Home/SectionGallery.tsx";
-import getFixedT, { i18n } from "@/components/i18n.ts";
 
-export default function Home({ url }: PageProps) {
-  const u = new URL(url);
-  const language = u.searchParams.get("language");
-  const t = getFixedT(language);
-
+export default function Home({ state }: PageProps) {
+  const { t, language } = state;
   return (
     <>
       <Head>
@@ -28,11 +24,11 @@ export default function Home({ url }: PageProps) {
       </Head>
       <NavBar language={language} />
       <Hero
-        title={t("home.title")}
-        description={t("home.subtitle")}
+        title={t("home.claim")}
+        description={t("home.subClaim")}
         backgroundImage="imgs/home/home-nino-riendo.jpg"
       />
-      <SectionLearnInNature />
+      <SectionLearnInNature t={t} />
       <CallToAction
         title="MATRÍCULAS ABIERTAS"
         backgroundImage="imgs/home/home-pina.jpg"
