@@ -1,6 +1,9 @@
 import i18next from "https://deno.land/x/i18next@v23.4.6/index.js";
 import Backend from "https://deno.land/x/i18next_fs_backend@v2.1.5/index.js";
 import i18nextMiddleware from "https://deno.land/x/i18next_http_middleware@v3.3.2/index.js";
+// import translationEs from "@/locales/es/translation.json" assert { type: "json" };
+// import translationEn from "@/locales/en/translation.json" assert { type: "json" };
+// console.log(translationEs);
 
 i18next
   // .use(Backend)
