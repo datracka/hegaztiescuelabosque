@@ -22,7 +22,7 @@ const ServiceItem = (item: ServiceItemProps) => (
         <img
           src={item.img}
           alt={item.title}
-          className={tw(`w-full object-cover`)}
+          className={tw(`w-full object-cover`)} // css`aspect-ratio:1/1`
         />
       </div>
     </div>

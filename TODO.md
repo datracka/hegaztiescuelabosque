@@ -18,7 +18,9 @@ https://fresh.deno.dev/docs/examples/using-deno-kv-oauth
 - [ ] pass trough language parameter for all requests
 - [ ] Solve Typescript error t is unknown
 - [ ] Solve Issue with Backend Plugin on i18next dependency
-- [ ]
+- [ ] Issue with css`aspect-ratio:1/1` function in `SectionServices.tsx`
+      basically there is a better way to add the aspect-ratio 1/1 than using the
+      css function??
 
 ## Others
 
