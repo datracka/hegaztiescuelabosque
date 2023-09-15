@@ -8,9 +8,17 @@ https://phrase.com/blog/posts/website-i18n-deno/
 https://fresh.deno.dev/docs/concepts/middleware example middleware:
 https://fresh.deno.dev/docs/examples/using-deno-kv-oauth
 
-- [ ] Think how to set all texts in json in an order way
-- [ ] Translate to english
-- [ ] Switch to another language with a flag
+- [ ] Translate Home To English
+- [ ] Add English and Spanish Flags
+- [ ] Translate Menu
+- [ ] Translate Contact Form
+- [ ] Add Badge for uncomplete translated sections to English to sorry (if
+      english selected)
+- [ ] Add english paths for all routing
+- [ ] pass trough language parameter for all requests
+- [ ] Solve Typescript error t is unknown
+- [ ] Solve Issue with Backend Plugin on i18next dependency
+- [ ]
 
 ## Others
 
