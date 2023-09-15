@@ -24,49 +24,49 @@ export default function Home({ state }: PageProps) {
       </Head>
       <NavBar language={language} />
       <Hero
-        title={t("home.claim")}
-        description={t("home.subClaim")}
+        title={t("hero.claim")}
+        description={t("hero.subClaim")}
         backgroundImage="imgs/home/home-nino-riendo.jpg"
       />
       <SectionLearnInNature t={t} />
       <CallToAction
-        title="MATRÍCULAS ABIERTAS"
+        title={t("home.callToAction.title")}
         backgroundImage="imgs/home/home-pina.jpg"
-        buttonText="MÁS INFO"
-        buttonLink="#"
+        buttonText={t("home.callToAction.button")}
+        buttonLink="/mas-informacion"
       />
-      <SectionServices />
-      <SectionForestAsClassroom />
+      <SectionServices t={t} />
+      <SectionForestAsClassroom t={t} />
       <SectionGallery
         list={[{
-          title: "PASEOS POR EL MONTE",
-          description: "TODOS LOS DIAS",
+          title: t("home.gallery.imageWalkingInTheForestTitle"),
+          description: t("home.gallery.imageWalkingInTheForestDescription"),
           image: "imgs/home/home-nino-riendo.jpg",
         }, {
-          title: "ELEMENTOS NATURALES",
-          description: "DESPERTANDO LA CURIOSIDAD",
+          title: t("home.gallery.imageNaturalElementsTitle"),
+          description: t("home.gallery.imageNaturalElementsDescription"),
           image: "imgs/home/home-lagartija.jpg",
         }, {
-          title: "CONSTRUYENDO JUNTOS",
-          description: "TRABAJO EN EQUIPO",
+          title: t("home.gallery.imagesBuildingTogetherTitle"),
+          description: t("home.gallery.imagesBuildingTogetherDescription"),
           image: "imgs/home/home-ninos-arboles.jpg",
         }, {
-          title: "OBSERVACIÓN",
-          description: "SEGUIENDO LOS CICLOS",
+          title: t("home.gallery.imageObservingTitle"),
+          description: t("home.gallery.imageObservingDescription"),
           image: "imgs/home/home-lagartija.jpg",
         }, {
-          title: "JUEGO LIBRE",
-          description: "SIGUIENDO EL IMPULSO",
+          title: t("home.gallery.imageTakingCareHorsesTitle"),
+          description: t("home.gallery.imageTakingCareHorsesDescription"),
           image: "imgs/home/home-pintar.jpg",
         }, {
-          title: "CUIDANDO DE LOS CABALLOS",
-          description: "RESPONSABILIDAD Y EMPATÍA",
+          title: t("home.gallery.imageFreeGameTitle"),
+          description: t("home.gallery.imageFreeGameDescription"),
           image: "imgs/home/home-caballos.jpg",
         }]}
       />
       <SectionSaying
-        text="Dímelo y lo olvido. Enseñame y lo recuerdo. Involúcrame y lo aprendo."
-        author="Benjamin Franklin"
+        text={t("home.quote.text")}
+        author={t("home.quote.author")}
       />
       <SectionFooter />
     </>
