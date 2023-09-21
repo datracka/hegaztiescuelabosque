@@ -2,6 +2,8 @@
 
 ## Localization
 
+- [x] Add in MenuItem the searchParameter from URL
+- [ ] Add same logic to other menu links, body link and also footer links
 - [ ] Issue with changing language
 
 https://phrase.com/blog/posts/website-i18n-deno/
