@@ -3,6 +3,7 @@
 ## Localization
 
 - [x] Add in MenuItem the searchParameter from URL
+- [ ] Does it work well swtich spanish / english button??
 - [ ] Add same logic to other menu links, body link and also footer links
 - [ ] Issue with changing language
 
