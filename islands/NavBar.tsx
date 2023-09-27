@@ -1,7 +1,7 @@
 import { tw } from "twind";
 import Hamburger from "@/islands/Hamburger.tsx";
 import Logo from "@/components/NavBar/Logo.tsx";
-import DesktopMenu from "@/components/NavBar/DesktopMenu.tsx";
+import DesktopMenu from "@/islands/DesktopMenu.tsx";
 import MobileMenu from "@/islands/MobileMenu.tsx";
 import { useState } from "preact/hooks";
 import { JSX } from "preact/jsx-runtime";

@@ -9,8 +9,9 @@ const SectionFooter = () => (
     <SectionContact />
     <div className={tw`my-4 mx-auto max-w-3xl text-center`}>
       <p class={tw`text-lg font-normal my-10 leading-none	`}>
-        Carretera de Aras nº 6, 31230, Navarra, España +34 697 24 57 75
-        hegaztiescuelabosque@gmail.com
+        Carretera de Aras nº 6, 31230, Navarra Contacto Educativo: 697 24 57 75
+        (Naroa) / Oportunidades de Colaboración: 635 57 53 61 (Vicens)
+        info@hegaztiescuelabosque.org
       </p>
 
       <p class={tw`my-10`}>
