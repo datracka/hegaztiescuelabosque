@@ -23,10 +23,10 @@ const menu: menuTypeProps[] = [
         url: "aula-extraescolares-ludoteca",
         name: "Extraescolares - Ludoteca",
       },
-      {
+      /*       {
         url: "aula-extraescolares-sabado-en-familia",
         name: "Extraescolares - Sábados en familia",
-      },
+      }, */
     ],
   },
   {
