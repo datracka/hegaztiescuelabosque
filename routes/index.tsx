@@ -1,5 +1,5 @@
 import { Head } from "$fresh/runtime.ts";
-import { PageProps } from "$fresh/server.ts";
+import { HandlerContext, Handlers, PageProps } from "$fresh/server.ts";
 import Hero from "@/components/Shared/Hero.tsx";
 import CallToAction from "@/components/Home/CallToAction.tsx";
 import SectionLearnInNature from "@/components/Home/SectionLearnInNature.tsx";
@@ -9,9 +9,20 @@ import SectionServices from "@/components/Home/SectionServices.tsx";
 import SectionFooter from "@/components/Shared/SectionFooter.tsx";
 import NavBar from "@/islands/NavBar.tsx";
 import SectionGallery from "@/components/Home/SectionGallery.tsx";
+import getFixedT from "@/components/i18n.ts";
 
-export default function Home({ state }: PageProps) {
-  const { t, language } = state;
+export const handler: Handlers = {
+  async GET(req: Request, ctx: HandlerContext) {
+    const resp = await ctx.render({
+      languageAccepted: req.headers.get("Accept-Language"),
+    });
+    return resp;
+  },
+};
+
+export default function Home({ data: { languageAccepted } }: PageProps) {
+  const t = getFixedT(languageAccepted);
+
   return (
     <>
       <Head>
@@ -22,7 +33,7 @@ export default function Home({ state }: PageProps) {
 "
         />
       </Head>
-      <NavBar language={language} />
+      <NavBar language={languageAccepted} />
       <Hero
         title={t("hero.claim")}
         description={t("hero.subClaim")}

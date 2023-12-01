@@ -29,7 +29,7 @@ export default function ({ language }: { language: string }) {
               />
             )
         ))}
-        <LanguageSelector language={language} />
+        {/* <LanguageSelector language={language} /> */}
       </ul>
     </>
   );

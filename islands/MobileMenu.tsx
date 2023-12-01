@@ -30,7 +30,7 @@ export default function ({ opened, language }: MobileMenuProps) {
                   </a>
                 </li>
               )}
-            <LanguageSelector language={language} />
+            {/* <LanguageSelector language={language} /> */}
           </ul>
         );
       })}
