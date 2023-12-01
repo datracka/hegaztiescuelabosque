@@ -62,6 +62,11 @@ const menu: menuTypeProps[] = [
     target: "_blank",
   },
   {
+    name: "Extraescolares",
+    url: "extraescolares-2023-2024",
+    highlighted: true,
+  },
+  {
     name: "Calendario Escolar 23/24",
     url: "//docs.google.com/document/d/1Dk-Hd-NI8Y8oh9TxotYUyBzqWnu9dXUMpjkJ1dkAsCY/edit?usp=sharing",
     target: "_blank",

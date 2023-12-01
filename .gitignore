@@ -1,2 +1,5 @@
 .DS_Store
 static/.DS_Store
+
+# Fresh build directory
+_fresh/
