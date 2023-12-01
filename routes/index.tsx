@@ -9,10 +9,11 @@ import SectionServices from "@/components/Home/SectionServices.tsx";
 import SectionFooter from "@/components/Shared/SectionFooter.tsx";
 import NavBar from "@/islands/NavBar.tsx";
 import SectionGallery from "@/components/Home/SectionGallery.tsx";
-import getFixedT from "@/components/i18n.ts";
+import getFixedT, { i18n } from "@/components/i18n.ts";
 
 export const handler: Handlers = {
   async GET(req: Request, ctx: HandlerContext) {
+    console.log(req.headers.get("Accept-Language"))
     const resp = await ctx.render({
       languageAccepted: req.headers.get("Accept-Language"),
     });

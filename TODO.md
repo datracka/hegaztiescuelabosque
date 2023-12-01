@@ -2,14 +2,27 @@
 
 ## Localization
 
-- [x] Add in MenuItem the searchParameter from URL
-- [ ] Does it work well swtich spanish / english button??
-- [ ] Add same logic to other menu links, body link and also footer links
-- [ ] Issue with changing language
+Current status: It works by passing the Accept-Language from the client in the header. The backend gets the value and sets the getFixedT() to it.
+No changing language is allow by now.
+
+Example in _aside/deno-18next-http-middleware uses a sligthly different approach. uses ``.use(i18nextMiddleware.LanguageDetector)` (what we have also in i18n.ts file) somehow to get the language to render the pages. and it is switchable using urls ... 
+
+translation method is i18n.t("key") (not fixed key)
+
+At the moment I was not able to reproduce this behaviour in Hegazti.
+
+- [ ] Understand how it works the _aside example and try to move it to Hegazti
+- [ ] Why is working backend dependency there?
+
+### Documentation
 
 https://phrase.com/blog/posts/website-i18n-deno/
 https://fresh.deno.dev/docs/concepts/middleware example middleware:
 https://fresh.deno.dev/docs/examples/using-deno-kv-oauth
+
+### Text Translation tasks 
+
+There is a Sheet in drive.
 
 - [ ] Translate Home To English
 - [ ] Add English and Spanish Flags

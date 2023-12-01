@@ -1,6 +1,6 @@
-import i18next from "https://deno.land/x/i18next@v23.4.6/index.js";
-// import Backend from "https://deno.land/x/i18next_fs_backend@v2.1.5/index.js";
-import i18nextMiddleware from "https://deno.land/x/i18next_http_middleware@v3.3.2/index.js";
+import i18next from "https://deno.land/x/i18next@v23.7.7/index.js";
+// import Backend from "https://deno.land/x/i18next_fs_backend@v2.3.0/index.js";
+import i18nextMiddleware from "https://deno.land/x/i18next_http_middleware@v3.5.0/index.js";
 // import translationEs from "@/locales/es/translation.json" assert { type: "json" };
 // import translationEn from "@/locales/en/translation.json" assert { type: "json" };
 // console.log(translationEs);
@@ -172,12 +172,3 @@ export default (lng: string | undefined | null) => i18next.getFixedT(lng);
 export const i18n = i18next;
 export const middleware = i18nextMiddleware;
 export const handle = i18nextMiddleware.handle(i18next);
-
-i18next.on("languageChanged", (currentLanguage: string) => {
-  if (location !== undefined) {
-    const currentURL = new URL(location.href);
-    currentURL.searchParams.set("language", currentLanguage);
-    console.log("languageChanged", currentLanguage);
-    window.location.href = currentURL.toString();
-  }
-});
