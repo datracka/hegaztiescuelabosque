@@ -18,7 +18,7 @@
     "preact/": "https://esm.sh/preact@10.18.1/",
     "twind": "https://esm.sh/twind@0.16.19",
     "twind/": "https://esm.sh/twind@0.16.19/",
-    "$std/": "https://deno.land/std@0.193.0/"
+    "$std/": "https://deno.land/std@0.208.0/"
   },
   "lint": { "rules": { "tags": ["fresh", "recommended"] } },
   "exclude": ["**/_fresh/*"]
