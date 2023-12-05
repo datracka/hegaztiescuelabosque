@@ -66,7 +66,7 @@ const SectionServices = ({ t }: { t: any }) => (
       button={t("home.services.button")}
     />
     <ServiceItem
-      title={t("home.services.forestHouseTitle")}
+      title={t("home.services.birdNestTitle")}
       description={t("home.services.birdNestText")}
       img="imgs/home/servicios-primaria.jpg"
       link="aula-primaria"

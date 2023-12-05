@@ -3,16 +3,21 @@ import MenuItem from "@/components/NavBar/MenuItem.tsx";
 import AnimatedMenuItem from "@/islands/AnimatedMenuItem.tsx";
 import menu from "@/data/menu.ts";
 import { type menuTypeProps } from "@/data/menu.ts";
-import LanguageSelector from "@/islands/Language.tsx";
 
-export default function ({ language }: { language: string }) {
+// import LanguageSelector from "@/islands/Language.tsx";
+
+type desktopMenuProps = {
+  menuTexts: any; // there is not a proper type from i18next?
+};
+
+export default function ({ menuTexts }: desktopMenuProps) {
   return (
     <>
       <ul
         role="list"
         className={tw`hidden sm:ml-6 sm:flex list-none space-x-4`}
       >
-        {menu().map((menuOption: menuTypeProps) => (
+        {menu(menuTexts).map((menuOption: menuTypeProps) => (
           "subOptions" in menuOption
             ? (
               <AnimatedMenuItem

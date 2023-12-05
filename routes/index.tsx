@@ -9,11 +9,10 @@ import SectionServices from "@/components/Home/SectionServices.tsx";
 import SectionFooter from "@/components/Shared/SectionFooter.tsx";
 import NavBar from "@/islands/NavBar.tsx";
 import SectionGallery from "@/components/Home/SectionGallery.tsx";
-import getFixedT, { i18n } from "@/components/i18n.ts";
+import getFixedT from "@/components/i18n.ts";
 
 export const handler: Handlers = {
   async GET(req: Request, ctx: HandlerContext) {
-    console.log(req.headers.get("Accept-Language"))
     const resp = await ctx.render({
       languageAccepted: req.headers.get("Accept-Language"),
     });
@@ -23,7 +22,7 @@ export const handler: Handlers = {
 
 export default function Home({ data: { languageAccepted } }: PageProps) {
   const t = getFixedT(languageAccepted);
-
+  const menuTexts = t("menu", { returnObjects: true })
   return (
     <>
       <Head>
@@ -34,7 +33,7 @@ export default function Home({ data: { languageAccepted } }: PageProps) {
 "
         />
       </Head>
-      <NavBar language={languageAccepted} />
+      <NavBar menuTexts={menuTexts} />
       <Hero
         title={t("hero.claim")}
         description={t("hero.subClaim")}

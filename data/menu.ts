@@ -6,50 +6,54 @@ export type menuTypeProps = {
   highlighted?: boolean;
 };
 
-const menu = (): menuTypeProps[] => {
+const menu = (menuTexts: any): menuTypeProps[] => {
   return [
     {
-      name: "El bosque como aula",
+      name: menuTexts?.forestAsClassroom?.main,
       subOptions: [
-        { url: "aula-madre-de-dia", name: "Madre de día" },
+        {
+          url: "aula-madre-de-dia",
+          name: menuTexts?.forestAsClassroom?.daytimeMother,
+        },
         {
           url: "aula-infantil",
-          name: "Aula Infantil",
+          name: menuTexts?.forestAsClassroom?.childhoodClass,
         },
         {
           url: "aula-primaria",
-          name: "Primaria",
+          name: menuTexts?.forestAsClassroom?.primarySchool,
         },
         {
           url: "aula-extraescolares-ludoteca",
-          name: "Extraescolares - Ludoteca",
+          name: menuTexts?.forestAsClassroom?.extracurricularActivitiesPlayRoom,
         },
         {
           url: "aula-extraescolares-sabado-en-familia",
-          name: "Extraescolares - Sábados en familia",
+          name: menuTexts?.forestAsClassroom
+            ?.extracurricularActivitiesSaturdays,
         },
       ],
     },
     {
-      name: "Quienes somos",
+      name: menuTexts?.whoWeAre?.main,
       subOptions: [
-        { url: "quienes-somos-proyecto", name: "Proyecto" },
+        { url: "quienes-somos-proyecto", name: menuTexts?.whoWeAre?.project },
         {
           url: "quienes-somos-espacios",
-          name: "Naturaleza y espacios",
+          name: menuTexts?.whoWeAre?.natureSpaces,
         },
         {
           url: "quienes-somos-hegazti",
-          name: "Un dia en Hegazti",
+          name: menuTexts?.whoWeAre?.aDayInHegazti,
         },
         {
           url: "quienes-somos-faqs",
-          name: "Preguntas frecuentes",
+          name: menuTexts?.whoWeAre?.faqs,
         },
       ],
     },
     {
-      name: "Contacto",
+      name: menuTexts?.contact,
       url: "mas-informacion",
     },
     /* {
@@ -58,7 +62,7 @@ const menu = (): menuTypeProps[] => {
       highlighted: true,
     }, */
     {
-      name: "Blog",
+      name: menuTexts?.blog,
       url: "//blog.hegaztiescuelabosque.org",
       target: "_blank",
     },
@@ -68,7 +72,7 @@ const menu = (): menuTypeProps[] => {
       highlighted: true,
     },
     {
-      name: "Calendario Escolar 23/24",
+      name: menuTexts?.scholarCalendar,
       url: "//docs.google.com/document/d/1Dk-Hd-NI8Y8oh9TxotYUyBzqWnu9dXUMpjkJ1dkAsCY/edit?usp=sharing",
       target: "_blank",
     },

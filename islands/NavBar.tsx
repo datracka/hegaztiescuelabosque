@@ -6,7 +6,11 @@ import MobileMenu from "@/islands/MobileMenu.tsx";
 import { useState } from "preact/hooks";
 import { JSX } from "preact/jsx-runtime";
 
-export default function ({ language }: { language: string }): JSX.Element {
+type NavProps = {
+  menuTexts: any; // there is not a proper type from i18next?
+};
+
+export default function ({ menuTexts }: NavProps): JSX.Element {
   const [opened, setOpen] = useState(false);
   const onClickHandler: () => void = (): void => setOpen(!opened);
 
@@ -19,11 +23,11 @@ export default function ({ language }: { language: string }): JSX.Element {
             className={tw`flex flex-1 items-center justify-center sm:justify-start`}
           >
             <Logo />
-            <DesktopMenu language={language} />
+            <DesktopMenu menuTexts={menuTexts} />
           </div>
         </div>
       </div>
-      <MobileMenu opened={opened} language={language} />
+      <MobileMenu opened={opened} menuTexts={menuTexts} />
     </nav>
   );
 }

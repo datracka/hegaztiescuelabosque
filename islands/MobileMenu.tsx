@@ -5,13 +5,13 @@ import LanguageSelector from "@/islands/Language.tsx";
 
 type MobileMenuProps = {
   opened: boolean;
-  language: string;
+  menuTexts: any;
 };
 
-export default function ({ opened, language }: MobileMenuProps) {
+export default function ({ opened, menuTexts }: MobileMenuProps) {
   return (
     <div className={tw`space-y-1 px-2 pt-2 pb-3 sm:hidden`} id="mobile-menu">
-      {opened && menu().map((menuOption: menuTypeProps) => {
+      {opened && menu(menuTexts).map((menuOption: menuTypeProps) => {
         return (
           <ul>
             {"subOptions" in menuOption

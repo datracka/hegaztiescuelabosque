@@ -5,14 +5,10 @@
 Current status: It works by passing the Accept-Language from the client in the header. The backend gets the value and sets the getFixedT() to it.
 No changing language is allow by now.
 
-Example in _aside/deno-18next-http-middleware uses a sligthly different approach. uses ``.use(i18nextMiddleware.LanguageDetector)` (what we have also in i18n.ts file) somehow to get the language to render the pages. and it is switchable using urls ... 
+in _aside/deno-18next-http-middleware uses ``.use(i18nextMiddleware.LanguageDetector)` and detects the language from url.
+In our case it does not work. I guess it is something missconfigured or Fresh has something to say there.
 
-translation method is i18n.t("key") (not fixed key)
-
-At the moment I was not able to reproduce this behaviour in Hegazti.
-
-- [ ] Understand how it works the _aside example and try to move it to Hegazti
-- [ ] Why is working backend dependency there?
+- [ ] To undersnd it: Create a Deno Project and install i18next following: https://locize.com/blog/i18n-for-deno-with-i18next/ it should work like the _aside project. Then do the same with a fresh project.  
 
 ### Documentation
 
