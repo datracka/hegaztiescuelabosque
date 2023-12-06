@@ -36,24 +36,44 @@ const WhereAreWe = () => (
   </div>
 );
 
-const ContactUs = () => (
-  <div
-    className={tw`flex flex-col relative overflow-hidden  sm:w-2/4 ${css`flex-basis: 50%`}`}
-  >
-    <h2 class={tw(`hegazti-h2-footer pb-4 mb-8 border-b-2`)}>
-      CONTACTA CON NOSOTROS
-    </h2>
-    <FormEmbedder src="https://my.forms.app/form/63e634616c5c2579e224d0e7" />
-  </div>
-);
+type contactUsProps = {
+  languageAccepted: string;
+};
 
-const SectionContact = () => {
+type formsProps = { [key: string]: string };
+const forms: formsProps = {
+  es: "https://my.forms.app/form/63e634616c5c2579e224d0e7",
+  en: "https://my.forms.app/form/656f2f0de39d84a848f95b70"
+}; 
+
+const getFormFromLanguage = (languageAccepted: string): string => forms[languageAccepted];
+
+const ContactUs = ({ languageAccepted }: contactUsProps) => {
+  const form: string = getFormFromLanguage(languageAccepted);
+  console.log(form);
+  return (
+    <div
+      className={tw`flex flex-col relative overflow-hidden  sm:w-2/4 ${css`flex-basis: 50%`}`}
+    >
+      <h2 class={tw(`hegazti-h2-footer pb-4 mb-8 border-b-2`)}>
+        CONTACTA CON NOSOTROS
+      </h2>
+      <FormEmbedder src={form} />
+    </div>
+  );
+};
+
+type sectionContactProps = {
+  languageAccepted: string;
+};
+
+const SectionContact = ({ languageAccepted }: sectionContactProps) => {
   return (
     <div
       className={tw`flex flex-col justify-between sm:flex-row mx-auto max-w-7xl gap-8 `}
     >
       <WhereAreWe />
-      <ContactUs />
+      <ContactUs languageAccepted={languageAccepted} />
     </div>
   );
 };

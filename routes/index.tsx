@@ -79,7 +79,7 @@ export default function Home({ data: { languageAccepted } }: PageProps) {
         text={t("home.quote.text")}
         author={t("home.quote.author")}
       />
-      <SectionFooter />
+      <SectionFooter languageAccepted={languageAccepted}/>
     </>
   );
 }

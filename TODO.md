@@ -2,6 +2,28 @@
 
 ## Localization
 
+- [ ] Translate Metas
+- [ ] Translate mas-information
+- [ ] Translate Footer
+- [ ] Translate The forest as classroom > DayTime Mother
+- [ ] Translate The forest as classroom > Preschool Classroom
+- [ ] Translate The forest as classroom > Primary School
+- [ ] Translate The forest as classroom > Extracurriculars - Playroom
+- [ ] Translate The forest as classroom > Extracurriculars - Family Saturday
+- [ ] Translate Who we are > Project
+- [ ] Translate Who we are > Nature and Spaces
+- [ ] Translate Who we are > A Day in Hegazti
+- [ ] Translate Who we are > Frequently Asked Questions
+- [ ] Translate Contact
+
+
+## Localization: The problem for the future
+
+- [ ] make 18next_fs_backend@v2.3.0 work in i18n.ts so I can add translation in folders
+- [ ] understand why i18nextMiddleware.LanguageDetector does not work. learn i18next
+- [ ] learn (check localekit & [localekit](https://github.com/brocococonut/freshlate))
+- [ ] If i18nextMiddleware.LanguageDetector works then we can add language selection on URL. Then add flags switch logic
+
 Current status: It works by passing the Accept-Language from the client in the header. The backend gets the value and sets the getFixedT() to it.
 No changing language is allow by now.
 

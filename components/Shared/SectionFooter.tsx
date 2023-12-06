@@ -4,9 +4,13 @@ import { css, tw } from "twind/css";
 
 const staticPath = "/imgs/shared";
 
-const SectionFooter = () => (
+type sectionFooterProps = {
+  languageAccepted: string;
+}
+
+const SectionFooter = ({languageAccepted}: sectionFooterProps) => (
   <div className={tw(`w-full p-4 sm:p-6 lg:p-8 bg-[#415a30] text-white`)}>
-    <SectionContact />
+    <SectionContact languageAccepted={languageAccepted} />
     <div className={tw`my-4 mx-auto max-w-3xl text-center`}>
       <p class={tw`text-lg font-normal my-10 leading-none	`}>
         Carretera de Aras nº 6, 31230, Navarra Contacto Educativo: 697 24 57 75

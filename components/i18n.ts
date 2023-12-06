@@ -16,6 +16,15 @@ const english = {
       subClaim: "HEGAZTI FOREST SCHOOL",
     },
     home: {
+      header: {
+        title: "Hegazti Forest School",
+        meta: {
+          description: {
+            content:
+              "Hegazti Forest School is a school that offers an educational approach based on nature-based learning and environmental connection. We provide a variety of services, including Bumblebee, Forest, Treehouse, and Bird's Nest cottages for children aged 0 to 12. We also offer extracurricular activities such as winter, spring, and summer playrooms, as well as Family Saturdays. In our school, learning is a holistic process that is functionally experienced and integrated into everyday life. Our goals are to promote the comprehensive development of all individuals involved and to cultivate emotional intelligence alongside problem-solving skills. In our living classroom, children can explore, investigate, and learn in direct contact with nature, while our guides provide support and tools to enrich their experience.",
+          },
+        },
+      },
       presentation: {
         learnInNatureHeader: "Learning in Nature.",
         learnInNatureBody: `
@@ -134,6 +143,15 @@ const spanish = {
       subClaim: "HEGAZTI ESCUELA BOSQUE",
     },
     home: {
+      header: {
+        title: "Hegazti Escuela Bosque",
+        meta: {
+          description: {
+            content:
+              "Hegazti Escuela Bosque es una escuela que ofrece un enfoque educativo basado en el aprendizaje en la naturaleza y la conexión con el medio ambiente. Ofrecemos una variedad de servicios que incluyen Casitas Abejorro, del Bosque, del Árbol y Nido de Pájaro para niños y niñas de 0 a 12 años. También ofrecemos actividades extracurriculares como ludotecas de invierno, primavera y verano, y sábados en familia. En nuestra escuela, el aprendizaje es un proceso holístico que se vive de manera funcional y se integra en la vida cotidiana. Nuestros objetivos son promover el desarrollo integral de todas las personas involucradas y desarrollar la inteligencia emocional junto con la resolución de problemas. En nuestro aula viva, los niños pueden explorar, investigar y aprender en contacto directo con la naturaleza, mientras nuestros guías les brindan apoyo y herramientas para enriquecer su experiencia.",
+          },
+        },
+      },
       presentation: {
         learnInNatureHeader: "Aprender en la Naturaleza",
         learnInNatureBody: `
@@ -230,6 +248,9 @@ const spanish = {
         text: "”Dímelo y lo olvido. Enseñame y lo recuerdo. Involúcrame y lo aprendo.”",
         author: "— Benjamin Franklin",
       },
+    },
+    moreInformation: {
+      title: "VEN A CONOCERNOS",
     },
     menu: {
       forestAsClassroom: {
