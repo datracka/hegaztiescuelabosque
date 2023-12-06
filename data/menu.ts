@@ -67,7 +67,7 @@ const menu = (menuTexts: any): menuTypeProps[] => {
       target: "_blank",
     },
     {
-      name: "Extraescolares",
+      name: menuTexts?.extracurricularActivities,
       url: "extraescolares-2023-2024",
       highlighted: true,
     },
