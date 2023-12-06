@@ -115,7 +115,7 @@ const english = {
     menu: {
       forestAsClassroom: {
         main: "The forest as a classroom",
-        daytimeMother: "Madre de Daytime mother",
+        daytimeMother: "Daytime mother",
         childhoodClass: "Preschool Classroom",
         primarySchool: "Primary School",
         extracurricularActivitiesPlayRoom: "Extracurriculars - Playroom",

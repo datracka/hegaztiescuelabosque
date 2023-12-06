@@ -2,6 +2,7 @@
 
 ## Localization
 
+- [ ] Translate Extraescolares Text
 - [ ] Translate Metas
 - [ ] Translate mas-information
 - [ ] Translate Footer
