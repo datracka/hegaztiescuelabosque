@@ -293,7 +293,28 @@ const english = {
       },
       title: "",
     },
-    footer: {},
+    footer: {
+      whereAreWe: "WHERE WE ARE LOCATED",
+      whereAreWeExtended:
+        "We are located in the Valdearas area, 1 kilometer from Viana and 9 km from Logroño.",
+      timeTableTitle: "Forest School Schedule:",
+      timeTableText: "Monday to Friday from 9:00 AM to 2:00 PM.",
+      timeTableTextSummerTitle:
+        "Winter, Spring, or Summer Toy Library Schedule:",
+      timeTableTextSummerText: "From 9:00 AM to 2:00 PM.",
+      timeTableTextSaturdayTitle: "Family Saturdays Schedule:",
+      timeTableTextSaturdayText: "From 10:00 AM to 2:00 PM.",
+      address: `
+      Carretera de Aras nº 6, 31230, Navarra Educational Contact: 697 24 57 75
+      (Naroa) / Collaboration Opportunities: 635 57 53 61 (Vicens)
+      info@hegaztiescuelabosque.org
+      `,
+      cookiePolicyText: "Cookie Policy",
+      privacyPolicyText: "Privacy Policy",
+      legalText: "Legal Notice",
+      contact: "Contact",
+      contactWithUs: "CONTACT WITH US",
+    },
   },
 };
 
@@ -610,7 +631,28 @@ const spanish = {
       },
       title: "",
     },
-    footer: {},
+    footer: {
+      whereAreWe: "DONDE ESTAMOS UBICADOS",
+      whereAreWeExtended:
+        "Estamos ubicados en el Paraje de Valdearas a 1 kilómetro de Viana y a 9 km de Logroño.",
+      timeTableTitle: "Horario de Escuela Bosque:",
+      timeTableText: " De Lunes a Vierns de 9:00 a 14:00 hrs.",
+      timeTableTextSummerTitle:
+        "Horario Ludotecas de Invierno, Primavera o Verano:",
+      timeTableTextSummerText: "De 9:00 a 14:00 hrs.",
+      timeTableTextSaturdayTitle: "Horario Sábados en Familia:",
+      timeTableTextSaturdayText: "De 10:00 a 14:00 hrs.",
+      address: `
+        Carretera de Aras nº 6, 31230, Navarra Contacto Educativo: 697 24 57 75
+        (Naroa) / Oportunidades de Colaboración: 635 57 53 61 (Vicens)
+        info@hegaztiescuelabosque.org
+      `,
+      cookiePolicyText: "política de cookies",
+      privacyPolicyText: "Política de privacidad",
+      legalText: "Aviso legal",
+      contact: "Contacto",
+      contactWithUs: "CONTACTA CON NOSOTROS",
+    },
   },
 };
 

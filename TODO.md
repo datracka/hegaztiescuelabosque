@@ -3,9 +3,9 @@
 ## Localization
 
 - [x] Translate Extraescolares Text
-- [ ] Translate mas-information
+- [x] Translate mas-information
 - [ ] Translate Footer
-- [ ] Translate The forest as classroom > DayTime Mother
+- [x] Translate The forest as classroom > DayTime Mother
 - [ ] Translate The forest as classroom > Preschool Classroom
 - [ ] Translate The forest as classroom > Primary School
 - [ ] Translate The forest as classroom > Extracurriculars - Playroom
@@ -15,6 +15,9 @@
 - [ ] Translate Who we are > A Day in Hegazti
 - [ ] Translate Who we are > Frequently Asked Questions
 - [ ] Translate Contact
+- [ ] translate cookies policy
+- [ ] translate privacy policy
+- [ ] Translate images?
 
 
 ## Localization: The problem for the future
@@ -38,7 +41,7 @@ https://phrase.com/blog/posts/website-i18n-deno/
 https://fresh.deno.dev/docs/concepts/middleware example middleware:
 https://fresh.deno.dev/docs/examples/using-deno-kv-oauth
 
-### Text Translation tasks 
+### Text Translation tasks
 
 There is a Sheet in drive.
 
