@@ -3,7 +3,6 @@
 ## Localization
 
 - [x] Translate Extraescolares Text
-- [ ] Translate Metas
 - [ ] Translate mas-information
 - [ ] Translate Footer
 - [ ] Translate The forest as classroom > DayTime Mother

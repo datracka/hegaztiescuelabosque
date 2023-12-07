@@ -15,6 +15,28 @@ const english = {
       claim: "Growing up in nature.",
       subClaim: "HEGAZTI FOREST SCHOOL",
     },
+    menu: {
+      forestAsClassroom: {
+        main: "The forest as a classroom",
+        daytimeMother: "Daytime mother",
+        childhoodClass: "Preschool Classroom",
+        primarySchool: "Primary School",
+        extracurricularActivitiesPlayRoom: "Extracurriculars - Playroom",
+        extracurricularActivitiesSaturdays:
+          "Extracurriculars - Family Saturday",
+      },
+      whoWeAre: {
+        main: "Who we are",
+        project: "Project",
+        natureSpaces: "Nature and Spaces",
+        aDayInHegazti: "A day at Hegazti",
+        faqs: "Frequently Asked Questions",
+      },
+      extracurricularActivities: "Extracurriculars",
+      contact: "Contact",
+      blog: "Blog",
+      scholarCalendar: "School Calendar 23/24",
+    },
     home: {
       header: {
         title: "Hegazti Forest School",
@@ -112,27 +134,17 @@ const english = {
         author: "— Benjamin Franklin",
       },
     },
-    menu: {
-      forestAsClassroom: {
-        main: "The forest as a classroom",
-        daytimeMother: "Daytime mother",
-        childhoodClass: "Preschool Classroom",
-        primarySchool: "Primary School",
-        extracurricularActivitiesPlayRoom: "Extracurriculars - Playroom",
-        extracurricularActivitiesSaturdays:
-          "Extracurriculars - Family Saturday",
+    moreInformation: {
+      header: {
+        title: "Hegazti Forest School | More Information",
+        meta: {
+          description: {
+            content:
+              "Form to request for more information",
+          },
+        },
       },
-      whoWeAre: {
-        main: "Who we are",
-        project: "Project",
-        natureSpaces: "Nature and Spaces",
-        aDayInHegazti: "A day at Hegazti",
-        faqs: "Frequently Asked Questions",
-      },
-      extracurricularActivities: "Extracurriculars",
-      contact: "Contact",
-      blog: "Blog",
-      scholarCalendar: "School Calendar 23/24",
+      title: "COME AND MEET US",
     },
   },
 };
@@ -142,6 +154,28 @@ const spanish = {
     hero: {
       claim: "Creciendo en la naturaleza",
       subClaim: "HEGAZTI ESCUELA BOSQUE",
+    },
+    menu: {
+      forestAsClassroom: {
+        main: "El bosque como aula",
+        daytimeMother: "Madre de día",
+        childhoodClass: "Infantil",
+        primarySchool: "Primaria",
+        extracurricularActivitiesPlayRoom: "Extraescolares - Ludoteca",
+        extracurricularActivitiesSaturdays:
+          "Extraescolares - Sábados en familia",
+      },
+      whoWeAre: {
+        main: "Quiénes somos",
+        project: "Proyecto",
+        natureSpaces: "Naturaleza y espacios",
+        aDayInHegazti: "Un día en Hegazti",
+        faqs: "Preguntas frecuentes",
+      },
+      contact: "Contacto",
+      extracurricularActivities: "Extraescolares",
+      blog: "Blog",
+      scholarCalendar: "Calendario escolar",
     },
     home: {
       header: {
@@ -251,29 +285,16 @@ const spanish = {
       },
     },
     moreInformation: {
+      header: {
+        title: "Hegazti Escuela Bosque | Más información",
+        meta: {
+          description: {
+            content:
+              "Formulario para preguntar por más información.",
+          },
+        },
+      },
       title: "VEN A CONOCERNOS",
-    },
-    menu: {
-      forestAsClassroom: {
-        main: "El bosque como aula",
-        daytimeMother: "Madre de día",
-        childhoodClass: "Infantil",
-        primarySchool: "Primaria",
-        extracurricularActivitiesPlayRoom: "Extraescolares - Ludoteca",
-        extracurricularActivitiesSaturdays:
-          "Extraescolares - Sábados en familia",
-      },
-      whoWeAre: {
-        main: "Quiénes somos",
-        project: "Proyecto",
-        natureSpaces: "Naturaleza y espacios",
-        aDayInHegazti: "Un día en Hegazti",
-        faqs: "Preguntas frecuentes",
-      },
-      contact: "Contacto",
-      extracurricularActivities: "Extraescolares",
-      blog: "Blog",
-      scholarCalendar: "Calendario escolar",
     },
   },
 };

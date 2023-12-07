@@ -22,15 +22,14 @@ export const handler: Handlers = {
 
 export default function Home({ data: { languageAccepted } }: PageProps) {
   const t = getFixedT(languageAccepted);
-  const menuTexts = t("menu", { returnObjects: true })
+  const menuTexts = t("menu", { returnObjects: true });
   return (
     <>
       <Head>
-        <title>Hegazti Escuela Bosque | Home</title>
+        <title>{t("home.header.title")}</title>
         <meta
           name="description"
-          content="Hegazti Escuela Bosque es una escuela que ofrece un enfoque educativo basado en el aprendizaje en la naturaleza y la conexión con el medio ambiente. Ofrecemos una variedad de servicios que incluyen Casitas Abejorro, del Bosque, del Árbol y Nido de Pájaro para niños y niñas de 0 a 12 años. También ofrecemos actividades extracurriculares como ludotecas de invierno, primavera y verano, y sábados en familia. En nuestra escuela, el aprendizaje es un proceso holístico que se vive de manera funcional y se integra en la vida cotidiana. Nuestros objetivos son promover el desarrollo integral de todas las personas involucradas y desarrollar la inteligencia emocional junto con la resolución de problemas. En nuestro aula viva, los niños pueden explorar, investigar y aprender en contacto directo con la naturaleza, mientras nuestros guías les brindan apoyo y herramientas para enriquecer su experiencia.
-"
+          content={t("home.header.meta.description.content")}
         />
       </Head>
       <NavBar menuTexts={menuTexts} />
@@ -79,7 +78,7 @@ export default function Home({ data: { languageAccepted } }: PageProps) {
         text={t("home.quote.text")}
         author={t("home.quote.author")}
       />
-      <SectionFooter languageAccepted={languageAccepted}/>
+      <SectionFooter languageAccepted={languageAccepted} />
     </>
   );
 }

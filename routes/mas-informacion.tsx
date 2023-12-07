@@ -15,16 +15,18 @@ export const handler: Handlers = {
   },
 };
 
-export default function MasInformacion({ data: { languageAccepted } }: PageProps) {
+export default function MasInformacion(
+  { data: { languageAccepted } }: PageProps,
+) {
   const t = getFixedT(languageAccepted);
-  const menuTexts = t("menu", { returnObjects: true })
+  const menuTexts = t("menu", { returnObjects: true });
   return (
     <>
       <Head>
-        <title>Hegazti Escuela Bosque | Mas Información</title>
+        <title>{t("moreInformation.header.title")}</title>
         <meta
           name="description"
-          content="Formulario para preguntar por más información."
+          content={t("moreInformation.header.meta.description.content")}
         />
       </Head>
       <NavBar menuTexts={menuTexts} />
@@ -34,11 +36,11 @@ export default function MasInformacion({ data: { languageAccepted } }: PageProps
         )}
       >
         <h1 className={tw(`hegazti-h1 text-left! py-8`)}>
-          VEN A CONOCERNOS
+          {t("moreInformation.title")}
         </h1>
         <SectionMasInformacion languageAccepted={languageAccepted} />
       </section>
-      <SectionFooter languageAccepted={languageAccepted}/>
+      <SectionFooter languageAccepted={languageAccepted} />
     </>
   );
 }
