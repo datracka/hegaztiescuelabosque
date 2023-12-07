@@ -34,8 +34,8 @@ export default function Home({ data: { languageAccepted } }: PageProps) {
       </Head>
       <NavBar menuTexts={menuTexts} />
       <Hero
-        title={t("hero.claim")}
-        description={t("hero.subClaim")}
+        title={t("home.hero.claim")}
+        description={t("home.hero.subClaim")}
         backgroundImage="imgs/home/home-nino-riendo.jpg"
       />
       <SectionLearnInNature t={t} />

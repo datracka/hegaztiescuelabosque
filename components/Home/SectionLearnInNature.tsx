@@ -11,10 +11,7 @@ const SectionLearnInNature = ({ t }: { t: any }) => (
       <div
         className={tw`pb-12 text-justify`}
         dangerouslySetInnerHTML={{
-          __html: t("home.presentation.learnInNatureBody", {
-            "openParagraph": '<p className="mb-4">',
-            "closeParagraph": "</p>",
-          }),
+          __html: t("home.presentation.learnInNatureBody"),
         }}
       >
       </div>

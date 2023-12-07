@@ -33,66 +33,66 @@ export default function AulaMadreDeDia({ data: { languageAccepted } }: PageProps
   return (
     <>
       <Head>
-        <title>Hegazti Escuela Bosque | Aula - Madre de dia</title>
+        <title>{t("daytimeMother.header.title")}</title>
         <meta
           name="description"
-          content="La Casita Abejorro es un centro de cuidado de niños y niñas de 0 a 3 años que ofrece un ambiente de calma y respeto en contacto con la naturaleza. Se enfoca en el movimiento libre y el acompañamiento respetuoso para generar un vínculo seguro entre las criaturas y la persona que acompaña. La yurta es el ambiente cálido y familiar en el que se generan experiencias de amor, confianza y sencillez para favorecer que los niños puedan ser. El centro está dirigido por Esther, una madre de dos niñas, que se une al proyecto con la ilusión de aportar su experiencia vital en el acompañamiento respetuoso a las criaturas."
+          content={t("daytimeMother.header.meta.description.content")}
         />
       </Head>
       <NavBar menuTexts={menuTexts} />
       <Hero
-        title="MADRE DE DÍA"
-        description="CASITA ABEJORRO"
+        title={t("daytimeMother.hero.claim")}
+        description={t("daytimeMother.hero.subClaim")}
         backgroundImage={`${staticPath}/hero-image-aula-madre-de-dia.jpg`}
       />
-      <SectionContent staticPath={staticPath} />
+      <SectionContent staticPath={staticPath} t={t} />
       <SectionSaying
-        text="Está comprobado que los abejorros no deberían poder volar debido a su peso, tamaño y cuerpo, sólo que ellas no lo saben."
+        text={t("daytimeMother.saying")}
         author="EMMI PICKLER"
       />
       <SectionGrid
         list={[
-          { alt: "Niña Pintando", img: `${staticPath}/nina-pintando.jpg` },
+          { alt: t("daytimeMother.imageGridGirlDrawingAlt"), img: `${staticPath}/nina-pintando.jpg` },
           {
-            alt: "Frase Movimiento Libre",
+            alt: t("daytimeMother.imageGridFreeMovementAlt"),
             img: `${staticPath}/frase-movimiento-libre.jpg`,
           },
           {
-            alt: "Jugando con animales",
+            alt: t("daytimeMother.imageGridPlayingWithAnimalsAlt"),
             img: `${staticPath}/jugando-con-animales.jpg`,
           },
-          { alt: "Frase Confianza", img: `${staticPath}/frase-confianza.jpg` },
-          { alt: "Frase Cuidado", img: `${staticPath}/frase-cuidado.jpg` },
-          { alt: "Bosque", img: `${staticPath}/bosque.jpg` },
-          { alt: "Frase Calidez", img: `${staticPath}/frase-calidez.jpg` },
-          { alt: "Niños Jugando", img: `${staticPath}/ninos-jugando.jpg` },
+          { alt: t("daytimeMother.imageGridTrustAlt"), img: `${staticPath}/frase-confianza.jpg` },
+          { alt: t("daytimeMother.imageGridCareAlt"), img: `${staticPath}/frase-cuidado.jpg` },
+          { alt: t("daytimeMother.imgGridForestAlt"), img: `${staticPath}/bosque.jpg` },
+          { alt: t("daytimeMother.imgGridCousinessAlt"), img: `${staticPath}/frase-calidez.jpg` },
+          { alt: t("daytimeMother.imgGridPlaying"), img: `${staticPath}/ninos-jugando.jpg` },
           {
-            alt: "Caballos y niños",
+            alt: t("daytimeMother.imgGridHorsesAlt"),
             img: `${staticPath}/caballos-y-ninos.jpg`,
           },
           {
-            alt: "Frase Ritmo Calmado",
+            alt: t("daytimeMother.imgGridSlowTempoAlt"),
             img: `${staticPath}/frase-ritmo-calmado.jpg`,
           },
           {
-            alt: "Frase Naturaleza",
+            alt: t("daytimeMother.imgGridSnakeAlt"),
             img: `${staticPath}/nino-y-caracola.jpg`,
           },
-          { alt: "Niño y caracola", img: `${staticPath}/frase-cuidado-2.jpg` },
+          { alt: t("daytimeMother.imgGridCareAlt"), img: `${staticPath}/frase-cuidado-2.jpg` },
           {
-            alt: "Frase Cuidado",
+            alt: t("daytimeMother.imgGridCompanionAlt"),
             img: `${staticPath}/frase-acompanamiento.jpg`,
           },
           {
-            alt: "Madre y niño abrazado",
+            alt: t("daytimeMother.imgGridMotherAlt"),
             img: `${staticPath}/madre-y-nino-abrazado.jpg`,
           },
           {
-            alt: "Frase Naturaleza",
+            alt: t("daytimeMother.imgGridNatureAlt"),
             img: `${staticPath}/frase-naturaleza.jpg`,
           },
           {
-            alt: "Niños y animales",
+            alt: t("daytimeMother.imgGridAnimalsAlt"),
             img: `${staticPath}/ninos-y-animales.jpg`,
           },
         ]}

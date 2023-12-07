@@ -11,10 +11,6 @@ export type language = {
 
 const english = {
   translation: {
-    hero: {
-      claim: "Growing up in nature.",
-      subClaim: "HEGAZTI FOREST SCHOOL",
-    },
     menu: {
       forestAsClassroom: {
         main: "The forest as a classroom",
@@ -46,6 +42,10 @@ const english = {
               "Hegazti Forest School is a school that offers an educational approach based on nature-based learning and environmental connection. We provide a variety of services, including Bumblebee, Forest, Treehouse, and Bird's Nest cottages for children aged 0 to 12. We also offer extracurricular activities such as winter, spring, and summer playrooms, as well as Family Saturdays. In our school, learning is a holistic process that is functionally experienced and integrated into everyday life. Our goals are to promote the comprehensive development of all individuals involved and to cultivate emotional intelligence alongside problem-solving skills. In our living classroom, children can explore, investigate, and learn in direct contact with nature, while our guides provide support and tools to enrich their experience.",
           },
         },
+      },
+      hero: {
+        claim: "Growing up in nature.",
+        subClaim: "HEGAZTI FOREST SCHOOL",
       },
       presentation: {
         learnInNatureHeader: "Learning in Nature.",
@@ -147,14 +147,63 @@ const english = {
     },
     daytimeMother: {
       header: {
-        title: "",
+        title: "Hegazti Forest School | Classroom - Day Mother",
         meta: {
           description: {
-            content: "",
+            content:
+              "La Casita Abejorro is a childcare center for children aged 0 to 3 years old, providing a calm and respectful environment in contact with nature. It focuses on free movement and respectful companionship to create a secure bond between the little ones and the accompanying person. The yurt is the warm and familial setting where experiences of love, trust, and simplicity are fostered to allow children to be themselves. The center is led by Leti, a mother of two, who joins the project with the enthusiasm to contribute her life experience in respectful companionship with the little ones.",
           },
         },
       },
-      title: "",
+      hero: {
+        claim: "DAYTIME MOTHER",
+        subClaim: "CASITA ABEJORRO",
+      },
+      imgPlayingTogetherTitle: "Casita Abejorro, playing together",
+      imgCouriosGirl: "Casita Abejorro, curious girl",
+      imgLogo: "Casita Abejorro, logo",
+      descriptionText1: `
+      At Casita Abejorro, children aged 18 months to 3 years can experience a daily space of calm and respect in contact with nature. We believe that children are complete beings who need a safe and loving place to develop and grow in a healthy way, in connection with nature and their own needs.
+      `,
+      descriptionText2: `
+      WE CREATE EXPERIENCES FOR THEM TO DISCOVER THE WORLD IN AN
+      INTEGRATED WAY, BASED ON THEIR NEEDS AND PACE
+      `,
+      descriptionText3: `
+      We rely on the principles of free movement and respectful companionship to establish a secure bond between the little ones and the person accompanying them. Through contact with natural materials, songs, and stories, we create life experiences in which children discover the world in an integrated way, based on their needs and at their own pace.
+        `,
+      yurta: {
+        title: "THE YURT",
+        text: `
+        The yurt at Casita Abejorro is a warm and familial environment where experiences of love, trust, and simplicity are generated, fostering that children can 'be.' Focusing on the children, we provide space and time for them to unfold 'their flight' in life, organically and naturally..
+        `,
+        imgTitle: "The Yurt",
+      },
+      companion: {
+        title: "COMPANION",
+        text: `
+        My name is Leti, I am a mother of two children, and the magic of life has brought me to Walking with Horses. I share with Hegazti Forest School the vision of a respected childhood developing at its own calm pace in nature. I join the project with the excitement of contributing my life experience in respectful companionship with the creatures around us.
+        `,
+        imgTitle: "Casita Abejorro, mother and children",
+      },
+      saying:
+        "It is proven that bumblebees shouldn't be able to fly due to their weight, size, and body, only they don't know it.",
+      imageGridGirlDrawingAlt: "Free Movement Quote",
+      imageGridFreeMovementAlt: "Free Movement Quote",
+      imageGridPlayingWithAnimalsAlt: "Playing with Animals",
+      imageGridTrustAlt: "Trust Quote",
+      imageGridCareAlt: "Care Quote",
+      imgGridForestAlt: "Forest",
+      imgGridCousinessAlt: "Warmth Quote",
+      imgGridPlaying: "Children Playing",
+      imgGridHorsesAlt: "Horses and Children",
+      imgGridSlowTempoAlt: "Calm Pace Quote",
+      imgGridSnakeAlt: "Shell Quote",
+      imgGridCareAlt: "Child and Care",
+      imgGridCompanionAlt: "Companionship Quote",
+      imgGridMotherAlt: "Mother and child embraced",
+      imgGridNatureAlt: "Nature Quote",
+      imgGridAnimalsAlt: "Children and Animals",
     },
     preschoolClassroom: {
       header: {
@@ -244,16 +293,12 @@ const english = {
       },
       title: "",
     },
-    footer: { }
+    footer: {},
   },
 };
 
 const spanish = {
   translation: {
-    hero: {
-      claim: "Creciendo en la naturaleza",
-      subClaim: "HEGAZTI ESCUELA BOSQUE",
-    },
     menu: {
       forestAsClassroom: {
         main: "El bosque como aula",
@@ -285,6 +330,10 @@ const spanish = {
               "Hegazti Escuela Bosque es una escuela que ofrece un enfoque educativo basado en el aprendizaje en la naturaleza y la conexión con el medio ambiente. Ofrecemos una variedad de servicios que incluyen Casitas Abejorro, del Bosque, del Árbol y Nido de Pájaro para niños y niñas de 0 a 12 años. También ofrecemos actividades extracurriculares como ludotecas de invierno, primavera y verano, y sábados en familia. En nuestra escuela, el aprendizaje es un proceso holístico que se vive de manera funcional y se integra en la vida cotidiana. Nuestros objetivos son promover el desarrollo integral de todas las personas involucradas y desarrollar la inteligencia emocional junto con la resolución de problemas. En nuestro aula viva, los niños pueden explorar, investigar y aprender en contacto directo con la naturaleza, mientras nuestros guías les brindan apoyo y herramientas para enriquecer su experiencia.",
           },
         },
+      },
+      hero: {
+        claim: "Creciendo en la naturaleza",
+        subClaim: "HEGAZTI ESCUELA BOSQUE",
       },
       presentation: {
         learnInNatureHeader: "Aprender en la Naturaleza",
@@ -396,14 +445,82 @@ const spanish = {
     },
     daytimeMother: {
       header: {
-        title: "",
+        title: "Hegazti Escuela Bosque | Aula - Madre de dia",
         meta: {
           description: {
-            content: "",
+            content:
+              "La Casita Abejorro es un centro de cuidado de niños y niñas de 0 a 3 años que ofrece un ambiente de calma y respeto en contacto con la naturaleza. Se enfoca en el movimiento libre y el acompañamiento respetuoso para generar un vínculo seguro entre las criaturas y la persona que acompaña. La yurta es el ambiente cálido y familiar en el que se generan experiencias de amor, confianza y sencillez para favorecer que los niños puedan ser. El centro está dirigido por Leti, una madre de dos niños, que se une al proyecto con la ilusión de aportar su experiencia vital en el acompañamiento respetuoso a las criaturas.",
           },
         },
       },
-      title: "",
+      hero: {
+        claim: "MADRE DE DÍA",
+        subClaim: "CASITA ABEJORRO",
+      },
+      imgPlayingTogetherTitle: "Casita Abejorro, jugando juntos",
+      imgCouriosGirl: "Casita Abejorro, niña curiosa",
+      imgLogo: "Casita Abejorro, logo",
+      descriptionText1: `
+        En la Casita Abejorro, las niñas y niños de 18 meses a 3 años, pueden
+        vivenciar cada día un espacio de calma y respeto en contacto con la
+        naturaleza. Creemos que las niñas y los niños son seres completos que
+        necesitan un lugar seguro y amoroso en el que desarrollarse y crecer
+        de manera sana, en contacto con la naturaleza y con sus propias
+        necesidades.
+      `,
+      descriptionText2: `
+        GENERAMOS EXPERIENCIAS PARA QUE DESCUBRAN EL MUNDO DE MANERA
+        INTEGRADA, DESDE SUS NECESIDADES Y AL RITMO QUE NECESITAN
+      `,
+      descriptionText3: `
+          Nos apoyamos en los principios del movimiento libre y el
+              acompañamiento respetuoso para generar un vínculo seguro entre las
+              criaturas y la persona que acompaña. A través del contacto con
+              materiales naturales, cantos y cuentos, generamos experiencias de vida
+              en las que las niñas y los niños descubren el mundo de manera
+              integrada, desde sus necesidades y al ritmo que necesitan.
+        `,
+      yurta: {
+        title: "LA YURTA",
+        text: `
+          La yurta de La Casita Abejorro es un ambiente cálido y familiar en el
+          que se generan experiencias de amor, confianza y sencillez que
+          favorecen que las niñas y niños puedan “ser”. Poniendo la mirada en
+          las criaturas, favorecemos espacio y tiempo para que puedan desplegar
+          “su vuelo” en la vida, de manera orgánica y natural.
+        `,
+        imgTitle: "La Yurta",
+      },
+      companion: {
+        title: "ACOMPAÑANTE",
+        text: `
+        Me llamo Leti, soy mamá de dos niños y la magia de la vida me ha
+        traido a Caminando con caballos. Comparto con la Bosqueescuela Hegazti
+        la visión de una infancia respetada desarrollándose a su ritmo
+        tranquilo en la naturaleza. Me sumo al proyecto con la ilusión de
+        aportar mi experiencia vital en el acompañamiento respetuoso a las
+        criaturas que nos rodean.
+        `,
+        imgTitle: "Casita Abejorro, madre y niños",
+      },
+      saying:
+        "Está comprobado que los abejorros no deberían poder volar debido a su peso, tamaño y cuerpo, sólo que ellas no lo saben.",
+      imageGridGirlDrawingAlt: "Niña Pintando",
+      imageGridFreeMovementAlt: "Frase Movimiento Libre",
+      imageGridPlayingWithAnimalsAlt: "Jugando con animales",
+      imageGridTrustAlt: "Frase Confianza",
+      imageGridCareAlt: "Frase Cuidado",
+      imgGridForestAlt: "Bosque",
+      imgGridCousinessAlt: "Frase Calidez",
+      imgGridPlaying: "Niños Jugando",
+      imgGridHorsesAlt: "Caballos y niños",
+      imgGridSlowTempoAlt: "Frase Ritmo Calmado",
+      imgGridSnakeAlt: "Frase Caracola",
+      imgGridCareAlt: "Niño y Cuidado",
+      imgGridCompanionAlt: "Frase Acompañamiento",
+      imgGridMotherAlt: "Madre y niño abrazado",
+      imgGridNatureAlt: "Frase Naturaleza",
+      imgGridAnimalsAlt: "Niños y animales",
     },
     preschoolClassroom: {
       header: {
@@ -493,7 +610,7 @@ const spanish = {
       },
       title: "",
     },
-    footer: {}
+    footer: {},
   },
 };
 
