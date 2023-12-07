@@ -1,4 +1,4 @@
-import { RouteConfig } from "$fresh/server.ts";
+import { RouteConfig, HandlerContext, Handlers, PageProps  } from "$fresh/server.ts";
 import NavBar from "@/islands/NavBar.tsx";
 import { Head } from "$fresh/runtime.ts";
 import SectionFooter from "@/components/Shared/SectionFooter.tsx";
@@ -6,12 +6,29 @@ import Hero from "@/components/Shared/Hero.tsx";
 import SectionContent from "@/components/DailyMother/SectionContent.tsx";
 import SectionSaying from "@/components/Shared/SectionSaying.tsx";
 import SectionGrid from "@/components/Shared/SectionGrid.tsx";
+import getFixedT from "@/components/i18n.ts";
 
 export const config: RouteConfig = {
   routeOverride: "/(aula-madre-de-dia|daily-mother-schoolroom)",
 };
 
-export default function AulaMadreDeDia() {
+export const handler: Handlers = {
+  async GET(req: Request, ctx: HandlerContext) {
+    const resp = await ctx.render({
+      languageAccepted: req.headers.get("Accept-Language"),
+    });
+    return resp;
+  },
+};
+
+export default function AulaMadreDeDia({ data: { languageAccepted } }: PageProps) {
+
+  const t = getFixedT(languageAccepted);
+
+  // We handle menu Texts, it should be handled directly in <Navbar/>
+  // We can not yet because languageAccepted is not part of the context.
+  const menuTexts = t("menu", { returnObjects: true });
+
   const staticPath = "/imgs/aula-madre-de-dia";
   return (
     <>
@@ -22,7 +39,7 @@ export default function AulaMadreDeDia() {
           content="La Casita Abejorro es un centro de cuidado de niños y niñas de 0 a 3 años que ofrece un ambiente de calma y respeto en contacto con la naturaleza. Se enfoca en el movimiento libre y el acompañamiento respetuoso para generar un vínculo seguro entre las criaturas y la persona que acompaña. La yurta es el ambiente cálido y familiar en el que se generan experiencias de amor, confianza y sencillez para favorecer que los niños puedan ser. El centro está dirigido por Esther, una madre de dos niñas, que se une al proyecto con la ilusión de aportar su experiencia vital en el acompañamiento respetuoso a las criaturas."
         />
       </Head>
-      <NavBar />
+      <NavBar menuTexts={menuTexts} />
       <Hero
         title="MADRE DE DÍA"
         description="CASITA ABEJORRO"
@@ -80,7 +97,8 @@ export default function AulaMadreDeDia() {
           },
         ]}
       />
-      <SectionFooter />
+      {/* we pass languageAccepted to get the proper form. It should be handlded as context */}
+      <SectionFooter languageAccepted={languageAccepted} />
     </>
   );
 }

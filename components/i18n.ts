@@ -139,13 +139,112 @@ const english = {
         title: "Hegazti Forest School | More Information",
         meta: {
           description: {
-            content:
-              "Form to request for more information",
+            content: "Form to request for more information",
           },
         },
       },
       title: "COME AND MEET US",
     },
+    daytimeMother: {
+      header: {
+        title: "",
+        meta: {
+          description: {
+            content: "",
+          },
+        },
+      },
+      title: "",
+    },
+    preschoolClassroom: {
+      header: {
+        title: "",
+        meta: {
+          description: {
+            content: "",
+          },
+        },
+      },
+      title: "",
+    },
+    primarySchool: {
+      header: {
+        title: "",
+        meta: {
+          description: {
+            content: "",
+          },
+        },
+      },
+      title: "",
+    },
+    extracurricularPlayroom: {
+      header: {
+        title: "",
+        meta: {
+          description: {
+            content: "",
+          },
+        },
+      },
+      title: "",
+    },
+    extracurricularSaturdaysInFamily: {
+      header: {
+        title: "",
+        meta: {
+          description: {
+            content: "",
+          },
+        },
+      },
+      title: "",
+    },
+    project: {
+      header: {
+        title: "",
+        meta: {
+          description: {
+            content: "",
+          },
+        },
+      },
+      title: "",
+    },
+    natureSpaces: {
+      header: {
+        title: "",
+        meta: {
+          description: {
+            content: "",
+          },
+        },
+      },
+      title: "",
+    },
+    aDayInHegazti: {
+      header: {
+        title: "",
+        meta: {
+          description: {
+            content: "",
+          },
+        },
+      },
+      title: "",
+    },
+    faqs: {
+      header: {
+        title: "",
+        meta: {
+          description: {
+            content: "",
+          },
+        },
+      },
+      title: "",
+    },
+    footer: { }
   },
 };
 
@@ -289,13 +388,112 @@ const spanish = {
         title: "Hegazti Escuela Bosque | Más información",
         meta: {
           description: {
-            content:
-              "Formulario para preguntar por más información.",
+            content: "Formulario para preguntar por más información.",
           },
         },
       },
       title: "VEN A CONOCERNOS",
     },
+    daytimeMother: {
+      header: {
+        title: "",
+        meta: {
+          description: {
+            content: "",
+          },
+        },
+      },
+      title: "",
+    },
+    preschoolClassroom: {
+      header: {
+        title: "",
+        meta: {
+          description: {
+            content: "",
+          },
+        },
+      },
+      title: "",
+    },
+    primarySchool: {
+      header: {
+        title: "",
+        meta: {
+          description: {
+            content: "",
+          },
+        },
+      },
+      title: "",
+    },
+    extracurricularPlayroom: {
+      header: {
+        title: "",
+        meta: {
+          description: {
+            content: "",
+          },
+        },
+      },
+      title: "",
+    },
+    extracurricularSaturdaysInFamily: {
+      header: {
+        title: "",
+        meta: {
+          description: {
+            content: "",
+          },
+        },
+      },
+      title: "",
+    },
+    project: {
+      header: {
+        title: "",
+        meta: {
+          description: {
+            content: "",
+          },
+        },
+      },
+      title: "",
+    },
+    natureSpaces: {
+      header: {
+        title: "",
+        meta: {
+          description: {
+            content: "",
+          },
+        },
+      },
+      title: "",
+    },
+    aDayInHegazti: {
+      header: {
+        title: "",
+        meta: {
+          description: {
+            content: "",
+          },
+        },
+      },
+      title: "",
+    },
+    faqs: {
+      header: {
+        title: "",
+        meta: {
+          description: {
+            content: "",
+          },
+        },
+      },
+      title: "",
+    },
+    footer: {}
   },
 };
 
