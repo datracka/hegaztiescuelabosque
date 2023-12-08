@@ -32,7 +32,7 @@ export default function Home({ data: { languageAccepted } }: PageProps) {
           content={t("home.header.meta.description.content")}
         />
       </Head>
-      <NavBar menuTexts={menuTexts} />
+      <NavBar languageAccepted={languageAccepted} />
       <Hero
         title={t("home.hero.claim")}
         description={t("home.hero.subClaim")}

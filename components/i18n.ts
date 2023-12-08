@@ -207,14 +207,51 @@ const english = {
     },
     preschoolClassroom: {
       header: {
-        title: "",
+        title: "Hegazti Forest School | Classroom - Preschool",
         meta: {
           description: {
-            content: "",
+            content: `
+              La Casita del Bosque (The Forest Little House) is a natural space designed for children aged 3 to 6, where they can learn by living, touching, and exploring their natural environment. The goal is to grow in harmony with nature and develop motor and emotional skills. Priority is given to the individual, their preferences, interests, states, and feelings.",
+              `,
           },
         },
       },
-      title: "",
+      hero: {
+        claim: "PRESCHOOL",
+        subClaim: "CASITA DEL BOSQUE",
+      },
+      introImage1: "Children playing in the little house",
+      introImage2: "Girl playing with water",
+      introText1: `
+      The Forest Little House is a natural space where girls and boys, aged 3 to 6, live daily with trees, water, earth, insects, animals, sky, air, sun... all of this allows them to grow in harmony with who they are, in an inspiring, changing, organic, and inclusive context.
+        `,
+      introText2: `
+      Learning by living, touching, exploring allows integrating any type of learning. Interacting with a living environment generates curiosity, interest in the context. This leads to questions that lead to investigating on all planes of knowledge.  
+      `,
+      introText3: `
+      We give a central space to the individual, to their preferences, interests, states, and feelings. Likewise, the times, circumstances, needs, and choices of each one are respected.
+        `,
+      introBullet: `
+      "GIVING SPACE TO MOTOR NEEDS IN CHILDHOOD IS OPENING THE DOOR TO PSYCHOLOGICAL WELL-BEING AND EMOTIONAL BALANCE.
+      `,
+      introText4: `
+      At this stage, motor development is essential; we open the possibility for individuals to take on motor challenges, experience challenges, and achieve conquests.
+      `,
+      introText5: `
+      Emotional management is another focus of support. That's why special importance is given at Hegazti to respecting the individual's space to process what they feel or experience.
+          `,
+      saying:
+        "Look deep into nature, and then you will understand everything better.",
+      imageGrid: {
+        horses: "Girls caressing horses",
+        kidHand: "Hand with a lizard",
+        yurta: " Yurt",
+        cooking: "Making cakes together",
+        forest: "Playing in the river",
+        walk: "Walking through the field",
+        clay: "Making clay figures",
+        playingInYurta: "Playing in the yurt",
+      },
     },
     primarySchool: {
       header: {
@@ -545,14 +582,64 @@ const spanish = {
     },
     preschoolClassroom: {
       header: {
-        title: "",
+        title: "Hegazti Escuela Bosque | Aula - Infantil",
         meta: {
           description: {
-            content: "",
+            content:
+              "La Casita del Bosque es un espacio natural diseñado para niñas y niños de 3 a 6 años, donde pueden aprender viviendo, tocando y explorando su entorno natural. El objetivo es crecer en armonía con la naturaleza y desarrollar habilidades motoras y emocionales. Se da prioridad a la persona, a sus preferencias, intereses, estados y sentimientos.",
           },
         },
       },
-      title: "",
+      hero: {
+        claim: "INFANTIL",
+        subClaim: "CASITA DEL BOSQUE",
+      },
+      introImage1: "Niños jugando en casita",
+      introImage2: "Niña jugando con el agua",
+      introText1: `
+        La Casita del Bosque es un espacio natural en el que niñas y niños de 3
+        a 6 años, conviven a diario con los árboles, el agua, la tierra, los
+        insectos, los animales, el cielo, el aire, el sol… todo esto les permite
+        crecer en armonía con lo que son, en un contexto inspirador, cambiante,
+        orgánico e integrador.
+        `,
+      introText2: `
+        Aprender viviendo, tocando, explorando, permite integrar cualquier tipo
+        de aprendizaje. Interactuar con un medio vivo genera inquietudes,
+        interés sobre el contexto. Esto da lugar a preguntas que conducen a
+        investigar en todos los planos del conocimiento.  
+      `,
+      introText3: `
+        Damos un espacio principal a la persona, a sus preferencias, intereses,
+        estados, y sentires. Igualmente se respetan los tiempos, las
+        circunstancias, necesidades y elecciones de cada uno/a
+        `,
+      introBullet: `
+        DAR ESPACIO A LA NECESIDAD MOTORA EN LA INFANCIA ES ABRIR LA PUERTA AL
+        BIENESTAR PSICOLÓGICO Y AL EQUILIBRIO EMOCIONAL.
+      `,
+      introText4: `
+        En esta etapa, el desarrollo motor es esencial; abrimos la posibilidad a
+        las personas de asumir retos motores, experimentar desafíos y lograr
+        conquistas.
+      `,
+      introText5: `
+          La gestión emocional es otro de los focos del acompañamiento. por eso
+          en Hegazti se da especial importancia a respetar el espacio de la
+          persona para elaborar lo que siente o le acontece.
+          `,
+      saying:
+        "Mira profundamente en la naturaleza y entonces comprenderás todo mejor.",
+      imageGrid: {
+        horses: "Niñas acariciando caballos",
+        kidHand: "Mano con lagartija",
+        yurta: " Yurta",
+        cooking: "Haciendo pasteles juntos",
+        forest: "Jugando en el rio",
+        walk: "Paseando por el campo",
+        sand: "Haciendo figuras de barro",
+        playingInYurta: "Jugando en la yurta",
+      },
     },
     primarySchool: {
       header: {
@@ -563,7 +650,10 @@ const spanish = {
           },
         },
       },
-      title: "",
+      hero: {
+        claim: "",
+        subClaim: "",
+      },
     },
     extracurricularPlayroom: {
       header: {
@@ -573,6 +663,10 @@ const spanish = {
             content: "",
           },
         },
+      },
+      hero: {
+        claim: "",
+        subClaim: "",
       },
       title: "",
     },
@@ -585,6 +679,10 @@ const spanish = {
           },
         },
       },
+      hero: {
+        claim: "INFANTIL",
+        subClaim: "CASITA DEL BOSQUE",
+      },
       title: "",
     },
     project: {
@@ -595,6 +693,10 @@ const spanish = {
             content: "",
           },
         },
+      },
+      hero: {
+        claim: "",
+        subClaim: "",
       },
       title: "",
     },
@@ -607,6 +709,10 @@ const spanish = {
           },
         },
       },
+      hero: {
+        claim: "",
+        subClaim: "",
+      },
       title: "",
     },
     aDayInHegazti: {
@@ -618,6 +724,10 @@ const spanish = {
           },
         },
       },
+      hero: {
+        claim: "",
+        subClaim: "",
+      },
       title: "",
     },
     faqs: {
@@ -628,6 +738,10 @@ const spanish = {
             content: "",
           },
         },
+      },
+      hero: {
+        claim: "",
+        subClaim: "",
       },
       title: "",
     },

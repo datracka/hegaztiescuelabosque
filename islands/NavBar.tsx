@@ -5,12 +5,15 @@ import DesktopMenu from "@/islands/DesktopMenu.tsx";
 import MobileMenu from "@/islands/MobileMenu.tsx";
 import { useState } from "preact/hooks";
 import { JSX } from "preact/jsx-runtime";
+import getFixedT from "@/components/i18n.ts";
 
 type NavProps = {
-  menuTexts: any; // there is not a proper type from i18next?
+  languageAccepted: string
 };
 
-export default function ({ menuTexts }: NavProps): JSX.Element {
+export default function ({ languageAccepted }: NavProps): JSX.Element {
+  const t = getFixedT(languageAccepted);
+  const menuTexts = t("menu", { returnObjects: true });
   const [opened, setOpen] = useState(false);
   const onClickHandler: () => void = (): void => setOpen(!opened);
 

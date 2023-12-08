@@ -39,7 +39,7 @@ export default function AulaMadreDeDia({ data: { languageAccepted } }: PageProps
           content={t("daytimeMother.header.meta.description.content")}
         />
       </Head>
-      <NavBar menuTexts={menuTexts} />
+      <NavBar languageAccepted={languageAccepted} />
       <Hero
         title={t("daytimeMother.hero.claim")}
         description={t("daytimeMother.hero.subClaim")}

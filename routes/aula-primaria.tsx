@@ -6,6 +6,7 @@ import SectionContent from "@/components/PrimaryClassroom/SectionContent.tsx";
 import SectionSaying from "@/components/Shared/SectionSaying.tsx";
 import SectionGrid from "@/components/Shared/SectionGrid.tsx";
 
+
 export default function AulaPrimaria() {
   const staticPath = "/imgs/aula-primaria";
   return (

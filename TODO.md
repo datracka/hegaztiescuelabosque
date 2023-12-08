@@ -2,9 +2,10 @@
 
 ## Localization
 
+- [ ] Fix issue with form & apply a conditional rendering in dev
 - [x] Translate Extraescolares Text
 - [x] Translate mas-information
-- [ ] Translate Footer
+- [x] Translate Footer
 - [x] Translate The forest as classroom > DayTime Mother
 - [ ] Translate The forest as classroom > Preschool Classroom
 - [ ] Translate The forest as classroom > Primary School
@@ -18,7 +19,17 @@
 - [ ] translate cookies policy
 - [ ] translate privacy policy
 - [ ] Translate images?
+- [ ] Make than url linking is english when english languange and spanish when spanish language
 
+## Steps to localize, given a page
+
+- Fix issues with Props in Components
+- Write in the i18n.ts (spanish json) the keys to use for each page
+- Copy texts from templates into json
+- pass keys and text to excel
+- Replace text by keys in template
+- Add keys to English Josn
+- Translate them with ChatGPT and replace
 
 ## Localization: The problem for the future
 

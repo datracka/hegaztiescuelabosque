@@ -6,6 +6,10 @@ import { Head } from "$fresh/runtime.ts";
 import { HandlerContext, Handlers, PageProps } from "$fresh/server.ts";
 import getFixedT from "@/components/i18n.ts";
 
+export const config: RouteConfig = {
+  routeOverride: "/(mas-informacion|more-information)",
+};
+
 export const handler: Handlers = {
   async GET(req: Request, ctx: HandlerContext) {
     const resp = await ctx.render({
@@ -29,7 +33,7 @@ export default function MasInformacion(
           content={t("moreInformation.header.meta.description.content")}
         />
       </Head>
-      <NavBar menuTexts={menuTexts} />
+      <NavBar languageAccepted={languageAccepted} />
       <section
         className={tw(
           `mx-auto max-w-7xl px-2 sm:px-6 lg:px-8`,
