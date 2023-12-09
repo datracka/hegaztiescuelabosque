@@ -1,5 +1,5 @@
 import { Head } from "$fresh/runtime.ts";
-import { HandlerContext, Handlers, PageProps } from "$fresh/server.ts";
+import { PageProps } from "$fresh/server.ts";
 import Hero from "@/components/Shared/Hero.tsx";
 import CallToAction from "@/components/Home/CallToAction.tsx";
 import SectionLearnInNature from "@/components/Home/SectionLearnInNature.tsx";
@@ -10,20 +10,16 @@ import SectionFooter from "@/components/Shared/SectionFooter.tsx";
 import NavBar from "@/islands/NavBar.tsx";
 import SectionGallery from "@/components/Home/SectionGallery.tsx";
 import getFixedT from "@/components/i18n.ts";
-import { load } from "$std/dotenv/mod.ts";
 
-export const handler: Handlers = {
-  async GET(req: Request, ctx: HandlerContext) {
-    const env = await load()
-    const resp = await ctx.render({
-      languageAccepted: req.headers.get("Accept-Language"),
-      enableForms: env["ENABLE_FORMS"]
-    });
-    return resp;
-  },
-};
+interface State {
+  languageAccepted: string;
+  enableForms: string;
+}
 
-export default function Home({ data: { languageAccepted } }: PageProps) {
+export default function Home(pageProps: PageProps) {
+  // console.log("pageProps", pageProps);
+  const languageAccepted = pageProps.state.languageAccepted || "es";
+  console.log("languageAccepted", languageAccepted);
   const t = getFixedT(languageAccepted);
   const menuTexts = t("menu", { returnObjects: true });
   return (
