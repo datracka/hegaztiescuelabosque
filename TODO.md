@@ -4,7 +4,7 @@
 
 - [ ] Fix issue with form & apply a conditional rendering in dev
   - [x] Load envs from .env in handler
-  - [ ] Add middleware to handle GET request !()[**https://fresh.deno.dev/docs/concepts/middleware]
+  - [x] Add middleware to handle GET request !()[**https://fresh.deno.dev/docs/concepts/middleware]
   - [ ] Then I have ctx available everywhere! Use it and stop propagating props.
 - [x] Translate Extraescolares Text
 - [x] Translate mas-information

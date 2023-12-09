@@ -1,6 +1,7 @@
 import { FreshContext } from "$fresh/server.ts";
 import { load } from "$std/dotenv/mod.ts";
 
+// not here!
 const defaultLanguage = "es";
 
 export async function handler(
@@ -8,10 +9,9 @@ export async function handler(
   ctx: FreshContext<State, Data>,
 ) {
   const env = await load();
-  ctx.data = {
+  ctx.state = {
     languageAccepted: req.headers.get("Accept-Language") || defaultLanguage,
     enableForms: env["ENABLE_FORMS"],
   };
-  const resp = await ctx.next();
-  return resp;
+  return await ctx.next();
 }

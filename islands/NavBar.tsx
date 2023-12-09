@@ -14,6 +14,7 @@ type NavProps = {
 export default function ({ languageAccepted }: NavProps): JSX.Element {
   const t = getFixedT(languageAccepted);
   const menuTexts = t("menu", { returnObjects: true });
+  
   const [opened, setOpen] = useState(false);
   const onClickHandler: () => void = (): void => setOpen(!opened);
 

@@ -1,29 +1,20 @@
 import { tw } from "twind/css";
+import { RouteConfig } from "$fresh/server.ts";
 import NavBar from "@/islands/NavBar.tsx";
 import SectionFooter from "@/components/Shared/SectionFooter.tsx";
 import SectionMasInformacion from "@/islands/SectionMasInformacion.tsx";
 import { Head } from "$fresh/runtime.ts";
-import { HandlerContext, Handlers, PageProps } from "$fresh/server.ts";
+import { PageProps } from "$fresh/server.ts";
 import getFixedT from "@/components/i18n.ts";
 
 export const config: RouteConfig = {
   routeOverride: "/(mas-informacion|more-information)",
 };
 
-export const handler: Handlers = {
-  async GET(req: Request, ctx: HandlerContext) {
-    const resp = await ctx.render({
-      languageAccepted: req.headers.get("Accept-Language"),
-    });
-    return resp;
-  },
-};
-
 export default function MasInformacion(
   { data: { languageAccepted } }: PageProps,
 ) {
   const t = getFixedT(languageAccepted);
-  const menuTexts = t("menu", { returnObjects: true });
   return (
     <>
       <Head>

@@ -1,5 +1,5 @@
-type State = null;
-type Data = {
+type Data = null;
+type State = {
   languageAccepted: string;
   enableForms: string;
 };

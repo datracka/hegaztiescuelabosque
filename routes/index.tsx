@@ -12,7 +12,8 @@ import SectionGallery from "@/components/Home/SectionGallery.tsx";
 import getFixedT from "@/components/i18n.ts";
 
 export default function Home(pageProps: PageProps<Data>) {
-  const languageAccepted = pageProps?.data?.languageAccepted;
+  const languageAccepted = pageProps?.state?.languageAccepted as string;
+  console.log("languageAccepted", languageAccepted)
   const t = getFixedT(languageAccepted);
   return (
     <>
