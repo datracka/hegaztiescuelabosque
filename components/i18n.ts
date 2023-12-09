@@ -787,7 +787,7 @@ i18next
     preload: ["en", "es"],
   });
 
-export default (lng: string | undefined | null) => i18next.getFixedT(lng);
+export default (lng: string | undefined | null | unknown) => i18next.getFixedT(lng);
 
 export const i18n = i18next;
 export const middleware = i18nextMiddleware;

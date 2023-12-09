@@ -11,17 +11,9 @@ import NavBar from "@/islands/NavBar.tsx";
 import SectionGallery from "@/components/Home/SectionGallery.tsx";
 import getFixedT from "@/components/i18n.ts";
 
-interface State {
-  languageAccepted: string;
-  enableForms: string;
-}
-
-export default function Home(pageProps: PageProps) {
-  // console.log("pageProps", pageProps);
-  const languageAccepted = pageProps.state.languageAccepted || "es";
-  console.log("languageAccepted", languageAccepted);
+export default function Home(pageProps: PageProps<Data>) {
+  const languageAccepted = pageProps?.data?.languageAccepted;
   const t = getFixedT(languageAccepted);
-  const menuTexts = t("menu", { returnObjects: true });
   return (
     <>
       <Head>
