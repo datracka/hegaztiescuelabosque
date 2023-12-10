@@ -2,15 +2,16 @@ import SectionContact from "@/islands/SectionContact.tsx";
 import CookieBanner from "@/islands/CookieBanner.tsx";
 import { css, tw } from "twind/css";
 import getFixedT from "@/components/i18n.ts";
+import { useContext } from "preact/hooks";
+import { ContextState } from "@/routes/_app.tsx";
 
 const staticPath = "/imgs/shared";
 
-type sectionFooterProps = {
-  languageAccepted: string;
-};
+const SectionFooter = () => {
 
-const SectionFooter = ({ languageAccepted }: sectionFooterProps) => {
+  const { languageAccepted } = useContext(ContextState);
   const t = getFixedT(languageAccepted);
+  
   return (
     <div className={tw(`w-full p-4 sm:p-6 lg:p-8 bg-[#415a30] text-white`)}>
       <SectionContact languageAccepted={languageAccepted} />

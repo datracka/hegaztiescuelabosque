@@ -6,15 +6,19 @@ import MobileMenu from "@/islands/MobileMenu.tsx";
 import { useState } from "preact/hooks";
 import { JSX } from "preact/jsx-runtime";
 import getFixedT from "@/components/i18n.ts";
+import { useContext } from "preact/hooks";
+import { ContextState } from "@/routes/_app.tsx";
 
 type NavProps = {
-  languageAccepted: string
+  languageAccepted: string;
 };
 
-export default function ({ languageAccepted }: NavProps): JSX.Element {
+export default function (): JSX.Element {
+  
+  const { languageAccepted } = useContext(ContextState);
   const t = getFixedT(languageAccepted);
   const menuTexts = t("menu", { returnObjects: true });
-  
+
   const [opened, setOpen] = useState(false);
   const onClickHandler: () => void = (): void => setOpen(!opened);
 

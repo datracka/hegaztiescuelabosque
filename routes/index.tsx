@@ -24,7 +24,7 @@ export default function Home(pageProps: PageProps<Data>) {
           content={t("home.header.meta.description.content")}
         />
       </Head>
-      <NavBar languageAccepted={languageAccepted} />
+      <NavBar />
       <Hero
         title={t("home.hero.claim")}
         description={t("home.hero.subClaim")}
