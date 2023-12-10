@@ -10,10 +10,11 @@ import SectionFooter from "@/components/Shared/SectionFooter.tsx";
 import NavBar from "@/islands/NavBar.tsx";
 import SectionGallery from "@/components/Home/SectionGallery.tsx";
 import getFixedT from "@/components/i18n.ts";
+import { useContext } from "preact/hooks";
+import { ContextState } from "@/routes/_app.tsx";
 
-export default function Home(pageProps: PageProps<Data>) {
-  const languageAccepted = pageProps?.state?.languageAccepted as string;
-  console.log("languageAccepted", languageAccepted)
+export default function Home() {
+  const { languageAccepted } = useContext(ContextState);
   const t = getFixedT(languageAccepted);
   return (
     <>
@@ -70,8 +71,7 @@ export default function Home(pageProps: PageProps<Data>) {
         text={t("home.quote.text")}
         author={t("home.quote.author")}
       />
-      {/* we pass languageAccepted to get the proper form. It should be handlded as context */}
-      <SectionFooter languageAccepted={languageAccepted} />
+      <SectionFooter />
     </>
   );
 }

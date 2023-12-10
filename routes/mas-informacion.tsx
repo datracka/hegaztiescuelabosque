@@ -6,14 +6,15 @@ import SectionMasInformacion from "@/islands/SectionMasInformacion.tsx";
 import { Head } from "$fresh/runtime.ts";
 import { PageProps } from "$fresh/server.ts";
 import getFixedT from "@/components/i18n.ts";
+import { useContext } from "preact/hooks";
+import { ContextState } from "@/routes/_app.tsx";
 
 export const config: RouteConfig = {
   routeOverride: "/(mas-informacion|more-information)",
 };
 
-export default function MasInformacion(
-  { data: { languageAccepted } }: PageProps,
-) {
+export default function MasInformacion() {
+  const { languageAccepted } = useContext(ContextState);
   const t = getFixedT(languageAccepted);
   return (
     <>
@@ -24,7 +25,7 @@ export default function MasInformacion(
           content={t("moreInformation.header.meta.description.content")}
         />
       </Head>
-      <NavBar languageAccepted={languageAccepted} />
+      <NavBar />
       <section
         className={tw(
           `mx-auto max-w-7xl px-2 sm:px-6 lg:px-8`,
@@ -35,7 +36,7 @@ export default function MasInformacion(
         </h1>
         <SectionMasInformacion languageAccepted={languageAccepted} />
       </section>
-      <SectionFooter languageAccepted={languageAccepted} />
+      <SectionFooter />
     </>
   );
 }

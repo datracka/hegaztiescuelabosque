@@ -7,26 +7,17 @@ import SectionContent from "@/components/DailyMother/SectionContent.tsx";
 import SectionSaying from "@/components/Shared/SectionSaying.tsx";
 import SectionGrid from "@/components/Shared/SectionGrid.tsx";
 import getFixedT from "@/components/i18n.ts";
+import { useContext } from "preact/hooks";
+import { ContextState } from "@/routes/_app.tsx";
 
 export const config: RouteConfig = {
   routeOverride: "/(aula-madre-de-dia|daily-mother-schoolroom)",
 };
 
-export const handler: Handlers = {
-  async GET(req: Request, ctx: HandlerContext) {
-    const resp = await ctx.render({
-      languageAccepted: req.headers.get("Accept-Language"),
-    });
-    return resp;
-  },
-};
+export default function AulaMadreDeDia() {
 
-export default function AulaMadreDeDia({ data: { languageAccepted } }: PageProps) {
-
+  const { languageAccepted } = useContext(ContextState);
   const t = getFixedT(languageAccepted);
-
-  // We handle menu Texts, it should be handled directly in <Navbar/>
-  // We can not yet because languageAccepted is not part of the context.
   const menuTexts = t("menu", { returnObjects: true });
 
   const staticPath = "/imgs/aula-madre-de-dia";
@@ -39,7 +30,7 @@ export default function AulaMadreDeDia({ data: { languageAccepted } }: PageProps
           content={t("daytimeMother.header.meta.description.content")}
         />
       </Head>
-      <NavBar languageAccepted={languageAccepted} />
+      <NavBar />
       <Hero
         title={t("daytimeMother.hero.claim")}
         description={t("daytimeMother.hero.subClaim")}
@@ -98,7 +89,7 @@ export default function AulaMadreDeDia({ data: { languageAccepted } }: PageProps
         ]}
       />
       {/* we pass languageAccepted to get the proper form. It should be handlded as context */}
-      <SectionFooter languageAccepted={languageAccepted} />
+      <SectionFooter />
     </>
   );
 }

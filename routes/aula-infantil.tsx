@@ -1,5 +1,10 @@
 import NavBar from "@/islands/NavBar.tsx";
-import { RouteConfig, HandlerContext, Handlers, PageProps } from "$fresh/server.ts";
+import {
+  HandlerContext,
+  Handlers,
+  PageProps,
+  RouteConfig,
+} from "$fresh/server.ts";
 import SectionFooter from "@/components/Shared/SectionFooter.tsx";
 import Hero from "@/components/Shared/Hero.tsx";
 import { Head } from "$fresh/runtime.ts";
@@ -7,24 +12,17 @@ import SectionContent from "@/components/InfantClassroom/SectionContent.tsx";
 import SectionSaying from "@/components/Shared/SectionSaying.tsx";
 import SectionGrid from "@/components/Shared/SectionGrid.tsx";
 import getFixedT from "@/components/i18n.ts";
+import { useContext } from "preact/hooks";
+import { ContextState } from "@/routes/_app.tsx";
 // import SectionCallToAction from "@/components/Shared/SectionCallToAction.tsx";
 
 export const config: RouteConfig = {
   routeOverride: "/(aula-infantil|preschool-classroom)",
 };
 
-export const handler: Handlers = {
-  async GET(req: Request, ctx: HandlerContext) {
-    const resp = await ctx.render({
-      languageAccepted: req.headers.get("Accept-Language"),
-    });
-    return resp;
-  },
-};
-
-export default function AulaInfantil({ data: { languageAccepted } }: PageProps) {
+export default function AulaInfantil() {
+  const { languageAccepted } = useContext(ContextState);
   const t = getFixedT(languageAccepted);
-  const menuTexts = t("menu", { returnObjects: true });
 
   const staticPath = "/imgs/aula-infantil";
   return (
@@ -36,13 +34,16 @@ export default function AulaInfantil({ data: { languageAccepted } }: PageProps) 
           content={t("preschoolClassroom.header.meta.description.content")}
         />
       </Head>
-      <NavBar languageAccepted={languageAccepted} />
+      <NavBar />
       <Hero
         title={t("preschoolClassroom.hero.claim")}
         description={t("preschoolClassroom.hero.subClaim")}
         backgroundImage={`${staticPath}/hero-casita-del-bosque.jpg`}
       />
-      <SectionContent staticPath={staticPath} languageAccepted={languageAccepted} />
+      <SectionContent
+        staticPath={staticPath}
+        languageAccepted={languageAccepted}
+      />
       {
         /* <SectionCallToAction
         title="INSCRIPCIONES <br/>ABIERTAS"
@@ -89,7 +90,7 @@ export default function AulaInfantil({ data: { languageAccepted } }: PageProps) 
           },
         ]}
       />
-      <SectionFooter languageAccepted={languageAccepted} />
+      <SectionFooter />
     </>
   );
 }
