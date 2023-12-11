@@ -30,7 +30,7 @@ export default function AulaMadreDeDia() {
           content={t("daytimeMother.header.meta.description.content")}
         />
       </Head>
-      <NavBar />
+      <NavBar menuTexts={menuTexts} />
       <Hero
         title={t("daytimeMother.hero.claim")}
         description={t("daytimeMother.hero.subClaim")}

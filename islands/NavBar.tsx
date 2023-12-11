@@ -10,15 +10,11 @@ import { useContext } from "preact/hooks";
 import { ContextState } from "@/routes/_app.tsx";
 
 type NavProps = {
-  languageAccepted: string;
+  menuTexts: any;
 };
 
-export default function (): JSX.Element {
-  
-  const { languageAccepted } = useContext(ContextState);
-  const t = getFixedT(languageAccepted);
-  const menuTexts = t("menu", { returnObjects: true });
-
+// TODO because NavBar in islands, it does not have access to server context and we pass the menu text as prop
+export default function ({ menuTexts }: NavProps): JSX.Element {
   const [opened, setOpen] = useState(false);
   const onClickHandler: () => void = (): void => setOpen(!opened);
 

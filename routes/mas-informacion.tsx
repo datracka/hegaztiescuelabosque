@@ -16,6 +16,7 @@ export const config: RouteConfig = {
 export default function MasInformacion() {
   const { languageAccepted } = useContext(ContextState);
   const t = getFixedT(languageAccepted);
+  const menuTexts = t("menu", { returnObjects: true });
   return (
     <>
       <Head>
@@ -25,7 +26,7 @@ export default function MasInformacion() {
           content={t("moreInformation.header.meta.description.content")}
         />
       </Head>
-      <NavBar />
+      <NavBar menuTexts={menuTexts} />
       <section
         className={tw(
           `mx-auto max-w-7xl px-2 sm:px-6 lg:px-8`,

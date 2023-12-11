@@ -8,7 +8,6 @@ export const ContextState = createContext<State>({
 });
 
 export default function App(pageProps: PageProps) {
-  console.log("pageProps", pageProps.state);
   return (
     <ContextState.Provider value={{
       languageAccepted: pageProps.state.languageAccepted as string,

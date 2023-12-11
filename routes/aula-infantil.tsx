@@ -23,7 +23,7 @@ export const config: RouteConfig = {
 export default function AulaInfantil() {
   const { languageAccepted } = useContext(ContextState);
   const t = getFixedT(languageAccepted);
-
+  const menuTexts = t("menu", { returnObjects: true });
   const staticPath = "/imgs/aula-infantil";
   return (
     <>
@@ -34,7 +34,7 @@ export default function AulaInfantil() {
           content={t("preschoolClassroom.header.meta.description.content")}
         />
       </Head>
-      <NavBar />
+      <NavBar menuTexts={menuTexts} />
       <Hero
         title={t("preschoolClassroom.hero.claim")}
         description={t("preschoolClassroom.hero.subClaim")}

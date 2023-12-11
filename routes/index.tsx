@@ -16,6 +16,7 @@ import { ContextState } from "@/routes/_app.tsx";
 export default function Home() {
   const { languageAccepted } = useContext(ContextState);
   const t = getFixedT(languageAccepted);
+  const menuTexts = t("menu", { returnObjects: true });
   return (
     <>
       <Head>
@@ -25,7 +26,7 @@ export default function Home() {
           content={t("home.header.meta.description.content")}
         />
       </Head>
-      <NavBar />
+      <NavBar menuTexts={menuTexts} />
       <Hero
         title={t("home.hero.claim")}
         description={t("home.hero.subClaim")}
