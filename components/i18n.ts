@@ -255,14 +255,65 @@ const english = {
     },
     primarySchool: {
       header: {
-        title: "",
+        title: "Hegazti Forest School | Classroom - Primary",
         meta: {
           description: {
-            content: "",
+            content:
+              "The Tree House and Bird's Nest is a natural space where primary school children can experience and learn through contact with nature. The focus is on experiential learning and motor development, considered essential at this stage of life. Attention is also given to emotional management, and each child's personal space is respected so they can process their own feelings.",
           },
         },
       },
-      title: "",
+      hero: {
+        claim: "PRIMARY",
+        subClaim: "Tree House & Bird's Nest",
+      },
+      introImage1: "Little girl picking flowers",
+      introImage3: "hildren playing in a little house",
+      introImage2: "Children learning and reading",
+      introText1: `
+      Hegazti Forest Primary School is a natural space where girls and boys aged 6 to 12 learn through exploration and investigation in the context of nature.
+      `,
+      introText2: `
+      There are two age groups from 6 to 9 years in the Tree House and from 9 to 12 years in the Bird's Nest.
+      `,
+      introText3:`
+      The learning method remains experiential and functional for their day-to-day life and for holistic development through the natural environment.
+      `,
+      introText4:`
+      The learnings are not separated by knowledge areas but integrated organically.
+      `,
+      introText5:`
+      Knowledge stems from its own process of learning what interests them.
+      `,
+      introBullet: `
+      THE PURPOSE OF EDUCATION IS NOT TO TEACH BUT TO LET THEM LEARN FROM THEIR OWN EXPERIENCE, WHAT INTERESTS THEM.
+      `,
+      introText6: `
+      Education is something admirable, but it is good to remember from time to time that nothing worth knowing can be taught. - Oscar Wilde.
+      `,
+      introText7: `
+      The learning process unfolds through research and lived experience.
+      `,
+      introText8: `
+      The levels of concretization of what is learned materialize in structures, created books, field notebooks, or functional projects for themselves and the environment.
+      `,
+      introText9: `
+      Learning is integrated into school tasks progressively.
+      `,
+      introText10: `
+      In addition, at Hegazti, at this age, daily tasks are integrated into the context. Such as caring for animals, working in the garden, creating health care products, and maintaining their natural environment and that of the school.
+      `,
+      saying: "Children are not things to be molded, but individuals to be unfolded.",
+      grid: {
+        yurta: "Yurt",
+        kidReading: "Girl reading",
+        shells: "Heart of stones",
+        horses: "Grazing horses",
+        hands: "Hands full of mud",
+        goats: "Little goats",
+        kids: "Space to play",
+        vocals: "Vowels",
+      },
     },
     extracurricularPlayroom: {
       header: {
@@ -643,16 +694,79 @@ const spanish = {
     },
     primarySchool: {
       header: {
-        title: "",
+        title: "Hegazti Escuela Bosque | Aula - Primaria",
         meta: {
           description: {
-            content: "",
+            content:
+              "La Casita del Árbol y el Nido de Pájaro es un espacio natural en el que niños y niñas de primaria pueden experimentar y aprender a través del contacto con la naturaleza. El enfoque es en el aprendizaje vivencial y en el desarrollo motor, que se considera esencial en esta etapa de la vida. También se presta atención a la gestión emocional y se respeta el espacio personal de cada niño o niña para que puedan elaborar sus propios sentimientos.",
           },
         },
       },
       hero: {
-        claim: "",
-        subClaim: "",
+        claim: "PRIMARIA",
+        subClaim: "Niña recogiendo flores",
+      },
+      introImage1: "Niños jugando en casita",
+      introImage2: "Niños aprendiendo y leyendo",
+      introText1: `
+        Escuela Bosque Hegazti Primaria es un espacio natural en el que niñas
+        y niños de 6 a 12 años aprenden a través de la exploración y la
+        investigación en el contexto de la naturaleza.
+      `,
+      introText2: `
+        Hay dos grupos de edades de 6 a 9 años en Casita del Árbol y de 9 a 12
+        años en Nido de Pajaro.
+      `,
+      introText3:`
+        El método de aprendizaje sigue siendo vivenciado y funcional para su
+        día a día y para el desarrollo holístico a través del medio natural.
+      `,
+      introText4:`
+      Los aprendizajes no están separados por áreas de conocimiento, sino
+      integrados de forma orgánica.
+      `,
+      introText5:`
+      El conocimiento parte de su propio proceso por aprender aquello que
+          les interesa.
+      `,
+      introBullet: `
+        EL FIN DE LA EDUCACIÓN NO ES ENSEÑAR, SINO DEJAR QUE APRENDAN DE SU
+        PROPIA EXPERIENCIA, AQUELLO QUE LES INTERESA
+      `,
+      introText6: `
+        La educación es algo admirable, pero es bueno recordar de vez en
+        cuando que nada de lo que vale la pena saber se puede enseñar. Oscar
+        Wilde
+      `,
+      introText7: `
+        El proceso de aprendizaje se desarrolla a través de la investigación y
+        de la experiencia vivida.
+      `,
+      introText8: `
+        Los niveles de concrección de lo aprendido se materializan en
+        estructuras, libros creados, cuadernos de campo o proyectos
+        funcionales para ellas/os mismos/as y para el medio.
+      `,
+      introText9: `
+        El aprendizaje se integra en tareas de la escuela de forma progresiva.
+      `,
+      introText10: `
+        Además en Hegazti a esta edad se integran de forma diaria tareas en el
+        contexto. Como el cuidado de los animales, el trabajo en el huerto, la
+        elaboración de productos de cuidado de la salud, y el mantenimiento de
+        su medio natural y el de la escuela.
+      `,
+      saying:
+        "Los niños no son cosas para ser moldeados, pero son personas para ser desplegadas.",
+      grid: {
+        yurta: "Yurta",
+        kidReading: "Niña leyendo",
+        shells: "Corazón de piedras",
+        horses: "Caballos pastando",
+        hands: "Manos llenas de barro",
+        goats: "Cabritas",
+        kids: "Espacio para jugar",
+        vocals: "Vocales",
       },
     },
     extracurricularPlayroom: {
@@ -787,7 +901,8 @@ i18next
     preload: ["en", "es"],
   });
 
-export default (lng: string | undefined | null | unknown) => i18next.getFixedT(lng);
+export default (lng: string | undefined | null | unknown) =>
+  i18next.getFixedT(lng);
 
 export const i18n = i18next;
 export const middleware = i18nextMiddleware;
