@@ -8,6 +8,12 @@ import SectionGrid from "@/components/Shared/SectionGrid.tsx";
 import { useContext } from "preact/hooks";
 import { ContextState } from "@/routes/_app.tsx";
 import getFixedT from "@/components/i18n.ts";
+import { RouteConfig } from "$fresh/server.ts";
+
+export const config: RouteConfig = {
+  routeOverride: "/(primary-school|aula-primaria)",
+};
+
 
 export default function AulaPrimaria() {
   const staticPath = "/imgs/aula-primaria";
