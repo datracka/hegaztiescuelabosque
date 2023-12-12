@@ -27,11 +27,11 @@ const menu = (menuTexts: any): menuTypeProps[] => {
           url: "aula-extraescolares-ludoteca",
           name: menuTexts?.forestAsClassroom?.extracurricularActivitiesPlayRoom,
         },
-        {
+        /* {
           url: "aula-extraescolares-sabado-en-familia",
           name: menuTexts?.forestAsClassroom
             ?.extracurricularActivitiesSaturdays,
-        },
+        }, */
       ],
     },
     {
