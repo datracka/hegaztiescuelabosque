@@ -276,13 +276,13 @@ const english = {
       introText2: `
       There are two age groups from 6 to 9 years in the Tree House and from 9 to 12 years in the Bird's Nest.
       `,
-      introText3:`
+      introText3: `
       The learning method remains experiential and functional for their day-to-day life and for holistic development through the natural environment.
       `,
-      introText4:`
+      introText4: `
       The learnings are not separated by knowledge areas but integrated organically.
       `,
-      introText5:`
+      introText5: `
       Knowledge stems from its own process of learning what interests them.
       `,
       introBullet: `
@@ -303,7 +303,8 @@ const english = {
       introText10: `
       In addition, at Hegazti, at this age, daily tasks are integrated into the context. Such as caring for animals, working in the garden, creating health care products, and maintaining their natural environment and that of the school.
       `,
-      saying: "Children are not things to be molded, but individuals to be unfolded.",
+      saying:
+        "Children are not things to be molded, but individuals to be unfolded.",
       grid: {
         yurta: "Yurt",
         kidReading: "Girl reading",
@@ -317,14 +318,36 @@ const english = {
     },
     extracurricularPlayroom: {
       header: {
-        title: "",
+        title: "Hegazti Forest School | Extracurricular Activities - Playgroup",
         meta: {
           description: {
-            content: "",
+            content:
+              "The Forest School offers extracurricular activities for children aged 3 to 12 in contact with nature and animals. They provide a playgroup and playgroups during winter, spring, and summer, from 9:00 AM to 2:00 PM. Interested individuals are invited to make their reservations in advance.",
           },
         },
       },
-      title: "",
+      hero: {
+        claim: "PLAYGROUP",
+        subClaim: "Playgroup for children aged 3 to 12.",
+      },
+      title: "WINTER, SPRING, AND SUMMER PLAYGROUPS",
+      subTitle: "EXPERIENCING NATURE",
+      imgTitle: "Adult accompanying a child in nature",
+      text1: `
+      Our Forest School welcomes other children aged 3 to 12 who
+      wish to share our beautiful school and have this experience
+      in contact with nature and animals.
+      `,
+      text2: "The proposed schedule is from 16:00 to 18:30 PM.",
+      text3: `
+      And we encourage you to contact us when the dates approach
+      to make your reservation.
+      `,
+      text4: `
+      We're giving you a sneak peek of some of the activities we carry out
+      during these sessions to provide you with a bit more information.
+      `,
+      button: "MORE INFORMATION",
     },
     extracurricularSaturdaysInFamily: {
       header: {
@@ -717,15 +740,15 @@ const spanish = {
         Hay dos grupos de edades de 6 a 9 años en Casita del Árbol y de 9 a 12
         años en Nido de Pajaro.
       `,
-      introText3:`
+      introText3: `
         El método de aprendizaje sigue siendo vivenciado y funcional para su
         día a día y para el desarrollo holístico a través del medio natural.
       `,
-      introText4:`
+      introText4: `
       Los aprendizajes no están separados por áreas de conocimiento, sino
       integrados de forma orgánica.
       `,
-      introText5:`
+      introText5: `
       El conocimiento parte de su propio proceso por aprender aquello que
           les interesa.
       `,
@@ -771,18 +794,36 @@ const spanish = {
     },
     extracurricularPlayroom: {
       header: {
-        title: "",
+        title: "Hegazti Escuela Bosque | Extraescolares - Ludoteca",
         meta: {
           description: {
-            content: "",
+            content:
+              "La Escuela Bosque ofrece actividades extraescolares para niños/as de 3 a 12 años en contacto con la naturaleza y los animales. Ofrecen ludoteca y ludotecas de invierno, primavera y verano en un horario de 9:00 a 14:00 horas. Se invita a los interesados a hacer su reserva con anticipación.",
           },
         },
       },
       hero: {
-        claim: "",
-        subClaim: "",
+        claim: "LUDOTECA",
+        subClaim: "Ludoteca para niños de 3 a 12 años.",
       },
-      title: "",
+      title: "LUDOTECAS DE INVIERNO, PRIMAVERA Y VERANO",
+      subTitle: "EXPERIMENTANDO LA NATURALEZA",
+      imgTitle: "Adulto acompañando niño en la naturakeza",
+      text1: `
+        Nuestra Escuela Bosque se abre a otros niños/as de 3 a 12 años que
+        quieran compartir nuestra preciosa escuela y tener esta experiencia
+        en contacto con la naturaleza y los animales.
+      `,
+      text2: "El horario que proponemos es de 16:00 a 18:30 hrs.",
+      text3: `
+        Y os animamos a que nos contactéis cuando lleguen las fechas para
+        poder hacer vuestra reserva.
+      `,
+      text4: `
+        Os adelantamos algunas de las actividades que realizamos durente
+        estas jornadas para que tengáis un poco más de información.
+      `,
+      button: "MÁS INFORMACIÓN",
     },
     extracurricularSaturdaysInFamily: {
       header: {

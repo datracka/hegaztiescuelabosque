@@ -11,7 +11,9 @@ type ContentProps = {
 };
 
 const SectionContent = ({ staticPath, t }: ContentProps) => {
-  const aspectRatio = css`aspect-ratio:1/1`;
+  const aspectRatio = css({
+    aspect_ratio: 1 / 1,
+  });
   return (
     <section
       className={tw(
