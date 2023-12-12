@@ -14,7 +14,7 @@ export const config: RouteConfig = {
 };
 
 export default function MasInformacion() {
-  const { languageAccepted } = useContext(ContextState);
+  const { languageAccepted, enableForm } = useContext(ContextState);
   const t = getFixedT(languageAccepted);
   const menuTexts = t("menu", { returnObjects: true });
   return (
@@ -35,7 +35,9 @@ export default function MasInformacion() {
         <h1 className={tw(`hegazti-h1 text-left! py-8`)}>
           {t("moreInformation.title")}
         </h1>
-        <SectionMasInformacion languageAccepted={languageAccepted} />
+        {enableForm === "true"
+          ? <SectionMasInformacion languageAccepted={languageAccepted} />
+          : null}
       </section>
       <SectionFooter />
     </>
