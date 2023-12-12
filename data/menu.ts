@@ -27,6 +27,7 @@ const menu = (menuTexts: any): menuTypeProps[] => {
           url: "aula-extraescolares-ludoteca",
           name: menuTexts?.forestAsClassroom?.extracurricularActivitiesPlayRoom,
         },
+        // PENDING TO TRANSLATE !!!!!
         /* {
           url: "aula-extraescolares-sabado-en-familia",
           name: menuTexts?.forestAsClassroom
