@@ -37,7 +37,15 @@ export default function MasInformacion() {
         </h1>
         {enableForm === "true"
           ? <SectionMasInformacion languageAccepted={languageAccepted} />
-          : null}
+          : (
+            <section
+              className={tw(
+                `mx-auto max-w-7xl px-2 sm:px-6 lg:px-8 text-center mb-12`,
+              )}
+            >
+              Please send a message to info@hegaztiescuelabosque.org
+            </section>
+          )}
       </section>
       <SectionFooter />
     </>
