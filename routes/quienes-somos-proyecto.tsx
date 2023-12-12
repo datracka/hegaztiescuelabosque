@@ -7,6 +7,11 @@ import Hero from "@/components/Shared/Hero.tsx";
 import { useContext } from "preact/hooks";
 import { ContextState } from "@/routes/_app.tsx";
 import getFixedT from "@/components/i18n.ts";
+import { RouteConfig } from "$fresh/server.ts";
+
+export const config: RouteConfig = {
+  routeOverride: "/(quienes-somos-proyecto|whoweare-project)",
+};
 
 export default function QuienesSomosProyecto() {
   const staticPath = "/imgs/quienes-somos-proyecto";
@@ -19,17 +24,17 @@ export default function QuienesSomosProyecto() {
     <>
       <Head>
         <title>
-          Hegazti Escuela Bosque | Quienes Somos - Proyecto
+          {t("whoWeAreProject.header.title")}
         </title>
         <meta
           name="description"
-          content="Los principios fundamentales de la Escuela se centran en la convivencia diaria con la naturaleza y el aprendizaje experiencial. La escuela fomenta el juego libre, el vínculo emocional, el acompañamiento emocional, la comunicación no violenta, la convivencia y el movimiento libre como medios para desarrollar la creatividad, la imaginación, la autonomía y la autosuficiencia en los niños. La escuela también promueve valores solidarios y el cuidado de los demás."
+          content={t("whoWeAreProject.header.meta.description.content")}
         />
       </Head>
       <NavBar menuTexts={menuTexts} />
       <Hero
-        title="NUESTRO PROYECTO"
-        description="Que nos ha llevado a construir Hegazti"
+        title={t("whoWeAreProject.hero.claim")}
+        description={t("whoWeAreProject.hero.subClaim")}
         backgroundImage={`${staticPath}/hero-quienes-somos-proyecto.jpg`}
       />
       <section
@@ -38,63 +43,61 @@ export default function QuienesSomosProyecto() {
         )}
       >
         <h2 className={tw(`hegazti-h2  py-14 px-4 text-center mb-8`)}>
-          PRINCIPIOS DE LA ESCUELA
+          {t("whoWeAreProject.title")}
         </h2>
       </section>
       <SectionCardList
         list={[
           {
-            title: `Convivenica diaria con la naturaleza`,
-            description:
-              `La conexión con el medio natural permite a los niños desarrollarse de forma orgánica en armonía con el contexto. Se construyen aprendizajes funcionales, de autonomía y autosuficiencia. Activa el sistema inmunitario. Es un medio inspirador e integrador. Y el aula más grande y creativa, donde se despierta el interés y la inquietud por saber. La naturaleza equilibra el sistema nervioso, y transmite un ritmo tranquilo.  Estar en convivencia desde la infancia establece vínculos emocionales con ella, y con el respeto y el cuidado por ella.`,
+            title: t("whoWeAreProject.cardList.title1"),
+            description: t("whoWeAreProject.cardList.text1"),
             img: `${staticPath}/convicencia-diaria-con-la-naturaleza.jpg`,
           },
           {
-            title: `Vicencialismo`,
-            description:
-              `El aprendizaje se integra cuando experimentamos. Es una forma holística y orgánica donde las personas están involucradas en su propio proceso a todos los niveles. Y esto genera inquietud por investigar y por descubrir. `,
+            title: t("whoWeAreProject.cardList.title2"),
+            description: t("whoWeAreProject.cardList.text2"),
             img: `${staticPath}/vicenvialismo.jpg`,
           },
           {
-            title: `Juego libre`,
+            title: t("whoWeAreProject.cardList.title3"),
             description:
-              `actividad intrínseca del ser humano, al igual que en el reino animal, mediante la que aprende conductas grupales, destrezas, valores y conocimiento. Desarrolla la autodeterminación, la creatividad, la imaginación la capacidad de elección. Elaboran procesos propios con reglas, principios, finales, materilaes….`,
+              t("whoWeAreProject.cardList.text3"),
             img: `${staticPath}/juego-libre.jpg`,
           },
           {
-            title: `Vínculo emocional`,
+            title: t("whoWeAreProject.cardList.title4"),
             description:
-              `Cuidamos el clima, y el ambiente para hacer del espacio un lugar seguro calmado donde puedan sentirse seguros/as. Base principal de la escuela para que la exploración suceda.`,
+              t("whoWeAreProject.cardList.text4"),
             img: `${staticPath}/vinculo.jpg`,
           },
           {
-            title: `Acompañamiento emocional y respetuoso`,
+            title: t("whoWeAreProject.cardList.title5"),
             description:
-              `Acompañamos la vivencia emocional de los enfantes desde la presencia activa, no directiva, reflejando al otro lo que comprendemos de su experiencia emocional, dejando en sus manos completamente la vivencia de la emoción, mostrando nuestra compañía y comprensión, sin tratar de apropiarnos de la emoción o intentar gestionársela.`,
+              t("whoWeAreProject.cardList.text5"),
             img: `${staticPath}/acompanamiento-emocional-y-respetuoso.jpg`,
           },
           {
-            title: `Comunicación no violenta`,
+            title: t("whoWeAreProject.cardList.title6"),
             description:
-              `Practicamos diariamente una comunicación describiendo los acontecimientos sin juicios de valor ni adjetivos. Tratando de identificar en los conflictos cual es la necesidad de cada uno. Y concretando cual es la petición. `,
+              t("whoWeAreProject.cardList.text6"),
             img: `${staticPath}/comunicacion-no-violenta.jpg`,
           },
           {
-            title: `interedad`,
+            title: t("whoWeAreProject.cardList.title7"),
             description:
-              `Mezclamos grupos de edad de la siguiente manera 0 a 3, 3 a 6, 6 a 9, 9 a 12 años. La finalidad de las agrupaciones es respetar los tiempos en los procesos, y contribuir en las experiencias que ofrecen las diferentes edades.`,
+              t("whoWeAreProject.cardList.text7"),
             img: `${staticPath}/interedad.jpg`,
           },
           {
-            title: `Movimiento libre`,
+            title: t("whoWeAreProject.cardList.title8"),
             description:
-              `Los retos físicos permiten al niño descubrir su propio cuerpo y ser consciente de sus posibilidades. Una forma en la que acompañamos es que se muevan libremente sin interferencias, como colocarlos en posiciones que no puede llegar por sí mismo, o adelantar procesos a los que   pueden llegar de forma autónoma. Acompañamos a que se desarrollen y aprendan de forma libre y autónoma, guiándose por sus intereses y motivaciones.`,
+              t("whoWeAreProject.cardList.text8"),
             img: `${staticPath}/movimiento-libre.jpg`,
           },
           {
-            title: `Valores solidarios`,
+            title: t("whoWeAreProject.cardList.title9"),
             description:
-              `Fomentamos la toma de conciencia de las necesidades de todos, de la necesidad de cuidarnos, y cuidar a otros para  contribuir a que estos valores sean parte del día a día de la escuela.`,
+              t("whoWeAreProject.cardList.text9"),
             img: `${staticPath}/valores-solidarios.jpg`,
           },
         ]}

@@ -360,16 +360,50 @@ const english = {
       },
       title: "",
     },
-    project: {
+    whoWeAreProject: {
       header: {
-        title: "",
+        title: "Hegazti Forest School | Who We Are - Project",
         meta: {
           description: {
-            content: "",
+            content:
+              "The fundamental principles of the school focus on daily coexistence with nature and experiential learning. The school promotes free play, emotional bonding, emotional support, non-violent communication, coexistence, and free movement as means to develop creativity, imagination, autonomy, and self-sufficiency in children. The school also promotes solidarity values and caring for others.",
           },
         },
       },
-      title: "",
+      hero: {
+        claim: "OUR PROJECT",
+        subClaim: "What has led us to build Hegazti",
+      },
+      title: "SCHOOL PRINCIPLES",
+      cardList: {
+        title1: "Daily coexistence with nature",
+        text1:
+          "Connection with the natural environment allows children to develop organically in harmony with the context. Functional learning, autonomy, and self-sufficiency are built. It activates the immune system. It is an inspiring and inclusive environment. It's the largest and most creative classroom, where curiosity and the desire to know are awakened. Nature balances the nervous system and conveys a calm rhythm. Being in coexistence from childhood establishes emotional bonds with it and with respect and care for it.",
+        title2: "Experiential Learning",
+        text2:
+          "Learning is integrated when we experience it. It is a holistic and organic way in which individuals are involved in their own process at all levels. This generates a curiosity to investigate and discover.",
+        title3: "Free Play",
+        text3:
+          "An intrinsic activity of the human being, as in the animal kingdom, through which they learn group behaviors, skills, values, and knowledge. It develops self-determination, creativity, imagination, and decision-making ability. They create their own processes with rules, principles, outcomes, materials...",
+        title4: "Emotional Bond",
+        text4:
+          "We nurture the climate and the environment to make the space a safe and calm place where they can feel secure. The main foundation of the school for exploration to happen.",
+        title5: "Emotional and Respectful Support",
+        text5:
+          "We accompany children's emotional experience through active, non-directive presence, reflecting back to them what we understand about their emotional experience, leaving the experience of the emotion entirely in their hands, showing our company and understanding without trying to appropriate the emotion or manage it for them.",
+        title6: "Non-violent Communication",
+        text6:
+          "We practice daily communication by describing events without value judgments or adjectives. We try to identify in conflicts what each person's needs are and specify what the request is.",
+        title7: "Mixed Age Groups",
+        text7:
+          "We mix age groups as follows: 0 to 3, 3 to 6, 6 to 9, 9 to 12 years old. The purpose of these groupings is to respect the timing in processes and contribute to the experiences offered by different ages.",
+        title8: "Free Movement",
+        text8:
+          "Physical challenges allow the child to discover their own body and become aware of their possibilities. One way we support this is by allowing them to move freely without interference, such as placing them in positions they cannot reach by themselves or advancing processes they can achieve autonomously. We encourage them to develop and learn freely and autonomously, guided by their interests and motivations.",
+        title9: "Solidarity Values",
+        text9:
+          "We encourage awareness of everyone's needs, the need to take care of ourselves and others, to contribute to making these values part of the school's everyday life.",
+      },
     },
     natureSpaces: {
       header: {
@@ -840,20 +874,50 @@ const spanish = {
       },
       title: "",
     },
-    project: {
+    whoWeAreProject : {
       header: {
-        title: "",
+        title: "Hegazti Escuela Bosque | Quienes Somos - Proyecto",
         meta: {
           description: {
-            content: "",
+            content:
+              "Los principios fundamentales de la Escuela se centran en la convivencia diaria con la naturaleza y el aprendizaje experiencial. La escuela fomenta el juego libre, el vínculo emocional, el acompañamiento emocional, la comunicación no violenta, la convivencia y el movimiento libre como medios para desarrollar la creatividad, la imaginación, la autonomía y la autosuficiencia en los niños. La escuela también promueve valores solidarios y el cuidado de los demás.",
           },
         },
       },
       hero: {
-        claim: "",
-        subClaim: "",
+        claim: "NUESTRO PROYECTO",
+        subClaim: "Que nos ha llevado a construir Hegazti",
       },
-      title: "",
+      title: "PRINCIPIOS DE LA ESCUELA",
+      cardList: {
+        title1: "Convivencia diaria con la naturaleza",
+        text1:
+          "La conexión con el medio natural permite a los niños desarrollarse de forma orgánica en armonía con el contexto. Se construyen aprendizajes funcionales, de autonomía y autosuficiencia. Activa el sistema inmunitario. Es un medio inspirador e integrador. Y el aula más grande y creativa, donde se despierta el interés y la inquietud por saber. La naturaleza equilibra el sistema nervioso, y transmite un ritmo tranquilo.  Estar en convivencia desde la infancia establece vínculos emocionales con ella, y con el respeto y el cuidado por ella.",
+        title2: "Vicencialismo",
+        text2:
+          "El aprendizaje se integra cuando experimentamos. Es una forma holística y orgánica donde las personas están involucradas en su propio proceso a todos los niveles. Y esto genera inquietud por investigar y por descubrir.",
+        title3: "Juego libre",
+        text3:
+          "actividad intrínseca del ser humano, al igual que en el reino animal, mediante la que aprende conductas grupales, destrezas, valores y conocimiento. Desarrolla la autodeterminación, la creatividad, la imaginación la capacidad de elección. Elaboran procesos propios con reglas, principios, finales, materilaes….",
+        title4: "Vínculo emocional",
+        text4:
+          "Cuidamos el clima, y el ambiente para hacer del espacio un lugar seguro calmado donde puedan sentirse seguros/as. Base principal de la escuela para que la exploración suceda.",
+        title5: "Acompañamiento emocional y respetuoso",
+        text5:
+          "Acompañamos la vivencia emocional de los enfantes desde la presencia activa, no directiva, reflejando al otro lo que comprendemos de su experiencia emocional, dejando en sus manos completamente la vivencia de la emoción, mostrando nuestra compañía y comprensión, sin tratar de apropiarnos de la emoción o intentar gestionársela.",
+        title6: "Comunicación no violenta",
+        text6:
+          "Practicamos diariamente una comunicación describiendo los acontecimientos sin juicios de valor ni adjetivos. Tratando de identificar en los conflictos cual es la necesidad de cada uno. Y concretando cual es la petición.",
+        title7: "Interedad",
+        text7:
+          "Mezclamos grupos de edad de la siguiente manera 0 a 3, 3 a 6, 6 a 9, 9 a 12 años. La finalidad de las agrupaciones es respetar los tiempos en los procesos, y contribuir en las experiencias que ofrecen las diferentes edades.",
+        title8: "Movimiento libre",
+        text8:
+          "Los retos físicos permiten al niño descubrir su propio cuerpo y ser consciente de sus posibilidades. Una forma en la que acompañamos es que se muevan libremente sin interferencias, como colocarlos en posiciones que no puede llegar por sí mismo, o adelantar procesos a los que   pueden llegar de forma autónoma. Acompañamos a que se desarrollen y aprendan de forma libre y autónoma, guiándose por sus intereses y motivaciones.",
+        title9: "Valores solidarios",
+        text9:
+          "Fomentamos la toma de conciencia de las necesidades de todos, de la necesidad de cuidarnos, y cuidar a otros para  contribuir a que estos valores sean parte del día a día de la escuela.",
+      },
     },
     natureSpaces: {
       header: {

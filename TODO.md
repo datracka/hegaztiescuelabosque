@@ -13,7 +13,7 @@
 - [x] Translate The forest as classroom > Preschool Classroom
 - [x] Translate The forest as classroom > Primary School
 - [x] Translate The forest as classroom > Extracurriculars - Playroom
-- [ ] Translate Who we are > Project
+- [x] Translate Who we are > Project
 - [ ] Translate Who we are > Nature and Spaces
 - [ ] Translate Who we are > A Day in Hegazti
 - [ ] Translate Who we are > Frequently Asked Questions
