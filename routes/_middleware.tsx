@@ -11,7 +11,7 @@ export async function handler(
   const env = await load();
   ctx.state = {
     languageAccepted: req.headers.get("Accept-Language") || defaultLanguage,
-    enableForms: env["ENABLE_FORMS"],
+    enableForm: env["ENABLE_FORM"],
   };
   return await ctx.next();
 }

@@ -4,15 +4,17 @@ import { useContext } from "preact/hooks";
 
 export const ContextState = createContext<State>({
   languageAccepted: "es",
-  enableForms: "true",
+  enableForm: "true",
 });
 
 export default function App(pageProps: PageProps) {
   return (
-    <ContextState.Provider value={{
-      languageAccepted: pageProps.state.languageAccepted as string,
-      enableForms: pageProps.state.enableForms as string,
-    }}>
+    <ContextState.Provider
+      value={{
+        languageAccepted: pageProps.state.languageAccepted as string,
+        enableForm: pageProps.state.enableForm as string,
+      }}
+    >
       <pageProps.Component />
     </ContextState.Provider>
   );

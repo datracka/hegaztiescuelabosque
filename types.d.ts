@@ -1,5 +1,5 @@
 type Data = null;
 type State = {
   languageAccepted: string;
-  enableForms: string;
+  enableForm: string; // it would be nicer as boolean
 };

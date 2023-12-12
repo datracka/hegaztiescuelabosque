@@ -8,13 +8,12 @@ import { ContextState } from "@/routes/_app.tsx";
 const staticPath = "/imgs/shared";
 
 const SectionFooter = () => {
-
-  const { languageAccepted } = useContext(ContextState);
+  const { languageAccepted, enableForm } = useContext(ContextState);
   const t = getFixedT(languageAccepted);
-  
+
   return (
     <div className={tw(`w-full p-4 sm:p-6 lg:p-8 bg-[#415a30] text-white`)}>
-      <SectionContact languageAccepted={languageAccepted} />
+      <SectionContact languageAccepted={languageAccepted} enableForm={enableForm} />
       <div className={tw`my-4 mx-auto max-w-3xl text-center`}>
         <p class={tw`text-lg font-normal my-10 leading-none	`}>
           {t("footer.address")}
@@ -69,7 +68,7 @@ const SectionFooter = () => {
             href="/mas-informacion"
             class={tw`block sm:inline-block px-2 mx-2`}
           >
-           {t("footer.contact")}
+            {t("footer.contact")}
           </a>
         </p>
       </div>

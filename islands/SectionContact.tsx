@@ -75,15 +75,20 @@ const ContactUs = ({ languageAccepted }: contactUsProps) => {
 
 type sectionContactProps = {
   languageAccepted: string;
+  enableForm: string;
 };
 
-const SectionContact = ({ languageAccepted }: sectionContactProps) => {
+const SectionContact = (
+  { languageAccepted, enableForm }: sectionContactProps,
+) => {
   return (
     <div
       className={tw`flex flex-col justify-between sm:flex-row mx-auto max-w-7xl gap-8 `}
     >
       <WhereAreWe languageAccepted={languageAccepted} />
-      <ContactUs languageAccepted={languageAccepted} />
+      {enableForm === "true"
+        ? <ContactUs languageAccepted={languageAccepted} />
+        : null}
     </div>
   );
 };
