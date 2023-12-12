@@ -10,18 +10,16 @@
 - [x] Translate mas-information
 - [x] Translate Footer
 - [x] Translate The forest as classroom > DayTime Mother
-- [ ] Translate The forest as classroom > Preschool Classroom
-- [ ] Translate The forest as classroom > Primary School
-- [ ] Translate The forest as classroom > Extracurriculars - Playroom
-- [ ] Translate The forest as classroom > Extracurriculars - Family Saturday
+- [x] Translate The forest as classroom > Preschool Classroom
+- [x] Translate The forest as classroom > Primary School
+- [x] Translate The forest as classroom > Extracurriculars - Playroom
 - [ ] Translate Who we are > Project
 - [ ] Translate Who we are > Nature and Spaces
 - [ ] Translate Who we are > A Day in Hegazti
 - [ ] Translate Who we are > Frequently Asked Questions
-- [ ] Translate Contact
+- [x] Translate Contact
 - [ ] translate cookies policy
 - [ ] translate privacy policy
-- [ ] Translate images?
 - [ ] Make than url linking is english when english languange and spanish when spanish language
 
 ## Steps to localize, given a page

@@ -6,6 +6,11 @@ import Hero from "@/components/Shared/Hero.tsx";
 import { useContext } from "preact/hooks";
 import { ContextState } from "@/routes/_app.tsx";
 import getFixedT from "@/components/i18n.ts";
+import { RouteConfig } from "$fresh/server.ts";
+
+export const config: RouteConfig = {
+  routeOverride: "/(extracurricular-playroom|aula-extraescolares-ludoteca)",
+};
 
 export default function AulaExtraescolaresLudoteca() {
   const aspectRatio = css({
