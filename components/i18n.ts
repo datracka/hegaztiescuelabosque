@@ -932,7 +932,9 @@ const spanish = {
         claim: "",
         subClaim: "",
       },
-      title: "",
+      section: {
+        title: ""
+      }
     },
     aDayInHegazti: {
       header: {

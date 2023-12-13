@@ -4,7 +4,6 @@ import NavBar from "@/islands/NavBar.tsx";
 import SectionFooter from "@/components/Shared/SectionFooter.tsx";
 import SectionMasInformacion from "@/islands/SectionMasInformacion.tsx";
 import { Head } from "$fresh/runtime.ts";
-import { PageProps } from "$fresh/server.ts";
 import getFixedT from "@/components/i18n.ts";
 import { useContext } from "preact/hooks";
 import { ContextState } from "@/routes/_app.tsx";
