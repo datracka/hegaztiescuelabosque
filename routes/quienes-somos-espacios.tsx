@@ -31,7 +31,10 @@ export default function QuienesSomosEspacios() {
         description="Aprender jugando en contacto con la naturaleza"
         backgroundImage={`${staticPath}/hero-quienes-somos-naturaleza-y-espacios.jpg`}
       />
-      <SectionContent staticPath={staticPath} />
+      <SectionContent
+        staticPath={staticPath}
+        languageAccepted={languageAccepted}
+      />
       <SectionGrid
         list={[
           {

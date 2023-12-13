@@ -44,7 +44,7 @@ const SectionContent = ({ staticPath, languageAccepted }: ContentProps) => {
       </div>
       <div className={tw`order-1 sm:w-[48%] sm:flex-grow`}>
         <h2 className={tw(`hegazti-h2 `)}>¿POR QUÉ EN LA NATURALEZA?</h2>
-        <p className={tw("mb-4")}>
+        <p className={tw("mb-4 mt-4")}>
           La infancia temprana es especialmente sensible a la naturaleza, pues
           los niños se identifican con ella de una manera holística, integrada,
           se sienten parte de ella. Nada les produce tanto placer como estar
@@ -124,6 +124,7 @@ const SectionContent = ({ staticPath, languageAccepted }: ContentProps) => {
         </p>
         <p className={tw("mb-4")}>
           <a
+            rel="noopener"
             className={tw("text-red-800 hover:text-red-400 underline")}
             href="https://www.plataformaeditorial.com/libro/5777-somos-naturaleza"
             target="_blank"
