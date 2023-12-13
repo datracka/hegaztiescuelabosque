@@ -405,112 +405,49 @@ const english = {
           "We encourage awareness of everyone's needs, the need to take care of ourselves and others, to contribute to making these values part of the school's everyday life.",
       },
     },
-    whoWeAreNatureSpaces: {
+    whoWeAreSpaces: {
       header: {
-        title: "Hegazti Escuela Bosque | Quienes Somos - Naturaleza y espacios",
+        title: "Hegazti Forest School | About Us - Nature and Spaces",
         meta: {
           description: {
-            content: "Este texto explica la importancia del contacto con la naturaleza en la infancia temprana y cómo esto puede influir en el desarrollo físico, emocional y espiritual de los niños. Se enfatiza en cómo la naturaleza ofrece espacios de calidad para el movimiento y la percepción sensorial que son difíciles de reproducir en otros entornos, y cómo el contacto frecuente con la naturaleza genera un sentido de identidad y pertenencia que fomenta actitudes y comportamientos de respeto al entorno. También se destaca cómo el juego en la naturaleza estimula la curiosidad, la imaginación, la creatividad, el lenguaje y la motricidad de los niños. Además, se mencionan los múltiples beneficios para la salud que se derivan del contacto con la naturaleza. Se proporciona una referencia bibliográfica para ampliar la información.",
+            content: "This text explains the importance of early childhood exposure to nature and how it can influence the physical, emotional, and spiritual development of children. It emphasizes how nature provides quality spaces for movement and sensory perception that are difficult to replicate in other environments. It also discusses how frequent contact with nature fosters a sense of identity and belonging that promotes attitudes and behaviors of environmental respect. Furthermore, it highlights how playing in nature stimulates curiosity, imagination, creativity, language, and motor skills in children. The text also mentions the numerous health benefits associated with contact with nature. A bibliographic reference is provided for further information.",
           },
         },
       },
       hero: {
-        claim: "NATURALEZA Y ESPACIOS",
-        subClaim: "Aprender jugando en contacto con la naturaleza",
+        claim: "NATURE AND SPACES",
+        subClaim: "Learning through play in contact with nature",
       },
       section: {
-        saying: "Hay un libro abierto siempre para todos los ojos: la naturaleza.",
-        imageTitle1: "Niño con caracola",
-        imageTitle2: "Manos conjuntas",
-        title: "¿POR QUÉ EN LA NATURALEZA?",
+        saying: "There is always an open book for all eyes: Nature.",
+        imageTitle1: "Child with a seashell",
+        imageTitle2: "Hands joined together",
+        title: "WHY IN NATURE?",
         textPart1: `
-          La infancia temprana es especialmente sensible a la naturaleza, pues
-            los niños se identifican con ella de una manera holística, integrada,
-            se sienten parte de ella. Nada les produce tanto placer como estar
-            fuera y poder zambullirse con todos los sentidos en lo que la
-            naturaleza les ofrece. La naturaleza ofrece espacios de calidad para
-            el movimiento y la percepción sensorial, difíciles de reproducir en
-            otro tipo de emplazamientos. Aunque no es necesario buscar escenarios
-            grandiosos, pues el interés de los niños a estas edades está en la
-            escala micro, en lo que tiene lugar al alcance de su mano, es
-            importante proveerles de un espacio natural lo menos manipulado
-            posible. El contacto frecuente o casi permanente con la naturaleza,
-            como es el caso aquí al estar a diario en el monte, genera un sentido
-            de identidad y pertenencia a ella que es difícil de conseguir con
-            visitas esporádicas. Ello se traduce de manera casi inmediata en
-            actitudes y comportamientos de respeto al entorno, casi sin necesidad
-            de explicación o mediación por parte del adulto.
+        Early childhood is especially sensitive to nature, as children identify with it in a holistic, integrated way; they feel a part of it. Nothing gives them as much pleasure as being outdoors and immersing themselves with all their senses in what nature offers them. Nature provides quality spaces for movement and sensory perception that are difficult to replicate in other settings. Although it is not necessary to seek grandiose settings, as children at this age are interested in the micro-scale, in what is within reach of their hands, it is important to provide them with a natural space that is as unaltered as possible. Frequent or nearly constant contact with nature, as is the case here by being in the woods every day, generates a sense of identity and belonging to it that is hard to achieve with sporadic visits. This translates almost immediately into attitudes and behaviors of respect for the environment, almost without the need for explanation or mediation by adults.
           `,
           textPart2: `
-          Además, ese contacto prolongado y habitual con la naturaleza provee a
-          los niños de experiencias sensoriales intensas, profundas y
-          gratificantes a la larga. La información que les llega a través de
-          todos los sentidos es coherente, consistente y llena de matices y
-          sutilezas, imprescindible a la hora de integrar la información en el
-          cerebro. Todo ello permite un mayor autoconocimiento de su cuerpo y lo
-          que éste les permite hacer. Los infinitos matices de formas, colores,
-          tamaños y materiales, hace que los niños se hagan más sensibles a la
-          belleza y se sientan en armonía con el entorno y consigo mismos. El
-          espacio amplio y abierto les permite expandirse física y mentalmente,
-          sentirse libres; pueden desarrollar su juego sin interferir los unos
-          con los otros y en un escenario con múltiples ambientes, estructuras,
-          materiales y retos de diferente nivel y características. La
-          permanencia al aire libre, en un entorno por definición cambiante,
-          hace que estén más alerta, tengan una mayor capacidad de observación y
-          concentración, y sean más flexibles consigo mismos y con los demás que
-          cuando están en el aula. Por esta misma razón, mejoran en el
-          reconocimiento de las necesidades propias y ajenas. Los ritmos del
-          mundo natural, en general más pausados que los que impone nuestra
-          sociedad, permiten desarrollar la paciencia, les aportan serenidad y
-          contribuyen al encuentro con su espiritualidad.
+          Furthermore, this prolonged and regular contact with nature provides children with intense, deep, and gratifying sensory experiences in the long run. The information that reaches them through all their senses is coherent, consistent, and full of nuances and subtleties, which is essential for integrating information in the brain. All of this allows for a greater self-awareness of their bodies and what they can do. The infinite nuances of shapes, colors, sizes, and materials make children more sensitive to beauty and make them feel in harmony with the environment and with themselves. The wide and open space allows them to expand physically and mentally, to feel free; they can develop their play without interfering with each other and in a setting with multiple environments, structures, materials, and challenges of different levels and characteristics. Being outdoors, in an environment that is inherently changing, makes them more alert, enhances their observation and concentration skills, and makes them more flexible with themselves and others than when they are in the classroom. For this same reason, they improve in recognizing their own and others' needs. The rhythms of the natural world, generally slower than those imposed by our society, allow for the development of patience, provide serenity, and contribute to the encounter with their spirituality.
           `,
           textPart3: `
-          Por otro lado, el juego en la naturaleza, con su terreno irregular, y
-          el manejo de los materiales que allí se encuentran estimula su
-          curiosidad, su imaginación, su creatividad, su lenguaje y, sobre todo,
-          su motricidad, tanto gruesa como fina. El hecho de tener que fabricar,
-          modelar o definir sus propios juguetes crea la necesidad de usar el
-          lenguaje para ello, enriqueciendo enormemente su capacidad descriptiva
-          y la fantasía. Los desafíos físicos y sensoriales que encuentran en
-          ese medio fomentan su autonomía, independencia y capacidad de
-          cooperación, de negociación, de razonamiento y de decisión, pues son
-          los propios niños quienes estiman su propia capacidad de enfrentarse a
-          ellos y valoran los resultados de sus intentos. El entorno natural
-          presenta además situaciones de riesgo variable, que los acompañantes
-          procuran controlar, pero no eliminar. El riesgo que allí afrontan
-          contribuye a aprender a evaluarlos de forma más realista, al
-          autoconocimiento de sus habilidades, a su mejor capacidad para
-          afrontar la adversidad, a una mayor tolerancia a la frustración y al
-          respeto de límites y normas. Así pues, el conjunto de experiencias
-          sensoriales y motoras que ofrece la naturaleza en la infancia temprana
-          contribuye a un desarrollo físico, emocional y espiritual más armónico
-          e integrado.
+          On the other hand, play in nature, with its uneven terrain, and the use of materials found there stimulate their curiosity, imagination, creativity, language, and, above all, their motor skills, both gross and fine. Having to make, shape, or define their own toys creates the need to use language for it, greatly enriching their descriptive capacity and fantasy. The physical and sensory challenges they encounter in that environment foster their autonomy, independence, and ability to cooperate, negotiate, reason, and make decisions, as it is the children themselves who assess their own ability to face them and evaluate the results of their attempts. The natural environment also presents situations of variable risk, which caregivers try to control but not eliminate. The risk they face there contributes to learning to evaluate them more realistically, to self-awareness of their abilities, to a better ability to cope with adversity, to greater tolerance for frustration, and to respect for limits and rules. Thus, the set of sensory and motor experiences that nature offers in early childhood contributes to a more harmonious and integrated physical, emotional, and spiritual development.
           `,
           textPart4: `
-          El contacto con la naturaleza en edades tempranas tiene además
-          múltiples beneficios para la salud: No sólo se trata del ejercicio
-          físico evidentemente más intenso que realizan en el exterior. También
-          tiene efectos beneficiosos para niños con trastornos del espectro
-          autista, de déficit de atención, discapacitados físicos, psíquicos o
-          sensoriales y enfermos crónicos; contribuye a la reducción de la
-          tensión y de la espasticidad; fomenta la concentración y capacidad de
-          atención y mitiga comportamientos antisociales como la violencia, el
-          acoso, el vandalismo y el absentismo.
+          Contact with nature at an early age also has multiple health benefits: It is not just the obviously more intense physical exercise they engage in outdoors. It also has beneficial effects for children with autism spectrum disorders, attention deficit disorders, physical, mental, or sensory disabilities, and chronic illnesses; it contributes to reducing tension and spasticity; it promotes concentration and attention capacity and mitigates antisocial behaviors such as violence, bullying, vandalism, and absenteeism.
           `,
           textPart5: `
-          Para saber más, véase Hueso, K. (2017) Somos naturaleza. Plataforma
-          editorial, Barcelona
+          For more information, see Hueso, K. (2017) Somos naturaleza. Plataforma editorial, Barcelona. (Spanish)
           `
       },
       cardList: {
-        alt1:"Juegos Conjuntos",
-        alt2:"Grupos de Niños",
-        alt3:"Niños y Caballos",
-        alt4:"Escalando la montaña",
-        alt5:"Explorando el riachuelo",
-        alt6:"Pastoreando",
-        alt7:"Juegos de hojas",
-        alt8:"Yurta",
+        alt1:"Joint Games",
+        alt2:"Groups of Children",
+        alt3:"Children and Horses",
+        alt4:"Climbing the Mountain",
+        alt5:"Exploring the Stream",
+        alt6:"Herding",
+        alt7:"Leaf Games",
+        alt8:"Yurt",
       }
     },
     aDayInHegazti: {
@@ -1016,7 +953,7 @@ const spanish = {
           "Fomentamos la toma de conciencia de las necesidades de todos, de la necesidad de cuidarnos, y cuidar a otros para  contribuir a que estos valores sean parte del día a día de la escuela.",
       },
     },
-    whoWeAreNatureSpaces: {
+    whoWeAreSpaces: {
       header: {
         title: "Hegazti Escuela Bosque | Quienes Somos - Naturaleza y espacios",
         meta: {

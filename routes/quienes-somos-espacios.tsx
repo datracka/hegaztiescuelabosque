@@ -18,17 +18,17 @@ export default function QuienesSomosEspacios() {
     <>
       <Head>
         <title>
-          Hegazti Escuela Bosque | Quienes Somos - Naturaleza y espacios
+          {t("whoWeAreSpaces.header.title")}
         </title>
         <meta
           name="description"
-          content="Este texto explica la importancia del contacto con la naturaleza en la infancia temprana y cómo esto puede influir en el desarrollo físico, emocional y espiritual de los niños. Se enfatiza en cómo la naturaleza ofrece espacios de calidad para el movimiento y la percepción sensorial que son difíciles de reproducir en otros entornos, y cómo el contacto frecuente con la naturaleza genera un sentido de identidad y pertenencia que fomenta actitudes y comportamientos de respeto al entorno. También se destaca cómo el juego en la naturaleza estimula la curiosidad, la imaginación, la creatividad, el lenguaje y la motricidad de los niños. Además, se mencionan los múltiples beneficios para la salud que se derivan del contacto con la naturaleza. Se proporciona una referencia bibliográfica para ampliar la información."
+          content={t("whoWeAreSpaces.header.meta.description.content")}
         />
       </Head>
       <NavBar menuTexts={menuTexts} />
       <Hero
-        title="NATURALEZA Y ESPACIOS"
-        description="Aprender jugando en contacto con la naturaleza"
+        title={t("whoWeAreSpaces.hero.claim")}
+        description={t("whoWeAreSpaces.hero.subClaim")}
         backgroundImage={`${staticPath}/hero-quienes-somos-naturaleza-y-espacios.jpg`}
       />
       <SectionContent
@@ -38,25 +38,37 @@ export default function QuienesSomosEspacios() {
       <SectionGrid
         list={[
           {
-            alt: "Juegos Conjuntos",
+            alt: t("whoWeAreSpaces.cardList.alt1"),
             img: `${staticPath}/juegos-conjuntos.jpg`,
           },
-          { alt: "Grupos de Niños", img: `${staticPath}/grupo-de-ninos.jpg` },
           {
-            alt: "Niños y Caballos",
+            alt: t("whoWeAreSpaces.carList.alt2"),
+            img: `${staticPath}/grupo-de-ninos.jpg`,
+          },
+          {
+            alt: t("whoWeAreSpaces.cardList.alt3"),
             img: `${staticPath}/ninos-y-caballos.jpg`,
           },
           {
-            alt: "Escalando la montaña",
+            alt: t("whoWeAreSpaces.cardList.alt4"),
             img: `${staticPath}/escalando-la-montana.jpg`,
           },
           {
-            alt: "Explorando el riachuelo",
+            alt: t("whoWeAreSpaces.cardList.alt5"),
             img: `${staticPath}/explorando el riachuelo.jpg`,
           },
-          { alt: "Pastoreando", img: `${staticPath}/pastoreando.jpg` },
-          { alt: "Juegos de hojas", img: `${staticPath}/juegos-de-hojas.jpg` },
-          { alt: "Yurta", img: `${staticPath}/yurta.jpg` },
+          {
+            alt: t("whoWeAreSpaces.cardList.alt6"),
+            img: `${staticPath}/pastoreando.jpg`,
+          },
+          {
+            alt: t("whoWeAreSpaces.cardList.alt7"),
+            img: `${staticPath}/juegos-de-hojas.jpg`,
+          },
+          {
+            alt: t("whoWeAreSpaces.cardList.alt8"),
+            img: `${staticPath}/yurta.jpg`,
+          },
         ]}
       />
       <SectionFooter />
