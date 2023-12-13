@@ -1,5 +1,6 @@
 import { css, tw } from "twind/css";
 import SectionSaying from "@/components/Shared/SectionSaying.tsx";
+import getFixedT from "@/components/i18n.ts";
 type GridCellProps = {
   alt: string;
   img: string;
@@ -7,9 +8,15 @@ type GridCellProps = {
 
 type ContentProps = {
   staticPath: string;
+  languageAccepted: string;
 };
 
-const SectionContent = ({ staticPath }: ContentProps) => {
+const SectionContent = ({ staticPath, languageAccepted }: ContentProps) => {
+  const t = getFixedT(languageAccepted);
+  const aspectRatio = css({
+    aspect_ratio: 1 / 1,
+  });
+
   return (
     <section
       className={tw(
