@@ -13,7 +13,9 @@ type ContentProps = {
 
 const SectionContent = ({ staticPath, languageAccepted }: ContentProps) => {
   const t = getFixedT(languageAccepted);
-  const aspectRatio = css`aspect-ratio:1/1`
+  const aspectRatio = css({
+    aspect_ratio: 1 / 1,
+  });
   return (
     <section
       className={tw(
