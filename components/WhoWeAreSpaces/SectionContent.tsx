@@ -30,7 +30,7 @@ const SectionContent = ({ staticPath, languageAccepted }: ContentProps) => {
         <img
           title="Niño con caracola"
           src={`${staticPath}/nino-con-caracola.jpg`}
-          className={tw("w-full mb-4 object-cover", css`aspect-ratio:1/1`)}
+          className={tw("w-full mb-4 object-cover", aspectRatio)}
         />
         <SectionSaying
           text="Hay un libro abierto siempre para todos los ojos: la naturaleza."
@@ -39,7 +39,7 @@ const SectionContent = ({ staticPath, languageAccepted }: ContentProps) => {
         <img
           title="Manos conjuntas"
           src={`${staticPath}/manos-conjuntas.jpg`}
-          className={tw("w-full object-cover", css`aspect-ratio:1/1`)}
+          className={tw("w-full object-cover", aspectRatio)}
         />
       </div>
       <div className={tw`order-1 sm:w-[48%] sm:flex-grow`}>
