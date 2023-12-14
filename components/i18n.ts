@@ -410,7 +410,8 @@ const english = {
         title: "Hegazti Forest School | About Us - Nature and Spaces",
         meta: {
           description: {
-            content: "This text explains the importance of early childhood exposure to nature and how it can influence the physical, emotional, and spiritual development of children. It emphasizes how nature provides quality spaces for movement and sensory perception that are difficult to replicate in other environments. It also discusses how frequent contact with nature fosters a sense of identity and belonging that promotes attitudes and behaviors of environmental respect. Furthermore, it highlights how playing in nature stimulates curiosity, imagination, creativity, language, and motor skills in children. The text also mentions the numerous health benefits associated with contact with nature. A bibliographic reference is provided for further information.",
+            content:
+              "This text explains the importance of early childhood exposure to nature and how it can influence the physical, emotional, and spiritual development of children. It emphasizes how nature provides quality spaces for movement and sensory perception that are difficult to replicate in other environments. It also discusses how frequent contact with nature fosters a sense of identity and belonging that promotes attitudes and behaviors of environmental respect. Furthermore, it highlights how playing in nature stimulates curiosity, imagination, creativity, language, and motor skills in children. The text also mentions the numerous health benefits associated with contact with nature. A bibliographic reference is provided for further information.",
           },
         },
       },
@@ -426,40 +427,217 @@ const english = {
         textPart1: `
         Early childhood is especially sensitive to nature, as children identify with it in a holistic, integrated way; they feel a part of it. Nothing gives them as much pleasure as being outdoors and immersing themselves with all their senses in what nature offers them. Nature provides quality spaces for movement and sensory perception that are difficult to replicate in other settings. Although it is not necessary to seek grandiose settings, as children at this age are interested in the micro-scale, in what is within reach of their hands, it is important to provide them with a natural space that is as unaltered as possible. Frequent or nearly constant contact with nature, as is the case here by being in the woods every day, generates a sense of identity and belonging to it that is hard to achieve with sporadic visits. This translates almost immediately into attitudes and behaviors of respect for the environment, almost without the need for explanation or mediation by adults.
           `,
-          textPart2: `
+        textPart2: `
           Furthermore, this prolonged and regular contact with nature provides children with intense, deep, and gratifying sensory experiences in the long run. The information that reaches them through all their senses is coherent, consistent, and full of nuances and subtleties, which is essential for integrating information in the brain. All of this allows for a greater self-awareness of their bodies and what they can do. The infinite nuances of shapes, colors, sizes, and materials make children more sensitive to beauty and make them feel in harmony with the environment and with themselves. The wide and open space allows them to expand physically and mentally, to feel free; they can develop their play without interfering with each other and in a setting with multiple environments, structures, materials, and challenges of different levels and characteristics. Being outdoors, in an environment that is inherently changing, makes them more alert, enhances their observation and concentration skills, and makes them more flexible with themselves and others than when they are in the classroom. For this same reason, they improve in recognizing their own and others' needs. The rhythms of the natural world, generally slower than those imposed by our society, allow for the development of patience, provide serenity, and contribute to the encounter with their spirituality.
           `,
-          textPart3: `
+        textPart3: `
           On the other hand, play in nature, with its uneven terrain, and the use of materials found there stimulate their curiosity, imagination, creativity, language, and, above all, their motor skills, both gross and fine. Having to make, shape, or define their own toys creates the need to use language for it, greatly enriching their descriptive capacity and fantasy. The physical and sensory challenges they encounter in that environment foster their autonomy, independence, and ability to cooperate, negotiate, reason, and make decisions, as it is the children themselves who assess their own ability to face them and evaluate the results of their attempts. The natural environment also presents situations of variable risk, which caregivers try to control but not eliminate. The risk they face there contributes to learning to evaluate them more realistically, to self-awareness of their abilities, to a better ability to cope with adversity, to greater tolerance for frustration, and to respect for limits and rules. Thus, the set of sensory and motor experiences that nature offers in early childhood contributes to a more harmonious and integrated physical, emotional, and spiritual development.
           `,
-          textPart4: `
+        textPart4: `
           Contact with nature at an early age also has multiple health benefits: It is not just the obviously more intense physical exercise they engage in outdoors. It also has beneficial effects for children with autism spectrum disorders, attention deficit disorders, physical, mental, or sensory disabilities, and chronic illnesses; it contributes to reducing tension and spasticity; it promotes concentration and attention capacity and mitigates antisocial behaviors such as violence, bullying, vandalism, and absenteeism.
           `,
-          textPart5: `
+        textPart5: `
           For more information, see Hueso, K. (2017) Somos naturaleza. Plataforma editorial, Barcelona. (Spanish)
-          `
+          `,
       },
       cardList: {
-        alt1:"Joint Games",
-        alt2:"Groups of Children",
-        alt3:"Children and Horses",
-        alt4:"Climbing the Mountain",
-        alt5:"Exploring the Stream",
-        alt6:"Herding",
-        alt7:"Leaf Games",
-        alt8:"Yurt",
-      }
+        alt1: "Joint Games",
+        alt2: "Groups of Children",
+        alt3: "Children and Horses",
+        alt4: "Climbing the Mountain",
+        alt5: "Exploring the Stream",
+        alt6: "Herding",
+        alt7: "Leaf Games",
+        alt8: "Yurt",
+      },
     },
-    aDayInHegazti: {
+    whoWeAreADayInHegazti: {
       header: {
-        title: "",
+        title: "Hegazti Escuela Bosque | Quienes Somos - Un día en Hegazti",
         meta: {
           description: {
-            content: "",
+            content:
+              "La Escuela Bosque Hegazti es un lugar especializado en educación infantil, con cuatro áreas diferenciadas por edad, cada una con una dinámica diferente en la que los niños aprenden jugando en contacto con la naturaleza. El enfoque principal es el aprendizaje basado en proyectos y las actividades al aire libre en un entorno natural, ofreciendo a los niños la oportunidad de explorar y descubrir el mundo a través de su propia curiosidad.",
           },
         },
       },
-      title: "",
+      hero: {
+        claim: "UN DIA EN HEGAZTI",
+        subClaim: "Descubre nuestro dia a dia en la escuela",
+      },
+      introduction: `
+      <strong>Escuela Bosque Hegazti</strong>{" "}
+      tiene cuatro espacios diferenciados por edad y por lo tanto cuatro
+      dinámicas diferentes en cuanto a la experiencia del día a día.
+      `,
+      section1: {
+        title: "Un día en la Casita Abejorro (0 a 3 años)",
+        text: `
+          <p className={tw("mb-4")}>
+            La Casita Abejorro es un espacio cálido, de calma, respeto, cuidado,
+            confianza y seguridad.
+          </p>
+          <p className={tw("mb-4")}>
+            Los/as abejorros llegan, y el primer espacio sería de bienvenida,
+            contacto y conexión con cada persona.
+          </p>
+          <p className={tw("mb-4")}>
+            El sigueinte momento es libre movimiento por el espacio interior o si
+            es oportuno por el espacio exterior, aquí nos centramos en seguir sus
+            ritmos y facilitar el movimiento espontáneo además de acompañarles en
+            la exploración de los materiales.
+          </p>
+          <p className={tw("mb-4")}>
+            El último espacio sería el momento de la lectura, el cuento y la
+            relajación para cerrar la mañana.
+          </p>
+        `,
+        imgCaption: "Casita Abejorro",
+      },
+      section2: {
+        title: "Un día en la Casita del Bosque (3 a 6 años)",
+        imgCaption: "Casita del Bosque",
+        text: `
+            <p className={tw("mb-4")}>
+            La casita del Bosque en el día a día es un espacio confortable.
+          </p>
+          <p className={tw("mb-4")}>
+            En el inicio del día está nuestro espacio de encuentro, donde todas y
+            todos podemos tener nuestra bienvenida y nuestro tiempo para compartir
+            nuestros sentires y organizar nuestro día.
+          </p>
+          <p className={tw("mb-4")}>
+            Preparamos lo necesario y salimos a nuestro Camino de Aprendizaje, con
+            nuestras, lupas, cestas, cuerdas o lo que sea que necesitamos hoy….
+          </p>
+          <p className={tw("mb-4")}>
+            Cuando llegamos a nuestro lugar elegido en el día de hoy almorzamos en
+            nuestras cabañas, jugamos a lo que imaginamos, ponemos nuestras
+            reglas, nos divertimos, a veces nos pasan cosas y también las
+            arreglamos.
+          </p>
+          <p className={tw("mb-4")}>
+            Aquí en este espacio del bosque hacemos nuestra actividad del día a
+            veces recolectamos, a veces investigamos, otras construimos, en
+            ocasiones descubrimos…
+          </p>
+          <p className={tw("mb-4")}>
+            Volvemos a la Escuela cargadas/os de energía, de sol de lluvia, de
+            barro, a veces de palos, piñas, hojas, plumas, o lo que hayamos
+            encontrado…
+          </p>
+          <p className={tw("mb-4")}>
+            Tenemos en la Yurta nuestros materiales de arte, cada una/o elige que
+            hacer….
+          </p>
+          <p className={tw("mb-4")}>
+            Y nuestra mañana se cierra con nuestro espacio de cuento que creamos
+            entre todas/os o a veces cada uno/a cuenta su propio cuento del día…
+          </p>
+          <p className={tw("mb-4")}>
+            Los viernes son un día especial en la escuela hacemos tareas, cuidamos
+            de los animales que viven con nosotras/os, recogemos huevos, plantas,
+            cuidamos y trabajamos el huerto, hacemos jabón, limpiamos el espacio,
+            a veces salimos con cestas a recoger la basura del bosque o paseamos
+            con las yeguas.
+          </p>
+        `,
+      },
+      section3: {
+        title: "Un día en la Casita del Árbol (6 a 9 años)",
+        text: `
+            <p className={tw("mb-4")}>
+            En la Casita de Árbol se aprenden muchas cosas.
+          </p>
+          <p className={tw("mb-4")}>
+            En el comienzo del día nos encontramos, compartimos cómo llegamos, qué
+            vamos a hacer en el día de hoy tomamos decisiones, hacemos acuerdos.
+          </p>
+          <p className={tw("mb-4")}>
+            Hacemos la actividad de concentración dentro de la escuela, cada día
+            tenemos una diferente a veces la hacemos juntos y otras cada uno/a
+            tiene una actividad diferente.
+          </p>
+          <p className={tw("mb-4")}>
+            Salimos a fuera a jugar en la naturaleza y a hacer nuestro almuerzo.
+          </p>
+          <p className={tw("mb-4")}>
+            Cogemos las mochilas de exploradores y vamos al lugar del día
+            caminando, durante el camino encontramos muchas cosas curiosas que nos
+            interesan y que nos generan preguntas…
+          </p>
+          <p className={tw("mb-4")}>
+            Cuando regresamos tenemos nuestro espacio de lectura, arte, o
+            manualidades…
+          </p>
+          <p className={tw("mb-4")}>
+            Y por último nos reunimos para compartir cómo ha ido el día que cosas
+            nos han interesado, como podríamos saber aquello que nos preguntamos,
+            resolver preguntas, inquietudes, acordamos que tarea tiene cada una/o
+            de que nos vamos a ocupar para resolver estas dudas.
+          </p>
+          <p className={tw("mb-4")}>
+            En la escuela los lunes y los viernes hacemos tareas, cuidamos de los
+            animales que viven con nosotras/os, recogemos huevos, plantas,
+            cuidamos y trabajamos el huerto, hacemos jabón, limpiamos el espacio,
+            a veces salimos con cestas a recoger la basura del bosque o paseamos
+            con las yeguas. Y además coicidimos con los demás compañeros de la
+            escuela.
+          </p>
+        `,
+        imgCaption: "Casita del Árbol",
+      },
+      section4: {
+        title: "Un día en el Nido del Pájaro (9 a 12 años)",
+        text: `
+            <p className={tw("mb-4")}>
+            El Nido del pájaro es un lugar donde nos preparamos para volar.
+          </p>
+          <p className={tw("mb-4")}>
+            En la llegada nos recibimos, nos encontramos y compartimos sentires,
+            intereses, sueños y curiosidades. También hacemos nuestra elección del
+            proyecto del día.
+          </p>
+          <p className={tw("mb-4")}>
+            Tenemos espacio para preparar aquello que necesitamos para nuestro
+            proyecto de hoy, a veces nuestro poryecto dura semanas….depende de
+            cuanto nos interese. Planificamos, organizamos, hacemos acopio de
+            material, hacemos previsiones, y cuando estamos preparadas/os salimos
+            a fuera.
+          </p>
+          <p className={tw("mb-4")}>
+            Ahora nos toca poner en práctica o realizar aquello que hemos
+            decidido, anotar también lo que hemos creido oportuno o lo que de
+            repente se nos ocurre, a veces nos sale como esperábamos y en otras
+            ocasiones nada sale como penábamos….cuando terminamos por hoy volvemos
+            dentro.
+          </p>
+          <p className={tw("mb-4")}>
+            Nuestros espacios de juego libre, de disfrute, conversación, calma o
+            lectura, los acordamos cada día y cada día suelen ser distintos
+            depende del proyecto que tengamos.
+          </p>
+          <p className={tw("mb-4")}>
+            Aquí anotamos, hacemos reformulaciones, preguntas, vemos lo que
+            necesitamos, lo que ha fallado, analizamos variables, y acordamos como
+            continuar o cómo cerrar y dejar constancia de nuestros resultados.
+          </p>
+          <p className={tw("mb-4")}>
+            Tenemos nuestro espacio libre de arte, o taller el que elijamos…
+          </p>
+          <p className={tw("mb-4")}>
+            Durante la semana tenemos responsabilidades o tarea en la escuela lo
+            hacemos al final de la mañana, puede ser, cuidar de los animales,
+            trabajar en el huerto, ayudar con las tareas de mantenimiento…
+          </p>
+          <p className={tw("mb-4")}>
+            Los viernes son un día especial elegimos que cosas queremos aprender
+            fuera de la escuela, y ese día vamos a compartir con otras personas en
+            sus oficios un espacio de aprendizaje-trabajo.
+          </p>  
+        `,
+        imgCaption: "Nido del Pájaro",
+      },
     },
     faqs: {
       header: {
@@ -908,7 +1086,7 @@ const spanish = {
       },
       title: "",
     },
-    whoWeAreProject : {
+    whoWeAreProject: {
       header: {
         title: "Hegazti Escuela Bosque | Quienes Somos - Proyecto",
         meta: {
@@ -958,7 +1136,8 @@ const spanish = {
         title: "Hegazti Escuela Bosque | Quienes Somos - Naturaleza y espacios",
         meta: {
           description: {
-            content: "Este texto explica la importancia del contacto con la naturaleza en la infancia temprana y cómo esto puede influir en el desarrollo físico, emocional y espiritual de los niños. Se enfatiza en cómo la naturaleza ofrece espacios de calidad para el movimiento y la percepción sensorial que son difíciles de reproducir en otros entornos, y cómo el contacto frecuente con la naturaleza genera un sentido de identidad y pertenencia que fomenta actitudes y comportamientos de respeto al entorno. También se destaca cómo el juego en la naturaleza estimula la curiosidad, la imaginación, la creatividad, el lenguaje y la motricidad de los niños. Además, se mencionan los múltiples beneficios para la salud que se derivan del contacto con la naturaleza. Se proporciona una referencia bibliográfica para ampliar la información.",
+            content:
+              "Este texto explica la importancia del contacto con la naturaleza en la infancia temprana y cómo esto puede influir en el desarrollo físico, emocional y espiritual de los niños. Se enfatiza en cómo la naturaleza ofrece espacios de calidad para el movimiento y la percepción sensorial que son difíciles de reproducir en otros entornos, y cómo el contacto frecuente con la naturaleza genera un sentido de identidad y pertenencia que fomenta actitudes y comportamientos de respeto al entorno. También se destaca cómo el juego en la naturaleza estimula la curiosidad, la imaginación, la creatividad, el lenguaje y la motricidad de los niños. Además, se mencionan los múltiples beneficios para la salud que se derivan del contacto con la naturaleza. Se proporciona una referencia bibliográfica para ampliar la información.",
           },
         },
       },
@@ -967,7 +1146,8 @@ const spanish = {
         subClaim: "Aprender jugando en contacto con la naturaleza",
       },
       section: {
-        saying: "Hay un libro abierto siempre para todos los ojos: la naturaleza.",
+        saying:
+          "Hay un libro abierto siempre para todos los ojos: la naturaleza.",
         imageTitle1: "Niño con caracola",
         imageTitle2: "Manos conjuntas",
         title: "¿POR QUÉ EN LA NATURALEZA?",
@@ -989,7 +1169,7 @@ const spanish = {
             actitudes y comportamientos de respeto al entorno, casi sin necesidad
             de explicación o mediación por parte del adulto.
           `,
-          textPart2: `
+        textPart2: `
           Además, ese contacto prolongado y habitual con la naturaleza provee a
           los niños de experiencias sensoriales intensas, profundas y
           gratificantes a la larga. La información que les llega a través de
@@ -1012,7 +1192,7 @@ const spanish = {
           sociedad, permiten desarrollar la paciencia, les aportan serenidad y
           contribuyen al encuentro con su espiritualidad.
           `,
-          textPart3: `
+        textPart3: `
           Por otro lado, el juego en la naturaleza, con su terreno irregular, y
           el manejo de los materiales que allí se encuentran estimula su
           curiosidad, su imaginación, su creatividad, su lenguaje y, sobre todo,
@@ -1034,7 +1214,7 @@ const spanish = {
           contribuye a un desarrollo físico, emocional y espiritual más armónico
           e integrado.
           `,
-          textPart4: `
+        textPart4: `
           El contacto con la naturaleza en edades tempranas tiene además
           múltiples beneficios para la salud: No sólo se trata del ejercicio
           físico evidentemente más intenso que realizan en el exterior. También
@@ -1045,36 +1225,209 @@ const spanish = {
           atención y mitiga comportamientos antisociales como la violencia, el
           acoso, el vandalismo y el absentismo.
           `,
-          textPart5: `
+        textPart5: `
           Para saber más, véase Hueso, K. (2017) Somos naturaleza. Plataforma
           editorial, Barcelona
-          `
+          `,
       },
       cardList: {
-        alt1:"Juegos Conjuntos",
-        alt2:"Grupos de Niños",
-        alt3:"Niños y Caballos",
-        alt4:"Escalando la montaña",
-        alt5:"Explorando el riachuelo",
-        alt6:"Pastoreando",
-        alt7:"Juegos de hojas",
-        alt8:"Yurta",
-      }
+        alt1: "Juegos Conjuntos",
+        alt2: "Grupos de Niños",
+        alt3: "Niños y Caballos",
+        alt4: "Escalando la montaña",
+        alt5: "Explorando el riachuelo",
+        alt6: "Pastoreando",
+        alt7: "Juegos de hojas",
+        alt8: "Yurta",
+      },
     },
-    aDayInHegazti: {
+    whoWeAreADayInHegazti: {
       header: {
-        title: "",
+        title: "Hegazti Escuela Bosque | Quienes Somos - Un día en Hegazti",
         meta: {
           description: {
-            content: "",
+            content:
+              "La Escuela Bosque Hegazti es un lugar especializado en educación infantil, con cuatro áreas diferenciadas por edad, cada una con una dinámica diferente en la que los niños aprenden jugando en contacto con la naturaleza. El enfoque principal es el aprendizaje basado en proyectos y las actividades al aire libre en un entorno natural, ofreciendo a los niños la oportunidad de explorar y descubrir el mundo a través de su propia curiosidad.",
           },
         },
       },
       hero: {
-        claim: "",
-        subClaim: "",
+        claim: "UN DIA EN HEGAZTI",
+        subClaim: "Descubre nuestro dia a dia en la escuela",
       },
-      title: "",
+      introduction: `
+      <strong>Escuela Bosque Hegazti</strong>
+      tiene cuatro espacios diferenciados por edad y por lo tanto cuatro
+      dinámicas diferentes en cuanto a la experiencia del día a día.
+      `,
+      section1: {
+        title: "Un día en la Casita Abejorro (0 a 3 años)",
+        text: `
+          <p className={tw("mb-4")}>
+            La Casita Abejorro es un espacio cálido, de calma, respeto, cuidado,
+            confianza y seguridad.
+          </p>
+          <p className={tw("mb-4")}>
+            Los/as abejorros llegan, y el primer espacio sería de bienvenida,
+            contacto y conexión con cada persona.
+          </p>
+          <p className={tw("mb-4")}>
+            El sigueinte momento es libre movimiento por el espacio interior o si
+            es oportuno por el espacio exterior, aquí nos centramos en seguir sus
+            ritmos y facilitar el movimiento espontáneo además de acompañarles en
+            la exploración de los materiales.
+          </p>
+          <p className={tw("mb-4")}>
+            El último espacio sería el momento de la lectura, el cuento y la
+            relajación para cerrar la mañana.
+          </p>
+        `,
+        imgCaption: "Casita Abejorro",
+      },
+      section2: {
+        title: "Un día en la Casita del Bosque (3 a 6 años)",
+        imgCaption: "Casita del Bosque",
+        text: `
+            <p className={tw("mb-4")}>
+            La casita del Bosque en el día a día es un espacio confortable.
+          </p>
+          <p className={tw("mb-4")}>
+            En el inicio del día está nuestro espacio de encuentro, donde todas y
+            todos podemos tener nuestra bienvenida y nuestro tiempo para compartir
+            nuestros sentires y organizar nuestro día.
+          </p>
+          <p className={tw("mb-4")}>
+            Preparamos lo necesario y salimos a nuestro Camino de Aprendizaje, con
+            nuestras, lupas, cestas, cuerdas o lo que sea que necesitamos hoy….
+          </p>
+          <p className={tw("mb-4")}>
+            Cuando llegamos a nuestro lugar elegido en el día de hoy almorzamos en
+            nuestras cabañas, jugamos a lo que imaginamos, ponemos nuestras
+            reglas, nos divertimos, a veces nos pasan cosas y también las
+            arreglamos.
+          </p>
+          <p className={tw("mb-4")}>
+            Aquí en este espacio del bosque hacemos nuestra actividad del día a
+            veces recolectamos, a veces investigamos, otras construimos, en
+            ocasiones descubrimos…
+          </p>
+          <p className={tw("mb-4")}>
+            Volvemos a la Escuela cargadas/os de energía, de sol de lluvia, de
+            barro, a veces de palos, piñas, hojas, plumas, o lo que hayamos
+            encontrado…
+          </p>
+          <p className={tw("mb-4")}>
+            Tenemos en la Yurta nuestros materiales de arte, cada una/o elige que
+            hacer….
+          </p>
+          <p className={tw("mb-4")}>
+            Y nuestra mañana se cierra con nuestro espacio de cuento que creamos
+            entre todas/os o a veces cada uno/a cuenta su propio cuento del día…
+          </p>
+          <p className={tw("mb-4")}>
+            Los viernes son un día especial en la escuela hacemos tareas, cuidamos
+            de los animales que viven con nosotras/os, recogemos huevos, plantas,
+            cuidamos y trabajamos el huerto, hacemos jabón, limpiamos el espacio,
+            a veces salimos con cestas a recoger la basura del bosque o paseamos
+            con las yeguas.
+          </p>
+        `,
+      },
+      section3: {
+        title: "Un día en la Casita del Árbol (6 a 9 años)",
+        text: `
+            <p className={tw("mb-4")}>
+            En la Casita de Árbol se aprenden muchas cosas.
+          </p>
+          <p className={tw("mb-4")}>
+            En el comienzo del día nos encontramos, compartimos cómo llegamos, qué
+            vamos a hacer en el día de hoy tomamos decisiones, hacemos acuerdos.
+          </p>
+          <p className={tw("mb-4")}>
+            Hacemos la actividad de concentración dentro de la escuela, cada día
+            tenemos una diferente a veces la hacemos juntos y otras cada uno/a
+            tiene una actividad diferente.
+          </p>
+          <p className={tw("mb-4")}>
+            Salimos a fuera a jugar en la naturaleza y a hacer nuestro almuerzo.
+          </p>
+          <p className={tw("mb-4")}>
+            Cogemos las mochilas de exploradores y vamos al lugar del día
+            caminando, durante el camino encontramos muchas cosas curiosas que nos
+            interesan y que nos generan preguntas…
+          </p>
+          <p className={tw("mb-4")}>
+            Cuando regresamos tenemos nuestro espacio de lectura, arte, o
+            manualidades…
+          </p>
+          <p className={tw("mb-4")}>
+            Y por último nos reunimos para compartir cómo ha ido el día que cosas
+            nos han interesado, como podríamos saber aquello que nos preguntamos,
+            resolver preguntas, inquietudes, acordamos que tarea tiene cada una/o
+            de que nos vamos a ocupar para resolver estas dudas.
+          </p>
+          <p className={tw("mb-4")}>
+            En la escuela los lunes y los viernes hacemos tareas, cuidamos de los
+            animales que viven con nosotras/os, recogemos huevos, plantas,
+            cuidamos y trabajamos el huerto, hacemos jabón, limpiamos el espacio,
+            a veces salimos con cestas a recoger la basura del bosque o paseamos
+            con las yeguas. Y además coicidimos con los demás compañeros de la
+            escuela.
+          </p>
+        `,
+        imgCaption: "Casita del Árbol",
+      },
+      section4: {
+        title: "Un día en el Nido del Pájaro (9 a 12 años)",
+        text: `
+            <p className={tw("mb-4")}>
+            El Nido del pájaro es un lugar donde nos preparamos para volar.
+          </p>
+          <p className={tw("mb-4")}>
+            En la llegada nos recibimos, nos encontramos y compartimos sentires,
+            intereses, sueños y curiosidades. También hacemos nuestra elección del
+            proyecto del día.
+          </p>
+          <p className={tw("mb-4")}>
+            Tenemos espacio para preparar aquello que necesitamos para nuestro
+            proyecto de hoy, a veces nuestro poryecto dura semanas….depende de
+            cuanto nos interese. Planificamos, organizamos, hacemos acopio de
+            material, hacemos previsiones, y cuando estamos preparadas/os salimos
+            a fuera.
+          </p>
+          <p className={tw("mb-4")}>
+            Ahora nos toca poner en práctica o realizar aquello que hemos
+            decidido, anotar también lo que hemos creido oportuno o lo que de
+            repente se nos ocurre, a veces nos sale como esperábamos y en otras
+            ocasiones nada sale como penábamos….cuando terminamos por hoy volvemos
+            dentro.
+          </p>
+          <p className={tw("mb-4")}>
+            Nuestros espacios de juego libre, de disfrute, conversación, calma o
+            lectura, los acordamos cada día y cada día suelen ser distintos
+            depende del proyecto que tengamos.
+          </p>
+          <p className={tw("mb-4")}>
+            Aquí anotamos, hacemos reformulaciones, preguntas, vemos lo que
+            necesitamos, lo que ha fallado, analizamos variables, y acordamos como
+            continuar o cómo cerrar y dejar constancia de nuestros resultados.
+          </p>
+          <p className={tw("mb-4")}>
+            Tenemos nuestro espacio libre de arte, o taller el que elijamos…
+          </p>
+          <p className={tw("mb-4")}>
+            Durante la semana tenemos responsabilidades o tarea en la escuela lo
+            hacemos al final de la mañana, puede ser, cuidar de los animales,
+            trabajar en el huerto, ayudar con las tareas de mantenimiento…
+          </p>
+          <p className={tw("mb-4")}>
+            Los viernes son un día especial elegimos que cosas queremos aprender
+            fuera de la escuela, y ese día vamos a compartir con otras personas en
+            sus oficios un espacio de aprendizaje-trabajo.
+          </p>  
+        `,
+        imgCaption: "Nido del Pájaro",
+      },
     },
     faqs: {
       header: {
