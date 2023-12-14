@@ -453,190 +453,167 @@ const english = {
     },
     whoWeAreADayInHegazti: {
       header: {
-        title: "Hegazti Escuela Bosque | Quienes Somos - Un día en Hegazti",
+        title: "Hegazti Forest School | About Us - A Day at Hegazti",
         meta: {
           description: {
             content:
-              "La Escuela Bosque Hegazti es un lugar especializado en educación infantil, con cuatro áreas diferenciadas por edad, cada una con una dinámica diferente en la que los niños aprenden jugando en contacto con la naturaleza. El enfoque principal es el aprendizaje basado en proyectos y las actividades al aire libre en un entorno natural, ofreciendo a los niños la oportunidad de explorar y descubrir el mundo a través de su propia curiosidad.",
+              "he Hegazti Forest School is a special place for early childhood education, with four areas differentiated by age, each with a different dynamic in which children learn through play in contact with nature. The main focus is project-based learning and outdoor activities in a natural environment, giving children the opportunity to explore and discover the world through their own curiosity.",
           },
         },
       },
       hero: {
-        claim: "UN DIA EN HEGAZTI",
-        subClaim: "Descubre nuestro dia a dia en la escuela",
+        claim: "A DAY AT HEGAZTI",
+        subClaim: "Discover our day-to-day at the school",
       },
       introduction: `
-      <strong>Escuela Bosque Hegazti</strong>{" "}
-      tiene cuatro espacios diferenciados por edad y por lo tanto cuatro
-      dinámicas diferentes en cuanto a la experiencia del día a día.
+      <strong>Hegazti Forest School</strong>
+      has four spaces differentiated by age and therefore four
+      different dynamics in terms of day-to-day experience.
       `,
       section1: {
-        title: "Un día en la Casita Abejorro (0 a 3 años)",
+        title: "A Day in the Bumblebee House (0 to 3 years)",
         text: `
-          <p className={tw("mb-4")}>
-            La Casita Abejorro es un espacio cálido, de calma, respeto, cuidado,
-            confianza y seguridad.
-          </p>
-          <p className={tw("mb-4")}>
-            Los/as abejorros llegan, y el primer espacio sería de bienvenida,
-            contacto y conexión con cada persona.
-          </p>
-          <p className={tw("mb-4")}>
-            El sigueinte momento es libre movimiento por el espacio interior o si
-            es oportuno por el espacio exterior, aquí nos centramos en seguir sus
-            ritmos y facilitar el movimiento espontáneo además de acompañarles en
-            la exploración de los materiales.
-          </p>
-          <p className={tw("mb-4")}>
-            El último espacio sería el momento de la lectura, el cuento y la
-            relajación para cerrar la mañana.
-          </p>
+        <p className={tw(""mb-4"")}>
+        The Bumblebee House is a warm, calm, respectful, caring,
+        trustworthy, and safe space.
+      </p>
+      <p className={tw(""mb-4"")}>
+        The bumblebees arrive, and the first space is for welcoming,
+        contact, and connection with each person.
+      </p>
+      <p className={tw(""mb-4"")}>
+        The next moment is free movement through the interior space or, if appropriate, the outdoor space, where we focus on following their rhythms and facilitating spontaneous movement as well as accompanying them in the exploration of materials.
+      </p>
+      <p className={tw(""mb-4"")}>
+        The last space is for reading, storytelling, and
+        relaxation to close the morning.
+      </p>
         `,
-        imgCaption: "Casita Abejorro",
+        imgCaption: "Bumblebee House",
       },
       section2: {
-        title: "Un día en la Casita del Bosque (3 a 6 años)",
-        imgCaption: "Casita del Bosque",
+        title: "A Day in the Forest House (3 to 6 years)",
+        imgCaption: "Forest House",
         text: `
-            <p className={tw("mb-4")}>
-            La casita del Bosque en el día a día es un espacio confortable.
-          </p>
-          <p className={tw("mb-4")}>
-            En el inicio del día está nuestro espacio de encuentro, donde todas y
-            todos podemos tener nuestra bienvenida y nuestro tiempo para compartir
-            nuestros sentires y organizar nuestro día.
-          </p>
-          <p className={tw("mb-4")}>
-            Preparamos lo necesario y salimos a nuestro Camino de Aprendizaje, con
-            nuestras, lupas, cestas, cuerdas o lo que sea que necesitamos hoy….
-          </p>
-          <p className={tw("mb-4")}>
-            Cuando llegamos a nuestro lugar elegido en el día de hoy almorzamos en
-            nuestras cabañas, jugamos a lo que imaginamos, ponemos nuestras
-            reglas, nos divertimos, a veces nos pasan cosas y también las
-            arreglamos.
-          </p>
-          <p className={tw("mb-4")}>
-            Aquí en este espacio del bosque hacemos nuestra actividad del día a
-            veces recolectamos, a veces investigamos, otras construimos, en
-            ocasiones descubrimos…
-          </p>
-          <p className={tw("mb-4")}>
-            Volvemos a la Escuela cargadas/os de energía, de sol de lluvia, de
-            barro, a veces de palos, piñas, hojas, plumas, o lo que hayamos
-            encontrado…
-          </p>
-          <p className={tw("mb-4")}>
-            Tenemos en la Yurta nuestros materiales de arte, cada una/o elige que
-            hacer….
-          </p>
-          <p className={tw("mb-4")}>
-            Y nuestra mañana se cierra con nuestro espacio de cuento que creamos
-            entre todas/os o a veces cada uno/a cuenta su propio cuento del día…
-          </p>
-          <p className={tw("mb-4")}>
-            Los viernes son un día especial en la escuela hacemos tareas, cuidamos
-            de los animales que viven con nosotras/os, recogemos huevos, plantas,
-            cuidamos y trabajamos el huerto, hacemos jabón, limpiamos el espacio,
-            a veces salimos con cestas a recoger la basura del bosque o paseamos
-            con las yeguas.
-          </p>
+        <p className={tw(""mb-4"")}>
+        The Forest House in the day-to-day is a comfortable space.
+      </p>
+      <p className={tw(""mb-4"")}>
+        At the start of the day is our meeting space, where everyone can have their welcome and our time to share our feelings and organize our day.
+      </p>
+      <p className={tw(""mb-4"")}>
+        We prepare what is needed and head out on our Learning Path, with our magnifying glasses, baskets, ropes, or whatever we need today...
+      </p>
+      <p className={tw(""mb-4"")}>
+        When we arrive at our chosen place for the day, we have lunch in our cabins, play what we imagine, set our rules, have fun, sometimes things happen and we also fix them.
+      </p>
+      <p className={tw(""mb-4"")}>
+        Here in this forest space, we do our activity of the day sometimes we collect, investigate, build, sometimes discover...
+      </p>
+      <p className={tw(""mb-4"")}>
+        We return to the School full of energy, sun, rain, mud, sometimes sticks, pine cones, leaves, feathers, or whatever we have found...
+      </p>
+      <p className={tw(""mb-4"")}>
+        We have in the Yurt our art materials, everyone chooses what to do...
+      </p>
+      <p className={tw(""mb-4"")}>
+        And our morning closes with our storytelling space that we create together or sometimes each one tells their own story of the day...
+      </p>
+      <p className={tw(""mb-4"")}>
+        Fridays are a special day at the school we do chores, take care of the animals that live with us, collect eggs, plants, care for and work in the garden, make soap, clean the space, sometimes we go out with baskets to collect trash from the forest or walk with the mares.
+      </p>
         `,
       },
       section3: {
-        title: "Un día en la Casita del Árbol (6 a 9 años)",
+        title: "A Day in the Tree House (6 to 9 years)",
         text: `
-            <p className={tw("mb-4")}>
-            En la Casita de Árbol se aprenden muchas cosas.
-          </p>
-          <p className={tw("mb-4")}>
-            En el comienzo del día nos encontramos, compartimos cómo llegamos, qué
-            vamos a hacer en el día de hoy tomamos decisiones, hacemos acuerdos.
-          </p>
-          <p className={tw("mb-4")}>
-            Hacemos la actividad de concentración dentro de la escuela, cada día
-            tenemos una diferente a veces la hacemos juntos y otras cada uno/a
-            tiene una actividad diferente.
-          </p>
-          <p className={tw("mb-4")}>
-            Salimos a fuera a jugar en la naturaleza y a hacer nuestro almuerzo.
-          </p>
-          <p className={tw("mb-4")}>
-            Cogemos las mochilas de exploradores y vamos al lugar del día
-            caminando, durante el camino encontramos muchas cosas curiosas que nos
-            interesan y que nos generan preguntas…
-          </p>
-          <p className={tw("mb-4")}>
-            Cuando regresamos tenemos nuestro espacio de lectura, arte, o
-            manualidades…
-          </p>
-          <p className={tw("mb-4")}>
-            Y por último nos reunimos para compartir cómo ha ido el día que cosas
-            nos han interesado, como podríamos saber aquello que nos preguntamos,
-            resolver preguntas, inquietudes, acordamos que tarea tiene cada una/o
-            de que nos vamos a ocupar para resolver estas dudas.
-          </p>
-          <p className={tw("mb-4")}>
-            En la escuela los lunes y los viernes hacemos tareas, cuidamos de los
-            animales que viven con nosotras/os, recogemos huevos, plantas,
-            cuidamos y trabajamos el huerto, hacemos jabón, limpiamos el espacio,
-            a veces salimos con cestas a recoger la basura del bosque o paseamos
-            con las yeguas. Y además coicidimos con los demás compañeros de la
-            escuela.
-          </p>
+        <p className={tw("mb-4")}>
+        In the Treehouse, we learn many things.
+      </p>
+      <p className={tw("mb-4")}>
+        At the beginning of the day, we meet, share how we've arrived, and discuss what
+        we are going to do today. We make decisions and agreements.
+      </p>
+      <p className={tw("mb-4")}>
+        We do concentration activities inside the school, each day
+        it's different. Sometimes we do them together, and other times each one
+        has a different activity.
+      </p>
+      <p className={tw("mb-4")}>
+        We go outside to play in nature and to have our lunch.
+      </p>
+      <p className={tw("mb-4")}>
+        We take our explorer's backpacks and walk to the location of the day,
+        along the way we find many curious things that interest us and
+        generate questions…
+      </p>
+      <p className={tw("mb-4")}>
+        When we return, we have our space for reading, art, or
+        crafts…
+      </p>
+      <p className={tw("mb-4")}>
+        And finally, we gather to share how the day went, what things
+        interested us, how we might answer the questions we have,
+        resolve doubts, and agree on what task each one will
+        take on to resolve these questions.
+      </p>
+      <p className={tw("mb-4")}>
+        In school on Mondays and Fridays, we do tasks, take care of the
+        animals living with us, collect eggs, plants,
+        tend and work in the garden, make soap, clean the space,
+        sometimes go out with baskets to collect garbage from the forest or walk
+        with the mares. And we also coincide with other classmates from the
+        school.
+      </p>
         `,
-        imgCaption: "Casita del Árbol",
+        imgCaption: "Tree House",
       },
       section4: {
-        title: "Un día en el Nido del Pájaro (9 a 12 años)",
+        title: "A Day in the Bird's Nest (9 to 12 years)",
         text: `
-            <p className={tw("mb-4")}>
-            El Nido del pájaro es un lugar donde nos preparamos para volar.
-          </p>
-          <p className={tw("mb-4")}>
-            En la llegada nos recibimos, nos encontramos y compartimos sentires,
-            intereses, sueños y curiosidades. También hacemos nuestra elección del
-            proyecto del día.
-          </p>
-          <p className={tw("mb-4")}>
-            Tenemos espacio para preparar aquello que necesitamos para nuestro
-            proyecto de hoy, a veces nuestro poryecto dura semanas….depende de
-            cuanto nos interese. Planificamos, organizamos, hacemos acopio de
-            material, hacemos previsiones, y cuando estamos preparadas/os salimos
-            a fuera.
-          </p>
-          <p className={tw("mb-4")}>
-            Ahora nos toca poner en práctica o realizar aquello que hemos
-            decidido, anotar también lo que hemos creido oportuno o lo que de
-            repente se nos ocurre, a veces nos sale como esperábamos y en otras
-            ocasiones nada sale como penábamos….cuando terminamos por hoy volvemos
-            dentro.
-          </p>
-          <p className={tw("mb-4")}>
-            Nuestros espacios de juego libre, de disfrute, conversación, calma o
-            lectura, los acordamos cada día y cada día suelen ser distintos
-            depende del proyecto que tengamos.
-          </p>
-          <p className={tw("mb-4")}>
-            Aquí anotamos, hacemos reformulaciones, preguntas, vemos lo que
-            necesitamos, lo que ha fallado, analizamos variables, y acordamos como
-            continuar o cómo cerrar y dejar constancia de nuestros resultados.
-          </p>
-          <p className={tw("mb-4")}>
-            Tenemos nuestro espacio libre de arte, o taller el que elijamos…
-          </p>
-          <p className={tw("mb-4")}>
-            Durante la semana tenemos responsabilidades o tarea en la escuela lo
-            hacemos al final de la mañana, puede ser, cuidar de los animales,
-            trabajar en el huerto, ayudar con las tareas de mantenimiento…
-          </p>
-          <p className={tw("mb-4")}>
-            Los viernes son un día especial elegimos que cosas queremos aprender
-            fuera de la escuela, y ese día vamos a compartir con otras personas en
-            sus oficios un espacio de aprendizaje-trabajo.
-          </p>  
+        <p className={tw("mb-4")}>
+        The Bird's Nest is a place where we prepare to fly.
+      </p>
+      <p className={tw("mb-4")}>
+        Upon arrival, we greet each other, meet, and share feelings,
+        interests, dreams, and curiosities. We also make our choice of
+        the project for the day.
+      </p>
+      <p className={tw("mb-4")}>
+        We have space to prepare what we need for our
+        project today, sometimes our project lasts weeks... it depends on
+        how much it interests us. We plan, organize, gather materials, make predictions, and when we are ready, we go outside.
+      </p>
+      <p className={tw("mb-4")}>
+        Now it's our turn to put into practice or carry out what we have
+        decided, also noting what we believe is appropriate or what
+        suddenly occurs to us. Sometimes it turns out as we expected, and other times nothing goes as we thought... when we finish for today, we go back inside.
+      </p>
+      <p className={tw("mb-4")}>
+        Our spaces for free play, enjoyment, conversation, calm, or
+        reading, we agree on them each day, and they tend to be different
+        depending on the project we have.
+      </p>
+      <p className={tw("mb-4")}>
+        Here we take notes, make reformulations, ask questions, see what
+        we need, what has failed, analyze variables, and agree on how
+        to continue or how to close and record our results.
+      </p>
+      <p className={tw("mb-4")}>
+        We have our free space for art, or choose a workshop…
+      </p>
+      <p className={tw("mb-4")}>
+        During the week we have responsibilities or tasks in school which
+        we do at the end of the morning, it can be taking care of the animals,
+        working in the garden, helping with maintenance tasks...
+      </p>
+      <p className={tw("mb-4")}>
+        Fridays are a special day; we choose what things we want to learn
+        outside of school, and that day we go to share with other people in
+        their trades, a space for learning-work.
+      </p> 
         `,
-        imgCaption: "Nido del Pájaro",
+        imgCaption: "Bird's Nest",
       },
     },
     faqs: {
