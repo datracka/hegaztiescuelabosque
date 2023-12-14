@@ -9,7 +9,7 @@ import { useContext } from "preact/hooks";
 import { ContextState } from "@/routes/_app.tsx";
 
 export default function QuienesSomosEspacios() {
-  const { languageAccepted, enableForm } = useContext(ContextState);
+  const { languageAccepted } = useContext(ContextState);
   const t = getFixedT(languageAccepted);
   const menuTexts = t("menu", { returnObjects: true });
 

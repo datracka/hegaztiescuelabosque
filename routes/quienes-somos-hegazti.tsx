@@ -4,8 +4,16 @@ import SectionFooter from "@/components/Shared/SectionFooter.tsx";
 import { Head } from "$fresh/runtime.ts";
 import Hero from "@/components/Shared/Hero.tsx";
 import SectionContent from "@/components/WhoWeAreDayInHegazti/SectionContent.tsx";
+import getFixedT from "@/components/i18n.ts";
+import { useContext } from "preact/hooks";
+import { ContextState } from "@/routes/_app.tsx";
 
 export default function QuienesSomosHegazti() {
+  
+  const { languageAccepted } = useContext(ContextState);
+  const t = getFixedT(languageAccepted);
+  const menuTexts = t("menu", { returnObjects: true });
+
   const staticPath = "/imgs/quienes-somos-hegazti";
   return (
     <>
@@ -18,7 +26,7 @@ export default function QuienesSomosHegazti() {
           content="La Escuela Bosque Hegazti es un lugar especializado en educación infantil, con cuatro áreas diferenciadas por edad, cada una con una dinámica diferente en la que los niños aprenden jugando en contacto con la naturaleza. El enfoque principal es el aprendizaje basado en proyectos y las actividades al aire libre en un entorno natural, ofreciendo a los niños la oportunidad de explorar y descubrir el mundo a través de su propia curiosidad."
         />
       </Head>
-      <NavBar />
+      <NavBar menuTexts={menuTexts} />
       <Hero
         title="UN DIA EN HEGAZTI"
         description="Descubre nuestro dia a dia en la escuela"
