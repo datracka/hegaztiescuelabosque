@@ -2,10 +2,23 @@ import { css, tw } from "twind/css";
 import NavBar from "@/islands/NavBar.tsx";
 import { Head } from "$fresh/runtime.ts";
 import SectionFooter from "@/components/Shared/SectionFooter.tsx";
-import Hero from "@/components/Shared/Hero.tsx";
-import Faq from "@/components/WhoWeAreFaqs/Faq.tsx";
+
+import { ContextState } from "@/routes/_app.tsx";
+import getFixedT from "@/components/i18n.ts";
+import { RouteConfig } from "$fresh/server.ts";
+import { useContext } from "preact/hooks";
+
+export const config: RouteConfig = {
+  routeOverride: "/(legal-privacy-policy|legal-politica-de-privacidad)",
+};
 
 export default function politicaDePrivacidad() {
+
+  const { languageAccepted } = useContext(ContextState);
+  const t = getFixedT(languageAccepted);
+  const menuTexts = t("menu", { returnObjects: true });
+
+
   return (
     <>
       <Head>
@@ -14,7 +27,7 @@ export default function politicaDePrivacidad() {
         </title>
         <meta name="robots" content="noindex" />
       </Head>
-      <NavBar />
+      <NavBar menuTexts={menuTexts} />
       <section
         className={tw(
           `mx-auto max-w-7xl px-2 sm:px-6 lg:px-8`,
