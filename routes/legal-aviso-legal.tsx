@@ -46,8 +46,7 @@ export default function avisoLegal() {
         <p className={tw(`mb-4`)}>
           Denominación Social:{" "}
           <strong>
-            ASOCIACIÓN PARA EL DESARROLLO DE LAS TERAPIAS ECUESTRES CAMINANDO
-            CON CABALLOS
+          ASOCIACIÓN ESCUELA BOSQUE FAMILIAS HEGAZTI
           </strong>
         </p>
         <p className={tw(`mb-4`)}>
@@ -86,12 +85,11 @@ export default function avisoLegal() {
         </h3>
         <p className={tw(`mb-4`)}>
           <strong>
-            ASOCIACIÓN PARA EL DESARROLLO DE LAS TERAPIAS ECUESTRES CAMINANDO
-            CON CABALLOS
+            ASOCIACIÓN ESCUELA BOSQUE FAMILIAS HEGAZTI
           </strong>(Desde ahora también el prestador) como responsable del sitio
           web, pone a disposición de los usuarios el presente documento, que
           regula el uso del sitio web{" "}
-          <strong>www.caminandoconcaballos.org</strong>, con el que pretendemos
+          <strong>www.hegaztiescuelabosque.org</strong>, con el que pretendemos
           dar cumplimiento a las obligaciones que dispone la Ley 34/2002 , de
           servicios de la Sociedad de la Información y del Comercio Electrónico
           (LSSICE o LSSI), así como informar a todos los usuarios del sitio web
@@ -100,8 +98,7 @@ export default function avisoLegal() {
         <p className={tw(`mb-4`)}>
           A través de la web,{" "}
           <strong>
-            ASOCIACIÓN PARA EL DESARROLLO DE LAS TERAPIAS ECUESTRES CAMINANDO
-            CON CABALLOS
+            ASOCIACIÓN ESCUELA BOSQUE FAMILIAS HEGAZTI
           </strong>facilita a los usuarios el acceso y utilización de diferentes
           servicios y contenidos puestos a disposición a través de la web.
         </p>
@@ -130,8 +127,7 @@ export default function avisoLegal() {
         <p className={tw(`mb-4`)}>
           La prestación de los servicios por parte de{" "}
           <strong>
-            ASOCIACIÓN PARA EL DESARROLLO DE LAS TERAPIAS ECUESTRES CAMINANDO
-            CON CABALLOS
+          ASOCIACIÓN ESCUELA BOSQUE FAMILIAS HEGAZTI
           </strong>{" "}
           tiene carácter gratuito para todos los usuarios.
         </p>
@@ -152,8 +148,7 @@ export default function avisoLegal() {
           responsabilidad del Usuario mantener toda la información facilitada a
           {" "}
           <strong>
-            ASOCIACIÓN PARA EL DESARROLLO DE LAS TERAPIAS ECUESTRES CAMINANDO
-            CON CABALLOS
+          ASOCIACIÓN ESCUELA BOSQUE FAMILIAS HEGAZTI
           </strong>{" "}
           permanentemente actualizada de forma que responda, en cada momento, a
           su situación real. En todo caso, el Usuario será el único responsable
@@ -251,8 +246,7 @@ export default function avisoLegal() {
         </p>
         <p className={tw(`mb-4`)}>
           <strong>
-            ASOCIACIÓN PARA EL DESARROLLO DE LAS TERAPIAS ECUESTRES CAMINANDO
-            CON CABALLOS
+          ASOCIACIÓN ESCUELA BOSQUE FAMILIAS HEGAZTI
           </strong>{" "}
           no otorga ninguna garantía ni se hace responsable, en ningún caso, de
           los daños y perjuicios de cualquier naturaleza que puedan salir a
@@ -301,8 +295,7 @@ export default function avisoLegal() {
           desde la web no podemos controlar los contenidos introducidos por los
           terceros,{" "}
           <strong>
-            ASOCIACIÓN PARA EL DESARROLLO DE LAS TERAPIAS ECUESTRES CAMINANDO
-            CON CABALLOS
+          ASOCIACIÓN ESCUELA BOSQUE FAMILIAS HEGAZTI
           </strong>{" "}
           no asume ningún tipo de responsabilidad respecto a dichos contenidos,
           ni garantiza la experiencia, integridad o calidad de sus productos. En
@@ -315,8 +308,7 @@ export default function avisoLegal() {
         </p>
         <p className={tw(`mb-4`)}>
           <strong>
-            ASOCIACIÓN PARA EL DESARROLLO DE LAS TERAPIAS ECUESTRES CAMINANDO
-            CON CABALLOS
+          ASOCIACIÓN ESCUELA BOSQUE FAMILIAS HEGAZTI
           </strong>{" "}
           tendrá publicados estos enlaces hasta que sean eliminados o
           suspendidos por el prestador o por el anunciante, y no será
@@ -342,8 +334,7 @@ export default function avisoLegal() {
         <p className={tw(`mb-4`)}>
           Sin embargo,{" "}
           <strong>
-            ASOCIACIÓN PARA EL DESARROLLO DE LAS TERAPIAS ECUESTRES CAMINANDO
-            CON CABALLOS
+          ASOCIACIÓN ESCUELA BOSQUE FAMILIAS HEGAZTI
           </strong>{" "}
           le informa que cualquier relación contractual o extracontractual que
           el usuario formalice con estos terceros, afiliados o anunciantes
@@ -351,8 +342,7 @@ export default function avisoLegal() {
           exclusivamente entre el usuario y el anunciante y / o tercera persona
           y{" "}
           <strong>
-            ASOCIACIÓN PARA EL DESARROLLO DE LAS TERAPIAS ECUESTRES CAMINANDO
-            CON CABALLOS
+          ASOCIACIÓN ESCUELA BOSQUE FAMILIAS HEGAZTI
           </strong>{" "}
           no tendrá ningún tipo de responsabilidad sobre los daños o perjuicios
           que pudieran ser ocasionados por la prestación de servicios y / o
