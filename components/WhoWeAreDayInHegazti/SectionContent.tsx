@@ -15,7 +15,6 @@ type ContentProps = {
 };
 
 const SectionContent = (ctx: ContentProps) => {
-
   const aspectRatio = css({
     aspect_ratio: 1 / 1,
   });
@@ -46,10 +45,13 @@ const SectionContent = (ctx: ContentProps) => {
         </div>
       </div>
       <div className={tw`sm:w-[48%] sm:flex-grow`}>
-        <h2 className={tw(`hegazti-h2`)}>{ctx.title}</h2>
-        <div dangerouslySetInnerHTML={{
+        <h2 className={tw(`hegazti-h2 pb-8`)}>{ctx.title}</h2>
+        <div
+          dangerouslySetInnerHTML={{
             __html: ctx.text,
-          }}></div>
+          }}
+        >
+        </div>
       </div>
       <div className={tw`border-b-1 mb-8 sm:w-[48%] sm:flex-grow`}>
       </div>
