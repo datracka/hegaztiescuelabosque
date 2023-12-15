@@ -8,16 +8,14 @@ import getFixedT from "@/components/i18n.ts";
 import { RouteConfig } from "$fresh/server.ts";
 import { useContext } from "preact/hooks";
 
-export const config: RouteConfig = {  
+export const config: RouteConfig = {
   routeOverride: "/(legal-notice|aviso-legal)",
 };
 
 export default function avisoLegal() {
-
   const { languageAccepted } = useContext(ContextState);
   const t = getFixedT(languageAccepted);
   const menuTexts = t("menu", { returnObjects: true });
-
 
   return (
     <>
@@ -28,62 +26,58 @@ export default function avisoLegal() {
         <meta name="robots" content="noindex" />
       </Head>
       <NavBar menuTexts={menuTexts} />
-      <section
-        className={tw(
-          `mx-auto max-w-7xl px-2 sm:px-6 lg:px-8`,
-        )}
-      >
-        <h1 className={tw(`hegazti-h1 py-8 text-left!`)}>
+      <section className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
+        <h1 className="hegazti-h1 py-8 text-left!">
           AVISO LEGAL
         </h1>
 
-        <p className={tw(`mb-4`)}>
+        <p className="mb-4">
           Para dar cumplimiento al artículo 10 de la Ley 34/2002 de Servicios de
           la Sociedad de la Información y del Comercio Electrónico, informamos a
           los usuarios de nuestros datos:
         </p>
 
-        <p className={tw(`mb-4`)}>
+        <p className="mb-4">
           Denominación Social:{" "}
           <strong>
-          ASOCIACIÓN ESCUELA BOSQUE FAMILIAS HEGAZTI
+            ASOCIACIÓN ESCUELA BOSQUE FAMILIAS HEGAZTI
           </strong>
         </p>
-        <p className={tw(`mb-4`)}>
+        <p className="mb-4">
           Domicilio Social:<strong>
             Carretera de Aras 6, 31230, Viana, Navarra
           </strong>
         </p>
-        <p className={tw(`mb-4`)}>
+        <p className="mb-4">
           NIF:{" "}
           <strong>
             G26525329&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
           </strong>
         </p>
-        <p className={tw(`mb-4`)}>
+        <p className="mb-4">
           Teléfono:<strong>669 575 406</strong>
         </p>
-        <p className={tw(`mb-4`)}>
+        <p className="mb-4">
           E-Mail: <strong>caminandoconcaballos20@gmail.com</strong>
         </p>
-        <p className={tw(`mb-4`)}>
+        <p className="mb-4">
           Web:{" "}
           <a href="http://www.caminandoconcaballos.org">
             <strong>www.caminandoconcaballos.org</strong>
           </a>
           <strong></strong>
         </p>
-        <p className={tw(`mb-4`)}>
+        <p className="mb-4">
           Datos Registrales:{" "}
           <strong>
             Esta entidad consta inscrita en el Registro de asociaciones de
             Navarra Doc.2017/217491
           </strong>
         </p>
-        <h3 className={tw(`text-2xl pt-8 pb-4`)}>
+        <h3 className="text-2xl pt-8 pb-4">
           1.&nbsp;&nbsp;&nbsp;&nbsp; OBJETO
         </h3>
-        <p className={tw(`mb-4`)}>
+        <p className="mb-4">
           <strong>
             ASOCIACIÓN ESCUELA BOSQUE FAMILIAS HEGAZTI
           </strong>(Desde ahora también el prestador) como responsable del sitio
@@ -95,21 +89,21 @@ export default function avisoLegal() {
           (LSSICE o LSSI), así como informar a todos los usuarios del sitio web
           respecto de cuáles son las condiciones de uso del sitio web.
         </p>
-        <p className={tw(`mb-4`)}>
+        <p className="mb-4">
           A través de la web,{" "}
           <strong>
             ASOCIACIÓN ESCUELA BOSQUE FAMILIAS HEGAZTI
           </strong>facilita a los usuarios el acceso y utilización de diferentes
           servicios y contenidos puestos a disposición a través de la web.
         </p>
-        <p className={tw(`mb-4`)}>
+        <p className="mb-4">
           Toda persona que acceda a esta web asume el papel de usuario (en
           adelante el usuario), e implica la aceptación total y sin reservas de
           todas y cada una de las disposiciones incluidas en este Aviso Legal,
           así como cualesquiera otras disposiciones legales que fueran de
           aplicación.
         </p>
-        <p className={tw(`mb-4`)}>
+        <p className="mb-4">
           Como usuarios, deben leer atentamente el presente Aviso Legal en
           cualquiera de las ocasiones que entren en la web, ya que ésta puede
           sufrir modificaciones ya que el prestador se reserva el derecho a
@@ -118,47 +112,47 @@ export default function avisoLegal() {
           de los usuarios dichas obligaciones, siendo suficientes la publicación
           en el sitio web del prestador.
         </p>
-        <h3 className={tw(`text-2xl pt-8 pb-4`)}>
+        <h3 className="text-2xl pt-8 pb-4">
           2.&nbsp;&nbsp;&nbsp;&nbsp; CONDICIONES DE ACCESO Y USO DEL WEB
         </h3>
-        <p className={tw(`mb-4`)}>
+        <p className="mb-4">
           <strong>2.1. Carácter gratuito del acceso y uso de la web.</strong>
         </p>
-        <p className={tw(`mb-4`)}>
+        <p className="mb-4">
           La prestación de los servicios por parte de{" "}
           <strong>
-          ASOCIACIÓN ESCUELA BOSQUE FAMILIAS HEGAZTI
+            ASOCIACIÓN ESCUELA BOSQUE FAMILIAS HEGAZTI
           </strong>{" "}
           tiene carácter gratuito para todos los usuarios.
         </p>
-        <p className={tw(`mb-4`)}>
+        <p className="mb-4">
           <strong>2.2. Registro de Usuario.</strong>
         </p>
-        <p className={tw(`mb-4`)}>
+        <p className="mb-4">
           Con carácter general la prestación de los Servicios no exige la previa
           suscripción o registro de los Usuarios.
         </p>
-        <p className={tw(`mb-4`)}>
+        <p className="mb-4">
           <strong>2.3. Veracidad de la información.</strong>
         </p>
-        <p className={tw(`mb-4`)}>
+        <p className="mb-4">
           Toda la información que facilita el Usuario debe ser veraz. En estos
           efectos, el Usuario garantiza la autenticidad de los datos comunicados
           a través de los formularios para la suscripción de los Servicios. Será
           responsabilidad del Usuario mantener toda la información facilitada a
           {" "}
           <strong>
-          ASOCIACIÓN ESCUELA BOSQUE FAMILIAS HEGAZTI
+            ASOCIACIÓN ESCUELA BOSQUE FAMILIAS HEGAZTI
           </strong>{" "}
           permanentemente actualizada de forma que responda, en cada momento, a
           su situación real. En todo caso, el Usuario será el único responsable
           de las manifestaciones falsas o inexactas que realice y de los
           perjuicios que cause al prestador o a terceros.
         </p>
-        <p className={tw(`mb-4`)}>
+        <p className="mb-4">
           <strong>2.4. Menores de edad.</strong>
         </p>
-        <p className={tw(`mb-4`)}>
+        <p className="mb-4">
           Para el uso de los servicios, los menores de edad deben obtener
           siempre previamente el consentimiento de los padres, tutores o
           representantes legales, responsables últimos de todos los actos
@@ -171,12 +165,12 @@ export default function avisoLegal() {
           infalibles, son de especial utilidad para controlar y restringir los
           materiales a los que pueden acceder los menores.
         </p>
-        <p className={tw(`mb-4`)}>
+        <p className="mb-4">
           &nbsp;<strong>
             2.5. Obligación de hacer uso correcto de la web.
           </strong>
         </p>
-        <p className={tw(`mb-4`)}>
+        <p className="mb-4">
           El Usuario se compromete a utilizar la web de conformidad a la Ley y
           al presente Aviso Legal, así como la moral y las buenas costumbres. En
           efecto, el Usuario se abstendrá de utilizar la página con fines
@@ -186,56 +180,56 @@ export default function avisoLegal() {
           documentos, archivos y toda clase de contenidos almacenados en
           cualquier equipo informático del prestador.
         </p>
-        <p className={tw(`mb-4`)}>
+        <p className="mb-4">
           En particular, y a título indicativo, pero no exhaustivo, el Usuario
           se compromete a no transmitir, difundir o poner a disposición de
           terceros informaciones, datos, contenidos, mensajes, gráficos,
           dibujos, archivos de sonido o imagen, fotografías, grabaciones,
           software y, en general, cualquier clase de material que:
         </p>
-        <p className={tw(`mb-4`)}>
+        <p className="mb-4">
           &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
           (A) sea contraria, menosprecie o atente contra los derechos
           fundamentales y las &nbsp; libertades públicas reconocidas
           constitucionalmente, en tratados internacionales y otras normas
           vigentes;
         </p>
-        <p className={tw(`mb-4`)}>
+        <p className="mb-4">
           &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
           (B) induzca, incite o promueva actuaciones delictivas, denigratorias,
           difamatorias, violentas o, en general, contrarias a la ley, a la moral
           y el orden público;
         </p>
-        <p className={tw(`mb-4`)}>
+        <p className="mb-4">
           &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
           (C) induzca, incite o promueva actuaciones, actitudes o pensamientos
           discriminatorios por razón de sexo, raza, religión, creencias, edad o
           condición;
         </p>
-        <p className={tw(`mb-4`)}>
+        <p className="mb-4">
           &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
           (D) sea contrario al derecho al honor, a la intimidad personal o
           familiar o la propia imagen de las personas;
         </p>
-        <p className={tw(`mb-4`)}>
+        <p className="mb-4">
           &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
           (E) de cualquier manera perjudique la credibilidad del prestador o de
           terceros; y
         </p>
-        <p className={tw(`mb-4`)}>
+        <p className="mb-4">
           &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
           (F) constituya publicidad ilícita, engañosa o desleal.
         </p>
 
-        <h3 className={tw(`text-2xl pt-8 pb-4`)}>
+        <h3 className="text-2xl pt-8 pb-4">
           3.&nbsp;&nbsp;&nbsp;&nbsp; EXCLUSIÓN DE GARANTÍAS Y RESPONSABILIDAD
         </h3>
-        <p className={tw(`mb-4`)}>
+        <p className="mb-4">
           El prestador se exime de cualquier tipo de responsabilidad derivada de
           la información publicada en nuestro sitio web, siempre que esta
           información haya sido manipulada o introducida por un tercero ajeno.
         </p>
-        <p className={tw(`mb-4`)}>
+        <p className="mb-4">
           Esta web ha sido revisada y probada para que funcione correctamente.
           En principio, se puede garantizar el correcto funcionamiento los 365
           días del año, 24 horas al día. Sin embargo, el prestador no descarta
@@ -244,9 +238,9 @@ export default function avisoLegal() {
           circunstancias semejantes que hagan imposible el acceso a la página
           web.
         </p>
-        <p className={tw(`mb-4`)}>
+        <p className="mb-4">
           <strong>
-          ASOCIACIÓN ESCUELA BOSQUE FAMILIAS HEGAZTI
+            ASOCIACIÓN ESCUELA BOSQUE FAMILIAS HEGAZTI
           </strong>{" "}
           no otorga ninguna garantía ni se hace responsable, en ningún caso, de
           los daños y perjuicios de cualquier naturaleza que puedan salir a
@@ -258,15 +252,15 @@ export default function avisoLegal() {
           fiabilidad, utilidad y disponibilidad de los servicios prestados por
           terceros y puestos a disposición de los usuarios en el sitio web.
         </p>
-        <p className={tw(`mb-4`)}>
+        <p className="mb-4">
           El prestador no se hace responsable bajo ningún concepto de los daños
           que puedan dimanar del uso ilegal o indebido de la presente página
           web.
         </p>
-        <h3 className={tw(`text-2xl pt-8 pb-4`)}>
+        <h3 className="text-2xl pt-8 pb-4">
           4.&nbsp;&nbsp;&nbsp;&nbsp; COOKIES
         </h3>
-        <p className={tw(`mb-4`)}>
+        <p className="mb-4">
           El sitio web del prestador puede utilizar cookies (pequeños archivos
           de información que el servidor envía al ordenador de quien accede a la
           página) para llevar a cabo determinadas funciones que son consideradas
@@ -281,21 +275,21 @@ export default function avisoLegal() {
           </a>
         </p>
 
-        <h3 className={tw(`text-2xl pt-8 pb-4`)}>
+        <h3 className="text-2xl pt-8 pb-4">
           5.&nbsp;&nbsp;&nbsp;&nbsp; ENLACES <em>(LINKS)</em>
         </h3>
-        <p className={tw(`mb-4`)}>
+        <p className="mb-4">
           Desde el sitio web es posible que se redirija a contenidos
           patrocinados, anuncios y / o enlaces de afiliados y / o de terceras
           webs.
         </p>
-        <p className={tw(`mb-4`)}>
+        <p className="mb-4">
           Entre los enlaces facilitados, existe la posibilidad de informar o
           hacer referencia a productos y / o servicios de terceros. Dado que
           desde la web no podemos controlar los contenidos introducidos por los
           terceros,{" "}
           <strong>
-          ASOCIACIÓN ESCUELA BOSQUE FAMILIAS HEGAZTI
+            ASOCIACIÓN ESCUELA BOSQUE FAMILIAS HEGAZTI
           </strong>{" "}
           no asume ningún tipo de responsabilidad respecto a dichos contenidos,
           ni garantiza la experiencia, integridad o calidad de sus productos. En
@@ -306,16 +300,16 @@ export default function avisoLegal() {
           poniendo en conocimiento de las autoridades competentes el contenido
           en cuestión
         </p>
-        <p className={tw(`mb-4`)}>
+        <p className="mb-4">
           <strong>
-          ASOCIACIÓN ESCUELA BOSQUE FAMILIAS HEGAZTI
+            ASOCIACIÓN ESCUELA BOSQUE FAMILIAS HEGAZTI
           </strong>{" "}
           tendrá publicados estos enlaces hasta que sean eliminados o
           suspendidos por el prestador o por el anunciante, y no será
           responsable aunque estos anuncios puedan ser indexados por otros
           buscadores ajenos a esta web.
         </p>
-        <p className={tw(`mb-4`)}>
+        <p className="mb-4">
           El prestador no se responsabiliza de la información y contenidos
           almacenados, a título enunciativo pero no limitativo, en foros, chats,
           generadores de blogs, comentarios, redes sociales o cualquier otro
@@ -331,10 +325,10 @@ export default function avisoLegal() {
           susceptible de esta clasificación, se ruega lo notifique de forma
           inmediata al administrador del sitio web.
         </p>
-        <p className={tw(`mb-4`)}>
+        <p className="mb-4">
           Sin embargo,{" "}
           <strong>
-          ASOCIACIÓN ESCUELA BOSQUE FAMILIAS HEGAZTI
+            ASOCIACIÓN ESCUELA BOSQUE FAMILIAS HEGAZTI
           </strong>{" "}
           le informa que cualquier relación contractual o extracontractual que
           el usuario formalice con estos terceros, afiliados o anunciantes
@@ -342,7 +336,7 @@ export default function avisoLegal() {
           exclusivamente entre el usuario y el anunciante y / o tercera persona
           y{" "}
           <strong>
-          ASOCIACIÓN ESCUELA BOSQUE FAMILIAS HEGAZTI
+            ASOCIACIÓN ESCUELA BOSQUE FAMILIAS HEGAZTI
           </strong>{" "}
           no tendrá ningún tipo de responsabilidad sobre los daños o perjuicios
           que pudieran ser ocasionados por la prestación de servicios y / o
@@ -351,10 +345,10 @@ export default function avisoLegal() {
           portal ya que el prestador sólo actúa como intermediario o medio
           publicitario.
         </p>
-        <h3 className={tw(`text-2xl pt-8 pb-4`)}>
+        <h3 className="text-2xl pt-8 pb-4">
           6.&nbsp;&nbsp;&nbsp;&nbsp; PROTECCIÓN DE DATOS PERSONALES
         </h3>
-        <p className={tw(`mb-4`)}>
+        <p className="mb-4">
           El prestador está profundamente comprometido con el cumplimiento de la
           normativa de protección de datos personales y garantiza el
           cumplimiento íntegro de las obligaciones dispuestas, así como la
@@ -367,10 +361,10 @@ export default function avisoLegal() {
             </span>
           </a>
         </p>
-        <h3 className={tw(`text-2xl pt-8 pb-4`)}>
+        <h3 className="text-2xl pt-8 pb-4">
           7.&nbsp;&nbsp;&nbsp;&nbsp; PROPIEDAD INTELECTUAL E INDUSTRIAL
         </h3>
-        <p className={tw(`mb-4`)}>
+        <p className="mb-4">
           El sitio web, incluyendo a título enunciativo, pero no limitativo: la
           programación, edición, compilación y demás elementos necesarios para
           su funcionamiento, los diseños, logotipos, textos, fotografías y / o
@@ -380,7 +374,7 @@ export default function avisoLegal() {
           debidamente protegidos por la normativa de propiedad intelectual e
           industrial.
         </p>
-        <p className={tw(`mb-4`)}>
+        <p className="mb-4">
           Independientemente de la finalidad para la que fueran destinados, la
           reproducción total o parcial, uso, distribución y comunicación pública
           requieren de la autorización escrita previa por parte del prestador.
@@ -388,7 +382,7 @@ export default function avisoLegal() {
           considerado un incumplimiento grave de los derechos de propiedad
           intelectual o industrial del autor.
         </p>
-        <p className={tw(`mb-4`)}>
+        <p className="mb-4">
           Los diseños, logotipos, texto y / o gráficos ajenos al prestador y que
           puedan aparecer en el sitio web, pertenecen a sus respectivos
           propietarios, siendo ellos mismos responsables de cualquier posible
@@ -396,24 +390,24 @@ export default function avisoLegal() {
           el prestador cuenta con la autorización expresa y previa por parte de
           los mismos.
         </p>
-        <p className={tw(`mb-4`)}>
+        <p className="mb-4">
           El prestador reconoce a favor de sus titulares los correspondientes
           derechos de propiedad industrial e intelectual, no implicando la
           mención o aparición en el sitio web, de la existencia de derechos o
           responsabilidad del prestador sobre los mismos, como tampoco respaldo,
           patrocinio o recomendación por parte del mismo.
         </p>
-        <p className={tw(`mb-4`)}>
+        <p className="mb-4">
           Para realizar cualquier tipo de observación respecto a posibles
           incumplimientos de los derechos de propiedad intelectual o industrial,
           así como sobre cualquiera de los contenidos del sitio web, puede
           hacerlo a través del correo electrónico arriba reseñado.
         </p>
 
-        <h3 className={tw(`text-2xl pt-8 pb-4`)}>
+        <h3 className="text-2xl pt-8 pb-4">
           8.&nbsp;&nbsp;&nbsp;&nbsp; LEY APLICABLE Y JURISDICCIÓN
         </h3>
-        <p className={tw(`mb-4`)}>
+        <p className="mb-4">
           Para la resolución de las controversias o cuestiones relacionadas con
           la presente página web o de las actividades en esta desarrolladas,
           será de aplicación la legislación española, a la que se someten
