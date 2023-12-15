@@ -10,9 +10,8 @@ import { ContextState } from "@/routes/_app.tsx";
 import { RouteConfig } from "$fresh/server.ts";
 
 export const config: RouteConfig = {
-  routeOverride: "/(whoweare-faqs|/quienes-somos-faqs)",
+  routeOverride: "/(whoweare-faqs|quienes-somos-faqs)",
 };
-
 
 export default function QuienesSomosFaqs() {
   const { languageAccepted } = useContext(ContextState);

@@ -10,7 +10,7 @@ import { ContextState } from "@/routes/_app.tsx";
 import { RouteConfig } from "$fresh/server.ts";
 
 export const config: RouteConfig = {
-  routeOverride: "/(whoweare-hegazti|/quienes-somos-hegazti)",
+  routeOverride: "/(whoweare-hegazti|quienes-somos-hegazti)",
 };
 
 export default function QuienesSomosHegazti() {

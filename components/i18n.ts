@@ -407,7 +407,7 @@ const english = {
     },
     whoWeAreSpaces: {
       header: {
-        title: "Hegazti Forest School | About Us - Nature and Spaces",
+        title: "Hegazti Forest School | Who We Are - Nature and Spaces",
         meta: {
           description: {
             content:
@@ -453,7 +453,8 @@ const english = {
     },
     whoWeAreADayInHegazti: {
       header: {
-        title: "Hegazti Forest School | About Us - A Day at Hegazti",
+        title:
+          "Forest School Hegazti | Who We Are - Frequently Asked Questions",
         meta: {
           description: {
             content:
@@ -618,60 +619,60 @@ const english = {
     },
     whoWeAreFaqs: {
       header: {
-        title: "Hegazti Escuela Bosque | Quienes Somos - Preguntas frecuentes",
+        title: "Forest School Hegazti | About Us - Frequently Asked Questions",
         meta: {
           description: {
             content:
-              "Somos una escuela bosque que ofrece un enfoque educativo basado en el contacto con la naturaleza y el aprendizaje a través de la experiencia. Nuestro horario es de lunes a viernes de 9.00 a 14.00, y los grupos tienen diferentes ratios de acompañantes por persona. Para asistir a la escuela, se recomienda usar ropa cómoda y tener botas de agua y chubasquero en caso de lluvia. Contamos con un seguro de responsabilidad civil y un seguro laboral para los acompañantes. Los alumnos/as traen su propia comida. Pasamos la mayoría del tiempo afuera, aunque se valoran las condiciones climáticas y físicas del grupo. Las visitas a la escuela se hacen con cita previa. Las normas y límites son construidos por el grupo y se enfatiza la importancia de cuidarse y cuidar a los demás. Aunque existen riesgos al jugar en el bosque, se minimizan al máximo mediante el acompañamiento y el desarrollo de habilidades en el medio.",
+              "We are a forest school that offers an educational approach based on contact with nature and learning through experience. Our schedule is Monday to Friday from 9:00 to 14:00, and the groups have different ratios of companions per person. To attend school, it is recommended to wear comfortable clothing and have rain boots and a raincoat in case of rain. We have a civil liability insurance and a labor insurance for the companions. The students bring their own food. We spend most of the time outside, although the climatic and physical conditions of the group are valued. Visits to the school are made by appointment. The rules and limits are built by the group and the importance of taking care of oneself and others is emphasized. Although there are risks when playing in the forest, they are minimized as much as possible through companionship and the development of skills in the environment.",
           },
         },
       },
       hero: {
-        claim: "PREGUNTAS FRECUENTES",
-        subClaim: "Todo lo que necesitas saber",
+        claim: "FREQUENTLY ASKED QUESTIONS",
+        subClaim: "Everything you need to know",
       },
       faq1: {
-        question: "¿Cuál es el horario?",
-        answer:
-          "El horario de la escuela es de 9.00 a 14.00 de lunes a viernes.",
+        question: "What are the hours?",
+        answer: "The school hours are from 9:00 to 14:00 Monday to Friday.",
       },
       faq2: {
-        question: "¿Cuál es el ratio en cada grupo?",
+        question: "What is the ratio in each group?",
         answer: `
-          <p className={tw("mb-4")}>
-          En Casita Abejorro es de 4 personas por acompañante.
-          </p>
-          <p className={tw("mb-4")}>
-            En Casa del Bosque es de 8 personas por acompañante.
-          </p>
-          <p className={tw("mb-4")}>
-            En Casa del Árbol y Nido de Pájaro es de 12 personas por
-            acompañante.
-          </p>
+        <p className={tw(""mb-4"")}>
+        In Little Beehive, it is 4 people per companion.
+        </p>
+        <p className={tw(""mb-4"")}>
+          In Forest House, it is 8 people per companion.
+        </p>
+        <p className={tw(""mb-4"")}>
+          In Treehouse and Bird's Nest, it is 12 people per
+          companion.
+        </p>
         `,
       },
       faq3: {
         question:
-          "¿Se necesita ropa especial para ir a una escuela bosque?¿Y si llueve?",
+          "Do you need special clothing to go to a forest school? What if it rains?",
         answer: `
-          <p className={tw("mb-4")}>
-          Necesitamos ropa cómoda, zapatillas y botas de agua, chubasquero y
-          tener ropa de recambio siempre para cada persona en la escuela.
-           </p>
+        <p className={tw(""mb-4"")}>
+        We need comfortable clothes, sneakers, and rain boots, a raincoat, and
+        always have spare clothes for each person in the school.
+         </p>
+        
         `,
       },
       faq4: {
-        question: "¿Hay algún seguro?",
+        question: "Is there any insurance?",
         answer: `
-            <p className={tw("mb-4")}>
-            Hay un seguro de responsabilidad civíl que cubre a los niños/as de
-            la escuela y otro recurso específico para las acompañantes que es un
-            seguro laboral.
-          </p>
+        <p className={tw(""mb-4"")}>
+        Lunch in the case of the older ones is brought by the family and
+        food in the case of the younger ones is also provided by the
+        family, we do not provide a food service.
+      </p>
         `,
       },
       faq5: {
-        question: "¿Y la comida?",
+        question: "What about food?",
         answer: `
           <p className={tw("mb-4")}>
             El almuerzo en el caso de los/as más mayores los lleva la familia y
@@ -681,72 +682,67 @@ const english = {
         `,
       },
       faq6: {
-        question: "¿Cuánto tiempo están afuera? ¿y en invierno?",
+        question: "How much time do they spend outside? What about in winter?",
         answer: `
-          <p className={tw("mb-4")}>
-            El tiempo de estar afuera depende de la edad, los más pequeños
-            Casita Abejorro salen al exterior cuando el tiempo lo permite.
-          </p>
-          <p className={tw("mb-4")}>
-            En Casa del Bosque salen al exterior a pesar del clima, aunque
-            siempre se valoran las condiciones, pueden llegar a pasar en el
-            exterior entre un 60% y un 75 % de la jornada.
-          </p>
-          <p className={tw("mb-4")}>
-            En Casa del Árbol salen al exterior a pesar del clima, igualmente se
-            valoran las condiciones en este caso pasan en el exterior un 60% de
-            la jornada.
-          </p>
-          <p className={tw("mb-4")}>
-            En Nido de Pájaro, salen al exterior a pesar del clima, igualmente
-            se valoran las condiciones y simpre hay propuestas en el interior, y
-            el tiempo de estar fuera es variable, depende del proyecto pero
-            están aproximadamente un 50% de la jornada en el exterio.
-          </p>
-          <p className={tw("mb-4")}>
-            Salimos fuera en todas las estaciones, siempre con la ropa adecuada,
-            y con las condiciones de grupo óptimas, se tiene en cuenta
-            circunstancias como una lluvia copiosa, o como el estado físico del
-            grupo. El medio es un recurso, no un castigo, si se valora que no es
-            oportuno hay opciones de trabajar en la Yurta.
-          </p>
+        <p className={tw(""mb-4"")}>
+        The time spent outside depends on age, the youngest ones in Little Beehive go outside when the weather permits.
+      </p>
+      <p className={tw(""mb-4"")}>
+        In Forest House, they go outside regardless of the weather, although
+        conditions are always considered, they can spend between 60% and 75% of the day outside.
+      </p>
+      <p className={tw(""mb-4"")}>
+        In Treehouse, they go outside regardless of the weather, conditions are
+        also considered in this case they spend 60% of the day outside.
+      </p>
+      <p className={tw(""mb-4"")}>
+        In Bird's Nest, they go outside regardless of the weather, conditions are
+        also considered and there are always indoor proposals, and the time spent outside is variable, depending on the project but they spend approximately 50% of the day outside.
+      </p>
+      <p className={tw(""mb-4"")}>
+        We go outside in all seasons, always with the appropriate clothing,
+        and with optimal group conditions, circumstances such as heavy rain, or the physical state of the group are taken into account. The environment is a resource, not a punishment, if it is deemed inappropriate there are options to work in the Yurt.
+      </p>
         `,
       },
       faq7: {
-        question: "¿Se puede hacer una visita a la escuela para conocerla?",
+        question: "Can you visit the school to get to know it?",
         answer: `
-          <p className={tw("mb-4")}>
-            Se puede visitar la escuela siempre con cita y contacto previo.
-          </p>
+        <p className={tw(""mb-4"")}>
+        You can visit the school always by appointment and prior contact.
+      </p>"
+What rules and limits are there in the forest school?
+"<p className={tw(""mb-4"")}>
+        The rules are built by the group, a clear rule of the school is
+        to take care of oneself and others. There are other rules of the space that are clearly delimited to preserve the safety of the people. There are natural limits and natural consequences.
+      </p>"
+Isn't it dangerous for children to play in the forest?
+"<p className={tw(""mb-4"")}>
+        In the forest, there may be risks, however, as they have contact with it, experiences, and understand the limits and develop skills in the environment, the risks decrease and accompaniment in this case is essential. Not all risks disappear, but they are minimized as much as possible.
+      </p>
           `,
       },
       faq8: {
-        question: "¿Qué normas y límites hay en la escuela bosque?",
+        question: "What rules and limits are there in the forest school?",
         answer: `
-           <p className={tw("mb-4")}>
-            Las normas las construye el grupo, una norma clara de la escuela es
-            cuidarse y cuidar. Hay otras normas del espacio que se delimitan
-            claramente para conservar la seguridad de las personas. Hay límites
-            naturales y consecuencias naturales.
-          </p>
+        <p className={tw(""mb-4"")}>
+        The rules are built by the group, a clear rule of the school is
+        to take care of oneself and others. There are other rules of the space that are clearly delimited to preserve the safety of the people. There are natural limits and natural consequences.
+      </p>
         `,
       },
       faq19: {
-        question: "¿No es peligroso que los niños jueguen en el bosque?",
+        question: "Isn't it dangerous for children to play in the forest?",
         answer: `
-          <p className={tw("mb-4")}>
-            En el bosque puede haber riesgos sin embargo a medida que tiene
-            contacto con él, experiencias y comprenden los límites y desarrollan
-            las habilidades en el medio, los riesgos descienden y el
-            acompañamiento en este caso es esencial. Todos los riesgos no
-            desaparecen, pero se minimizan al máximo.
-          </p>
+        <p className={tw(""mb-4"")}>
+        In the forest, there may be risks, however, as they have contact with it, experiences, and understand the limits and develop skills in the environment, the risks decrease and accompaniment in this case is essential. Not all risks disappear, but they are minimized as much as possible.
+      </p>
         `,
       },
-      moreQuestionsHeadline: "¿Tienes alguna otra pregunta o consulta?",
+      moreQuestionsHeadline: "Do you have any other questions or inquiries?",
       moreQuestionsText:
-        "No dudes en ponerte en contacto con nosotros que estaremos encantados de ayudarte.",
-      moreQuestionsButton: "TENGO UNA PREGUNTA",
+        "Do not hesitate to contact us, we will be delighted to help you.",
+      moreQuestionsButton: "I HAVE A QUESTION",
     },
     footer: {
       whereAreWe: "WHERE WE ARE LOCATED",

@@ -10,7 +10,7 @@ import { ContextState } from "@/routes/_app.tsx";
 import { RouteConfig } from "$fresh/server.ts";
 
 export const config: RouteConfig = {
-  routeOverride: "/(whoweare-spaces|/quienes-somos-espacios)",
+  routeOverride: "/(whoweare-spaces|quienes-somos-espacios)",
 };
 
 export default function QuienesSomosEspacios() {
