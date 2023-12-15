@@ -7,6 +7,11 @@ import SectionGrid from "@/components/Shared/SectionGrid.tsx";
 import getFixedT from "@/components/i18n.ts";
 import { useContext } from "preact/hooks";
 import { ContextState } from "@/routes/_app.tsx";
+import { RouteConfig } from "$fresh/server.ts";
+
+export const config: RouteConfig = {
+  routeOverride: "/(whoweare-spaces|/quienes-somos-espacios)",
+};
 
 export default function QuienesSomosEspacios() {
   const { languageAccepted } = useContext(ContextState);

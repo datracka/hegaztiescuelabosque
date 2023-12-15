@@ -7,6 +7,12 @@ import Faq from "@/components/WhoWeAreFaqs/Faq.tsx";
 import getFixedT from "@/components/i18n.ts";
 import { useContext } from "preact/hooks";
 import { ContextState } from "@/routes/_app.tsx";
+import { RouteConfig } from "$fresh/server.ts";
+
+export const config: RouteConfig = {
+  routeOverride: "/(whoweare-faqs|/quienes-somos-faqs)",
+};
+
 
 export default function QuienesSomosFaqs() {
   const { languageAccepted } = useContext(ContextState);

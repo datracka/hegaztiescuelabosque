@@ -7,6 +7,11 @@ import SectionContent from "@/components/WhoWeAreDayInHegazti/SectionContent.tsx
 import getFixedT from "@/components/i18n.ts";
 import { useContext } from "preact/hooks";
 import { ContextState } from "@/routes/_app.tsx";
+import { RouteConfig } from "$fresh/server.ts";
+
+export const config: RouteConfig = {
+  routeOverride: "/(whoweare-hegazti|/quienes-somos-hegazti)",
+};
 
 export default function QuienesSomosHegazti() {
   const { languageAccepted } = useContext(ContextState);
