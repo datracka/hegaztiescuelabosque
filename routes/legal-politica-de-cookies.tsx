@@ -13,7 +13,6 @@ export const config: RouteConfig = {
 };
 
 export default function politicaDeCookies() {
-  
   const { languageAccepted } = useContext(ContextState);
   const t = getFixedT(languageAccepted);
   const menuTexts = t("menu", { returnObjects: true });
@@ -27,9 +26,7 @@ export default function politicaDeCookies() {
         <meta name="robots" content="noindex" />
       </Head>
       <NavBar menuTexts={menuTexts} />
-      <section
-        className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8"
-      >
+      <section className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
         <h1 className="hegazti-h1 text-left! py-8">
           POLÍTICA DE COOKIES
         </h1>
@@ -40,8 +37,7 @@ export default function politicaDeCookies() {
           recogida en el Real Decreto Ley 13/2012 del 30 de marzo, le informamos
           sobre las cookies utilizadas en el sitio web de{" "}
           <strong>
-            ASOCIACIÓN PARA EL DESARROLLO DE LAS TERAPIAS ECUESTRES CAMINANDO
-            CON CABALLOS
+            ESCUELA BOSQUE FAMILIAS HEGAZTI
           </strong>(también el prestador) y el motivo de su uso. Asimismo, le
           informa que al navegar en el Sitio Web usted está prestando su
           consentimiento para poder utilizarlas.
@@ -211,7 +207,7 @@ export default function politicaDeCookies() {
         </p>
         <p className="mb-4">
           <a
-          rel="noopener noreferrer"
+            rel="noopener noreferrer"
             href="https://support.mozilla.org/es/kb/habilitar-y-deshabilitar-cookies-sitios-web-rastrear-preferencias"
             target="_blank"
           >
@@ -226,7 +222,7 @@ export default function politicaDeCookies() {
         </p>
         <p className="mb-4">
           <a
-          rel="noopener noreferrer"
+            rel="noopener noreferrer"
             href="https://support.apple.com/kb/ph21411?locale=es_ES"
             target="_blank"
           >
