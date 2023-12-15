@@ -39,6 +39,7 @@ export default function QuienesSomosFaqs() {
         <Faq
           question="¿Cuál es el horario?"
           img={`${staticPath}/reloj.jpeg`}
+          answer=""
         >
           <p className={tw("mb-4")}>
             El horario de la escuela es de 9.00 a 14.00 de lunes a viernes.
@@ -47,6 +48,7 @@ export default function QuienesSomosFaqs() {
         <Faq
           question="¿Cuál es el ratio en cada grupo?"
           img={`${staticPath}/horario-de-cada-grupo.jpg`}
+          answer=""
         >
           <p className={tw("mb-4")}>
             En Casita Abejorro es de 4 personas por acompañante.
@@ -62,6 +64,7 @@ export default function QuienesSomosFaqs() {
         <Faq
           question="¿Se necesita ropa especial para ir a una escuela bosque?¿Y si llueve?"
           img={`${staticPath}/ropa-especial.jpg`}
+          answer=""
         >
           <p className={tw("mb-4")}>
             Necesitamos ropa cómoda, zapatillas y botas de agua, chubasquero y
@@ -71,6 +74,7 @@ export default function QuienesSomosFaqs() {
         <Faq
           question="¿Hay algún seguro?"
           img={`${staticPath}/seguros.jpg`}
+          answer=""
         >
           <p className={tw("mb-4")}>
             Hay un seguro de responsabilidad civíl que cubre a los niños/as de
@@ -81,6 +85,7 @@ export default function QuienesSomosFaqs() {
         <Faq
           question="¿Y la comida?"
           img={`${staticPath}/comida.jpg`}
+          answer=""
         >
           <p className={tw("mb-4")}>
             El almuerzo en el caso de los/as más mayores los lleva la familia y
@@ -123,6 +128,7 @@ export default function QuienesSomosFaqs() {
         <Faq
           question="¿Se puede hacer una visita a la escuela para conocerla?"
           img={`${staticPath}/visita-a-la-escuela.jpg`}
+          answer=""
         >
           <p className={tw("mb-4")}>
             Se puede visitar la escuela siempre con cita y contacto previo.
@@ -131,6 +137,7 @@ export default function QuienesSomosFaqs() {
         <Faq
           question="¿Qué normas y límites hay en la escuela bosque?"
           img={`${staticPath}/normas-y-limites.jpg`}
+          answer=""
         >
           <p className={tw("mb-4")}>
             Las normas las construye el grupo, una norma clara de la escuela es
@@ -143,6 +150,7 @@ export default function QuienesSomosFaqs() {
         <Faq
           question="¿No es peligroso que los niños jueguen en el bosque?"
           img={`${staticPath}/peligroso.jpg`}
+          answer=""
         >
           <p className={tw("mb-4")}>
             En el bosque puede haber riesgos sin embargo a medida que tiene
