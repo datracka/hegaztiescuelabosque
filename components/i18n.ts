@@ -616,16 +616,137 @@ const english = {
         imgCaption: "Bird's Nest",
       },
     },
-    faqs: {
+    whoWeAreFaqs: {
       header: {
-        title: "",
+        title: "Hegazti Escuela Bosque | Quienes Somos - Preguntas frecuentes",
         meta: {
           description: {
-            content: "",
+            content:
+              "Somos una escuela bosque que ofrece un enfoque educativo basado en el contacto con la naturaleza y el aprendizaje a través de la experiencia. Nuestro horario es de lunes a viernes de 9.00 a 14.00, y los grupos tienen diferentes ratios de acompañantes por persona. Para asistir a la escuela, se recomienda usar ropa cómoda y tener botas de agua y chubasquero en caso de lluvia. Contamos con un seguro de responsabilidad civil y un seguro laboral para los acompañantes. Los alumnos/as traen su propia comida. Pasamos la mayoría del tiempo afuera, aunque se valoran las condiciones climáticas y físicas del grupo. Las visitas a la escuela se hacen con cita previa. Las normas y límites son construidos por el grupo y se enfatiza la importancia de cuidarse y cuidar a los demás. Aunque existen riesgos al jugar en el bosque, se minimizan al máximo mediante el acompañamiento y el desarrollo de habilidades en el medio.",
           },
         },
       },
-      title: "",
+      hero: {
+        claim: "PREGUNTAS FRECUENTES",
+        subClaim: "Todo lo que necesitas saber",
+      },
+      faq1: {
+        question: "¿Cuál es el horario?",
+        answer:
+          "El horario de la escuela es de 9.00 a 14.00 de lunes a viernes.",
+      },
+      faq2: {
+        question: "¿Cuál es el ratio en cada grupo?",
+        answer: `
+          <p className={tw("mb-4")}>
+          En Casita Abejorro es de 4 personas por acompañante.
+          </p>
+          <p className={tw("mb-4")}>
+            En Casa del Bosque es de 8 personas por acompañante.
+          </p>
+          <p className={tw("mb-4")}>
+            En Casa del Árbol y Nido de Pájaro es de 12 personas por
+            acompañante.
+          </p>
+        `,
+      },
+      faq3: {
+        question:
+          "¿Se necesita ropa especial para ir a una escuela bosque?¿Y si llueve?",
+        answer: `
+          <p className={tw("mb-4")}>
+          Necesitamos ropa cómoda, zapatillas y botas de agua, chubasquero y
+          tener ropa de recambio siempre para cada persona en la escuela.
+           </p>
+        `,
+      },
+      faq4: {
+        question: "¿Hay algún seguro?",
+        answer: `
+            <p className={tw("mb-4")}>
+            Hay un seguro de responsabilidad civíl que cubre a los niños/as de
+            la escuela y otro recurso específico para las acompañantes que es un
+            seguro laboral.
+          </p>
+        `,
+      },
+      faq5: {
+        question: "¿Y la comida?",
+        answer: `
+          <p className={tw("mb-4")}>
+            El almuerzo en el caso de los/as más mayores los lleva la familia y
+            la comida en el caso de los más pequeños/as igualmente lo aporta la
+            familia, no hacemos servicio de comida.
+          </p>
+        `,
+      },
+      faq6: {
+        question: "¿Cuánto tiempo están afuera? ¿y en invierno?",
+        answer: `
+          <p className={tw("mb-4")}>
+            El tiempo de estar afuera depende de la edad, los más pequeños
+            Casita Abejorro salen al exterior cuando el tiempo lo permite.
+          </p>
+          <p className={tw("mb-4")}>
+            En Casa del Bosque salen al exterior a pesar del clima, aunque
+            siempre se valoran las condiciones, pueden llegar a pasar en el
+            exterior entre un 60% y un 75 % de la jornada.
+          </p>
+          <p className={tw("mb-4")}>
+            En Casa del Árbol salen al exterior a pesar del clima, igualmente se
+            valoran las condiciones en este caso pasan en el exterior un 60% de
+            la jornada.
+          </p>
+          <p className={tw("mb-4")}>
+            En Nido de Pájaro, salen al exterior a pesar del clima, igualmente
+            se valoran las condiciones y simpre hay propuestas en el interior, y
+            el tiempo de estar fuera es variable, depende del proyecto pero
+            están aproximadamente un 50% de la jornada en el exterio.
+          </p>
+          <p className={tw("mb-4")}>
+            Salimos fuera en todas las estaciones, siempre con la ropa adecuada,
+            y con las condiciones de grupo óptimas, se tiene en cuenta
+            circunstancias como una lluvia copiosa, o como el estado físico del
+            grupo. El medio es un recurso, no un castigo, si se valora que no es
+            oportuno hay opciones de trabajar en la Yurta.
+          </p>
+        `,
+      },
+      faq7: {
+        question: "¿Se puede hacer una visita a la escuela para conocerla?",
+        answer: `
+          <p className={tw("mb-4")}>
+            Se puede visitar la escuela siempre con cita y contacto previo.
+          </p>
+          `,
+      },
+      faq8: {
+        question: "¿Qué normas y límites hay en la escuela bosque?",
+        answer: `
+           <p className={tw("mb-4")}>
+            Las normas las construye el grupo, una norma clara de la escuela es
+            cuidarse y cuidar. Hay otras normas del espacio que se delimitan
+            claramente para conservar la seguridad de las personas. Hay límites
+            naturales y consecuencias naturales.
+          </p>
+        `,
+      },
+      faq19: {
+        question: "¿No es peligroso que los niños jueguen en el bosque?",
+        answer: `
+          <p className={tw("mb-4")}>
+            En el bosque puede haber riesgos sin embargo a medida que tiene
+            contacto con él, experiencias y comprenden los límites y desarrollan
+            las habilidades en el medio, los riesgos descienden y el
+            acompañamiento en este caso es esencial. Todos los riesgos no
+            desaparecen, pero se minimizan al máximo.
+          </p>
+        `,
+      },
+      moreQuestionsHeadline: "¿Tienes alguna otra pregunta o consulta?",
+      moreQuestionsText:
+        "No dudes en ponerte en contacto con nosotros que estaremos encantados de ayudarte.",
+      moreQuestionsButton: "TENGO UNA PREGUNTA",
     },
     footer: {
       whereAreWe: "WHERE WE ARE LOCATED",
@@ -1411,7 +1532,8 @@ const spanish = {
         title: "Hegazti Escuela Bosque | Quienes Somos - Preguntas frecuentes",
         meta: {
           description: {
-            content: "Somos una escuela bosque que ofrece un enfoque educativo basado en el contacto con la naturaleza y el aprendizaje a través de la experiencia. Nuestro horario es de lunes a viernes de 9.00 a 14.00, y los grupos tienen diferentes ratios de acompañantes por persona. Para asistir a la escuela, se recomienda usar ropa cómoda y tener botas de agua y chubasquero en caso de lluvia. Contamos con un seguro de responsabilidad civil y un seguro laboral para los acompañantes. Los alumnos/as traen su propia comida. Pasamos la mayoría del tiempo afuera, aunque se valoran las condiciones climáticas y físicas del grupo. Las visitas a la escuela se hacen con cita previa. Las normas y límites son construidos por el grupo y se enfatiza la importancia de cuidarse y cuidar a los demás. Aunque existen riesgos al jugar en el bosque, se minimizan al máximo mediante el acompañamiento y el desarrollo de habilidades en el medio.",
+            content:
+              "Somos una escuela bosque que ofrece un enfoque educativo basado en el contacto con la naturaleza y el aprendizaje a través de la experiencia. Nuestro horario es de lunes a viernes de 9.00 a 14.00, y los grupos tienen diferentes ratios de acompañantes por persona. Para asistir a la escuela, se recomienda usar ropa cómoda y tener botas de agua y chubasquero en caso de lluvia. Contamos con un seguro de responsabilidad civil y un seguro laboral para los acompañantes. Los alumnos/as traen su propia comida. Pasamos la mayoría del tiempo afuera, aunque se valoran las condiciones climáticas y físicas del grupo. Las visitas a la escuela se hacen con cita previa. Las normas y límites son construidos por el grupo y se enfatiza la importancia de cuidarse y cuidar a los demás. Aunque existen riesgos al jugar en el bosque, se minimizan al máximo mediante el acompañamiento y el desarrollo de habilidades en el medio.",
           },
         },
       },
@@ -1421,7 +1543,8 @@ const spanish = {
       },
       faq1: {
         question: "¿Cuál es el horario?",
-        answer: "El horario de la escuela es de 9.00 a 14.00 de lunes a viernes."
+        answer:
+          "El horario de la escuela es de 9.00 a 14.00 de lunes a viernes.",
       },
       faq2: {
         question: "¿Cuál es el ratio en cada grupo?",
@@ -1436,16 +1559,17 @@ const spanish = {
             En Casa del Árbol y Nido de Pájaro es de 12 personas por
             acompañante.
           </p>
-        `
+        `,
       },
       faq3: {
-        question: "¿Se necesita ropa especial para ir a una escuela bosque?¿Y si llueve?",
+        question:
+          "¿Se necesita ropa especial para ir a una escuela bosque?¿Y si llueve?",
         answer: `
           <p className={tw("mb-4")}>
           Necesitamos ropa cómoda, zapatillas y botas de agua, chubasquero y
           tener ropa de recambio siempre para cada persona en la escuela.
            </p>
-        `
+        `,
       },
       faq4: {
         question: "¿Hay algún seguro?",
@@ -1455,7 +1579,7 @@ const spanish = {
             la escuela y otro recurso específico para las acompañantes que es un
             seguro laboral.
           </p>
-        `
+        `,
       },
       faq5: {
         question: "¿Y la comida?",
@@ -1465,7 +1589,7 @@ const spanish = {
             la comida en el caso de los más pequeños/as igualmente lo aporta la
             familia, no hacemos servicio de comida.
           </p>
-        `
+        `,
       },
       faq6: {
         question: "¿Cuánto tiempo están afuera? ¿y en invierno?",
@@ -1497,7 +1621,7 @@ const spanish = {
             grupo. El medio es un recurso, no un castigo, si se valora que no es
             oportuno hay opciones de trabajar en la Yurta.
           </p>
-        `
+        `,
       },
       faq7: {
         question: "¿Se puede hacer una visita a la escuela para conocerla?",
@@ -1505,7 +1629,7 @@ const spanish = {
           <p className={tw("mb-4")}>
             Se puede visitar la escuela siempre con cita y contacto previo.
           </p>
-          `
+          `,
       },
       faq8: {
         question: "¿Qué normas y límites hay en la escuela bosque?",
@@ -1516,7 +1640,7 @@ const spanish = {
             claramente para conservar la seguridad de las personas. Hay límites
             naturales y consecuencias naturales.
           </p>
-        `
+        `,
       },
       faq19: {
         question: "¿No es peligroso que los niños jueguen en el bosque?",
@@ -1528,11 +1652,12 @@ const spanish = {
             acompañamiento en este caso es esencial. Todos los riesgos no
             desaparecen, pero se minimizan al máximo.
           </p>
-        `
+        `,
       },
       moreQuestionsHeadline: "¿Tienes alguna otra pregunta o consulta?",
-      moreQuestionsText: "No dudes en ponerte en contacto con nosotros que estaremos encantados de ayudarte.",
-      moreQuestionsButton: "TENGO UNA PREGUNTA"
+      moreQuestionsText:
+        "No dudes en ponerte en contacto con nosotros que estaremos encantados de ayudarte.",
+      moreQuestionsButton: "TENGO UNA PREGUNTA",
     },
     footer: {
       whereAreWe: "DONDE ESTAMOS UBICADOS",

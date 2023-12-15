@@ -42,18 +42,18 @@ export default function QuienesSomosFaqs() {
           answer={t("whoWeAreFaqs.faq1.answer")}
         />
         <Faq
-          question={t("whoWeAreFaqs.fa2.question")}
+          question={t("whoWeAreFaqs.faq2.question")}
           img={`${staticPath}/horario-de-cada-grupo.jpg`}
           answer={t("whoWeAreFaqs.faq2.answer")}
         />
 
         <Faq
-          question={t("whoWeAreFaqs.fa3.question")}
+          question={t("whoWeAreFaqs.faq3.question")}
           img={`${staticPath}/ropa-especial.jpg`}
           answer={t("whoWeAreFaqs.faq3.answer")}
         />
         <Faq
-          question={t("whoWeAreFaqs.fa4.question")}
+          question={t("whoWeAreFaqs.faq4.question")}
           img={`${staticPath}/seguros.jpg`}
           answer={t("whoWeAreFaqs.faq4.answer")}
         />
