@@ -1529,7 +1529,10 @@ const spanish = {
             desaparecen, pero se minimizan al máximo.
           </p>
         `
-      }
+      },
+      moreQuestionsHeadline: "¿Tienes alguna otra pregunta o consulta?",
+      moreQuestionsText: "No dudes en ponerte en contacto con nosotros que estaremos encantados de ayudarte.",
+      moreQuestionsButton: "TENGO UNA PREGUNTA"
     },
     footer: {
       whereAreWe: "DONDE ESTAMOS UBICADOS",

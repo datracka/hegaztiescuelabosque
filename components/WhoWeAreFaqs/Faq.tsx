@@ -5,7 +5,6 @@ type FaqProp = {
   question: string;
   answer: string;
   img: string;
-  children: JSX.Element | JSX.Element[];
 };
 
 const Faq = (faq: FaqProp) => {
