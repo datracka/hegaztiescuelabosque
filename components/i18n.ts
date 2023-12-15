@@ -1772,6 +1772,7 @@ const spanish = {
       header: {
         title: "Hegazti Escuela Bosque | Cookies",
         },
+      title: "",
       content: `
       
       `
@@ -1780,6 +1781,7 @@ const spanish = {
       header: {
         title: "Hegazti Escuela Bosque | Política de Privacidad",
         },
+      title: "",
       content: `
 
       `,
@@ -1788,8 +1790,9 @@ const spanish = {
       header: {
         title: "Hegazti Escuela Bosque | Nota Legal",
         },
+      title: "",
       content: `
-      
+
       `
     },
     footer: {
