@@ -4,6 +4,7 @@ import SectionFooter from "@/components/Shared/SectionFooter.tsx";
 import { Head } from "$fresh/runtime.ts";
 
 export default function politicaDeCookies() {
+  
   return (
     <>
       <Head>

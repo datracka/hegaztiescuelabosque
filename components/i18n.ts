@@ -1768,9 +1768,30 @@ const spanish = {
       </p>
       `,
     },
-    cookiePolicy: {},
-    privacyPolicy: {},
-    legalNotice: {},
+    cookiePolicy: {
+      header: {
+        title: "Hegazti Escuela Bosque | Cookies",
+        },
+      content: `
+      
+      `
+    },
+    privacyPolicy: {
+      header: {
+        title: "Hegazti Escuela Bosque | Política de Privacidad",
+        },
+      content: `
+
+      `,
+    },
+    legalNotice: {
+      header: {
+        title: "Hegazti Escuela Bosque | Nota Legal",
+        },
+      content: `
+      
+      `
+    },
     footer: {
       whereAreWe: "DONDE ESTAMOS UBICADOS",
       whereAreWeExtended:
