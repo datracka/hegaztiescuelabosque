@@ -1406,7 +1406,7 @@ const spanish = {
         imgCaption: "Nido del Pájaro",
       },
     },
-    faqs: {
+    whoWeAreFaqs: {
       header: {
         title: "",
         meta: {

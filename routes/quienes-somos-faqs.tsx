@@ -9,7 +9,6 @@ import { useContext } from "preact/hooks";
 import { ContextState } from "@/routes/_app.tsx";
 
 export default function QuienesSomosFaqs() {
-  
   const { languageAccepted } = useContext(ContextState);
   const t = getFixedT(languageAccepted);
   const menuTexts = t("menu", { returnObjects: true });
@@ -39,7 +38,7 @@ export default function QuienesSomosFaqs() {
       >
         <Faq
           question="¿Cuál es el horario?"
-          img={`${staticPath}/horario-escuela.jpg`}
+          img={`${staticPath}/reloj.jpeg`}
         >
           <p className={tw("mb-4")}>
             El horario de la escuela es de 9.00 a 14.00 de lunes a viernes.
