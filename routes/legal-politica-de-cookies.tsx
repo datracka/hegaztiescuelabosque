@@ -172,6 +172,7 @@ export default function politicaDeCookies() {
         </p>
         <p className="mb-4">
           <a
+            rel="noopener noreferrer"
             href="https://support.google.com/chrome/answer/95647?co=GENIE.Platform%3DDesktop&amp;hl=es"
             target="_blank"
           >
@@ -190,6 +191,7 @@ export default function politicaDeCookies() {
         </p>
         <p className="mb-4">
           <a
+            rel="noopener noreferrer"
             href="https://support.microsoft.com/es-es/help/17442/windows-internet-explorer-delete-manage-cookies"
             target="_blank"
           >
