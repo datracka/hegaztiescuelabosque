@@ -24,19 +24,19 @@ export default function Extrascurriculars20232024() {
   return (
     <>
       <Head>
-        <title>Hegazti Escuela Bosque | Ven a Conocernos</title>
+        <title>{t("extracurricular20232024.header.title")}</title>
         <meta
           name="description"
-          content="Juego en la naturaleza. Dinámicas de grupo. Actividades artísticas. ¡Ven a vivir la experiencia!"
+          content={t("extracurricular20232024.header.meta.description.content")}
         />
       </Head>
       <NavBar menuTexts={menuTexts} />
       <Hero
-        title="Extraescolares 2023-2024"
-        description="Miercoles o Jueves 16:30 a 17:30"
+        title={t("extracurricular20232024.hero.claim")}
+        description={t("extracurricular20232024.hero.subClaim")}
         backgroundImage={`${staticPath}/ninos-jugando.jpg`}
       />
-      <GetToKnow />
+      <GetToKnow t={t} />
       <SectionFooter />
     </>
   );

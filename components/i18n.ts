@@ -638,13 +638,13 @@ const english = {
       faq2: {
         question: "What is the ratio in each group?",
         answer: `
-        <p className={tw(""mb-4"")}>
+        <p className={tw("mb-4")}>
         In Little Beehive, it is 4 people per companion.
         </p>
-        <p className={tw(""mb-4"")}>
+        <p className={tw("mb-4")}>
           In Forest House, it is 8 people per companion.
         </p>
-        <p className={tw(""mb-4"")}>
+        <p className={tw("mb-4")}>
           In Treehouse and Bird's Nest, it is 12 people per
           companion.
         </p>
@@ -654,7 +654,7 @@ const english = {
         question:
           "Do you need special clothing to go to a forest school? What if it rains?",
         answer: `
-        <p className={tw(""mb-4"")}>
+        <p className={tw("mb-4")}>
         We need comfortable clothes, sneakers, and rain boots, a raincoat, and
         always have spare clothes for each person in the school.
          </p>
@@ -664,7 +664,7 @@ const english = {
       faq4: {
         question: "Is there any insurance?",
         answer: `
-        <p className={tw(""mb-4"")}>
+        <p className={tw("mb-4")}>
         Lunch in the case of the older ones is brought by the family and
         food in the case of the younger ones is also provided by the
         family, we do not provide a food service.
@@ -684,22 +684,22 @@ const english = {
       faq6: {
         question: "How much time do they spend outside? What about in winter?",
         answer: `
-        <p className={tw(""mb-4"")}>
+        <p className={tw("mb-4")}>
         The time spent outside depends on age, the youngest ones in Little Beehive go outside when the weather permits.
       </p>
-      <p className={tw(""mb-4"")}>
+      <p className={tw("mb-4")}>
         In Forest House, they go outside regardless of the weather, although
         conditions are always considered, they can spend between 60% and 75% of the day outside.
       </p>
-      <p className={tw(""mb-4"")}>
+      <p className={tw("mb-4")}>
         In Treehouse, they go outside regardless of the weather, conditions are
         also considered in this case they spend 60% of the day outside.
       </p>
-      <p className={tw(""mb-4"")}>
+      <p className={tw("mb-4")}>
         In Bird's Nest, they go outside regardless of the weather, conditions are
         also considered and there are always indoor proposals, and the time spent outside is variable, depending on the project but they spend approximately 50% of the day outside.
       </p>
-      <p className={tw(""mb-4"")}>
+      <p className={tw("mb-4")}>
         We go outside in all seasons, always with the appropriate clothing,
         and with optimal group conditions, circumstances such as heavy rain, or the physical state of the group are taken into account. The environment is a resource, not a punishment, if it is deemed inappropriate there are options to work in the Yurt.
       </p>
@@ -708,16 +708,16 @@ const english = {
       faq7: {
         question: "Can you visit the school to get to know it?",
         answer: `
-        <p className={tw(""mb-4"")}>
+        <p className={tw("mb-4")}>
         You can visit the school always by appointment and prior contact.
       </p>"
 What rules and limits are there in the forest school?
-"<p className={tw(""mb-4"")}>
+"<p className={tw("mb-4")}>
         The rules are built by the group, a clear rule of the school is
         to take care of oneself and others. There are other rules of the space that are clearly delimited to preserve the safety of the people. There are natural limits and natural consequences.
       </p>"
 Isn't it dangerous for children to play in the forest?
-"<p className={tw(""mb-4"")}>
+"<p className={tw("mb-4")}>
         In the forest, there may be risks, however, as they have contact with it, experiences, and understand the limits and develop skills in the environment, the risks decrease and accompaniment in this case is essential. Not all risks disappear, but they are minimized as much as possible.
       </p>
           `,
@@ -725,7 +725,7 @@ Isn't it dangerous for children to play in the forest?
       faq8: {
         question: "What rules and limits are there in the forest school?",
         answer: `
-        <p className={tw(""mb-4"")}>
+        <p className={tw("mb-4")}>
         The rules are built by the group, a clear rule of the school is
         to take care of oneself and others. There are other rules of the space that are clearly delimited to preserve the safety of the people. There are natural limits and natural consequences.
       </p>
@@ -734,7 +734,7 @@ Isn't it dangerous for children to play in the forest?
       faq19: {
         question: "Isn't it dangerous for children to play in the forest?",
         answer: `
-        <p className={tw(""mb-4"")}>
+        <p className={tw("mb-4")}>
         In the forest, there may be risks, however, as they have contact with it, experiences, and understand the limits and develop skills in the environment, the risks decrease and accompaniment in this case is essential. Not all risks disappear, but they are minimized as much as possible.
       </p>
         `,
@@ -743,6 +743,62 @@ Isn't it dangerous for children to play in the forest?
       moreQuestionsText:
         "Do not hesitate to contact us, we will be delighted to help you.",
       moreQuestionsButton: "I HAVE A QUESTION",
+    },
+    extracurricular20232024: {
+      header: {
+        title: "Hegazti Forest School | Extracurricular Activities 2023 2024",
+        meta: {
+          description: {
+            content:
+              "Play in nature. Group dynamics. Artistic activities. Come live the experience!",
+          },
+        },
+      },
+      hero: {
+        claim: "Extracurricular Activities 2023-2024",
+        subClaim: "Wednesday or Thursday 16:30 to 17:30",
+      },
+      title:
+        "Exploration and Continuous Development: Extracurricular Activities at Hegazti Forest",
+      text: `
+      <p class="mb-4">
+        Dive into classrooms where nature is the teacher, a space where
+        the sky is visible, the earth is tangible, flowers emit
+        fragrances, and the senses are stimulated. Here, children can
+        move freely, explore their surroundings, and observe the real world
+        around them.
+      </p>
+      <p class="mb-4">
+        Our classrooms live and breathe nature to meet the
+        fundamental needs of every human being. We encourage
+        curiosity, stimulate the senses, and promote connection with
+        the diversity of each person. In our environment, every individual
+        finds their unique and valuable place.
+      </p>
+      <p class="mb-4">
+        We are excited to announce our extracurricular activities,
+        which will take place every Wednesday or Thursday from 16:30 to 17:30. Designed
+        to enhance group dynamics, experiential learning, and motor development, these activities will also address emotional and
+        social aspects in an integrated manner.
+      </p>
+      <p class="mb-4">
+        Join us at Hegazti Forest School and experience an
+        education that goes beyond the traditional classroom walls.
+        We are committed to the holistic growth of each child,
+        cultivating their love for learning and promoting a sense of
+        belonging in our natural environment.
+      </p>
+      <p class="mb-4">
+        We invite you to join us at our Open Day
+        to experience the school in person. You will discover how our living classroom
+        is the perfect environment to nurture curiosity and connection
+        with the world. We hope to see you soon at Hegazti Forest School!
+      </p>
+      <p class="mb-4">
+        Call us at 697 24 57 75 or send us an email at
+        hegaztiescuelabosque@gmail.com if you want to know more. We are waiting for you!
+      </p>
+      `,
     },
     footer: {
       whereAreWe: "WHERE WE ARE LOCATED",
@@ -1655,6 +1711,66 @@ const spanish = {
         "No dudes en ponerte en contacto con nosotros que estaremos encantados de ayudarte.",
       moreQuestionsButton: "TENGO UNA PREGUNTA",
     },
+    extracurricular20232024: {
+      header: {
+        title: "Hegazti Escuela Bosque | Extraescolares 2023 2024",
+        meta: {
+          description: {
+            content:
+              "Juego en la naturaleza. Dinámicas de grupo. Actividades artísticas. ¡Ven a vivir la experiencia!",
+          },
+        },
+      },
+      hero: {
+        claim: "Extraescolares 2023-2024",
+        subClaim: "Miercoles o Jueves 16:30 a 17:30",
+      },
+      title:
+        "Exploración y Desarrollo Continuo: Extraescolares en Bosque Hegazti",
+      text: `
+      <p className="mb-4">
+        Sumérgete en aulas donde la naturaleza es la maestra, un espacio donde
+        el cielo es visible, la tierra es tangible, las flores emanan
+        fragancias, y los sentidos son estimulados. Aquí, los niños pueden
+        moverse con libertad, explorar su entorno, y observar el mundo real
+        que les rodea.
+      </p>
+      <p className="mb-4">
+        Nuestras aulas viven y respiran naturaleza para satisfacer las
+        necesidades fundamentales de cada ser humano. Fomentamos la
+        curiosidad, estimulamos los sentidos y promovemos la conexión con la
+        diversidad de cada persona. En nuestro entorno, cada individuo
+        encuentra su lugar único y valioso.
+      </p>
+      <p className="mb-4">
+        Estamos emocionados de anunciar nuestras actividades extraescolares,
+        que tendrán lugar cada miércoles o jueves de 16:30 a 17:30. Diseñadas
+        para potenciar dinámicas de grupo, aprendizaje vivencial y desarrollo
+        motor, estas actividades también abordarán aspectos emocionales y
+        sociales de manera integral.
+      </p>
+      <p className="mb-4">
+        Únete a nosotros en la Escuela Bosque Hegazti y experimenta una
+        educación que va más allá de las paredes tradicionales del aula.
+        Estamos comprometidos con el crecimiento holístico de cada niño,
+        cultivando su amor por el aprendizaje y promoviendo un sentido de
+        pertenencia en nuestro entorno natural.
+      </p>
+      <p className="mb-4">
+        Te invitamos a unirte a nosotros en la Jornada de Puertas Abiertas
+        para experimentar la escuela en persona. Descubrirás cómo nuestra aula
+        viva es el ambiente perfecto para nutrir la curiosidad y la conexión
+        con el mundo. ¡Esperamos verte pronto en la Escuela Bosque Hegazti!
+      </p>
+      <p className="mb-4">
+        Llámanos al 697 24 57 75 o envíanos un email a
+        hegaztiescuelabosque@gmail.com si quieres saber más. ¡Te esperamos!
+      </p>
+      `,
+    },
+    cookiePolicy: {},
+    privacyPolicy: {},
+    legalNotice: {},
     footer: {
       whereAreWe: "DONDE ESTAMOS UBICADOS",
       whereAreWeExtended:
