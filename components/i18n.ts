@@ -1358,6 +1358,433 @@ Isn't it dangerous for children to play in the forest?
         title: "Hegazti Escuela Bosque | Privacy Notice",
       },
       content: `
+      <h1 className="hegazti-h1 text-left! py-8">
+      PRIVACY POLICY
+    </h1>
+    <h3 className="text-2xl pt-8 pb-4">INTRODUCTION</h3>
+    <p className="mb-4">
+      Your privacy is important to us, so through this document, we explain what data we collect from users, how we use it, and for what purposes, among other instructions. Users over 14 years of age can register without the prior consent of their parents, guardians, or legal representatives. In the case of minors under 14 years of age or identified as "legally incapable," we will always require parental consent or the consent of the guardian/representative.
+    </p>
+    <p className="mb-4">
+      For your information, we will never request more information than is necessary for the required services; we will never share it with third parties, except by legal obligation or with your prior authorization; and we will never use your data for purposes other than those previously indicated.
+    </p>
+    <p className="mb-4">
+      As users, you should carefully read this Privacy Policy regularly, and every time you enter your personal data since this document may undergo modifications as the provider may modify any information that may appear on the website to comply with regulations or update the policy, without the obligation to give notice or inform users of these obligations, with publication on the provider's website being sufficient.
+    </p>
+    <h3 className="text-2xl pt-8 pb-4">
+      DATA CONTROLLER:
+    </h3>
+    <p className="mb-4">
+      Identity:<strong>
+        &nbsp;HEGAZTI FAMILY ASSOCIATION
+      </strong>(also the provider)
+    </p>
+    <p className="mb-4">
+      VAT ID:<strong>
+        G26525329&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      </strong>
+    </p>
+    <p className="mb-4">
+      Address:<strong>
+        &nbsp;Aras Road 6, 31230, Viana, Navarra&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      </strong>
+    </p>
+    <p className="mb-4">
+      Email:<strong>
+        &nbsp;info@hegaztiescuelabosque.org
+      </strong>
+    </p>
+    <p className="mb-4">
+      <strong>
+        HEGAZTI FAMILY FOREST SCHOOL ASSOCIATION
+      </strong>, as the responsible party for the website, in accordance with Regulation (EU) 2016/679 of April 27, 2016 (GDPR) regarding the protection of individuals with regard to the processing of personal data and the free movement of such data and other current regulations on the protection of personal data, as well as Law 34/2002, of July 11, on Information Society Services and Electronic Commerce (LSSICE), informs you that it has implemented the necessary security measures, of a technical and organizational nature, to guarantee and protect the confidentiality, integrity, and availability of the data entered.
+    </p>
+    <h3 className="text-2xl pt-8 pb-4">
+      METHOD OF DATA COLLECTION AND DATA WE COLLECT:
+    </h3>
+    <p className="mb-4">
+      The data we collect and how we obtain it is as follows:
+    </p>
+    <ol data-rte-list="default">
+      <li>
+        <p className="mb-4">
+          through the contact form: name, email
+        </p>
+      </li>
+      <li>
+        <p className="mb-4">
+          through the reservation form: name, ID, phone, email
+        </p>
+      </li>
+    </ol>
+    <p className="mb-4">
+      No special categories of data are processed.
+    </p>
+    <h3 className="text-2xl pt-8 pb-4">PURPOSE OF PROCESSING:</h3>
+    <p className="mb-4">
+      Your personal data will only be used for the following purposes, with your consent for each of the purposes in the corresponding section of the website:
+    </p>
+    <ol data-rte-list="default">
+      <li>
+        <p className="mb-4">
+          <strong>contact form:</strong> to respond to inquiries and/or provide information requested by the User;
+        </p>
+      </li>
+      <li>
+        <p className="mb-4">
+          <strong>reservation form:</strong> to request the services we offer on the website.
+        </p>
+      </li>
+      <li>
+        <p className="mb-4">
+          <strong>WhatsApp</strong>: the processing of data carried out on individuals who make an inquiry through WhatsApp from <strong>HEGAZTI FAMILY FOREST SCHOOL ASSOCIATION</strong> will be governed by this section, as well as any conditions of use, privacy policies, and access regulations belonging to the application that apply in each case and have been previously accepted by the user. <strong>HEGAZTI FAMILY FOREST SCHOOL ASSOCIATION</strong> will process your data for the purpose of correctly managing your inquiry and any other administrative purpose of the service. The use of WhatsApp from <strong>HEGAZTI FAMILY FOREST SCHOOL ASSOCIATION</strong> for sending content other than what is necessary for responding to the inquiry and that is illegal under national or international regulations that violate the fundamental rights of individuals, as well as principles of legality, honesty, responsibility, protection of privacy, consumer protection, and intellectual and industrial property rights, is prohibited.
+        </p>
+      </li>
+      <li>
+        <p className="mb-4">
+          <strong>Other purposes</strong>:
+        </p>
+        <ul data-rte-list="default">
+          <li>
+            <p className="mb-4">
+              Perform commercial, administrative, tax, and accounting management required by current legislation;
+            </p>
+          </li>
+          <li>
+            <p className="mb-4">
+              Gather opinions and improve the services provided on the website;
+            </p>
+          </li>
+          <li>
+            <p className="mb-4">
+              Conduct usability analysis of the website through cookies (mentioned in the cookie policy);
+            </p>
+          </li>
+          <li>
+            <p className="mb-4">
+              Social media: the use of social media is specified in the corresponding section.
+            </p>
+          </li>
+        </ul>
+      </li>
+    </ol>
+    <p className="mb-4">
+      The photographs posted on the website are the property of <strong>HEGAZTI FAMILY FOREST SCHOOL ASSOCIATION</strong>, including those of minors, for which the prior consent of the parents, guardians, or legal representatives has been obtained through the forms completed by the centers to which the minors belong. However, parents, guardians, or legal representatives of minors, as the holders of their rights, can indicate their refusal to use the image of the minor at any time, provided they do so in writing. In this case, the image will be pixelated.
+    </p>
+    <p className="mb-4">
+      You can revoke your consent at any time by sending a letter to the registered office at Aras Road 6, 31230, Viana, Navarra, with the subject line "Refusal/Withdrawal of Consent."
+    </p>
+    <h3 className="text-2xl pt-8 pb-4">
+      LEGITIMACY OF DATA PROCESSING:
+    </h3>
+    <p className="mb-4">
+      The legal basis for processing your data is:
+    </p>
+    <ol data-rte-list="default">
+      <li>
+        <p className="mb-4">
+          the consent of the interested party.
+        </p>
+      </li>
+      <li>
+        <p className="mb-4">
+          the execution of the contract for the sale of products or provision of services.
+        </p>
+      </li>
+    </ol>
+    <p className="mb-4">
+      The prospective or commercial offer of products and services is based on the consent requested, without in any case the withdrawal of this consent affecting the execution of the contract for the sale of products and provision of services.
+    </p>
+    <p className="mb-4">
+      In addition, the data subject has the right to withdraw their consent at any time, without affecting the legality of the processing based on the consent prior to withdrawal.
+    </p>
+    <p className="mb-4">
+      To revoke this consent, you can contact us through the means provided in this document.
+    </p>
+    <p className="mb-4">
+      The provision of personal data required for carrying out the aforementioned purposes is mandatory, as it is necessary to provide the services requested by the user. Failure to provide the requested personal data or failure to accept this data protection policy means that it is impossible to subscribe, register, or receive information about these services.
+    </p>
+    <p className="mb-4">
+      In cases where there is a prior contractual relationship between the parties, the legitimacy of processing the data for administrative, tax, accounting, and labor purposes is based on the legitimate interest of the Party responsible for processing the data. The data will not be transferred to third parties, except in cases where there is a legal obligation to do so.
+    </p>
+    <h3 className="text-2xl pt-8 pb-4">RECIPIENTS:</h3>
+    <p className="mb-4">
+      The data will not be transferred to third parties, except for any legal obligation. However, your data may be processed by third-party service providers who, as data processors, provide their services to HEGAZTI FAMILY FOREST SCHOOL ASSOCIATION, with whom the corresponding data processing contract has been signed in accordance with article 28 of the GDPR. Providers who provide services to HEGAZTI FAMILY FOREST SCHOOL ASSOCIATION are in charge of processing the data in order to provide the following services: web hosting, information request management, and reservation management. The servers of these service providers are located within the European Union.
+    </p>
+    <h3 className="text-2xl pt-8 pb-4">
+      RIGHTS:
+    </h3>
+    <p className="mb-4">
+      The data subject may exercise the following rights:
+    </p>
+    <ol data-rte-list="default">
+      <li>
+        <p className="mb-4">
+          Right to request access to personal data related to the data subject.
+        </p>
+      </li>
+      <li>
+        <p className="mb-4">
+          Right to request rectification or deletion (right to be forgotten) of personal data.
+        </p>
+      </li>
+      <li>
+        <p className="mb-4">
+          Right to request limitation of data processing.
+        </p>
+      </li>
+      <li>
+        <p className="mb-4">
+          Right to object to data processing.
+        </p>
+      </li>
+      <li>
+        <p className="mb-4">
+          Right to data portability.
+        </p>
+      </li>
+      <li>
+        <p className="mb-4">
+          Right not to be subject to automated individual decision-making, including profiling.
+        </p>
+      </li>
+    </ol>
+    <p className="mb-4">
+      To exercise your rights, you can do so through the following means: info@hegaztiescuelabosque.org. When your rights are exercised, you must provide a copy of your ID or a document that proves your identity.
+    </p>
+    <p className="mb-4">
+      The exercise of these rights is free of charge.
+    </p>
+    <p className="mb-4">
+      You also have the right to file a complaint with the competent supervisory authority if you believe that your rights have been violated in relation to the processing of your personal data (agpd.es).
+    </p>
+    <h3 className="text-2xl pt-8 pb-4">
+      SECURITY OF YOUR PERSONAL DATA
+    </h3>
+    <p className="mb-4">
+      In order to protect your personal data, we take all reasonable precautions and follow best practices in the industry to prevent the loss, misuse, access, disclosure, alteration, or destruction of your personal data.
+    </p>
+    <h3 className="text-2xl pt-8 pb-4">
+      UPDATING YOUR INFORMATION:
+    </h3>
+    <p className="mb-4">
+      In order to keep your personal information up-to-date, it is important that you inform us whenever there has been any change in it. Otherwise, we cannot be held responsible for its veracity.
+    </p>
+    <p className="mb-4">
+      We are not responsible for the privacy policy regarding personal data that you may provide to third parties through the links available on our website.
+    </p>
+    <p className="mb-4">
+      This Privacy Policy may be modified to adapt it to changes that occur on our website, as well as legislative or jurisprudential changes on personal data that appear, so it requires reading it, each time you provide your data through this website.
+    </p>
+    <h3 className="text-2xl pt-8 pb-4">
+      COMMERCIAL EMAILS:
+    </h3>
+    <p className="mb-4">
+      According to the LSSICE, <strong>HEGAZTI FAMILY FOREST SCHOOL ASSOCIATION</strong> does not carry out SPAM practices, so it does not send commercial emails that have not been previously requested or authorized by the User. Consequently, in all the communication received from the provider, the User has the possibility of canceling their express consent to receive our communications.
+    </p>
+    <p className="mb-4">
+      We will not process your personal data for any purpose other than those described except for legal obligation or judicial requirement.
+    </p>
+    <p className="mb-4">
+      You will not be subject to decisions based on automated processing that produce effects on your data.
+    </p>
+    <p className="mb-4">&nbsp;</p>
+    <h3 className="text-2xl pt-8 pb-4">
+      LEGITIMACY OF PROCESSING
+    </h3>
+    <p className="mb-4">
+      The legal basis for data processing is your consent given when providing your data in the respective form for the stated purposes, at the time of checking the verification box.
+    </p>
+    <p className="mb-4">
+      Failure to provide the requested personal data or not accepting this privacy policy implies the impossibility of achieving the previously described purposes. In cases where there is a previous contractual relationship between the parties, legitimacy for the development of administrative, tax, accounting, and labor obligations required by current legislation will be {" "}
+      <strong>the prior existence of the commercial relationship</strong>{" "}
+      established between the parties.
+    </p>
+    <p className="mb-4">
+      The prospective or commercial offer of products and services is based on the consent requested, and the withdrawal of this consent will not affect the execution of the subscription contract in any case.
+    </p>
+    <p
+      class=""
+      data-rte-preserve-empty="true"
+      style="white-space:pre-wrap;"
+    >
+    </p>
+    <h3 className="text-2xl pt-8 pb-4">
+      DATA RETENTION PERIOD
+    </h3>
+    <p className="mb-4">
+      Your data will be retained for the duration of the commercial relationship with us or when you exercise your right to cancellation, opposition, or limitation of processing. However, we will retain your data as legally required by applicable regulations.
+    </p>
+    <h3 className="text-2xl pt-8 pb-4">
+      RECIPIENTS OF TRANSFERS OR TRANSFERS
+    </h3>
+    <p className="mb-4">
+      <strong>
+        ASOCIACIÓN ESCUELA BOSQUE FAMILIAS HEGAZTI
+      </strong>{" "}
+      does not carry out any data transfer or communication, either within or outside the EU. The provider will only provide information to the law enforcement authorities under a court order or legal obligation, without prejudice to the ability to block or cancel your account if there are indications of any criminal activity by the user. The information provided will be only what the provider has at that time.
+    </p>
+    <p className="mb-4">
+      The information you provide through this website will be hosted on the servers of{" "}
+      <strong>
+        ASOCIACIÓN ESCUELA BOSQUE FAMILIAS HEGAZTI
+      </strong>, contracted with SQUARESPACE IRELAND LTD with VAT number 3041081MH and address at Le Pole House Ship Street Great, Dublin 8, Ireland, which provides web hosting services. The processing of the entity's data is regulated by a data processor contract between the provider and this company.
+    </p>
+    <p className="mb-4">
+      Additionally, the provider uses certain tools to provide necessary services for the activity, which may involve storing your data. These tools are as follows:
+    </p>
+    <p className="mb-4">
+      <strong>Google Analytics</strong>: to perform analysis and metrics of user usage of the website through cookies. The information generated and collected by these cookies about usage (including IP address) will be directly transmitted and stored by Google Inc., located in Delaware, 1600 Amphitheatre Parkway, Mountain View, CA 94043, United States ("Google"), on its servers in the United States.
+    </p>
+    <h3 className="text-2xl pt-8 pb-4">
+      RIGHTS OF INTERESTED PARTIES
+    </h3>
+    <p className="mb-4">
+      As a user-interested party, you can request the exercise of the following rights before{" "}
+      <strong>
+        ASOCIACIÓN ESCUELA BOSQUE FAMILIAS HEGAZTI
+      </strong> by submitting a written request to the postal address in the heading or by sending an email to info@hegaztiescuelabosque.org, indicating "DATA PROTECTION: RIGHTS OF THE AFFECTED" as the subject, and attaching a photocopy of your ID or any legally equivalent means, as indicated by law. Rights:
+    </p>
+    <ul data-rte-list="default">
+      <li>
+        <p className="mb-4">
+          <strong>Right of access:</strong>{" "}
+          allows the interested party to know and obtain information about their personal data subject to processing.
+        </p>
+      </li>
+      <li>
+        <p className="mb-4">
+          <strong>Right to rectification or deletion</strong>: allows for the correction of errors and modification of data that are found to be inaccurate or incomplete.
+        </p>
+      </li>
+      <li>
+        <p className="mb-4">
+          <strong>Right to cancellation</strong>: allows for the deletion of data that is inadequate or excessive.
+        </p>
+      </li>
+      <li>
+        <p className="mb-4">
+          <strong>Right to object</strong>: the right of the interested party not to have their personal data processed or to cease processing.
+        </p>
+      </li>
+      <li>
+        <p className="mb-4">
+          <strong>Limitation of processing</strong>: involves marking personal data that is retained in order to limit its future processing, for the exercise or defense of claims.
+        </p>
+      </li>
+      <li>
+        <p className="mb-4">
+          <strong>Data portability</strong>: provision of data subject to processing to the interested party, so that they can transmit it to another data controller without hindrance.
+        </p>
+      </li>
+      <li>
+        <p className="mb-4">
+          <strong>
+            Right not to be subject to automated individual decisions (including profiling)
+          </strong>: the right not to be subject to a decision based solely on automated processing that produces legal effects or significantly affects the individual.
+        </p>
+      </li>
+    </ul>
+    <p className="mb-4">
+      As a user, you have the right to withdraw your consent at any time. The withdrawal of consent will not affect the legality of the processing carried out before the withdrawal of consent.
+    </p>
+    <p className="mb-4">
+      You also have the right to lodge a complaint with the supervisory authority if you believe that your data protection rights have been violated (aepd.es).
+    </p>
+    <h3 className="text-2xl pt-8 pb-4">ADDITIONAL INFORMATION</h3>
+    <p className="mb-4">
+      <strong>SECURITY MEASURES:</strong>
+    </p>
+    <p className="mb-4">
+      The data you provide to us will be treated confidentially. The provider has implemented all necessary technical and organizational measures and protection levels to ensure data security and prevent its alteration, loss, theft, processing, or unauthorized access, in accordance with the state of technology and the nature of the stored data. Likewise, it is also guaranteed that the processing and recording in files, programs, systems, or equipment, premises, and centers comply with the requirements and conditions of integrity and security established by current regulations.
+    </p>
+    <p className="mb-4">
+      <strong>LANGUAGE</strong>
+    </p>
+    <p className="mb-4">
+      The applicable language for this privacy policy is Spanish. Therefore, in case of any contradiction in any of the versions provided in other languages, the Spanish version will prevail.
+    </p>
+    <p className="mb-4">
+      <strong>SOCIAL MEDIA</strong>
+    </p>
+    <p className="mb-4">
+      We inform you that{" "}
+      <strong>
+        ASOCIACIÓN ESCUELA BOSQUE FAMILIAS HEGAZTI
+      </strong>{" "}
+      may have a presence on social media. The processing of data carried out on people who become followers on social media (and/or perform any link or connection action through social media) of the official pages of{" "}
+      <strong>
+        ASOCIACIÓN ESCUELA BOSQUE FAMILIAS HEGAZTI
+      </strong> will be governed by this section, as well as by the terms of use, privacy policies, and access regulations that belong to the respective social network and have been previously accepted by the user.
+    </p>
+    <p className="mb-4">
+      <strong>
+        ASOCIACIÓN ESCUELA BOSQUE FAMILIAS HEGAZTI
+      </strong>{" "}
+      will process your data for the purposes of managing its presence on the social network correctly, informing about activities, products, and services of the provider, as well as for any other purpose that social network regulations allow.
+    </p>
+    <p className="mb-4">
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      The publication of content is prohibited:
+    </p>
+    <p className="mb-4">
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      - That are allegedly illegal under national, community, or international regulations or that engage in allegedly illegal activities or contravene the principles of good faith.
+    </p>
+    <p className="mb-4">
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      - That infringe on the fundamental rights of individuals, lack courtesy on the internet, bother or may generate negative opinions in our users or third parties, and in general, any content that{" "}
+      <strong>
+        ASOCIACIÓN ESCUELA BOSQUE FAMILIAS HEGAZTI
+      </strong> considers inappropriate.
+    </p>
+    <p className="mb-4">
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      - And, in general, content that contravenes the principles of legality, honesty, responsibility, protection of human dignity, protection of minors, protection of public order, protection of private life, protection of consumers, and intellectual and industrial property rights.
+    </p>
+    <p className="mb-4">
+      Likewise,{" "}
+      <strong>
+        ASOCIACIÓN ESCUELA BOSQUE FAMILIAS HEGAZTI
+      </strong>{" "}
+      reserves the right to remove, without prior notice, any content from the website or corporate social network that is considered inappropriate.
+    </p>
+    <p className="mb-4">
+      In any case, if you send personal information through the social network,{" "}
+      <strong>
+        ASOCIACIÓN ESCUELA BOSQUE FAMILIAS HEGAZTI
+      </strong>{" "}
+      will be exempt from any liability related to the security measures applicable to this platform, and the user, if they want to know them, must consult the corresponding specific conditions of the respective network.
+    </p>
+    <p className="mb-4">
+      <strong>CHANGES TO THIS PRIVACY POLICY</strong>
+    </p>
+    <p className="mb-4">
+      <strong>
+        ASOCIACIÓN ESCUELA BOSQUE FAMILIAS HEGAZTI
+      </strong>{" "}
+      reserves the right to modify this policy to adapt it to legislative or jurisprudential developments.
+    </p>
+    <p className="mb-4">
+      <strong>REVOCABILITY</strong>
+    </p>
+    <p className="mb-4">
+      The consent given, both for processing and for the transfer of data of interested parties, is revocable at any time by communicating it to{" "}
+      <strong>
+        ASOCIACIÓN ESCUELA BOSQUE FAMILIAS HEGAZTI
+      </strong>{" "}
+      in the terms established in this Policy for the exercise of rights. This revocation will not have retroactive effect.
+    </p>
+    <p className="mb-4">
+      <strong>LEGISLATION</strong>
+    </p>
+    <p className="mb-4">
+      In general, the relationships between{" "}
+      <strong>
+        ASOCIACIÓN ESCUELA BOSQUE FAMILIAS HEGAZTI
+      </strong>{" "}
+      and the Users of its telematic services, present on this website, are subject to Spanish legislation, to which the parties expressly submit, with the Courts and Tribunals of Navarra being competent to resolve all conflicts arising from or related to their use.
+    </p>
       `,
     },
     footer: {
@@ -3112,7 +3539,6 @@ const spanish = {
         title: "Hegazti Escuela Bosque | Política de privacidad",
       },
       content: `
-
       <h1 className="hegazti-h1 text-left! py-8">
       POLÍTICA DE PRIVACIDAD
     </h1>
@@ -3154,7 +3580,7 @@ const spanish = {
     </p>
     <p className="mb-4">
       NIF:<strong>
-        XXXX&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        G26525329&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
       </strong>
     </p>
     <p className="mb-4">
@@ -3228,19 +3654,19 @@ const spanish = {
         <p className="mb-4">
           <strong>WhatsApp</strong>: el tratamiento de los datos que se
           lleven a cabo de las personas que realicen una consulta a través
-          de WhatsApp de
+          de WhatsApp de{" "}
           <strong>
             ASOCIACIÓN ESCUELA BOSQUE FAMILIAS HEGAZTI
           </strong>se regirá por este apartado, así como aquellas
           condiciones de uso, políticas de privacidad y normativas de acceso
           que pertenezcan a la aplicación que procedan en cada caso y
-          aceptadas previamente por el usuario.
+          aceptadas previamente por el usuario.{" "}
           <strong>
             ASOCIACIÓN ESCUELA BOSQUE FAMILIAS HEGAZTI
           </strong>, tratará sus datos con la finalidad de administrar
           correctamente su consulta así como cualquier otra finalidad de la
           gestión administrativa del servicio. Queda prohibido el uso del
-          WhatsApp de
+          WhatsApp de{" "}
           <strong>
             ASOCIACIÓN ESCUELA BOSQUE FAMILIAS HEGAZTI
           </strong>, para el envío de contenidos que no sean los necesarios
@@ -3286,7 +3712,7 @@ const spanish = {
       </li>
     </ol>
     <p className="mb-4">
-      Las fotografías que estén colgadas en la web son propiedad de
+      Las fotografías que estén colgadas en la web son propiedad de{" "}
       <strong>
         ASOCIACIÓN ESCUELA BOSQUE FAMILIAS HEGAZTI
       </strong>, incluyendo las de los menores, en las que, para la
@@ -3304,10 +3730,10 @@ const spanish = {
       escrito con el asunto "Baja" en el mail reseñado.
     </p>
     <p className="mb-4">
-      De acuerdo con la LSSICE,
+      De acuerdo con la LSSICE,{" "}
       <strong>
         ASOCIACIÓN ESCUELA BOSQUE FAMILIAS HEGAZTI
-      </strong>
+      </strong>{" "}
       no realiza prácticas de SPAM, por lo tanto, no envía correos
       comerciales por e-mail que no hayan sido previamente solicitados o
       autorizados por el Usuario. En consecuencia, en todas las
@@ -3340,8 +3766,8 @@ const spanish = {
       previa relación contractual entre las partes, la legitimación para el
       desarrollo de las obligaciones administrativas, fiscales, contables y
       laborales que sean necesarias en virtud de la legislación vigente será
-      
-      <strong>la existencia previa de la relación comercial</strong>
+      {" "}
+      <strong>la existencia previa de la relación comercial</strong>{" "}
       establecida entre las partes.
     </p>
     <p className="mb-4">
@@ -3371,7 +3797,7 @@ const spanish = {
     <p className="mb-4">
       <strong>
         ASOCIACIÓN ESCUELA BOSQUE FAMILIAS HEGAZTI
-      </strong>
+      </strong>{" "}
       no lleva a cabo ninguna cesión o comunicación de datos ni dentro ni
       fuera de la UE. El prestador únicamente facilitará información a las
       fuerzas y cuerpos de seguridad bajo orden judicial o por obligación de
@@ -3382,10 +3808,12 @@ const spanish = {
     </p>
     <p className="mb-4">
       La información que nos proporcione a través de este sitio web será
-      alojada en los servidores de
+      alojada en los servidores de{" "}
       <strong>
         ASOCIACIÓN ESCUELA BOSQUE FAMILIAS HEGAZTI
-      </strong>, contratados a la empresa Vercel Inc. c domicilio en 440 N Barranca Ave 4133 Covina, CA 91723, que presta el servicio de alojamiento de la web. El
+      </strong>, contratados a la empresa SQUARESPACE IRELAND LTD con NIF
+      3041081MH y domicilio en Le Pole House Ship Street Great, Dublin 8,
+      Ireland que presta el servicio de alojamiento de la web. El
       tratamiento de los datos de la entidad se encuentra regulado mediante
       un contrato de encargado del tratamiento entre el prestador y esta
       empresa.
@@ -3409,7 +3837,7 @@ const spanish = {
     </h3>
     <p className="mb-4">
       Como usuario-interesado, puede solicitar el ejercicio de los
-      siguientes derechos ante
+      siguientes derechos ante{" "}
       <strong>
         ASOCIACIÓN ESCUELA BOSQUE FAMILIAS HEGAZTI
       </strong>presentando un escrito a la dirección postal del
@@ -3422,7 +3850,7 @@ const spanish = {
     <ul data-rte-list="default">
       <li>
         <p className="mb-4">
-          <strong>Derecho de acceso:</strong>
+          <strong>Derecho de acceso:</strong>{" "}
           permite al interesado conocer y obtener información sobre sus
           datos de carácter personal sometidos a tratamiento.
         </p>
@@ -3513,14 +3941,14 @@ const spanish = {
       <strong>REDES SOCIALES</strong>
     </p>
     <p className="mb-4">
-      Le informamos que
+      Le informamos que{" "}
       <strong>
         ASOCIACIÓN ESCUELA BOSQUE FAMILIAS HEGAZTI
-      </strong>
+      </strong>{" "}
       puede tener presencia en redes sociales. El tratamiento de los datos
       que se lleve a cabo de las personas que se hagan seguidoras en las
       redes sociales (y / o realicen cualquier vínculo o acción de conexión
-      a través de las redes sociales) de las páginas oficiales de
+      a través de las redes sociales) de las páginas oficiales de{" "}
       <strong>
         ASOCIACIÓN ESCUELA BOSQUE FAMILIAS HEGAZTI
       </strong>se regirá por este apartado , así como para aquellas
@@ -3531,7 +3959,7 @@ const spanish = {
     <p className="mb-4">
       <strong>
         ASOCIACIÓN ESCUELA BOSQUE FAMILIAS HEGAZTI
-      </strong>
+      </strong>{" "}
       tratará sus datos con las finalidades de administrar correctamente su
       presencia en la red social, informando de actividades, productos y
       servicios del prestador, así como para cualquier otra finalidad que
@@ -3563,10 +3991,10 @@ const spanish = {
       intelectual e industrial.
     </p>
     <p className="mb-4">
-      Asimismo,
+      Asimismo,{" "}
       <strong>
         ASOCIACIÓN ESCUELA BOSQUE FAMILIAS HEGAZTI
-      </strong>
+      </strong>{" "}
       se reserva la potestad de retirar, sin previo aviso del sitio web o de
       la red social corporativa aquellos contenidos que se consideran
       inadecuados.
@@ -3584,7 +4012,7 @@ const spanish = {
     <p className="mb-4">
       <strong>
         ASOCIACIÓN ESCUELA BOSQUE FAMILIAS HEGAZTI
-      </strong>
+      </strong>{" "}
       se reserva el derecho a modificar la presente política para adaptarla
       a novedades legislativas o jurisprudenciales.
     </p>
@@ -3594,10 +4022,10 @@ const spanish = {
     <p className="mb-4">
       El consentimiento prestado, tanto por el tratamiento como para la
       cesión de los datos de los interesados, es revocable en cualquier
-      momento comunicándolo a
+      momento comunicándolo a{" "}
       <strong>
         ASOCIACIÓN ESCUELA BOSQUE FAMILIAS HEGAZTI
-      </strong>
+      </strong>{" "}
       en los términos establecidos en esta Política para el ejercicio de los
       derechos. Esta revocación en ningún caso tendrá carácter retroactivo.
     </p>
@@ -3605,17 +4033,16 @@ const spanish = {
       <strong>LEGISLACIÓN</strong>
     </p>
     <p className="mb-4">
-      Con carácter general las relaciones entre
+      Con carácter general las relaciones entre{" "}
       <strong>
         ASOCIACIÓN ESCUELA BOSQUE FAMILIAS HEGAZTI
-      </strong>
+      </strong>{" "}
       con los Usuarios de sus servicios telemáticos, presentes en esta web,
       están sometidos a la legislación y jurisdicción española a la que se
       someten expresamente las partes, siendo competentes para la resolución
       de todos los conflictos derivados o relacionados con su uso los
       Juzgados y Tribunales de Navarra.
     </p>
-
       `,
     },
     footer: {
