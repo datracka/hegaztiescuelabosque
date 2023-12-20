@@ -9,7 +9,7 @@ import { RouteConfig } from "$fresh/server.ts";
 import { useContext } from "preact/hooks";
 
 export const config: RouteConfig = {
-  routeOverride: "/(legal-notice|aviso-legal)",
+  routeOverride: "/(legal-notice|legal-aviso-legal)",
 };
 
 export default function avisoLegal() {
@@ -21,13 +21,13 @@ export default function avisoLegal() {
     <>
       <Head>
         <title>
-          Hegazti Escuela Bosque | Aviso Legal
+          {t("legalPolicy.header.title")}
         </title>
         <meta name="robots" content="noindex" />
       </Head>
       <NavBar menuTexts={menuTexts} />
-      <section className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
-
+      <section className="mx-auto max-w-7xl my-8 px-2 sm:px-6 lg:px-8">
+        <div dangerouslySetInnerHTML={{ __html: t("legalPolicy.content") }} />
       </section>
       <SectionFooter />
     </>

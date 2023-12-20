@@ -1176,16 +1176,186 @@ Isn't it dangerous for children to play in the forest?
 </p>
       `,
     },
-    privacyNotice: {
-      header: {
-        title: "Hegazti Escuela Bosque | Privacy Notice",
-      },
-      content: `
-      `,
-    },
-    legalNotice: {
+    legalPolicy: {
       header: {
         title: "Hegazti Escuela Bosque | Legal Notice",
+      },
+      content: `
+      <h1 className="hegazti-h1 py-8 text-left!">
+      LEGAL NOTICE
+  </h1>
+  
+  <p className="mb-4">
+      In compliance with Article 10 of Law 34/2002 on Services of the Information Society and Electronic Commerce, we inform users of our data:
+  </p>
+  
+  <p className="mb-4">
+      Company Name: <strong>HEGAZTI FAMILY FOREST SCHOOL ASSOCIATION</strong>
+  </p>
+  <p className="mb-4">
+      Registered Office: <strong>Aras Road 6, 31230, Viana, Navarra</strong>
+  </p>
+  <p className="mb-4">
+      Tax ID (NIF): <strong>XXX</strong>
+  </p>
+  <p className="mb-4">
+      Phone: <strong>669 575 406</strong>
+  </p>
+  <p className="mb-4">
+      E-Mail: <strong>ingo@hegaztiescuelabosque.com</strong>
+  </p>
+  <p className="mb-4">
+      Website: <a href="http://www.hegaztiescuelabosque.org"><strong>www.hegaztiescuelabosque.org</strong></a>
+  </p>
+  <p className="mb-4">
+      Registration Details: <strong>This entity is registered in the Association Registry of Navarra Doc.2017/217491</strong>
+  </p>
+  <h3 className="text-2xl pt-8 pb-4">
+      1. OBJECT
+  </h3>
+  <p className="mb-4">
+      <strong>HEGAZTI FAMILY FOREST SCHOOL ASSOCIATION</strong> (hereinafter also the provider), as the responsible party for the website, provides users with this document, which regulates the use of the website <strong>www.hegaztiescuelabosque.org</strong>. With this, we aim to comply with the obligations set forth in Law 34/2002 on Information Society Services and Electronic Commerce (LSSICE or LSSI) and inform all website users about the conditions of use of the website.
+  </p>
+  <p className="mb-4">
+      Through the website, <strong>HEGAZTI FAMILY FOREST SCHOOL ASSOCIATION</strong> provides users with access to and use of various services and content made available through the website.
+  </p>
+  <p className="mb-4">
+      Anyone accessing this website assumes the role of a user (hereinafter the user) and implies full and unconditional acceptance of each and every provision included in this Legal Notice, as well as any other legal provisions that may be applicable.
+  </p>
+  <p className="mb-4">
+      As users, you should carefully read this Legal Notice whenever you access the website, as it may undergo modifications. The provider reserves the right to modify any information that may appear on the website, without the obligation to notify or inform users of these obligations, with publication on the provider's website being sufficient.
+  </p>
+  <h3 className="text-2xl pt-8 pb-4">
+      2. TERMS OF ACCESS AND USE OF THE WEBSITE
+  </h3>
+  <p className="mb-4">
+      <strong>2.1. Free Nature of Access and Use of the Website</strong>
+  </p>
+  <p className="mb-4">
+      The provision of services by <strong>HEGAZTI FAMILY FOREST SCHOOL ASSOCIATION</strong> is free of charge for all users.
+  </p>
+  <p className="mb-4">
+      <strong>2.2. User Registration</strong>
+  </p>
+  <p className="mb-4">
+      In general, the provision of services does not require prior subscription or registration by users.
+  </p>
+  <p className="mb-4">
+      <strong>2.3. Truthfulness of Information</strong>
+  </p>
+  <p className="mb-4">
+      All information provided by the user must be truthful. In this regard, the user guarantees the authenticity of the data communicated through the forms for the subscription of services. It is the user's responsibility to keep all information provided to <strong>HEGAZTI FAMILY FOREST SCHOOL ASSOCIATION</strong> continuously updated to reflect their actual situation. In any case, the user will be solely responsible for any false or inaccurate statements made and for any damages caused to the provider or third parties.
+  </p>
+  <p className="mb-4">
+      <strong>2.4. Minors</strong>
+  </p>
+  <p className="mb-4">
+      Minors must always obtain the prior consent of their parents, guardians, or legal representatives to use the services. The ultimate responsibility for determining specific content that minors may access lies with those responsible. Therefore, if minors access content on the Internet that is not suitable for them, mechanisms, in particular computer programs, filters, and blocks, should be established on their computers to limit the available content. Although they are not infallible, these measures are particularly useful for controlling and restricting materials that minors can access.
+  </p>
+  <p className="mb-4">
+      <strong>2.5. Obligation to Use the Website Correctly</strong>
+  </p>
+  <p className="mb-4">
+      The user agrees to use the website in accordance with the law and this Legal Notice, as well as with morality and good customs. Consequently, the user shall refrain from using the website for illicit or prohibited purposes, harmful to the rights and interests of third parties, or that may in any way damage, disable, overload, deteriorate, or prevent the normal use of computer equipment or documents, files, and all kinds of content stored on any computer equipment of the provider.
+  </p>
+  <p className="mb-4">
+      In particular, but not exclusively, the user agrees not to transmit, disseminate, or make available to third parties information, data, content, messages, graphics, drawings, sound or image files, photographs, recordings, software, and, in general, any kind of material that:
+  </p>
+  <p className="mb-4">
+      (A) is contrary to, disparages, or violates fundamental rights and public freedoms constitutionally recognized in international treaties and other current regulations;
+  </p>
+  <p className="mb-4">
+      (B) induces, incites, or promotes criminal, denigratory, defamatory, violent, or, in general, actions contrary to the law, morality, and public order;
+  </p>
+  <p className="mb-4">
+      (C) induces, incites, or promotes actions, attitudes, or thoughts that are discriminatory on the grounds of sex, race, religion, beliefs, age, or condition;
+  </p>
+  <p className="mb-4">
+      (D) is contrary to the right to honor, personal or family privacy, or the image of people;
+  </p>
+  <p className="mb-4">
+      (E) in any way harms the credibility of the provider or third parties; and
+  </p>
+  <p className="mb-4">
+      (F) constitutes unlawful, deceptive, or unfair advertising.
+  </p>
+  
+  <h3 className="text-2xl pt-8 pb-4">
+      3. DISCLAIMER OF WARRANTIES AND LIABILITY
+  </h3>
+  <p className="mb-4">
+      The provider disclaims any liability for the information published on our website, provided that this information has been manipulated or introduced by a third party unrelated to us.
+  </p>
+  <p className="mb-4">
+      This website has been reviewed and tested to work correctly. In principle, it can be guaranteed to function properly 365 days a year, 24 hours a day. However, the provider does not rule out the possibility of certain programming errors, or that force majeure events, natural disasters, strikes, or similar circumstances may make it impossible to access the website.
+  </p>
+  <p className="mb-4">
+      <strong>HEGAZTI FAMILY FOREST SCHOOL ASSOCIATION</strong> does not provide any warranty and is not responsible, in any case, for damages of any kind that may arise from the lack of availability, maintenance, and effective operation of the website or its services and content; the existence of viruses, malicious or harmful programs in the content; illegal, negligent, fraudulent, or contrary to this Legal Notice and conditions of use; or the lack of legality, quality, reliability, usefulness, and availability of the services provided by third parties and made available to users on the website.
+  </p>
+  <p className="mb-4">
+      The provider is not responsible under any circumstances for damages that may arise from the illegal or improper use of this website.
+  </p>
+  
+  <h3 className="text-2xl pt-8 pb-4">
+      4. COOKIES
+  </h3>
+  <p className="mb-4">
+      The provider's website may use cookies (small information files that the server sends to the computer of the person accessing the page) to carry out certain functions that are considered essential for the proper functioning and visualization of the site. The cookies used are, in any case, temporary in nature, with the sole purpose of making navigation more efficient, and they disappear when the user's session ends. Under no circumstances will cookies be used to collect personal information. For more information, see our <a href="/politicadecookies"><span style="text-decoration:underline">Cookie Policy</span></a>.
+  </p>
+  
+  <h3 className="text-2xl pt-8 pb-4">
+      5. LINKS
+  </h3>
+  <p className="mb-4">
+      From the website, it is possible to redirect to sponsored content, advertisements, and/or affiliate links and/or third-party websites.
+  </p>
+  <p className="mb-4">
+      Among the links provided, there is the possibility of informing or referring to products and/or services from third parties. Since we cannot control the content introduced by third parties on the web, <strong>HEGAZTI FAMILY FOREST SCHOOL ASSOCIATION</strong> assumes no responsibility for such content, nor does it guarantee the experience, integrity, or quality of their products. In any case, the provider states that it will proceed to immediate withdrawal of any content that may contravene national or international law, morality, or public order, and will immediately remove the redirection to these websites, informing the competent authorities of the content in question.
+  </p>
+  <p className="mb-4">
+      <strong>HEGAZTI FAMILY FOREST SCHOOL ASSOCIATION</strong> will have these links published until they are deleted or suspended by the provider or the advertiser, and it will not be responsible even if these ads may be indexed by other search engines unrelated to this website.
+  </p>
+  <p className="mb-4">
+      The provider is not responsible for the information and content stored, including but not limited to forums, chats, blog generators, comments, social networks, or any other means that allows third parties to publish content independently on the provider's website. However, and in compliance with the provisions of articles 11 and 16 of the LSSICE, the provider is available to all users, authorities, and security forces and actively collaborates in the removal or, where necessary, blocking of all content that may affect or contravene national or international law, the rights of third parties, or morality and public order. In the event that the user believes that there may be content that could be classified as such, they are requested to notify the website administrator immediately.
+  </p>
+  <p className="mb-4">
+      However, <strong>HEGAZTI FAMILY FOREST SCHOOL ASSOCIATION</strong> informs you that any contractual or extracontractual relationship that the user formalizes with these third parties, affiliates, or advertisers through the link provided by this website will be valid only and exclusively between the user and the advertiser and/or third party, and <strong>HEGAZTI FAMILY FOREST SCHOOL ASSOCIATION</strong> will have no responsibility for the damages or losses that may arise from the provision of services and/or contractual or extracontractual relationships between the user and the advertisers or third parties contacted through this portal, as the provider only acts as an intermediary or advertising medium.
+  </p>
+  <h3 className="text-2xl pt-8 pb-4">
+            6.&nbsp;&nbsp;&nbsp;&nbsp; PERSONAL DATA PROTECTION
+          </h3>
+          <p className="mb-4">
+            The provider is deeply committed to complying with personal data protection regulations and guarantees full compliance with the obligations set forth, as well as the implementation of security measures established in the European Data Protection Regulation and Spanish data protection regulations. For more information, see our <a href="/privacy-policy"><span style="text-decoration:underline">Privacy Policy.</span></a>
+          </p>
+          <h3 className="text-2xl pt-8 pb-4">
+            7.&nbsp;&nbsp;&nbsp;&nbsp; INTELLECTUAL AND INDUSTRIAL PROPERTY
+          </h3>
+          <p className="mb-4">
+            The website, including, but not limited to: programming, editing, compilation, and other elements necessary for its operation, designs, logos, texts, photographs, and/or graphics are the property of the provider or, where necessary, have the express license or authorization from the authors. All website content is duly protected by intellectual and industrial property regulations.
+          </p>
+          <p className="mb-4">
+            Regardless of the purpose for which they were intended, total or partial reproduction, use, distribution, and public communication require prior written authorization from the provider. Any unauthorized use by the provider will be considered a serious breach of the intellectual or industrial property rights of the author.
+          </p>
+          <p className="mb-4">
+            Designs, logos, text, and/or graphics not owned by the provider that may appear on the website belong to their respective owners, who are responsible for any possible disputes that may arise regarding them. In any case, the provider has the express and prior authorization from them.
+          </p>
+          <p className="mb-4">
+            The provider recognizes the corresponding industrial and intellectual property rights in favor of their owners, with no implication of the existence of rights or responsibility of the provider on the website, nor does it imply endorsement, sponsorship, or recommendation by the provider.
+          </p>
+          <p className="mb-4">
+            To report any possible violations of intellectual or industrial property rights, as well as any of the website's content, you can do so through the email address mentioned above.
+          </p>
+          <h3 className="text-2xl pt-8 pb-4">
+            8.&nbsp;&nbsp;&nbsp;&nbsp; APPLICABLE LAW AND JURISDICTION
+          </h3>
+          <p className="mb-4">
+            For the resolution of disputes or issues related to this website or the activities carried out on it, Spanish law shall apply, to which the parties expressly submit, with the Courts and Tribunals of Navarre being competent to resolve all conflicts arising from or related to its use.
+          </p>
+      `,
+    },
+    privacyPolicy: {
+      header: {
+        title: "Hegazti Escuela Bosque | Privacy Notice",
       },
       content: `
       `,
@@ -1413,7 +1583,7 @@ const spanish = {
         title: "ACOMPAÑANTE",
         text: `
         Me llamo Leti, soy mamá de dos niños y la magia de la vida me ha
-        traido a Caminando con caballos. Comparto con la Bosqueescuela Hegazti
+        traido a Hegazti. Comparto con la Bosque escuela Hegazti
         la visión de una infancia respetada desarrollándose a su ritmo
         tranquilo en la naturaleza. Me sumo al proyecto con la ilusión de
         aportar mi experiencia vital en el acompañamiento respetuoso a las
@@ -2542,9 +2712,9 @@ const spanish = {
     </p>
       `,
     },
-    privacyPolicy: {
+    legalPolicy: {
       header: {
-        title: "Hegazti Escuela Bosque | Política de Privacidad",
+        title: "Hegazti Escuela Bosque | Aviso Legal",
       },
       content: `
       <h1 className="hegazti-h1 py-8 text-left!">
@@ -2571,7 +2741,7 @@ const spanish = {
         <p className="mb-4">
           NIF:
           <strong>
-            G26525329&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            XXXXX&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
           </strong>
         </p>
         <p className="mb-4">
@@ -2937,9 +3107,9 @@ const spanish = {
         </p>
       `,
     },
-    legalNotice: {
+    privacyPolicy: {
       header: {
-        title: "Hegazti Escuela Bosque | Nota Legal",
+        title: "Hegazti Escuela Bosque | Política de privacidad",
       },
       content: `
 
@@ -2984,7 +3154,7 @@ const spanish = {
     </p>
     <p className="mb-4">
       NIF:<strong>
-        G26525329&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        XXXX&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
       </strong>
     </p>
     <p className="mb-4">
@@ -3215,9 +3385,7 @@ const spanish = {
       alojada en los servidores de
       <strong>
         ASOCIACIÓN ESCUELA BOSQUE FAMILIAS HEGAZTI
-      </strong>, contratados a la empresa SQUARESPACE IRELAND LTD con NIF
-      3041081MH y domicilio en Le Pole House Ship Street Great, Dublin 8,
-      Ireland que presta el servicio de alojamiento de la web. El
+      </strong>, contratados a la empresa Vercel Inc. c domicilio en 440 N Barranca Ave 4133 Covina, CA 91723, que presta el servicio de alojamiento de la web. El
       tratamiento de los datos de la entidad se encuentra regulado mediante
       un contrato de encargado del tratamiento entre el prestador y esta
       empresa.

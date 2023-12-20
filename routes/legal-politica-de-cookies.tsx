@@ -29,6 +29,7 @@ export default function politicaDeCookies() {
       <section className="mx-auto max-w-7xl my-8 px-2 sm:px-6 lg:px-8">
         <div dangerouslySetInnerHTML={{ __html: t("cookiePolicy.content") }} />
       </section>
+      <SectionFooter />
     </>
   );
 }
