@@ -29,10 +29,7 @@ export default function politicaDePrivacidad() {
       </Head>
       <NavBar menuTexts={menuTexts} />
       <section
-        className={tw(
-          `mx-auto max-w-7xl px-2 sm:px-6 lg:px-8`,
-        )}
-      >
+        className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8`">
         <h1 className="hegazti-h1 text-left! py-8">
           POLÍTICA DE PRIVACIDAD
         </h1>

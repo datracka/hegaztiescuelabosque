@@ -800,6 +800,396 @@ Isn't it dangerous for children to play in the forest?
       </p>
       `,
     },
+    cookiePolicy: {
+      header: {
+        title: "Hegazti Escuela Bosque | Cookies",
+      },
+      content: `
+      <h1 className="hegazti-h1 text-left! py-8">
+      COOKIE POLICY
+      </h1>
+    <h3 className="text-2xl pt-8 pb-4">BACKGROUND</h3>
+    <p className="mb-4">
+      In accordance with Spanish regulations governing the use of cookies in
+      relation to the provision of electronic communications services,
+      outlined in Royal Decree Law 13/2012 of March 30, we inform you
+      about the cookies used on the website of
+      <strong>
+        HEGAZTI FAMILIES FOREST SCHOOL
+      </strong>(also the provider) and the reason for their use. Likewise, we
+      inform you that by browsing the Website you are giving your
+      consent to use them.
+    </p>
+    <h3 className="text-2xl pt-8 pb-4">WHAT ARE COOKIES?</h3>
+    <p className="mb-4">
+      A cookie is a file that is downloaded to your computer when you access
+      certain web pages. Cookies allow a web page, among
+      other things, to store and retrieve information about the browsing habits of
+      a user or their computer and, depending on the
+      information they contain and the way they use their equipment, they
+      can be used to recognize the user. Cookies are associated
+      only with an anonymous user and their computer or device and do not
+      provide references that allow personal data to be known.
+    </p>
+    <h3 className="text-2xl pt-8 pb-4">
+      COOKIES SUBJECT TO REGULATION AND EXEMPT COOKIES
+    </h3>
+    <p className="mb-4">
+      According to the EU directive, the cookies that require informed
+      consent from the user are analytics cookies and advertising and affiliate
+      cookies, exempting those of a technical nature and those necessary for the
+      operation of the website or the provision of services expressly requested by
+      the user.
+    </p>
+    <h3 className="text-2xl pt-8 pb-4">TYPES OF COOKIES</h3>
+    <p className="mb-4">
+      &nbsp;a) Depending on the <strong>entity</strong>
+      that manages them, there are own Cookies (those that are sent to the
+      user's terminal equipment from a computer or domain managed by
+      the editor itself and from which the service requested
+      by the user is provided) and third-party cookies (those that are sent to the user's terminal equipment from a computer or domain that is not managed by the
+      editor, but by another entity that processes the data obtained through
+      cookies).
+    </p>
+    <p className="mb-4">
+      b) Depending on the <strong>duration</strong>
+      they remain active, there are session cookies (designed to request and
+      store data while the user accesses a web page) and
+      persistent cookies (in which the data is stored in the terminal and can
+      be accessed and processed for a period defined by the
+      cookie's controller - this can range from a few minutes to several years).
+    </p>
+    <p className="mb-4">
+      &nbsp;c) Depending on the <strong>purpose</strong>
+      for which they process the information they collect, they can be:
+    </p>
+    <p className="mb-4">
+      -<strong>Technical Cookies</strong>
+      (necessary for the use of the website and the provision of the
+      <strong>contracted service),</strong>
+    </p>
+    <p className="mb-4">
+      - <strong>Personalization Cookies</strong>
+      (which allow the user to access the service with predefined
+      characteristics, such as language, browser type, regional configuration, etc.)
+    </p>
+    <p className="mb-4">
+      - <strong>Analysis Cookies</strong>
+      (collect information on the use made of the website),
+    </p>
+    <p className="mb-4">
+      - <strong>Advertising Cookies</strong>
+      (collect information about the preferences and personal choices of
+      users),
+    </p>
+    <p className="mb-4">
+      - <strong>Affiliate Cookies</strong>
+      (allow tracking of visits from other
+      websites, with which the website establishes an affiliation contract).
+    </p>
+    <h3 className="text-2xl pt-8 pb-4">EXEMPT COOKIES:</h3>
+    <p className="mb-4">
+      &nbsp;• those that only allow communication between the user's
+      computer and the network.
+    </p>
+    <p className="mb-4">
+      • those strictly necessary to provide a service expressly
+      requested by the user.
+    </p>
+    <p className="mb-4">
+      &nbsp;Furthermore, the GT29, in its Opinion 4/201210, has interpreted that
+      among the exempt cookies would be those that aim to:
+    </p>
+    <p className="mb-4">
+      &nbsp;• "User entry" cookies (Session and user entry cookies are usually used to track user actions when filling out online forms across several pages, or as a shopping cart to track items that the user has selected by clicking a button)
+    </p>
+    <p className="mb-4">
+      • User authentication or identification cookies (session only).
+    </p>
+    <p className="mb-4">
+      • User security cookies (For example, cookies
+      used to detect erroneous and repeated attempts to connect to
+      a website)
+    </p>
+    <p className="mb-4">
+      • Session multimedia player cookies.
+    </p>
+    <p className="mb-4">
+      • Session cookies to balance the load.
+    </p>
+    <p className="mb-4">
+      • User interface personalization cookies.
+    </p>
+    <p className="mb-4">
+      • Certain plug-in cookies (plug-in) to exchange
+      social content (The exception only applies to users who have
+      decided to keep the session open)
+    </p>
+    <h3 className="text-2xl pt-8 pb-4">REVOCATION</h3>
+    <p className="mb-4">
+      At any time you can access the configuration of your browser
+      accepting or rejecting all cookies, or select those
+      whose installation is permitted and those that are not, following one of the
+      following procedures, which depends on the browser you use:
+    </p>
+    <p className="mb-4">
+      <strong>Google Chrome</strong> (in the Tools Menu):
+    </p>
+    <p className="mb-4">
+      Settings&gt; Show advanced options&gt; Privacy
+      (Content settings)&gt; Cookies:
+    </p>
+    <p className="mb-4">
+      <a
+        rel="noopener noreferrer"
+        href="https://support.google.com/chrome/answer/95647?co=GENIE.Platform%3DDesktop&amp;hl=en"
+        target="_blank"
+      >
+        https://support.google.com/chrome/answer/95647?co=GENIE.Platform%3DDesktop&amp;hl=en
+      </a>
+    </p>
+    <p className="mb-4">
+      <strong>&nbsp;</strong>
+    </p>
+    <p className="mb-4">
+      <strong>Microsoft Internet Explorer</strong>
+      (in the Tools Menu):
+    </p>
+    <p className="mb-4">
+      Internet Options&gt; Privacy&gt; Advanced:
+    </p>
+    <p className="mb-4">
+      <a
+        rel="noopener noreferrer"
+        href="https://support.microsoft.com/en-us/help/17442/windows-internet-explorer-delete-manage-cookies"
+        target="_blank"
+      >
+        https://support.microsoft.com/en-us/help/17442/windows-internet-explorer-delete-manage-cookies
+      </a>
+    </p>
+    <p className="mb-4">
+      <strong>&nbsp;</strong>
+    </p>
+    <p className="mb-4">
+      <strong>Firefox:</strong>
+    </p>
+    <p className="mb-4">
+      Options&gt; Privacy&gt; Cookies:
+    </p>
+    <p className="mb-4">
+      <a
+        rel="noopener noreferrer"
+        href="https://support.mozilla.org/en-US/kb/enable-and-disable-cookies-website-preferences"
+        target="_blank"
+      >
+        https://support.mozilla.org/en-US/kb/enable-and-disable-cookies-website-preferences
+      </a>
+    </p>
+    <p className="mb-4">
+      <strong>Safari, iPad and iPhone:</strong>
+    </p>
+    <p className="mb-4">
+      Preferences&gt; Privacy
+    </p>
+    <p className="mb-4">
+      <a
+        rel="noopener noreferrer"
+        href="https://support.apple.com/kb/ph21411?locale=en_US"
+        target="_blank"
+      >
+        https://support.apple.com/kb/ph21411?locale=en_US
+      </a>
+    </p>
+    <p className="mb-4">
+      <strong>Opera:</strong>
+    </p>
+    <p className="mb-4">
+      Settings&gt; Options&gt; Advanced&gt; Cookies
+    </p>
+<p className="mb-4">
+  <a
+    rel="noopener noreferrer"
+    href="https://support.google.com/chrome/answer/95647?co=GENIE.Platform%3DDesktop&amp;hl=es"
+    target="_blank"
+  >
+    https://support.google.com/chrome/answer/95647?co=GENIE.Platform%3DDesktop&amp;hl=es
+  </a>
+</p>
+<p className="mb-4">
+  <strong>&nbsp;</strong>
+</p>
+<p className="mb-4">
+  <strong>Microsoft Internet Explorer</strong> (in the Tools Menu):
+</p>
+<p className="mb-4">
+  Internet Options&gt; Privacy&gt; Advanced:
+</p>
+<p className="mb-4">
+  <a
+    rel="noopener noreferrer"
+    href="https://support.microsoft.com/es-es/help/17442/windows-internet-explorer-delete-manage-cookies"
+    target="_blank"
+  >
+    https://support.microsoft.com/es-es/help/17442/windows-internet-explorer-delete-manage-cookies
+  </a>
+</p>
+<p className="mb-4">
+  <strong>&nbsp;</strong>
+</p>
+<p className="mb-4">
+  <strong>Firefox:</strong>
+</p>
+<p className="mb-4">
+  Options&gt; Privacy&gt; Cookies:
+</p>
+<p className="mb-4">
+  <a
+    rel="noopener noreferrer"
+    href="https://support.mozilla.org/es/kb/habilitar-y-deshabilitar-cookies-sitios-web-rastrear-preferencias"
+    target="_blank"
+  >
+    https://support.mozilla.org/es/kb/habilitar-y-deshabilitar-cookies-sitios-web-rastrear-preferencias
+  </a>
+</p>
+<p className="mb-4">
+  <strong>Safari, iPad and iPhone:</strong>
+</p>
+<p className="mb-4">
+  Preferences&gt; Privacy
+</p>
+<p className="mb-4">
+  <a
+    rel="noopener noreferrer"
+    href="https://support.apple.com/kb/ph21411?locale=es_ES"
+    target="_blank"
+  >
+    https://support.apple.com/kb/ph21411?locale=es_ES
+  </a>
+</p>
+<p className="mb-4">
+  <strong>Opera:</strong>
+</p>
+<p className="mb-4">
+  Settings&gt; Options&gt; Advanced&gt; Cookies
+</p>
+<p className="mb-4">
+  <a
+    rel="noopener noreferrer"
+    href="http://help.opera.com/Windows/12.00/es-ES/cookies.html"
+    target="_blank"
+  >
+    http://help.opera.com/Windows/12.00/es-ES/cookies.html
+  </a>
+</p>
+<p className="mb-4">
+  These browsers are subject to changes or modifications, so we cannot guarantee that they fully comply with your browser version. You might also be using another browser not covered by these links such as Konqueror, Arora, Flock, etc. To avoid these mismatches, you can access directly from your browser options, usually in the "Options" menu in the "Privacy" section. (Please consult your browser's help for more information).
+</p>
+<h3 className="text-2xl pt-8 pb-4">
+  DEACTIVATION / ACTIVATION AND DELETION OF COOKIES
+</h3>
+<p className="mb-4">
+  To restrict or block cookies, it's done through the browser settings. If you do not want websites to place any cookies on your device, you can adapt your browser settings so that you're notified before any cookie is placed. Similarly, you can adapt the settings so that the browser rejects all cookies or only third-party cookies. You can also delete any of the cookies that are already on your device. Remember that you will need to adjust the settings separately for each browser and device you use.
+</p>
+<p className="mb-4">
+  Remember that if you do not want to receive cookies, we can no longer guarantee that our website will function properly. Some functions of the site may be lost, and you might not be able to see certain websites. Moreover, rejecting cookies does not mean that you will no longer see advertisements. Simply the ads will not be tailored to your interests and will be repeated more frequently.
+</p>
+<p className="mb-4">
+  Each browser has a different method to adjust the settings. If necessary, consult the browser's help function to set the correct configuration.
+</p>
+<p className="mb-4">
+  To disable cookies on your mobile phone, consult the device's manual for more information.
+</p>
+<p className="mb-4">
+  You can find out more about cookies on the Internet, <a href="http://www.aboutcookies.org/">http://www.aboutcookies.org/</a>.
+</p>
+<p className="mb-4">
+  Given the way the Internet and websites work, we do not always have information on the cookies placed by third parties through our website. This is particularly true in cases where the webpage contains what are known as embedded elements: texts, documents, images, or short movies that are stored elsewhere but are displayed on our website or through it.
+</p>
+<p className="mb-4">
+  Therefore, if you encounter such cookies on this website and they are not listed above, please let us know. Or directly contact the third party to ask for information about the cookies they place, their purpose and duration of the cookie, and how they have ensured your privacy.
+</p>
+<p className="mb-4">
+  <strong>
+    Who is responsible for the processing of your personal data?
+  </strong>
+</p>
+<p className="mb-4">
+  &nbsp;<strong>
+    ASOCIACIÓN FAMILIAS HEGAZTI ESCUELA BOSQUE
+  </strong>is responsible for the processing of personal data that you provide us, located at Carretera de Aras 6, 31230, Viana, Navarra, with CIF XXXZZZZX. Telephone 697 24 57 75 and contact email <a href="mailto:info@hegaztiescuelabosque.org">info@hegaztiescuelabosque.org</a>.
+</p>
+<p className="mb-4">
+  <strong>For what purpose do we use your personal data?</strong>
+</p>
+<p className="mb-4">
+  &nbsp;The information collected through our own cookies (session and user entry cookies) is usually used to track user actions when filling out online forms on various pages, or as a shopping cart to keep track of the items the user has selected by pressing a button, or to personalize the user interface when visiting the website.
+</p>
+<p className="mb-4">
+  &nbsp;The information collected through third-party cookies is as follows:&nbsp;
+</p>
+<p className="mb-4">
+  -&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Through analytical cookies, your browsing habits are analyzed to improve the services provided;
+</p>
+<p className="mb-4">
+  -&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Through behavioral cookies, information about the user's preferences is collected to manage advertising spaces as effectively as possible; and
+</p>
+<p className="mb-4">
+  -&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; through advertising cookies, the performance of the ads is measured and product recommendations based on statistical data are provided.
+</p>
+<p className="mb-4">
+  To see exactly the use of cookies, see the table on the use of cookies on this website.
+</p>
+<p className="mb-4">
+  <strong>&nbsp;</strong>
+</p>
+<p className="mb-4">
+  <strong>
+    What is the legal basis for the processing of your personal data?
+  </strong>
+</p>
+<p className="mb-4">
+  The legitimacy for processing your personal data is given by your consent, granted at the time of contacting us, for the use of analytical, behavioral, and advertising cookies; for session or customization cookies, the legitimacy for processing is given by the legitimate interest of the provider (data controller).
+</p>
+<p className="mb-4">
+  <strong>To whom do we communicate your data?</strong>
+</p>
+<p className="mb-4">
+  Data will not be transferred or communicated to third parties, except by legal obligation or to the third parties indicated in the case of use of cookies managed by them.
+</p>
+<p className="mb-4">
+  <strong>What is the retention period of your data?</strong>
+</p>
+<p className="mb-4">
+  The retention period of the collected data is indicated in the table on the use of cookies on this website.
+</p>
+<p className="mb-4">
+  <strong>What are your rights?</strong>
+</p>
+<p className="mb-4">
+  The rights that protect the user are the rights of access, rectification,
+  deletion, portability of the same, withdrawal of consent
+  (without affecting the legality of the processing granted previously
+  to its withdrawal), opposition to processing, limitation (under certain
+  circumstances) and to file a complaint with the supervisory authority
+  (the Spanish Data Protection Agency,
+  <a href="https://www.aepd.es">www.aepd.es</a>).
+</p>
+      `,
+    },
+    privacyNotice: {
+      header: {
+        title: "Hegazti Escuela Bosque | Privacy Notice",
+      },
+      content: `
+      `,
+    },
+    legalNotice: {
+      header: {
+        title: "Hegazti Escuela Bosque | Legal Notice",
+      },
+      content: `
+      `,
+    },
     footer: {
       whereAreWe: "WHERE WE ARE LOCATED",
       whereAreWeExtended:
@@ -1771,29 +2161,1294 @@ const spanish = {
     cookiePolicy: {
       header: {
         title: "Hegazti Escuela Bosque | Cookies",
-        },
-      title: "",
+      },
       content: `
+      <h1 className="hegazti-h1 text-left! py-8">
+      POLÍTICA DE COOKIES
+    </h1>
+    <h3 className="text-2xl pt-8 pb-4">ANTECEDENTES</h3>
+    <p className="mb-4">
+      Conforme la normativa española que regula el uso de cookies en
+      relación a la prestación de servicios de comunicaciones electrónicas,
+      recogida en el Real Decreto Ley 13/2012 del 30 de marzo, le informamos
+      sobre las cookies utilizadas en el sitio web de
+      <strong>
+        ESCUELA BOSQUE FAMILIAS HEGAZTI
+      </strong>(también el prestador) y el motivo de su uso. Asimismo, le
+      informa que al navegar en el Sitio Web usted está prestando su
+      consentimiento para poder utilizarlas.
+    </p>
+    <h3 className="text-2xl pt-8 pb-4">¿QUÉ SON LAS COOKIES?</h3>
+    <p className="mb-4">
+      Una cookie es un archivo que se descarga en su ordenador al acceder a
+      determinadas páginas web. Las cookies permiten a una página web, entre
+      otras cosas, almacenar y recuperar información sobre los hábitos de
+      navegación de un usuario o de su equipo y, dependiendo de la
+      información que contengan y de la forma en que utilice su equipo, se
+      pueden utilizar para reconocer al usuario. Las cookies se asocian
+      únicamente a un usuario anónimo y su ordenador o dispositivo y no
+      proporcionan referencias que permitan conocer sus datos personales.
+    </p>
+    <h3 className="text-2xl pt-8 pb-4">
+      COOKIES AFECTADAS POR LA NORMATIVA Y COOKIES EXENTAS
+    </h3>
+    <p className="mb-4">
+      Según la directiva de la UE, las cookies que requieren el
+      consentimiento informado por parte del usuario son las cookies de
+      analítica y las de publicidad y afiliación, quedando exceptuadas las
+      de carácter técnico y las necesarias para el funcionamiento del sitio
+      web o la prestación de servicios expresamente demandados por el
+      usuario.
+    </p>
+    <h3 className="text-2xl pt-8 pb-4">TIPO DE COOKIES</h3>
+    <p className="mb-4">
+      &nbsp;a) Según la <strong>entidad</strong>
+      que las gestione, hay Cookies propias (aquellas que se envían al
+      equipo terminal del usuario desde un equipo o dominio gestionado por
+      el propio editor y desde el que se presta el servicio Sol · licitado
+      por el usuario) y de terceros (las que se envían al equipo terminal
+      del usuario desde un equipo o dominio que no es gestionado por el
+      editor, sino por otra entidad que trata los datos obtenidos mediante
+      las galletas).
+    </p>
+    <p className="mb-4">
+      b) Según el <strong>tiempo</strong>
+      que permanecen activas, están las de sesión (diseñadas para pedir y
+      almacenar datos mientras el usuario accede a una página web) y las
+      persistentes (en que los datos se almacenan en el terminal y pueden
+      ser accedidos y tratados durante un período definido por el
+      responsable de la galleta -puede ir de unos minutos a varios años).
+    </p>
+    <p className="mb-4">
+      &nbsp;c) Según la <strong>finalidad</strong>
+      para la que tratan la información que recopilan, pueden ser:
+    </p>
+    <p className="mb-4">
+      -<strong>Cookies técnicas</strong>
+      (necesarias para el uso de la web y la prestación del servicio
+      <strong>contratado),</strong>
+    </p>
+    <p className="mb-4">
+      - <strong>Cookies de personalización</strong>
+      (que permiten al usuario acceder al servicio con características
+      predefinidas, tales como el idioma, tipo de navegador, configuración
+      regional, etc.)
+    </p>
+    <p className="mb-4">
+      - <strong>Cookies de análisis</strong>
+      (recogen información del uso que se realiza de la web),
+    </p>
+    <p className="mb-4">
+      - <strong>Cookies publicitarias</strong>
+      (recogen información sobre las preferencias y elecciones personales de
+      los usuarios),
+    </p>
+    <p className="mb-4">
+      - <strong>Cookies de afiliados</strong>
+      (permiten hacer un seguimiento de las visitas procedentes de otras
+      webs, con las que el sitio web establece un contrato de afiliación).
+    </p>
+    <h3 className="text-2xl pt-8 pb-4">COOKIES EXENTAS:</h3>
+    <p className="mb-4">
+      &nbsp;• las que permiten únicamente la comunicación entre el equipo
+      del usuario y la red.
+    </p>
+    <p className="mb-4">
+      • las estrictamente necesarias para prestar un servicio expresamente
+      solicitado por el usuario.
+    </p>
+    <p className="mb-4">
+      &nbsp;Asimismo, el GT29, en su Dictamen 4/201210, ha interpretado que
+      entre las cookies exceptuadas estarían aquellas que tienen por
+      finalidad:
+    </p>
+    <p className="mb-4">
+      &nbsp;• Cookies de “entrada del usuario” (Las cookies de sesión y de
+      entrada de usuario se suelen utilizar para rastrear las acciones del
+      usuario al rellenar los formularios en línea en varias páginas, o como
+      cesta de la compra para hacer el seguimiento de los artículos que el
+      usuario ha seleccionado al pulsar un botón)
+    </p>
+    <p className="mb-4">
+      • Cookies de autenticación o identificación de usuario (únicamente de
+      sesión).
+    </p>
+    <p className="mb-4">
+      • Cookies de seguridad del usuario (Por ejemplo, las cookies
+      utilizadas para detectar intentos erróneos y reiterados de conexión a
+      un sitio web)
+    </p>
+    <p className="mb-4">
+      • Cookies de sesión de reproductor multimedia.
+    </p>
+    <p className="mb-4">
+      • Cookies de sesión para equilibrar la carga.
+    </p>
+    <p className="mb-4">
+      • Cookies de personalización de la interfaz de usuario.
+    </p>
+    <p className="mb-4">
+      • Determinadas cookies de complemento (plug-in) para intercambiar
+      contenidos Sociales (La excepción sólo se aplica para usuarios que han
+      decidido mantener la sesión abierta)
+    </p>
+    <h3 className="text-2xl pt-8 pb-4">REVOCACIÓN</h3>
+    <p className="mb-4">
+      En todo momento podrá acceder a la configuración de su navegador
+      aceptando o rechazando todas las cookies, o bien seleccionar aquellas
+      que la instalación admite y las que no, siguiendo uno de los
+      siguientes procedimientos, que depende del navegador que utilice:
+    </p>
+    <p className="mb-4">
+      <strong>Google Chrome</strong> (en el Menú Herramientas):
+    </p>
+    <p className="mb-4">
+      Configuración&gt; Mostrar opciones avanzadas&gt; Privacidad
+      (Configuración de contenido)&gt; Cookies:
+    </p>
+    <p className="mb-4">
+      <a
+        rel="noopener noreferrer"
+        href="https://support.google.com/chrome/answer/95647?co=GENIE.Platform%3DDesktop&amp;hl=es"
+        target="_blank"
+      >
+        https://support.google.com/chrome/answer/95647?co=GENIE.Platform%3DDesktop&amp;hl=es
+      </a>
+    </p>
+    <p className="mb-4">
+      <strong>&nbsp;</strong>
+    </p>
+    <p className="mb-4">
+      <strong>Microsoft Internet Explorer</strong>
+      (en el Menú Herramientas):
+    </p>
+    <p className="mb-4">
+      Opciones de Internet&gt; Privacidad&gt; Avanzada:
+    </p>
+    <p className="mb-4">
+      <a
+        rel="noopener noreferrer"
+        href="https://support.microsoft.com/es-es/help/17442/windows-internet-explorer-delete-manage-cookies"
+        target="_blank"
+      >
+        https://support.microsoft.com/es-es/help/17442/windows-internet-explorer-delete-manage-cookies
+      </a>
+    </p>
+    <p className="mb-4">
+      <strong>&nbsp;</strong>
+    </p>
+    <p className="mb-4">
+      <strong>Firefox:</strong>
+    </p>
+    <p className="mb-4">
+      Opciones&gt; Privacidad&gt; Cookies:
+    </p>
+    <p className="mb-4">
+      <a
+        rel="noopener noreferrer"
+        href="https://support.mozilla.org/es/kb/habilitar-y-deshabilitar-cookies-sitios-web-rastrear-preferencias"
+        target="_blank"
+      >
+        https://support.mozilla.org/es/kb/habilitar-y-deshabilitar-cookies-sitios-web-rastrear-preferencias
+      </a>
+    </p>
+    <p className="mb-4">
+      <strong>Safari, iPad y iPhone:</strong>
+    </p>
+    <p className="mb-4">
+      Preferencias&gt; Privacidad
+    </p>
+    <p className="mb-4">
+      <a
+        rel="noopener noreferrer"
+        href="https://support.apple.com/kb/ph21411?locale=es_ES"
+        target="_blank"
+      >
+        https://support.apple.com/kb/ph21411?locale=es_ES
+      </a>
+    </p>
+    <p className="mb-4">
+      <strong>Opera:</strong>
+    </p>
+    <p className="mb-4">
+      Configuración&gt; Opciones&gt; Avanzada&gt; Cookies
+    </p>
+    <p className="mb-4">
+      <a
+        rel="noopener noreferrer"
+        href="http://help.opera.com/Windows/12.00/es-ES/cookies.html"
+        target="_blank"
+      >
+        http://help.opera.com/Windows/12.00/es-ES/cookies.html
+      </a>
+    </p>
+    <p className="mb-4">
+      Estos navegadores están sometidos a cambios o modificaciones, por lo
+      que no podemos garantizar que se ajusten completamente a la versión de
+      su navegador. También puede ser que utilice otro navegador no
+      contemplado en estos enlaces como Konqueror, Arora, Flock, etc. Para
+      evitar estos desajustes, puede acceder directamente desde las opciones
+      de su navegador, generalmente en el menú de "Opciones" en la sección
+      de "Privacidad". (Por favor, consulte la ayuda de su navegador para
+      más información).
+    </p>
+    <h3 className="text-2xl pt-8 pb-4">
+      DESACTIVACIÓN / ACTIVACIÓN Y ELIMINACIÓN DE COOKIES
+    </h3>
+    <p className="mb-4">
+      Para restringir o bloquear las cookies, se hace a través de la
+      configuración del navegador. Si no desea que los sitios web pongan
+      ninguna cookie en su equipo, puede adaptar la configuración del
+      navegador de modo que se le notifique antes de que se coloque ninguna
+      cookie. Del mismo modo, puede adaptar la configuración de forma que el
+      navegador rechace todas las cookies, o únicamente las cookies de
+      terceros. También puede eliminar cualquiera de las cookies que ya se
+      encuentren en el equipo. Recuerde que deberá adaptarse por separado la
+      configuración de cada navegador y equipo que utilice.
+    </p>
+    <p className="mb-4">
+      Recuerde que si no desea recibir cookies, ya no podremos garantizar
+      que nuestro sitio web funcione como es debido. Quizá algunas funciones
+      del sitio se pierdan y es posible que ya no pueda ver ciertos sitios
+      web. Además, rechazó las cookies no significa que ya no vaya a ver
+      anuncios publicitarios. Simplemente los anuncios no se ajustarán a sus
+      intereses y se repetirán con más frecuencia.
+    </p>
+    <p className="mb-4">
+      Cada navegador tiene un método diferente para adaptar la
+      configuración. Si es necesario, consulte la función de ayuda del
+      navegador para establecer la configuración correcta.
+    </p>
+    <p className="mb-4">
+      Para desactivar las cookies en el teléfono móvil, consulte el manual
+      del dispositivo para obtener más información.
+    </p>
+    <p className="mb-4">
+      Puede obtener más información sobre las cookies en Internet,
+      <a href="http://www.aboutcookies.org/">
+        http://www.aboutcookies.org/
+      </a>.
+    </p>
+    <p className="mb-4">
+      Teniendo en cuenta la forma en que funciona Internet y los sitios web,
+      no siempre contamos con información de las cookies que colocan
+      terceras partes a través de nuestro sitio web. Esto se aplica
+      especialmente a casos en que la página web contiene lo que se
+      denominan elementos integrados: textos, documentos, imágenes o breves
+      películas que se almacenan en otra parte, pero se muestran en nuestro
+      sitio web o mediante el mismo.
+    </p>
+    <p className="mb-4">
+      Por tanto, en caso de que se encuentre con este tipo de cookies en
+      este sitio web y no estén enumeradas en la lista anterior, le rogamos
+      que nos lo comunique. O bien póngase en contacto directamente con el
+      tercero para pedirle información sobre las cookies que coloca, la
+      finalidad y la duración de la cookie, y como ha garantizado su
+      privacidad.
+    </p>
+    <p className="mb-4">
+      <strong>
+        ¿Quién es el responsable del tratamiento de sus datos personales?
+      </strong>
+    </p>
+    <p className="mb-4">
+      &nbsp;<strong>
+        ASOCIACIÓN FAMILIAS HEGAZTI ESCUELA BOSQUE
+      </strong>es el responsable del tratamiento de los datos personales que
+      usted nos proporciona, sito en Carretera de Aras 6, 31230, Viana,
+      Navarra y con CIF XXXZZZZX. Teléfono 697 24 57 75 y mail de contacto
       
-      `
+      <a href="mailto:info@hegaztiescuelabosque.org">
+        info@hegaztiescuelabosque.org
+      </a>.
+    </p>
+    <p className="mb-4">
+      <strong>¿Para qué utilizamos sus datos personales?</strong>
+    </p>
+    <p className="mb-4">
+      &nbsp;La información recopilada a través de las cookies propias
+      (cookies de sesión y de entrada de usuario) se suelen utilizar para
+      rastrear las acciones del usuario al rellenar los formularios en línea
+      en varias páginas, o como cesta de la compra para hacer el seguimiento
+      de los artículos que el usuario ha seleccionado al pulsar un botón, o
+      para personalizar la interface del usuario al visitar la página web.
+    </p>
+    <p className="mb-4">
+      &nbsp;La información recopilada a través de las cookies de terceros es
+      la siguiente:&nbsp;
+    </p>
+    <p className="mb-4">
+      -&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; A través de las cookies
+      analíticas se analizan sus hábitos de navegación para mejorar los
+      servicios prestados;
+    </p>
+    <p className="mb-4">
+      -&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; A través de las cookies
+      comportamentales se recoge información sobre las preferencias del
+      usuario para gestionar los espacios publicitarios de la forma más
+      eficaz posible; y
+    </p>
+    <p className="mb-4">
+      -&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a través de las cookies
+      publicitarias se mide el rendimiento de los anuncios y se proporcionan
+      recomendaciones relativas a productos basadas en datos estadísticos.
+    </p>
+    <p className="mb-4">
+      Para ver exactamente el uso de las cookies véase el cuadro sobre el
+      uso de las cookies en esta web.
+    </p>
+    <p className="mb-4">
+      <strong>&nbsp;</strong>
+    </p>
+    <p className="mb-4">
+      <strong>
+        ¿Cuál es la base legal para el tratamiento de sus datos personales?
+      </strong>
+    </p>
+    <p className="mb-4">
+      La legitimación para el tratamiento de sus datos personales viene dada
+      por su consentimiento, otorgado en el momento de ponerse en contacto
+      con nosotros, para la utilización de cookies analíticas,
+      comportamentales y publicitarias; para las cookies de sesión o
+      personalización, la legitimación para el tratamiento viene dada por el
+      interés legítimo del prestador (responsable del tratamiento).
+    </p>
+    <p className="mb-4">
+      <strong>¿A quién comunicamos sus datos?</strong>
+    </p>
+    <p className="mb-4">
+      No se cederán ni comunicarán datos a terceros, salvo por obligación
+      legal o a los terceros indicados en el caso de uso de cookies
+      gestionadas por éstos.
+    </p>
+    <p className="mb-4">
+      <strong>¿Cuál es el plazo de conservación de sus datos?</strong>
+    </p>
+    <p className="mb-4">
+      El plazo de conservación de los datos recogidos es el indicado en el
+      cuadro sobre el uso de las cookies en esta web.
+    </p>
+    <p className="mb-4">
+      <strong>¿Cuáles son sus derechos?</strong>
+    </p>
+    <p className="mb-4">
+      Los derechos que amparan al usuario son los de acceso, rectificación,
+      supresión, portabilidad de los mismos, retirada del consentimiento
+      (sin que ello afecte a la licitud del tratamiento otorgado previamente
+      a su retirada), oposición al tratamiento, limitación (en determinadas
+      circunstancias) y a presentar una reclamación ante la autoridad de
+      control (la Agencia Española de protección de datos,
+      <a href="https://www.aepd.es">www.aepd.es</a>).
+    </p>
+      `,
     },
     privacyPolicy: {
       header: {
         title: "Hegazti Escuela Bosque | Política de Privacidad",
-        },
-      title: "",
+      },
       content: `
+      <h1 className="hegazti-h1 py-8 text-left!">
+          AVISO LEGAL
+        </h1>
 
+        <p className="mb-4">
+          Para dar cumplimiento al artículo 10 de la Ley 34/2002 de Servicios de
+          la Sociedad de la Información y del Comercio Electrónico, informamos a
+          los usuarios de nuestros datos:
+        </p>
+
+        <p className="mb-4">
+          Denominación Social:
+          <strong>
+            ASOCIACIÓN ESCUELA BOSQUE FAMILIAS HEGAZTI
+          </strong>
+        </p>
+        <p className="mb-4">
+          Domicilio Social:<strong>
+            Carretera de Aras 6, 31230, Viana, Navarra
+          </strong>
+        </p>
+        <p className="mb-4">
+          NIF:
+          <strong>
+            G26525329&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          </strong>
+        </p>
+        <p className="mb-4">
+          Teléfono:<strong>669 575 406</strong>
+        </p>
+        <p className="mb-4">
+          E-Mail: <strong>info@hegaztiescuelabosque.org</strong>
+        </p>
+        <p className="mb-4">
+          Web:
+          <a href="http://www.hegaztiescuelabosque.org">
+            <strong>www.hegaztiescuelabosque.org</strong>
+          </a>
+          <strong></strong>
+        </p>
+        <p className="mb-4">
+          Datos Registrales:
+          <strong>
+            Esta entidad consta inscrita en el Registro de asociaciones de
+            Navarra Doc.2017/217491
+          </strong>
+        </p>
+        <h3 className="text-2xl pt-8 pb-4">
+          1.&nbsp;&nbsp;&nbsp;&nbsp; OBJETO
+        </h3>
+        <p className="mb-4">
+          <strong>
+            ASOCIACIÓN ESCUELA BOSQUE FAMILIAS HEGAZTI
+          </strong>(Desde ahora también el prestador) como responsable del sitio
+          web, pone a disposición de los usuarios el presente documento, que
+          regula el uso del sitio web
+          <strong>www.hegaztiescuelabosque.org</strong>, con el que pretendemos
+          dar cumplimiento a las obligaciones que dispone la Ley 34/2002 , de
+          servicios de la Sociedad de la Información y del Comercio Electrónico
+          (LSSICE o LSSI), así como informar a todos los usuarios del sitio web
+          respecto de cuáles son las condiciones de uso del sitio web.
+        </p>
+        <p className="mb-4">
+          A través de la web,
+          <strong>
+            ASOCIACIÓN ESCUELA BOSQUE FAMILIAS HEGAZTI
+          </strong>facilita a los usuarios el acceso y utilización de diferentes
+          servicios y contenidos puestos a disposición a través de la web.
+        </p>
+        <p className="mb-4">
+          Toda persona que acceda a esta web asume el papel de usuario (en
+          adelante el usuario), e implica la aceptación total y sin reservas de
+          todas y cada una de las disposiciones incluidas en este Aviso Legal,
+          así como cualesquiera otras disposiciones legales que fueran de
+          aplicación.
+        </p>
+        <p className="mb-4">
+          Como usuarios, deben leer atentamente el presente Aviso Legal en
+          cualquiera de las ocasiones que entren en la web, ya que ésta puede
+          sufrir modificaciones ya que el prestador se reserva el derecho a
+          modificar cualquier tipo de información que pudiera aparecer en la
+          web, sin que haya la obligación de preavisar o poner en conocimiento
+          de los usuarios dichas obligaciones, siendo suficientes la publicación
+          en el sitio web del prestador.
+        </p>
+        <h3 className="text-2xl pt-8 pb-4">
+          2.&nbsp;&nbsp;&nbsp;&nbsp; CONDICIONES DE ACCESO Y USO DEL WEB
+        </h3>
+        <p className="mb-4">
+          <strong>2.1. Carácter gratuito del acceso y uso de la web.</strong>
+        </p>
+        <p className="mb-4">
+          La prestación de los servicios por parte de
+          <strong>
+            ASOCIACIÓN ESCUELA BOSQUE FAMILIAS HEGAZTI
+          </strong>
+          tiene carácter gratuito para todos los usuarios.
+        </p>
+        <p className="mb-4">
+          <strong>2.2. Registro de Usuario.</strong>
+        </p>
+        <p className="mb-4">
+          Con carácter general la prestación de los Servicios no exige la previa
+          suscripción o registro de los Usuarios.
+        </p>
+        <p className="mb-4">
+          <strong>2.3. Veracidad de la información.</strong>
+        </p>
+        <p className="mb-4">
+          Toda la información que facilita el Usuario debe ser veraz. En estos
+          efectos, el Usuario garantiza la autenticidad de los datos comunicados
+          a través de los formularios para la suscripción de los Servicios. Será
+          responsabilidad del Usuario mantener toda la información facilitada a
+          
+          <strong>
+            ASOCIACIÓN ESCUELA BOSQUE FAMILIAS HEGAZTI
+          </strong>
+          permanentemente actualizada de forma que responda, en cada momento, a
+          su situación real. En todo caso, el Usuario será el único responsable
+          de las manifestaciones falsas o inexactas que realice y de los
+          perjuicios que cause al prestador o a terceros.
+        </p>
+        <p className="mb-4">
+          <strong>2.4. Menores de edad.</strong>
+        </p>
+        <p className="mb-4">
+          Para el uso de los servicios, los menores de edad deben obtener
+          siempre previamente el consentimiento de los padres, tutores o
+          representantes legales, responsables últimos de todos los actos
+          realizados por los menores a su cargo. La responsabilidad en la
+          determinación de contenidos concretos a los que acceden los menores
+          corresponde a aquellos, es por eso que si acceden a contenidos no
+          apropiados para Internet, se deberán establecer en sus ordenadores
+          mecanismos, en particular programas informáticos, filtros y bloqueos,
+          que permitan limitar los contenidos disponibles y, aunque no sean
+          infalibles, son de especial utilidad para controlar y restringir los
+          materiales a los que pueden acceder los menores.
+        </p>
+        <p className="mb-4">
+          &nbsp;<strong>
+            2.5. Obligación de hacer uso correcto de la web.
+          </strong>
+        </p>
+        <p className="mb-4">
+          El Usuario se compromete a utilizar la web de conformidad a la Ley y
+          al presente Aviso Legal, así como la moral y las buenas costumbres. En
+          efecto, el Usuario se abstendrá de utilizar la página con fines
+          ilícitos o prohibidas, lesivos de derechos e intereses de terceros, o
+          que de cualquier forma puedan dañar, inutilizar, sobrecargar,
+          deteriorar o impedir la normal utilización de equipos informáticos o
+          documentos, archivos y toda clase de contenidos almacenados en
+          cualquier equipo informático del prestador.
+        </p>
+        <p className="mb-4">
+          En particular, y a título indicativo, pero no exhaustivo, el Usuario
+          se compromete a no transmitir, difundir o poner a disposición de
+          terceros informaciones, datos, contenidos, mensajes, gráficos,
+          dibujos, archivos de sonido o imagen, fotografías, grabaciones,
+          software y, en general, cualquier clase de material que:
+        </p>
+        <p className="mb-4">
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          (A) sea contraria, menosprecie o atente contra los derechos
+          fundamentales y las &nbsp; libertades públicas reconocidas
+          constitucionalmente, en tratados internacionales y otras normas
+          vigentes;
+        </p>
+        <p className="mb-4">
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          (B) induzca, incite o promueva actuaciones delictivas, denigratorias,
+          difamatorias, violentas o, en general, contrarias a la ley, a la moral
+          y el orden público;
+        </p>
+        <p className="mb-4">
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          (C) induzca, incite o promueva actuaciones, actitudes o pensamientos
+          discriminatorios por razón de sexo, raza, religión, creencias, edad o
+          condición;
+        </p>
+        <p className="mb-4">
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          (D) sea contrario al derecho al honor, a la intimidad personal o
+          familiar o la propia imagen de las personas;
+        </p>
+        <p className="mb-4">
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          (E) de cualquier manera perjudique la credibilidad del prestador o de
+          terceros; y
+        </p>
+        <p className="mb-4">
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          (F) constituya publicidad ilícita, engañosa o desleal.
+        </p>
+
+        <h3 className="text-2xl pt-8 pb-4">
+          3.&nbsp;&nbsp;&nbsp;&nbsp; EXCLUSIÓN DE GARANTÍAS Y RESPONSABILIDAD
+        </h3>
+        <p className="mb-4">
+          El prestador se exime de cualquier tipo de responsabilidad derivada de
+          la información publicada en nuestro sitio web, siempre que esta
+          información haya sido manipulada o introducida por un tercero ajeno.
+        </p>
+        <p className="mb-4">
+          Esta web ha sido revisada y probada para que funcione correctamente.
+          En principio, se puede garantizar el correcto funcionamiento los 365
+          días del año, 24 horas al día. Sin embargo, el prestador no descarta
+          la posibilidad de que existan determinados errores de programación, o
+          que sucedan causas de fuerza mayor, catástrofes naturales, huelgas, o
+          circunstancias semejantes que hagan imposible el acceso a la página
+          web.
+        </p>
+        <p className="mb-4">
+          <strong>
+            ASOCIACIÓN ESCUELA BOSQUE FAMILIAS HEGAZTI
+          </strong>
+          no otorga ninguna garantía ni se hace responsable, en ningún caso, de
+          los daños y perjuicios de cualquier naturaleza que puedan salir a
+          colación de la falta de disponibilidad, mantenimiento y efectivo
+          funcionamiento de la web o de sus servicios y contenidos; de la
+          existencia de virus, programas maliciosos o lesivos en los contenidos;
+          del uso ilícito, negligente, fraudulento o contrario a este Aviso
+          legal y condiciones de uso; o de la falta de licitud, calidad,
+          fiabilidad, utilidad y disponibilidad de los servicios prestados por
+          terceros y puestos a disposición de los usuarios en el sitio web.
+        </p>
+        <p className="mb-4">
+          El prestador no se hace responsable bajo ningún concepto de los daños
+          que puedan dimanar del uso ilegal o indebido de la presente página
+          web.
+        </p>
+        <h3 className="text-2xl pt-8 pb-4">
+          4.&nbsp;&nbsp;&nbsp;&nbsp; COOKIES
+        </h3>
+        <p className="mb-4">
+          El sitio web del prestador puede utilizar cookies (pequeños archivos
+          de información que el servidor envía al ordenador de quien accede a la
+          página) para llevar a cabo determinadas funciones que son consideradas
+          imprescindibles para el correcto funcionamiento y visualización del
+          sitio. Las cookies utilizadas tienen, en todo caso, carácter temporal,
+          con la única finalidad de hacer más eficaz la navegación, y
+          desaparecen al terminar la sesión del usuario. En ningún caso se
+          utilizarán las cookies para recoger información de carácter personal.
+          para más información, ver nuestra
+          <a href="/politicadecookies">
+            <span style="text-decoration:underline">Política de Cookies.</span>
+          </a>
+        </p>
+
+        <h3 className="text-2xl pt-8 pb-4">
+          5.&nbsp;&nbsp;&nbsp;&nbsp; ENLACES <em>(LINKS)</em>
+        </h3>
+        <p className="mb-4">
+          Desde el sitio web es posible que se redirija a contenidos
+          patrocinados, anuncios y / o enlaces de afiliados y / o de terceras
+          webs.
+        </p>
+        <p className="mb-4">
+          Entre los enlaces facilitados, existe la posibilidad de informar o
+          hacer referencia a productos y / o servicios de terceros. Dado que
+          desde la web no podemos controlar los contenidos introducidos por los
+          terceros,
+          <strong>
+            ASOCIACIÓN ESCUELA BOSQUE FAMILIAS HEGAZTI
+          </strong>
+          no asume ningún tipo de responsabilidad respecto a dichos contenidos,
+          ni garantiza la experiencia, integridad o calidad de sus productos. En
+          todo caso, el prestador manifiesta que procederá a la retirada
+          inmediata de cualquier contenido que pudiera contravenir la
+          legislación nacional o internacional, la moral o el orden público,
+          procediendo a la retirada inmediata de la redirección a estas webs,
+          poniendo en conocimiento de las autoridades competentes el contenido
+          en cuestión
+        </p>
+        <p className="mb-4">
+          <strong>
+            ASOCIACIÓN ESCUELA BOSQUE FAMILIAS HEGAZTI
+          </strong>
+          tendrá publicados estos enlaces hasta que sean eliminados o
+          suspendidos por el prestador o por el anunciante, y no será
+          responsable aunque estos anuncios puedan ser indexados por otros
+          buscadores ajenos a esta web.
+        </p>
+        <p className="mb-4">
+          El prestador no se responsabiliza de la información y contenidos
+          almacenados, a título enunciativo pero no limitativo, en foros, chats,
+          generadores de blogs, comentarios, redes sociales o cualquier otro
+          medio que permita a terceros publicar contenidos de forma
+          independiente en la página web del prestador. No obstante y en
+          cumplimiento de lo dispuesto en el art. 11 y 16 de la LSSICE, el
+          prestador se pone a disposición de todos los usuarios, autoridades y
+          fuerzas de seguridad, y colaborando de forma activa en la retirada o,
+          cuando sea necesario, el bloqueo de todos aquellos contenidos que
+          puedan afectar o contravenir la legislación nacional, o internacional,
+          derechos de terceros o la moral y el orden público. En caso de que el
+          usuario considere que puede existir algún contenido que pudiera ser
+          susceptible de esta clasificación, se ruega lo notifique de forma
+          inmediata al administrador del sitio web.
+        </p>
+        <p className="mb-4">
+          Sin embargo,
+          <strong>
+            ASOCIACIÓN ESCUELA BOSQUE FAMILIAS HEGAZTI
+          </strong>
+          le informa que cualquier relación contractual o extracontractual que
+          el usuario formalice con estos terceros, afiliados o anunciantes
+          mediante el link proporcionado por esta web, será válido únicamente y
+          exclusivamente entre el usuario y el anunciante y / o tercera persona
+          y
+          <strong>
+            ASOCIACIÓN ESCUELA BOSQUE FAMILIAS HEGAZTI
+          </strong>
+          no tendrá ningún tipo de responsabilidad sobre los daños o perjuicios
+          que pudieran ser ocasionados por la prestación de servicios y / o
+          relaciones contractuales o extracontractuales realizadas entre el
+          usuario y los anunciantes o terceros contactadas a través de este
+          portal ya que el prestador sólo actúa como intermediario o medio
+          publicitario.
+        </p>
+        <h3 className="text-2xl pt-8 pb-4">
+          6.&nbsp;&nbsp;&nbsp;&nbsp; PROTECCIÓN DE DATOS PERSONALES
+        </h3>
+        <p className="mb-4">
+          El prestador está profundamente comprometido con el cumplimiento de la
+          normativa de protección de datos personales y garantiza el
+          cumplimiento íntegro de las obligaciones dispuestas, así como la
+          implementación de las medidas de seguridad dispuestas en el Reglamento
+          Europeo de Protección de datos y la normativa española de protección
+          de datos. Para más información, ver nuestra
+          <a href="/poltica-de-privacidad">
+            <span style="text-decoration:underline">
+              Política de Privacidad.
+            </span>
+          </a>
+        </p>
+        <h3 className="text-2xl pt-8 pb-4">
+          7.&nbsp;&nbsp;&nbsp;&nbsp; PROPIEDAD INTELECTUAL E INDUSTRIAL
+        </h3>
+        <p className="mb-4">
+          El sitio web, incluyendo a título enunciativo, pero no limitativo: la
+          programación, edición, compilación y demás elementos necesarios para
+          su funcionamiento, los diseños, logotipos, textos, fotografías y / o
+          gráficos son propiedad del prestador o, en caso de que fuera
+          necesario, dispone de la licencia o autorización expresa por parte de
+          los autores. Todos los contenidos del sitio web se encuentran
+          debidamente protegidos por la normativa de propiedad intelectual e
+          industrial.
+        </p>
+        <p className="mb-4">
+          Independientemente de la finalidad para la que fueran destinados, la
+          reproducción total o parcial, uso, distribución y comunicación pública
+          requieren de la autorización escrita previa por parte del prestador.
+          Cualquier uso no autorizado previamente por parte del prestador será
+          considerado un incumplimiento grave de los derechos de propiedad
+          intelectual o industrial del autor.
+        </p>
+        <p className="mb-4">
+          Los diseños, logotipos, texto y / o gráficos ajenos al prestador y que
+          puedan aparecer en el sitio web, pertenecen a sus respectivos
+          propietarios, siendo ellos mismos responsables de cualquier posible
+          controversia que pudiera devenir respecto a los mismos. En todo caso,
+          el prestador cuenta con la autorización expresa y previa por parte de
+          los mismos.
+        </p>
+        <p className="mb-4">
+          El prestador reconoce a favor de sus titulares los correspondientes
+          derechos de propiedad industrial e intelectual, no implicando la
+          mención o aparición en el sitio web, de la existencia de derechos o
+          responsabilidad del prestador sobre los mismos, como tampoco respaldo,
+          patrocinio o recomendación por parte del mismo.
+        </p>
+        <p className="mb-4">
+          Para realizar cualquier tipo de observación respecto a posibles
+          incumplimientos de los derechos de propiedad intelectual o industrial,
+          así como sobre cualquiera de los contenidos del sitio web, puede
+          hacerlo a través del correo electrónico arriba reseñado.
+        </p>
+
+        <h3 className="text-2xl pt-8 pb-4">
+          8.&nbsp;&nbsp;&nbsp;&nbsp; LEY APLICABLE Y JURISDICCIÓN
+        </h3>
+        <p className="mb-4">
+          Para la resolución de las controversias o cuestiones relacionadas con
+          la presente página web o de las actividades en esta desarrolladas,
+          será de aplicación la legislación española, a la que se someten
+          expresamente las partes, siendo competentes para la resolución de
+          todos los conflictos derivados o relacionados con su uso los Juzgados
+          y Tribunales de Navarra.
+        </p>
       `,
     },
     legalNotice: {
       header: {
         title: "Hegazti Escuela Bosque | Nota Legal",
-        },
-      title: "",
+      },
       content: `
 
-      `
+      <h1 className="hegazti-h1 text-left! py-8">
+      POLÍTICA DE PRIVACIDAD
+    </h1>
+    <h3 className="text-2xl pt-8 pb-4">INTRODUCCIÓN</h3>
+    <p className="mb-4">
+      Su privacidad es importante para nosotros, así que, mediante este
+      documento, le explicamos qué datos recogemos de los usuarios, como los
+      utilizamos y para qué, entre otras indicaciones. Los mayores de 14
+      años podrán registrarse como usuarios sin el previo consentimiento de
+      sus padres, tutores o representantes legales. En caso de menores de 14
+      años o identificados como "incapaces legalmente", siempre
+      necesitaremos del consentimiento paterno, o del tutor / a o
+      representante legal.
+    </p>
+    <p className="mb-4">
+      Para su información, nunca pediremos más información de la que
+      realmente necesitaremos para los servicios requeridos; nunca la
+      compartiremos con terceros, excepto por obligación legal o con su
+      autorización previa; y nunca utilizaremos sus datos para otra
+      finalidad no indicada previamente.
+    </p>
+    <p className="mb-4">
+      Como usuarios, deberá leer atentamente esta Política de privacidad de
+      manera regular, y siempre que introduzca sus datos personales, ya que
+      este documento puede sufrir modificaciones ya que el prestador puede
+      modificar cualquier tipo de información que pudiera aparecer en la web
+      para cumplir con la normativa o actualizar la política, y sin que
+      exista la obligación de preavisar o poner en conocimiento de los
+      usuarios dichas obligaciones, siendo suficientes la publicación en el
+      sitio web del prestador.
+    </p>
+    <h3 className="text-2xl pt-8 pb-4">
+      RESPONSABLE DEL TRATAMIENTO:
+    </h3>
+    <p className="mb-4">
+      Identidad:<strong>
+        &nbsp;ASOCIACIÓN FAMILIAS HEGAZTI
+      </strong>(también el prestador)
+    </p>
+    <p className="mb-4">
+      NIF:<strong>
+        G26525329&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      </strong>
+    </p>
+    <p className="mb-4">
+      Dirección postal:<strong>
+        &nbsp;Carretera de Aras 6, 31230, Viana,
+        Navarra&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      </strong>
+    </p>
+    <p className="mb-4">
+      Correo electrónico:<strong>
+        &nbsp;info@hegaztiescuelabosque.org
+      </strong>
+    </p>
+    <p className="mb-4">
+      <strong>
+        ASOCIACIÓN ESCUELA BOSQUE FAMILIAS HEGAZTI
+      </strong>, como responsable del sitio web, de conformidad con lo
+      dispuesto en el Reglamento (UE) 2016/679 de 27 de abril de 2016 (RGPD)
+      relativo a la protección de las personas físicas en lo que respecta al
+      tratamiento de datos personales ya la libre circulación de estos datos
+      y demás normativa vigente en materia de protección de datos
+      personales, y por la Ley 34/2002, de 11 de julio, de Servicios de la
+      Sociedad de la Información y del Comercio Electrónico (LSSICE), le
+      informa que tiene implementadas las medidas de seguridad necesarias,
+      de índole técnica y organizativas, para garantizar y proteger la
+      confidencialidad, integridad y disponibilidad de los datos
+      introducidos.
+    </p>
+    <h3 className="text-2xl pt-8 pb-4">
+      MÉTODO DE OBTENCIÓN DE LOS DATOS y DATOS QUE RECAUDAMOS:
+    </h3>
+    <p className="mb-4">
+      Los datos que recogemos y cómo las obtenemos es la siguiente:
+    </p>
+    <ol data-rte-list="default">
+      <li>
+        <p className="mb-4">
+          mediante el formulario de contacto: nombre, email
+        </p>
+      </li>
+      <li>
+        <p className="mb-4">
+          mediante el formulario de reserva: nombre, DNI, teléfono, email
+        </p>
+      </li>
+    </ol>
+    <p className="mb-4">
+      No se tratan categorías de datos especialmente protegidos.
+    </p>
+    <h3 className="text-2xl pt-8 pb-4">FINALIDAD DEL TRATAMIENTO:</h3>
+    <p className="mb-4">
+      Sus datos personales sólo se utilizarán para las siguientes
+      finalidades, prestando su consentimiento para cada una de las
+      finalidades en el apartado correspondiente de la web:
+    </p>
+    <ol data-rte-list="default">
+      <li>
+        <p className="mb-4">
+          <strong>formulario de contacto:</strong>para responder a las
+          consultas y / o proporcionar informaciones requeridas por el
+          Usuario;
+        </p>
+      </li>
+      <li>
+        <p className="mb-4">
+          <strong>formulario de reserva:</strong>para solicitar los
+          servicios que ofrecemos en la web.
+        </p>
+      </li>
+      <li>
+        <p className="mb-4">
+          <strong>WhatsApp</strong>: el tratamiento de los datos que se
+          lleven a cabo de las personas que realicen una consulta a través
+          de WhatsApp de
+          <strong>
+            ASOCIACIÓN ESCUELA BOSQUE FAMILIAS HEGAZTI
+          </strong>se regirá por este apartado, así como aquellas
+          condiciones de uso, políticas de privacidad y normativas de acceso
+          que pertenezcan a la aplicación que procedan en cada caso y
+          aceptadas previamente por el usuario.
+          <strong>
+            ASOCIACIÓN ESCUELA BOSQUE FAMILIAS HEGAZTI
+          </strong>, tratará sus datos con la finalidad de administrar
+          correctamente su consulta así como cualquier otra finalidad de la
+          gestión administrativa del servicio. Queda prohibido el uso del
+          WhatsApp de
+          <strong>
+            ASOCIACIÓN ESCUELA BOSQUE FAMILIAS HEGAZTI
+          </strong>, para el envío de contenidos que no sean los necesarios
+          para la respuesta a la consulta y que sean ilícitos por la
+          normativa nacional o internacional que atente contra los derechos
+          fundamentales de las personas y en general que contravengan los
+          principios de legalidad, honradez, responsabilidad, protección de
+          la vida privada, la protección del consumidor y los derechos de
+          propiedad intelectual e industrial.
+        </p>
+      </li>
+      <li>
+        <p className="mb-4">
+          <strong>Otras finalidades</strong>:
+        </p>
+        <ul data-rte-list="default">
+          <li>
+            <p className="mb-4">
+              Realizar las gestiones comerciales, administrativas, fiscales,
+              contables que sean necesarias en virtud de la legislación
+              vigente;
+            </p>
+          </li>
+          <li>
+            <p className="mb-4">
+              Conocer su opinión y mejorar los servicios prestados por la
+              web;
+            </p>
+          </li>
+          <li>
+            <p className="mb-4">
+              Realización de análisis de usabilidad de la web, a través de
+              las cookies (mencionadas en la política de cookies);
+            </p>
+          </li>
+          <li>
+            <p className="mb-4">
+              Redes sociales: en el apartado correspondiente se especifica
+              el uso de las redes sociales.
+            </p>
+          </li>
+        </ul>
+      </li>
+    </ol>
+    <p className="mb-4">
+      Las fotografías que estén colgadas en la web son propiedad de
+      <strong>
+        ASOCIACIÓN ESCUELA BOSQUE FAMILIAS HEGAZTI
+      </strong>, incluyendo las de los menores, en las que, para la
+      obtención de estas, se ha obtenido el consentimiento previo de los
+      padres, tutores o representantes legales mediante la firma de los
+      formularios realizados para tal efecto por los centros de los que los
+      menores forman parte. Sin embargo, los padres, tutores o
+      representantes de los menores, como titulares del ejercicio de los
+      derechos de estos, y siempre previo requerimiento formal por escrito,
+      pueden indicar la negativa al uso de la imagen del menor; en este
+      caso, la imagen se mostrará pixelada.
+    </p>
+    <p className="mb-4">
+      Puede revocar en cualquier momento su consentimiento remitiendo un
+      escrito con el asunto "Baja" en el mail reseñado.
+    </p>
+    <p className="mb-4">
+      De acuerdo con la LSSICE,
+      <strong>
+        ASOCIACIÓN ESCUELA BOSQUE FAMILIAS HEGAZTI
+      </strong>
+      no realiza prácticas de SPAM, por lo tanto, no envía correos
+      comerciales por e-mail que no hayan sido previamente solicitados o
+      autorizados por el Usuario. En consecuencia, en todas las
+      comunicaciones que recibirá del prestador, el usuario tiene la
+      posibilidad de cancelar su consentimiento expreso para recibir
+      nuestras comunicaciones.
+    </p>
+    <p className="mb-4">
+      No trataremos sus datos personales para ningún otro fin de las
+      descritas excepto por obligación legal o requerimiento judicial.
+    </p>
+    <p className="mb-4">
+      No será objeto de decisiones basadas en tratamientos automatizados que
+      produzcan efectos sobre sus datos.
+    </p>
+    <p className="mb-4">&nbsp;</p>
+    <h3 className="text-2xl pt-8 pb-4">
+      LEGITIMACIÓN DEL TRATAMIENTO
+    </h3>
+    <p className="mb-4">
+      La base legal para el tratamiento de los datos es su consentimiento
+      otorgado en el momento de dar sus datos en el formulario
+      correspondiente para llevar a cabo las finalidades, en el momento de
+      marcación de la casilla de verificación.
+    </p>
+    <p className="mb-4">
+      El no facilitar los datos personales solicitados o el no aceptar la
+      presente política de privacidad supone la imposibilidad de conseguir
+      las finalidades anteriormente descritas.En los casos en que haya una
+      previa relación contractual entre las partes, la legitimación para el
+      desarrollo de las obligaciones administrativas, fiscales, contables y
+      laborales que sean necesarias en virtud de la legislación vigente será
+      
+      <strong>la existencia previa de la relación comercial</strong>
+      establecida entre las partes.
+    </p>
+    <p className="mb-4">
+      La oferta prospectiva o comercial de productos y servicios está basada
+      en el consentimiento que se le solicita, sin que en ningún caso la
+      retirada de este consentimiento condicione la ejecución del contrato
+      de suscripción.
+    </p>
+    <p
+      class=""
+      data-rte-preserve-empty="true"
+      style="white-space:pre-wrap;"
+    >
+    </p>
+    <h3 className="text-2xl pt-8 pb-4">
+      PLAZO DE CONSERVACIÓN DE LOS DATOS:
+    </h3>
+    <p className="mb-4">
+      Sus datos se conservarán mientras dure la relación comercial con
+      nosotros o ejerce su derecho de cancelación u oposición, o limitación
+      al tratamiento. Sin embargo, conservaremos sus datos en los plazos
+      legalmente previstos en las disposiciones aplicables.
+    </p>
+    <h3 className="text-2xl pt-8 pb-4">
+      DESTINATARIOS DE CESIONES O TRANSFERENCIAS:
+    </h3>
+    <p className="mb-4">
+      <strong>
+        ASOCIACIÓN ESCUELA BOSQUE FAMILIAS HEGAZTI
+      </strong>
+      no lleva a cabo ninguna cesión o comunicación de datos ni dentro ni
+      fuera de la UE. El prestador únicamente facilitará información a las
+      fuerzas y cuerpos de seguridad bajo orden judicial o por obligación de
+      una norma legal, sin perjuicio de poder bloquear o cancelar su cuenta
+      si puede haber indicios de la comisión de algún delito por parte del
+      usuario. La información facilitada será sólo la que disponga en ese
+      momento el prestador.
+    </p>
+    <p className="mb-4">
+      La información que nos proporcione a través de este sitio web será
+      alojada en los servidores de
+      <strong>
+        ASOCIACIÓN ESCUELA BOSQUE FAMILIAS HEGAZTI
+      </strong>, contratados a la empresa SQUARESPACE IRELAND LTD con NIF
+      3041081MH y domicilio en Le Pole House Ship Street Great, Dublin 8,
+      Ireland que presta el servicio de alojamiento de la web. El
+      tratamiento de los datos de la entidad se encuentra regulado mediante
+      un contrato de encargado del tratamiento entre el prestador y esta
+      empresa.
+    </p>
+    <p className="mb-4">
+      Asimismo, el prestador utiliza determinadas herramientas para prestar
+      servicios necesarios para el desarrollo de la actividad, pudiendo
+      almacenar sus datos. Estas herramientas son las siguientes:
+    </p>
+    <p className="mb-4">
+      <strong>Google Analytics</strong>: para realizar un análisis y métrica
+      del uso que los usuarios hacen de la web a través de las cookies. La
+      información que generan y recopilan estas cookies sobre el uso
+      (incluyendo la dirección IP) será directamente transmitida y archivada
+      por Google Inc., ubicada en Delaware, 1600 Amphitheatre Parkway,
+      montaré View (California), CA 94043 de Estados Unidos ( " Google "),
+      en sus servidores de Estados Unidos.
+    </p>
+    <h3 className="text-2xl pt-8 pb-4">
+      DERECHOS DE LAS PERSONAS INTERESADAS:
+    </h3>
+    <p className="mb-4">
+      Como usuario-interesado, puede solicitar el ejercicio de los
+      siguientes derechos ante
+      <strong>
+        ASOCIACIÓN ESCUELA BOSQUE FAMILIAS HEGAZTI
+      </strong>presentando un escrito a la dirección postal del
+      encabezamiento o enviando un correo electrónico a
+      info@hegaztiescuelabosque.org, indicando como Asunto: "PROTECCIÓN
+      DE DATOS: DERECHOS DE LOS AFECTADOS ", y adjuntando fotocopia de su
+      DNI o cualquier medio análogo en derecho, tal como indica la
+      ley.Derechos:
+    </p>
+    <ul data-rte-list="default">
+      <li>
+        <p className="mb-4">
+          <strong>Derecho de acceso:</strong>
+          permite al interesado conocer y obtener información sobre sus
+          datos de carácter personal sometidos a tratamiento.
+        </p>
+      </li>
+      <li>
+        <p className="mb-4">
+          <strong>Derecho de rectificación o supresión</strong>: permite
+          corregir errores y modificar los datos que resulten ser inexactos
+          o incompletos
+        </p>
+      </li>
+      <li>
+        <p className="mb-4">
+          <strong>Derecho de cancelación</strong>: permite que se supriman
+          los datos que sean inadecuados o excesivos
+        </p>
+      </li>
+      <li>
+        <p className="mb-4">
+          <strong>Derecho de oposición</strong>: derecho del interesado a
+          que no se lleve a cabo el tratamiento de sus datos de carácter
+          personal o se cese en el mismo.
+        </p>
+      </li>
+      <li>
+        <p className="mb-4">
+          <strong>Limitación del tratamiento</strong>: conlleva el marcado
+          de los datos personales conservados, con el fin de limitar su
+          futuro tratamiento, para el ejercicio o la defensa de
+          reclamaciones.
+        </p>
+      </li>
+      <li>
+        <p className="mb-4">
+          <strong>Portabilidad de los datos</strong>: facilitación de los
+          datos objeto de tratamiento al interesado, para que éste pueda
+          transmitir a otro responsable, sin impedimentos.
+        </p>
+      </li>
+      <li>
+        <p className="mb-4">
+          <strong>
+            Derecho a no ser objeto de decisiones individuales automatizadas
+            (incluida la elaboración de perfiles)
+          </strong>: derecho a no ser objeto de una decisión basada en el
+          tratamiento automatizado que produzca efectos o afecte
+          significativamente
+        </p>
+      </li>
+    </ul>
+    <p className="mb-4">
+      Como usuario, tiene derecho a retirar el consentimiento dado en
+      cualquier momento. La retirada del consentimiento no afectará a la
+      licitud del tratamiento efectuado antes de la retirada del
+      consentimiento.
+    </p>
+    <p className="mb-4">
+      También tiene derecho a presentar una reclamación ante la autoridad de
+      control si considera que pueden haberse visto vulnerados sus derechos
+      en relación a la protección de sus datos (aepd.es).
+    </p>
+    <h3 className="text-2xl pt-8 pb-4">INFORMACIÓN ADICIONAL</h3>
+    <p className="mb-4">
+      <strong>MEDIDAS DE SEGURIDAD:</strong>
+    </p>
+    <p className="mb-4">
+      Los datos que nos facilite se tratarán de forma confidencial. El
+      prestador ha adoptado todas las medidas técnicas y organizativas y
+      todos los niveles de protección necesarios para garantizar la
+      seguridad en el tratamiento de los datos y evitar su alteración,
+      pérdida, robo, tratamiento o acceso no autorizado, de acuerdo al
+      estado de la tecnología y naturaleza de los datos almacenados.
+      Asimismo, se garantiza también que el tratamiento y registro en
+      ficheros, programas, sistemas o equipos, locales y centros cumplen con
+      los requisitos y condiciones de integridad y seguridad establecidas en
+      la normativa vigente.
+    </p>
+    <p className="mb-4">
+      <strong>IDIOMA</strong>
+    </p>
+    <p className="mb-4">
+      El idioma aplicable a esta política de privacidad es el castellano.
+      Por tanto, en caso de que hubiera alguna contradicción en alguna de
+      las versiones facilitadas en otros idiomas, prevalecerá la versión en
+      castellano.
+    </p>
+    <p className="mb-4">
+      <strong>REDES SOCIALES</strong>
+    </p>
+    <p className="mb-4">
+      Le informamos que
+      <strong>
+        ASOCIACIÓN ESCUELA BOSQUE FAMILIAS HEGAZTI
+      </strong>
+      puede tener presencia en redes sociales. El tratamiento de los datos
+      que se lleve a cabo de las personas que se hagan seguidoras en las
+      redes sociales (y / o realicen cualquier vínculo o acción de conexión
+      a través de las redes sociales) de las páginas oficiales de
+      <strong>
+        ASOCIACIÓN ESCUELA BOSQUE FAMILIAS HEGAZTI
+      </strong>se regirá por este apartado , así como para aquellas
+      condiciones de uso, políticas de privacidad y normativas de acceso que
+      pertenezcan a la red social que proceda en cada caso y aceptadas
+      previamente por el usuario.
+    </p>
+    <p className="mb-4">
+      <strong>
+        ASOCIACIÓN ESCUELA BOSQUE FAMILIAS HEGAZTI
+      </strong>
+      tratará sus datos con las finalidades de administrar correctamente su
+      presencia en la red social, informando de actividades, productos y
+      servicios del prestador, así como para cualquier otra finalidad que
+      las normativas de las Redes Sociales permitan.
+    </p>
+    <p className="mb-4">
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      Queda prohibida la publicación de contenidos:
+    </p>
+    <p className="mb-4">
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      - Que sean presuntamente ilícitos por la normativa nacional,
+      comunitaria o internacional o que realicen actividades presuntamente
+      ilícitas o contravengan los principios de la buena fe.
+    </p>
+    <p className="mb-4">
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      - Que atenten contra los derechos fundamentales de las personas,
+      falten a la cortesía en la red, molesten o puedan generar opiniones
+      negativas en nuestros usuarios o terceros y en general cualesquiera
+      sean los contenidos que ASOCIACIÓN ESCUELA BOSQUE FAMILIAS HEGAZTI considere inapropiados.
+    </p>
+    <p className="mb-4">
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      - Y en general que contravengan los principios de legalidad, honradez,
+      responsabilidad, protección de la dignidad humana, protección de
+      menores, protección del orden público, la protección de la vida
+      privada, la protección del consumidor y los derechos de propiedad
+      intelectual e industrial.
+    </p>
+    <p className="mb-4">
+      Asimismo,
+      <strong>
+        ASOCIACIÓN ESCUELA BOSQUE FAMILIAS HEGAZTI
+      </strong>
+      se reserva la potestad de retirar, sin previo aviso del sitio web o de
+      la red social corporativa aquellos contenidos que se consideran
+      inadecuados.
+    </p>
+    <p className="mb-4">
+      En todo caso, si Ud. remite información personal a través de la red
+      social, ASOCIACIÓN ESCUELA BOSQUE FAMILIAS HEGAZTI quedará exento de responsabilidad en relación
+      con las medidas de seguridad aplicables a la presente plataforma y el
+      usuario, en caso de querer conocerlas, debe consultar las
+      correspondientes condiciones particulares de la red en cuestión.
+    </p>
+    <p className="mb-4">
+      <strong>CAMBIOS EN LA PRESENTE POLÍTICA DE PRIVACIDAD</strong>
+    </p>
+    <p className="mb-4">
+      <strong>
+        ASOCIACIÓN ESCUELA BOSQUE FAMILIAS HEGAZTI
+      </strong>
+      se reserva el derecho a modificar la presente política para adaptarla
+      a novedades legislativas o jurisprudenciales.
+    </p>
+    <p className="mb-4">
+      <strong>REVOCABILIDAD</strong>
+    </p>
+    <p className="mb-4">
+      El consentimiento prestado, tanto por el tratamiento como para la
+      cesión de los datos de los interesados, es revocable en cualquier
+      momento comunicándolo a
+      <strong>
+        ASOCIACIÓN ESCUELA BOSQUE FAMILIAS HEGAZTI
+      </strong>
+      en los términos establecidos en esta Política para el ejercicio de los
+      derechos. Esta revocación en ningún caso tendrá carácter retroactivo.
+    </p>
+    <p className="mb-4">
+      <strong>LEGISLACIÓN</strong>
+    </p>
+    <p className="mb-4">
+      Con carácter general las relaciones entre
+      <strong>
+        ASOCIACIÓN ESCUELA BOSQUE FAMILIAS HEGAZTI
+      </strong>
+      con los Usuarios de sus servicios telemáticos, presentes en esta web,
+      están sometidos a la legislación y jurisdicción española a la que se
+      someten expresamente las partes, siendo competentes para la resolución
+      de todos los conflictos derivados o relacionados con su uso los
+      Juzgados y Tribunales de Navarra.
+    </p>
+
+      `,
     },
     footer: {
       whereAreWe: "DONDE ESTAMOS UBICADOS",
