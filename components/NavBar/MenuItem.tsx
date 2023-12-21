@@ -7,10 +7,11 @@ type MenuItemProps = {
   target?: string;
   children?: JSX.Element;
   highlighted?: boolean;
+  noFollow?: boolean;
 };
 
 export default function MenuItem(
-  { url, name, highlighted, target }: MenuItemProps,
+  { url, name, highlighted, target, noFollow }: MenuItemProps,
 ) {
   const handleClick = (e: Event) => {
     e.preventDefault();
@@ -35,6 +36,7 @@ export default function MenuItem(
         target={target}
         aria-current="page"
         onClick={handleClick}
+        rel={noFollow ? "nofollow": "external"}
       >
         {name}
       </a>

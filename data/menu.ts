@@ -4,6 +4,7 @@ export type menuTypeProps = {
   target?: string;
   subOptions?: { url: string; name: string }[];
   highlighted?: boolean;
+  noFollow?: boolean
 };
 
 const menu = (menuTexts: any): menuTypeProps[] => {
@@ -76,6 +77,7 @@ const menu = (menuTexts: any): menuTypeProps[] => {
       name: menuTexts?.scholarCalendar.text,
       url: menuTexts?.scholarCalendar.url,
       target: "_blank",
+      noFollow: true
     },
   ];
 };
