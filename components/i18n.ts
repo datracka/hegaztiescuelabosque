@@ -13,25 +13,63 @@ const english = {
   translation: {
     menu: {
       forestAsClassroom: {
-        main: "The forest as a classroom",
-        daytimeMother: "Daytime mother",
-        childhoodClass: "Preschool Classroom",
-        primarySchool: "Primary School",
-        extracurricularActivitiesPlayRoom: "Extracurriculars - Playroom",
-        extracurricularActivitiesSaturdays:
-          "Extracurriculars - Family Saturday",
+        text: "The forest as a classroom",
+        daytimeMother: {
+          url: "daily-mother-schoolroom",
+          text: "Daytime mother",
+        },
+        childhoodClass: {
+          url: "preschool-classroom",
+          text: "Preschool Classroom",
+        },
+        primarySchool: {
+          url: "primary-school",
+          text: "Primary School",
+        },
+        extracurricularActivitiesPlayRoom: {
+          url: "extracurricular-playroom",
+          text: "Extracurriculars - Playroom",
+        },
+        extracurricularActivitiesSaturdays: {
+          url: "extracurricular-family-satuday",
+          text: "Extracurriculars - Family Saturday",
+        },
       },
       whoWeAre: {
-        main: "Who we are",
-        project: "Project",
-        natureSpaces: "Nature and Spaces",
-        aDayInHegazti: "A day at Hegazti",
-        faqs: "Frequently Asked Questions",
+        text: "Who we are",
+        project: {
+          url: "whoweare-project",
+          text: "Project",
+        },
+        natureSpaces: {
+          url: "whoweare-spaces",
+          text: "Nature and Spaces",
+        },
+        aDayInHegazti: {
+          url: "whoweare-hegazti",
+          text: "A day at Hegazti"
+        },
+        faqs: {
+          url: "whoweare-faqs",
+          text: "Frequently Asked Questions",
+        },
       },
-      extracurricularActivities: "Extracurriculars",
-      contact: "Contact",
-      blog: "Blog",
-      scholarCalendar: "School Calendar 23/24",
+      extracurricularActivities: {
+        url: "extracurriculars-2023-202",
+        text: "Extracurriculars",
+      },
+      contact: {
+        url: "more-information",
+        text: "Contact",
+      },
+      blog: {
+        url: "//blog.hegaztiescuelabosque.org",
+        text: "Blog",
+      },
+      scholarCalendar: {
+        url: "//docs.google.com/document/d/1Dk-Hd-NI8Y8oh9TxotYUyBzqWnu9dXUMpjkJ1dkAsCY/edit?usp=sharing",
+        text: "School Calendar 23/24"
+      },
     },
     home: {
       header: {
@@ -1816,25 +1854,63 @@ const spanish = {
   translation: {
     menu: {
       forestAsClassroom: {
-        main: "El bosque como aula",
-        daytimeMother: "Madre de día",
-        childhoodClass: "Infantil",
-        primarySchool: "Primaria",
-        extracurricularActivitiesPlayRoom: "Extraescolares - Ludoteca",
-        extracurricularActivitiesSaturdays:
-          "Extraescolares - Sábados en familia",
+        text: "El bosque como aula",
+        daytimeMother: {
+          url: "aula-madre-de-dia",
+          text: "Madre de día",
+        },
+        childhoodClass: {
+          url: "aula-infantil",
+          text: "Infantil"
+        },
+        primarySchool: {
+          url: "primary-school",
+          text: "Primaria",
+        },
+        extracurricularActivitiesPlayRoom: {
+          url: "aula-extraescolares-ludoteca",
+          text: "Extraescolares - Ludoteca"
+        },
+        extracurricularActivitiesSaturdays: {
+          url: "//",
+          text: "Extraescolares - Sábados en familia",
+        }
       },
       whoWeAre: {
-        main: "Quiénes somos",
-        project: "Proyecto",
-        natureSpaces: "Naturaleza y espacios",
-        aDayInHegazti: "Un día en Hegazti",
-        faqs: "Preguntas frecuentes",
+        text: "Quiénes somos",
+        project: {
+          url: "quienes-somos-proyecto",
+          text: "Proyecto",
+        },
+        natureSpaces: {
+          url: "quienes-somos-espacios",
+          text: "Naturaleza y espacios"
+        },
+        aDayInHegazti: {
+          url: "quienes-somos-hegazti",
+          text: "Un día en Hegazti"
+        },
+        faqs: {
+          url: "quienes-somos-faqs",
+          text: "Preguntas frecuentes"
+        },
       },
-      contact: "Contacto",
-      extracurricularActivities: "Extraescolares",
-      blog: "Blog",
-      scholarCalendar: "Calendario escolar",
+      contact: {
+        url: "mas-informacion",
+        text: "Contacto"
+      },
+      extracurricularActivities: {
+        url: "extraescolares-2023-2024",
+        text: "Extraescolares"
+      },
+      blog: {
+        url: "//blog.hegaztiescuelabosque.org",
+        text: "Blog"
+      },
+      scholarCalendar: {
+        url: "//docs.google.com/document/d/1Dk-Hd-NI8Y8oh9TxotYUyBzqWnu9dXUMpjkJ1dkAsCY/edit?usp=sharing",
+        text: "Calendario escolar"
+      },
     },
     home: {
       header: {

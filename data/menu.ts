@@ -9,23 +9,23 @@ export type menuTypeProps = {
 const menu = (menuTexts: any): menuTypeProps[] => {
   return [
     {
-      name: menuTexts?.forestAsClassroom?.main,
+      name: menuTexts?.forestAsClassroom?.text,
       subOptions: [
         {
-          url: "aula-madre-de-dia",
-          name: menuTexts?.forestAsClassroom?.daytimeMother,
+          url: menuTexts?.forestAsClassroom?.daytimeMother.url,
+          name: menuTexts?.forestAsClassroom?.daytimeMother.text,
         },
         {
-          url: "aula-infantil",
-          name: menuTexts?.forestAsClassroom?.childhoodClass,
+          url: menuTexts?.forestAsClassroom?.childhoodClass.url,
+          name: menuTexts?.forestAsClassroom?.childhoodClass.text,
         },
         {
-          url: "aula-primaria",
-          name: menuTexts?.forestAsClassroom?.primarySchool,
+          url: menuTexts?.forestAsClassroom?.primarySchool.url,
+          name: menuTexts?.forestAsClassroom?.primarySchool.text,
         },
         {
-          url: "aula-extraescolares-ludoteca",
-          name: menuTexts?.forestAsClassroom?.extracurricularActivitiesPlayRoom,
+          url: menuTexts?.forestAsClassroom?.extracurricularActivitiesPlayRoom.url,
+          name: menuTexts?.forestAsClassroom?.extracurricularActivitiesPlayRoom.text,
         },
         // PENDING TO TRANSLATE !!!!!
         /* {
@@ -36,26 +36,26 @@ const menu = (menuTexts: any): menuTypeProps[] => {
       ],
     },
     {
-      name: menuTexts?.whoWeAre?.main,
+      name: menuTexts?.whoWeAre?.text,
       subOptions: [
-        { url: "quienes-somos-proyecto", name: menuTexts?.whoWeAre?.project },
+        { url: menuTexts?.whoWeAre?.project.url, name: menuTexts?.whoWeAre?.project.text },
         {
-          url: "quienes-somos-espacios",
-          name: menuTexts?.whoWeAre?.natureSpaces,
+          url: menuTexts?.whoWeAre?.natureSpaces.url,
+          name: menuTexts?.whoWeAre?.natureSpaces.text,
         },
         {
-          url: "quienes-somos-hegazti",
-          name: menuTexts?.whoWeAre?.aDayInHegazti,
+          url: menuTexts?.whoWeAre?.aDayInHegazti.url,
+          name: menuTexts?.whoWeAre?.aDayInHegazti.text,
         },
         {
-          url: "quienes-somos-faqs",
-          name: menuTexts?.whoWeAre?.faqs,
+          url: menuTexts?.whoWeAre?.faqs.url,
+          name: menuTexts?.whoWeAre?.faqs.text,
         },
       ],
     },
     {
-      name: menuTexts?.contact,
-      url: "mas-informacion",
+      name: menuTexts?.contact.text,
+      url: menuTexts?.contact.url,
     },
     /* {
       name: "Jornada de puertas abiertas",
@@ -63,18 +63,18 @@ const menu = (menuTexts: any): menuTypeProps[] => {
       highlighted: true,
     }, */
     {
-      name: menuTexts?.blog,
-      url: "//blog.hegaztiescuelabosque.org",
+      name: menuTexts?.blog.text,
+      url: menuTexts?.blog.url,
       target: "_blank",
     },
     {
-      name: menuTexts?.extracurricularActivities,
-      url: "extraescolares-2023-2024",
+      name: menuTexts?.extracurricularActivities.text,
+      url: menuTexts?.extracurricularActivities.url,
       highlighted: true,
     },
     {
-      name: menuTexts?.scholarCalendar,
-      url: "//docs.google.com/document/d/1Dk-Hd-NI8Y8oh9TxotYUyBzqWnu9dXUMpjkJ1dkAsCY/edit?usp=sharing",
+      name: menuTexts?.scholarCalendar.text,
+      url: menuTexts?.scholarCalendar.url,
       target: "_blank",
     },
   ];
