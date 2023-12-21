@@ -11,7 +11,7 @@ export default function AnimatedMobileMenuItem(
 ) {
   const [open, setOpen] = useState(false);
   return (
-    <span
+    <li
       className={tw`bg-[#415a30] text-white block px-3 py-2 rounded-md text-base font-medium`}
       onClick={() => setOpen(!open)}
     >
@@ -35,6 +35,6 @@ export default function AnimatedMobileMenuItem(
           </li>
         ))}
       </ul>
-    </span>
+    </li>
   );
 }

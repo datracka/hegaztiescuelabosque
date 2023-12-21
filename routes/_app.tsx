@@ -1,16 +1,21 @@
-import { AppProps } from "$fresh/server.ts";
+import { PageProps } from "$fresh/server.ts";
+import { createContext } from "preact";
+import { useContext } from "preact/hooks";
 
-export default function App({ Component }: AppProps) {
+export const ContextState = createContext<State>({
+  languageAccepted: "es",
+  enableForm: "true",
+});
+
+export default function App(pageProps: PageProps) {
   return (
-    <html>
-      <head>
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>hegaztiescuelabosque</title>
-      </head>
-      <body>
-        <Component />
-      </body>
-    </html>
+    <ContextState.Provider
+      value={{
+        languageAccepted: pageProps.state.languageAccepted as string,
+        enableForm: pageProps.state.enableForm as string,
+      }}
+    >
+      <pageProps.Component />
+    </ContextState.Provider>
   );
 }

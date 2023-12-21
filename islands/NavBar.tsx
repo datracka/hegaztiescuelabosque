@@ -5,8 +5,16 @@ import DesktopMenu from "@/islands/DesktopMenu.tsx";
 import MobileMenu from "@/islands/MobileMenu.tsx";
 import { useState } from "preact/hooks";
 import { JSX } from "preact/jsx-runtime";
+import getFixedT from "@/components/i18n.ts";
+import { useContext } from "preact/hooks";
+import { ContextState } from "@/routes/_app.tsx";
 
-export default function (): JSX.Element {
+type NavProps = {
+  menuTexts: any;
+};
+
+// TODO because NavBar in islands, it does not have access to server context and we pass the menu text as prop
+export default function ({ menuTexts }: NavProps): JSX.Element {
   const [opened, setOpen] = useState(false);
   const onClickHandler: () => void = (): void => setOpen(!opened);
 
@@ -19,11 +27,11 @@ export default function (): JSX.Element {
             className={tw`flex flex-1 items-center justify-center sm:justify-start`}
           >
             <Logo />
-            <DesktopMenu />
+            <DesktopMenu menuTexts={menuTexts} />
           </div>
         </div>
       </div>
-      <MobileMenu opened={opened} />
+      <MobileMenu opened={opened} menuTexts={menuTexts} />
     </nav>
   );
 }

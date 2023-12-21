@@ -12,6 +12,17 @@ type MenuItemProps = {
 export default function MenuItem(
   { url, name, highlighted, target }: MenuItemProps,
 ) {
+  const handleClick = (e: Event) => {
+    e.preventDefault();
+    const currentURL: URL = new URL(location.href);
+    const finalUrl = currentURL.searchParams.get("language") != null
+      ? `${currentURL.origin}/${url}?language=${
+        currentURL.searchParams.get("language")
+      }`
+      : `${currentURL.origin}/${url}`;
+    location.assign(finalUrl);
+  };
+
   return (
     <li
       role="menuitem"
@@ -20,9 +31,10 @@ export default function MenuItem(
       }`}
     >
       <a
-        href={url}
+        href="#"
         target={target}
         aria-current="page"
+        onClick={handleClick}
       >
         {name}
       </a>

@@ -1,0 +1,42 @@
+{
+  "home": {
+    "claim": "Creciendo en la naturaleza",
+    "subClaim": "HEGAZTI ESCUELA BOSQUE",
+    "learnInNatureHeader": "Aprender en la Naturaleza",
+    "learnInNatureBody": "{{- openParagraph}} Nuestra esencia la libertad, nuestro medio la naturaleza, el don de la infancia la inquietud motora y cognitiva.{{- closeParagraph}}{{- openParagraph}}Aprender en armonía con lo que somos, seres libres y diversos, seres vivos, que sienten, y piensan.{{- closeParagraph}}{{- openParagraph}}En el aula viva la Naturaleza. Donde puedes ver el cielo, tocar la tierra, oler las flores, sentir, moverte libremente, investigar el medio, observar el contexto real.{{- closeParagraph}}{{- openParagraph}} Este aula nutre las necesidades de un ser humano, alimenta la curiosidad, estimula los sentidos, y permite los sentires, la conexión con la diversidad de cada persona.{{- closeParagraph}}{{- openParagraph}} Es un aula integradora, donde cada ser tiene su lugar.{{- closeParagraph}}",
+    "callToActionText": "",
+    "callToActionButton": "",
+    "servicesHeader": "",
+    "servicesTitle1": "",
+    "servicesBody1": "",
+    "servicesTitle2": "",
+    "servicesBody2": "",
+    "servicesTitle3": "",
+    "servicesBody3": "",
+    "servicesTitle4": "",
+    "servivcesBody4": "",
+    "servicesTitle5": "",
+    "servicesBody5": "",
+    "servicesButton": "",
+    "forestSchoolTitle1": "",
+    "forestSchoolSubtitle2": "",
+    "forestSchoolBody": "",
+    "galleryText1": "",
+    "gallerySubtext1": "",
+    "galleryText2": "",
+    "gallerySubtext2": "",
+    "galleryText3": "",
+    "gallerySubtext3": "",
+    "galleryText4": "",
+    "gallerySubtext4": "",
+    "galleryText5": "",
+    "gallerySubtext5": "",
+    "galleryText6": "",
+    "gallerySubtext6": "",
+    "quote": "",
+    "quoteAuthor": ""
+  },
+  "server": {
+    "started": "The server serves on port {{port}}."
+  }
+}
