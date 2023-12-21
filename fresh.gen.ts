@@ -2,69 +2,74 @@
 // This file SHOULD be checked into source version control.
 // This file is automatically updated during development when running `dev.ts`.
 
-import * as $0 from "./routes/_app.tsx";
-import * as $1 from "./routes/api/joke.ts";
-import * as $2 from "./routes/aula-extraescolares-ludoteca.tsx";
-import * as $3 from "./routes/aula-extraescolares-sabado-en-familia.tsx";
-import * as $4 from "./routes/aula-infantil.tsx";
-import * as $5 from "./routes/aula-madre-de-dia.tsx";
-import * as $6 from "./routes/aula-primaria.tsx";
-import * as $7 from "./routes/extraescolares-2023-2024.tsx";
-import * as $8 from "./routes/index.tsx";
-import * as $9 from "./routes/jornada-puertas-abiertas-2023.tsx";
-import * as $10 from "./routes/legal-aviso-legal.tsx";
-import * as $11 from "./routes/legal-politica-de-cookies.tsx";
-import * as $12 from "./routes/legal-politica-de-privacidad.tsx";
-import * as $13 from "./routes/mas-informacion.tsx";
-import * as $14 from "./routes/quienes-somos-espacios.tsx";
-import * as $15 from "./routes/quienes-somos-faqs.tsx";
-import * as $16 from "./routes/quienes-somos-hegazti.tsx";
-import * as $17 from "./routes/quienes-somos-proyecto.tsx";
-import * as $$0 from "./islands/AnimatedMenuItem.tsx";
-import * as $$1 from "./islands/AnimatedMobileMenuItem.tsx";
-import * as $$2 from "./islands/CookieBanner.tsx";
-import * as $$3 from "./islands/Counter.tsx";
-import * as $$4 from "./islands/DesktopMenu.tsx";
-import * as $$5 from "./islands/Hamburger.tsx";
-import * as $$6 from "./islands/MobileMenu.tsx";
-import * as $$7 from "./islands/NavBar.tsx";
-import * as $$8 from "./islands/SectionContact.tsx";
-import * as $$9 from "./islands/SectionMasInformacion.tsx";
+import * as $_app from "./routes/_app.tsx";
+import * as $_middleware from "./routes/_middleware.tsx";
+import * as $aula_extraescolares_ludoteca from "./routes/aula-extraescolares-ludoteca.tsx";
+import * as $aula_extraescolares_sabado_en_familia from "./routes/aula-extraescolares-sabado-en-familia.tsx";
+import * as $aula_infantil from "./routes/aula-infantil.tsx";
+import * as $aula_madre_de_dia from "./routes/aula-madre-de-dia.tsx";
+import * as $aula_primaria from "./routes/aula-primaria.tsx";
+import * as $extraescolares_2023_2024 from "./routes/extraescolares-2023-2024.tsx";
+import * as $index from "./routes/index.tsx";
+import * as $jornada_puertas_abiertas_2023 from "./routes/jornada-puertas-abiertas-2023.tsx";
+import * as $legal_aviso_legal from "./routes/legal-aviso-legal.tsx";
+import * as $legal_politica_de_cookies from "./routes/legal-politica-de-cookies.tsx";
+import * as $legal_politica_de_privacidad from "./routes/legal-politica-de-privacidad.tsx";
+import * as $mas_informacion from "./routes/mas-informacion.tsx";
+import * as $quienes_somos_espacios from "./routes/quienes-somos-espacios.tsx";
+import * as $quienes_somos_faqs from "./routes/quienes-somos-faqs.tsx";
+import * as $quienes_somos_hegazti from "./routes/quienes-somos-hegazti.tsx";
+import * as $quienes_somos_proyecto from "./routes/quienes-somos-proyecto.tsx";
+import * as $AnimatedMenuItem from "./islands/AnimatedMenuItem.tsx";
+import * as $AnimatedMobileMenuItem from "./islands/AnimatedMobileMenuItem.tsx";
+import * as $CookieBanner from "./islands/CookieBanner.tsx";
+import * as $Counter from "./islands/Counter.tsx";
+import * as $DesktopMenu from "./islands/DesktopMenu.tsx";
+import * as $Hamburger from "./islands/Hamburger.tsx";
+import * as $Language from "./islands/Language.tsx";
+import * as $MobileMenu from "./islands/MobileMenu.tsx";
+import * as $NavBar from "./islands/NavBar.tsx";
+import * as $SectionContact from "./islands/SectionContact.tsx";
+import * as $SectionMasInformacion from "./islands/SectionMasInformacion.tsx";
+import { type Manifest } from "$fresh/server.ts";
 
 const manifest = {
   routes: {
-    "./routes/_app.tsx": $0,
-    "./routes/api/joke.ts": $1,
-    "./routes/aula-extraescolares-ludoteca.tsx": $2,
-    "./routes/aula-extraescolares-sabado-en-familia.tsx": $3,
-    "./routes/aula-infantil.tsx": $4,
-    "./routes/aula-madre-de-dia.tsx": $5,
-    "./routes/aula-primaria.tsx": $6,
-    "./routes/extraescolares-2023-2024.tsx": $7,
-    "./routes/index.tsx": $8,
-    "./routes/jornada-puertas-abiertas-2023.tsx": $9,
-    "./routes/legal-aviso-legal.tsx": $10,
-    "./routes/legal-politica-de-cookies.tsx": $11,
-    "./routes/legal-politica-de-privacidad.tsx": $12,
-    "./routes/mas-informacion.tsx": $13,
-    "./routes/quienes-somos-espacios.tsx": $14,
-    "./routes/quienes-somos-faqs.tsx": $15,
-    "./routes/quienes-somos-hegazti.tsx": $16,
-    "./routes/quienes-somos-proyecto.tsx": $17,
+    "./routes/_app.tsx": $_app,
+    "./routes/_middleware.tsx": $_middleware,
+    "./routes/aula-extraescolares-ludoteca.tsx": $aula_extraescolares_ludoteca,
+    "./routes/aula-extraescolares-sabado-en-familia.tsx":
+      $aula_extraescolares_sabado_en_familia,
+    "./routes/aula-infantil.tsx": $aula_infantil,
+    "./routes/aula-madre-de-dia.tsx": $aula_madre_de_dia,
+    "./routes/aula-primaria.tsx": $aula_primaria,
+    "./routes/extraescolares-2023-2024.tsx": $extraescolares_2023_2024,
+    "./routes/index.tsx": $index,
+    "./routes/jornada-puertas-abiertas-2023.tsx":
+      $jornada_puertas_abiertas_2023,
+    "./routes/legal-aviso-legal.tsx": $legal_aviso_legal,
+    "./routes/legal-politica-de-cookies.tsx": $legal_politica_de_cookies,
+    "./routes/legal-politica-de-privacidad.tsx": $legal_politica_de_privacidad,
+    "./routes/mas-informacion.tsx": $mas_informacion,
+    "./routes/quienes-somos-espacios.tsx": $quienes_somos_espacios,
+    "./routes/quienes-somos-faqs.tsx": $quienes_somos_faqs,
+    "./routes/quienes-somos-hegazti.tsx": $quienes_somos_hegazti,
+    "./routes/quienes-somos-proyecto.tsx": $quienes_somos_proyecto,
   },
   islands: {
-    "./islands/AnimatedMenuItem.tsx": $$0,
-    "./islands/AnimatedMobileMenuItem.tsx": $$1,
-    "./islands/CookieBanner.tsx": $$2,
-    "./islands/Counter.tsx": $$3,
-    "./islands/DesktopMenu.tsx": $$4,
-    "./islands/Hamburger.tsx": $$5,
-    "./islands/MobileMenu.tsx": $$6,
-    "./islands/NavBar.tsx": $$7,
-    "./islands/SectionContact.tsx": $$8,
-    "./islands/SectionMasInformacion.tsx": $$9,
+    "./islands/AnimatedMenuItem.tsx": $AnimatedMenuItem,
+    "./islands/AnimatedMobileMenuItem.tsx": $AnimatedMobileMenuItem,
+    "./islands/CookieBanner.tsx": $CookieBanner,
+    "./islands/Counter.tsx": $Counter,
+    "./islands/DesktopMenu.tsx": $DesktopMenu,
+    "./islands/Hamburger.tsx": $Hamburger,
+    "./islands/Language.tsx": $Language,
+    "./islands/MobileMenu.tsx": $MobileMenu,
+    "./islands/NavBar.tsx": $NavBar,
+    "./islands/SectionContact.tsx": $SectionContact,
+    "./islands/SectionMasInformacion.tsx": $SectionMasInformacion,
   },
   baseUrl: import.meta.url,
-};
+} satisfies Manifest;
 
 export default manifest;

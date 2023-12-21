@@ -1,0 +1,42 @@
+{
+  "home": {
+    "claim": "Growing in the nature",
+    "subClaim": "HEGAZTI FOREST SCHOOL",
+    "learnInNatureHeader": "Learning in the nature",
+    "learnInNatureBody": "{{- openParagraph}} Our essence is freedom, our environment is nature, the gift of childhood is motor and cognitive restlessness.{{- closeParagraph}}{{- openParagraph}}To learn in harmony with what we are, free and diverse beings, living creatures who feel and think.{{- closeParagraph}}{{- openParagraph}}In the living classroom, Nature is present. Where you can see the sky, touch the earth, smell the flowers, feel, move freely, investigate the environment, observe the real context.{{- closeParagraph}}{{- openParagraph}} This classroom nurtures the needs of a human being, feeds curiosity, stimulates the senses, and allows for feelings, a connection with the diversity of each person.{{- closeParagraph}}{{- openParagraph}}It's an inclusive classroom, where each being has its place.{{- closeParagraph}}",
+    "callToActionText": "",
+    "callToActionButton": "",
+    "servicesHeader": "",
+    "servicesTitle1": "",
+    "servicesBody1": "",
+    "servicesTitle2": "",
+    "servicesBody2": "",
+    "servicesTitle3": "",
+    "servicesBody3": "",
+    "servicesTitle4": "",
+    "servivcesBody4": "",
+    "servicesTitle5": "",
+    "servicesBody5": "",
+    "servicesButton": "",
+    "forestSchoolTitle1": "",
+    "forestSchoolSubtitle2": "",
+    "forestSchoolBody": "",
+    "galleryText1": "",
+    "gallerySubtext1": "",
+    "galleryText2": "",
+    "gallerySubtext2": "",
+    "galleryText3": "",
+    "gallerySubtext3": "",
+    "galleryText4": "",
+    "gallerySubtext4": "",
+    "galleryText5": "",
+    "gallerySubtext5": "",
+    "galleryText6": "",
+    "gallerySubtext6": "",
+    "quote": "",
+    "quoteAuthor": ""
+  },
+  "server": {
+    "started": "The server serves on port {{port}}."
+  }
+}

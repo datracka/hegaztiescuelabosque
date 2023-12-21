@@ -1,11 +1,14 @@
 # Hegazti Escuela Bosque Website
 
-dependencies
+remarkable dependencies
 
 - [Deno](https://deno.land/)
 - [fresh](https://fresh.deno.dev/)
 - [preact](https://preactjs.com/)
 - [twind](https://twind.dev/)
+- [i18n](https://www.i18next.com/),
+  [Backend](https://github.com/i18next/i18next-fs-backend) and
+  [Middleware](https://github.com/i18next/i18next-http-middleware)
 
 ### Usage
 

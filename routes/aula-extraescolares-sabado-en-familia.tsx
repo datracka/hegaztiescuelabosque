@@ -4,6 +4,7 @@ import SectionFooter from "@/components/Shared/SectionFooter.tsx";
 import { Head } from "$fresh/runtime.ts";
 import Hero from "@/components/Shared/Hero.tsx";
 
+// PENDING TO TRANSLATE !!
 export default function AulaExtraescolaresSabadoEnFamilia() {
   const staticPath = "/imgs/aula-extraescolares-sabados-en-familia";
   return (

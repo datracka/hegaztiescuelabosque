@@ -3,22 +3,39 @@ import { css, tw } from "twind/css";
 import SectionFooter from "@/components/Shared/SectionFooter.tsx";
 import { Head } from "$fresh/runtime.ts";
 import Hero from "@/components/Shared/Hero.tsx";
+import { useContext } from "preact/hooks";
+import { ContextState } from "@/routes/_app.tsx";
+import getFixedT from "@/components/i18n.ts";
+import { RouteConfig } from "$fresh/server.ts";
+
+export const config: RouteConfig = {
+  routeOverride: "/(extracurricular-playroom|aula-extraescolares-ludoteca)",
+};
 
 export default function AulaExtraescolaresLudoteca() {
+  const aspectRatio = css({
+    aspect_ratio: 1 / 1,
+  });
+
   const staticPath = "/imgs/aula-extraescolares-ludoteca";
+
+  const { languageAccepted } = useContext(ContextState);
+  const t = getFixedT(languageAccepted);
+  const menuTexts = t("menu", { returnObjects: true });
+
   return (
     <>
       <Head>
-        <title>Hegazti Escuela Bosque | Extraescolares - Ludoteca</title>
+        <title>{t("extracurricularPlayroom.header")}</title>
         <meta
           name="description"
-          content="La Escuela Bosque ofrece actividades extraescolares para niños/as de 3 a 12 años en contacto con la naturaleza y los animales. Ofrecen ludoteca y ludotecas de invierno, primavera y verano en un horario de 9:00 a 14:00 horas. Se invita a los interesados a hacer su reserva con anticipación."
+          content={t("extracurricularPlayroom.meta.description.content")}
         />
       </Head>
-      <NavBar />
+      <NavBar menuTexts={menuTexts} />
       <Hero
-        title="LUDOTECA"
-        description="Ludoteca para niños de 3 a 12 años."
+        title={t("extracurricularPlayroom.hero.claim")}
+        description={t("extracurricularPlayroom.hero.subClaim")}
         backgroundImage={`${staticPath}/hero-extraescolares-ludoteca.jpg`}
       />
       <section
@@ -27,7 +44,7 @@ export default function AulaExtraescolaresLudoteca() {
         )}
       >
         <h2 className={tw(`hegazti-h2 py-14 px-4 text-center border-b-1 mb-8`)}>
-          LUDOTECAS DE INVIERNO, PRIMAVERA Y VERANO
+          {t("extracurricularPlayroom.title")}
         </h2>
       </section>
       <section
@@ -40,39 +57,35 @@ export default function AulaExtraescolaresLudoteca() {
           className={tw`order-2 sm:order-1 sm:w-[48%] sm:flex-grow`}
         >
           <img
-            title="Adulto acompañando a niño en la naturaleza"
+            title={t("extracurricularPlayroom.imageTitle")}
             src={`${staticPath}/adulto-acompanando-nino-en-naturaleza.jpg`}
-            className={tw("w-full mb-4 object-cover", css`aspect-ratio:1/1`)}
+            className={tw("w-full mb-4 object-cover", aspectRatio)}
           />
         </div>
         <div className={tw`order-1 sm:order-2 sm:w-[48%] sm:flex-grow`}>
           <h3 className={tw("hegazti-h3  mb-4 ")}>
-            EXPERIMENTANDO LA NATURALEZA
+            {t("extracurricularPlayroom.subTitle")}
           </h3>
           <p className={tw("mb-4")}>
-            Nuestra Escuela Bosque se abre a otros niños/as de 3 a 12 años que
-            quieran compartir nuestra preciosa escuela y tener esta experiencia
-            en contacto con la naturaleza y los animales.
+            {t("extracurricularPlayroom.text1")}
           </p>
           <p className={tw("mb-4")}>
-            El horario que proponemos es de 9:00 a 14:00 hrs.
+            {t("extracurricularPlayroom.text2")}
           </p>
           <p className={tw("mb-4")}>
-            Y os animamos a que nos contactéis cuando lleguen las fechas para
-            poder hacer vuestra reserva.
+            {t("extracurricularPlayroom.text3")}
           </p>
           <p className={tw("mb-4")}>
-            Os adelantamos algunas de las actividades que realizamos durente
-            estas jornadas para que tengáis un poco más de información.
+            {t("extracurricularPlayroom.text4")}
           </p>
-          <p className={tw("mb-4")}>
+          <p className={tw("mb-12 mt-12")}>
             <a
               href="#"
               className={tw(
                 "text-xs inline-block border-2 border-black p-4 hover:bg-black hover:text-white",
               )}
             >
-              MÁS INFORMACIÓN
+              {t("extracurricularPlayroom.button")}
             </a>
           </p>
         </div>
