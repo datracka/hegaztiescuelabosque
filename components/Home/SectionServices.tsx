@@ -55,37 +55,37 @@ const SectionServices = ({ t }: { t: any }) => (
       title={t("home.services.bumbleBeeHouseTitle")}
       description={t("home.services.bumbleBeeHouseText")}
       img="imgs/home/servicios-madre-de-dia.jpg"
-      link="aula-madre-de-dia"
+      link={t("menu.forestAsClassroom.daytimeMother.url")}
       button={t("home.services.button")}
     />
     <ServiceItem
       title={t("home.services.forestHouseTitle")}
       description={t("home.services.forestHouseText")}
       img="imgs/home/servicios-infantil.jpg"
-      link="aula-infantil"
+      link={t("menu.forestAsClassroom.childhoodClass.url")}
       button={t("home.services.button")}
     />
     <ServiceItem
       title={t("home.services.birdNestTitle")}
       description={t("home.services.birdNestText")}
       img="imgs/home/servicios-primaria.jpg"
-      link="aula-primaria"
+      link={t("menu.forestAsClassroom.primarySchool.url")}
       button={t("home.services.button")}
     />
     <ServiceItem
       title={t("home.services.extracurricularPlayRoomTitle")}
       description={t("home.services.extracurricularPlayRoomText")}
       img="imgs/home/servicios-extraescolares-ludoteca.jpg"
-      link="aula-extraescolares-ludoteca"
+      link={t("menu.forestAsClassroom.extracurricularActivitiesPlayRoom.url")}
       button={t("home.services.button")}
     />
-    <ServiceItem
+   {/*  <ServiceItem
       title={t("home.services.extracurricularSaturdaysInFamilyTitle")}
       description={t("home.services.extracurricularSaturdaysInFamilyText")}
       img="imgs/home/servicios-extraescolares-sabados.jpg"
-      link="aula-extraescolares-sabado-en-familia"
+      link={t("menu.forestAsClassroom.extracurricularActivitiesSaturdays.url")}
       button={t("home.services.button")}
-    />
+    /> */}
   </section>
 );
 

@@ -100,7 +100,7 @@ export default function QuienesSomosFaqs() {
           {t("whoWeAreFaqs.moreQuestionsText")}
         </p>
         <a
-          href="mas-informacion"
+          href={t("menu.contact.url")}
           className={tw(
             "inline-block my-6 py-4 px-8 bg-[#415a30] text-white hover:bg-[#416a40]",
           )}
