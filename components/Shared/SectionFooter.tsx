@@ -13,7 +13,10 @@ const SectionFooter = () => {
 
   return (
     <div className={tw(`w-full p-4 sm:p-6 lg:p-8 bg-[#415a30] text-white`)}>
-      <SectionContact languageAccepted={languageAccepted} enableForm={enableForm} />
+      <SectionContact
+        languageAccepted={languageAccepted}
+        enableForm={enableForm}
+      />
       <div className={tw`my-4 mx-auto max-w-3xl text-center`}>
         <p class={tw`text-lg font-normal my-10 leading-none	`}>
           {t("footer.address")}
@@ -47,25 +50,25 @@ const SectionFooter = () => {
         </p>
         <p class={tw`text-xs my-10`}>
           <a
-            href="/legal-politica-de-cookies"
+            href={t("footer.cookiePolicy.url")}
             class={tw`block sm:inline-block px-2 mx-2`}
           >
-            {t("footer.cookiePolicyText")}
+            {t("footer.cookiePolicy.text")}
           </a>
           <a
-            href="/legal-politica-de-privacidad"
+            href={t("footer.privacyPolicy.url")}
             class={tw`block sm:inline-block px-2 mx-2`}
           >
-            {t("footer.privacyPolicyText")}
+            {t("footer.privacyPolicy.text")}
           </a>
           <a
-            href="/legal-aviso-legal"
+            href={t("footer.legal.url")}
             class={tw`block sm:inline-block px-2 mx-2`}
           >
-            {t("footer.legalText")}
+            {t("footer.legal.text")}
           </a>
           <a
-            href="/mas-informacion"
+            href={t("menu.contact.url")}
             class={tw`block sm:inline-block px-2 mx-2`}
           >
             {t("footer.contact")}

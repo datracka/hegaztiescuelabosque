@@ -80,7 +80,9 @@ export default function AulaExtraescolaresLudoteca() {
           </p>
           <p className={tw("mb-12 mt-12")}>
             <a
-              href="#"
+              href={t(
+                "menu.contact.url",
+              )}
               className={tw(
                 "text-xs inline-block border-2 border-black p-4 hover:bg-black hover:text-white",
               )}

@@ -37,7 +37,7 @@ export default function Home() {
         title={t("home.callToAction.title")}
         backgroundImage="imgs/home/home-pina.jpg"
         buttonText={t("home.callToAction.button")}
-        buttonLink="/mas-informacion"
+        buttonLink={t("menu.contact.url")}
       />
       <SectionServices t={t} />
       <SectionForestAsClassroom t={t} />
