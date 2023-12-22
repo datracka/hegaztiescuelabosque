@@ -31,6 +31,7 @@ export default function ({ menuTexts }: desktopMenuProps) {
                 url={menuOption.url}
                 highlighted={menuOption.highlighted}
                 target={menuOption.target}
+                noFollow={menuOption.noFollow}
               />
             )
         ))}

@@ -1,26 +1,10 @@
 # TODO
 
-## Localization
-
-- [ ] Fix issue with form & apply a conditional rendering in dev
-  - [x] Load envs from .env in handler
-  - [x] Add middleware to handle GET request !()[**https://fresh.deno.dev/docs/concepts/middleware]
-  - [ ] Then I have ctx available everywhere! Use it and stop propagating props.
-- [x] Translate Extraescolares Text
-- [x] Translate mas-information
-- [x] Translate Footer
-- [x] Translate The forest as classroom > DayTime Mother
-- [x] Translate The forest as classroom > Preschool Classroom
-- [x] Translate The forest as classroom > Primary School
-- [x] Translate The forest as classroom > Extracurriculars - Playroom
-- [x] Translate Who we are > Project
-- [ ] Translate Who we are > Nature and Spaces
-- [ ] Translate Who we are > A Day in Hegazti
-- [ ] Translate Who we are > Frequently Asked Questions
-- [x] Translate Contact
-- [ ] translate cookies policy
-- [ ] translate privacy policy
-- [ ] Make than url linking is english when english languange and spanish when spanish language
+- [x] Localize URLS
+- [x] Bug: URL blog & School calendar does not work
+- [ ] Bug: ENABLE_FORM environment var does not work in pre and prod
+- [ ] Add Price information & translation
+- [ ] Add flags switch (see problems pending to solve)
 
 ## Steps to localize, given a page
 
@@ -32,7 +16,7 @@
 - Add keys to English Josn
 - Translate them with ChatGPT and replace
 
-## Localization: The problem for the future
+## Localization: The problems pending to solve
 
 - [ ] make 18next_fs_backend@v2.3.0 work in i18n.ts so I can add translation in folders
 - [ ] understand why i18nextMiddleware.LanguageDetector does not work. learn i18next
