@@ -1,7 +1,7 @@
 # TODO
 
-- [ ] Localize URLS
-- [ ] Bug: URL blog & School calendar does not work
+- [x] Localize URLS
+- [x] Bug: URL blog & School calendar does not work
 - [ ] Bug: ENABLE_FORM environment var does not work in pre and prod
 - [ ] Add Price information & translation
 - [ ] Add flags switch (see problems pending to solve)

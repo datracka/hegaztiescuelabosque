@@ -15,13 +15,13 @@ export default function MenuItem(
 ) {
   const handleClick = (e: Event) => {
     e.preventDefault();
-    const currentURL: URL = new URL(location.href);
+    /*  const currentURL: URL = new URL(location.href);
     const finalUrl = currentURL.searchParams.get("language") != null
       ? `${currentURL.origin}/${url}?language=${
         currentURL.searchParams.get("language")
       }`
       : `${currentURL.origin}/${url}`;
-    location.assign(finalUrl);
+    location.assign(finalUrl); */
   };
 
   return (
@@ -32,11 +32,10 @@ export default function MenuItem(
       }`}
     >
       <a
-        href="#"
+        href={url}
         target={target}
         aria-current="page"
-        onClick={handleClick}
-        rel={noFollow ? "nofollow": "external"}
+        rel={noFollow ? "nofollow" : "external"}
       >
         {name}
       </a>

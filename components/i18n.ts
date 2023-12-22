@@ -55,7 +55,7 @@ const english = {
         },
       },
       extracurricularActivities: {
-        url: "extracurriculars-2023-202",
+        url: "extracurriculars-2023-2024",
         text: "Extracurriculars",
       },
       contact: {
