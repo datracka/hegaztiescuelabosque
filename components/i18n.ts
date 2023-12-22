@@ -1841,9 +1841,18 @@ Isn't it dangerous for children to play in the forest?
       (Naroa) / Collaboration Opportunities: 635 57 53 61 (Vicens)
       info@hegaztiescuelabosque.org
       `,
-      cookiePolicyText: "Cookie Policy",
-      privacyPolicyText: "Privacy Policy",
-      legalText: "Legal Notice",
+      cookiePolicy: {
+        url: "legal-cookie-policy",
+        text: "Cookie Policy"
+      },
+      privacyPolicy: {
+        url: "legal-privacy-policy",
+        text: "Privacy Policy"
+      },
+      legal: {
+        url: "legal-notice",
+        text: "Legal Notice"
+      },
       contact: "Contact",
       contactWithUs: "CONTACT WITH US",
     },
@@ -4137,9 +4146,18 @@ const spanish = {
         (Naroa) / Oportunidades de Colaboración: 635 57 53 61 (Vicens)
         info@hegaztiescuelabosque.org
       `,
-      cookiePolicyText: "política de cookies",
-      privacyPolicyText: "Política de privacidad",
-      legalText: "Aviso legal",
+      cookiePolicyText: {
+        url: "legal-politica-de-cookies",
+        text: "política de cookies"
+      },
+      privacyPolicyText: {
+        url: "legal-politica-de-privacidad",
+        text: "Política de privacidad"
+      },
+      legalText: {
+        url: "legal-aviso-legal",
+        text: "Aviso legal"
+      },
       contact: "Contacto",
       contactWithUs: "CONTACTA CON NOSOTROS",
     },
