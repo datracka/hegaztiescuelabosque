@@ -27,6 +27,11 @@ const WhereAreWe = ({ languageAccepted }: whereWeAreProps) => {
         {t("footer.timeTableText")}
       </p>
       <p class={tw(`mb-4`)}>
+        <strong className={tw`font-bold`}>{t("footer.timeTableTitle")}</strong>
+        <br />
+        {t("footer.timeTableText")}
+      </p>
+      <p class={tw(`mb-4`)}>
         <strong className={tw`font-bold`}>
           {t("footer.timeTableTextSummerTitle")}
         </strong>
