@@ -48,44 +48,48 @@ export default function QuienesSomosFaqs() {
         />
         <Faq
           question={t("whoWeAreFaqs.faq2.question")}
-          img={`${staticPath}/horario-de-cada-grupo.jpg`}
+          img={`${staticPath}/squirrel.png`}
           answer={t("whoWeAreFaqs.faq2.answer")}
         />
-
         <Faq
           question={t("whoWeAreFaqs.faq3.question")}
-          img={`${staticPath}/ropa-especial.jpg`}
+          img={`${staticPath}/horario-de-cada-grupo.jpg`}
           answer={t("whoWeAreFaqs.faq3.answer")}
         />
         <Faq
           question={t("whoWeAreFaqs.faq4.question")}
-          img={`${staticPath}/seguros.jpg`}
+          img={`${staticPath}/ropa-especial.jpg`}
           answer={t("whoWeAreFaqs.faq4.answer")}
         />
         <Faq
           question={t("whoWeAreFaqs.faq5.question")}
-          img={`${staticPath}/comida.jpg`}
+          img={`${staticPath}/seguros.jpg`}
           answer={t("whoWeAreFaqs.faq5.answer")}
         />
         <Faq
           question={t("whoWeAreFaqs.faq6.question")}
-          img={`${staticPath}/tiempo-afuera.jpg`}
+          img={`${staticPath}/comida.jpg`}
           answer={t("whoWeAreFaqs.faq6.answer")}
         />
         <Faq
           question={t("whoWeAreFaqs.faq7.question")}
-          img={`${staticPath}/visita-a-la-escuela.jpg`}
+          img={`${staticPath}/tiempo-afuera.jpg`}
           answer={t("whoWeAreFaqs.faq7.answer")}
         />
         <Faq
           question={t("whoWeAreFaqs.faq8.question")}
-          img={`${staticPath}/normas-y-limites.jpg`}
+          img={`${staticPath}/visita-a-la-escuela.jpg`}
           answer={t("whoWeAreFaqs.faq8.answer")}
         />
         <Faq
           question={t("whoWeAreFaqs.faq9.question")}
+          img={`${staticPath}/normas-y-limites.jpg`}
+          answer={t("whoWeAreFaqs.faq9.answer")}
+        />
+        <Faq
+          question={t("whoWeAreFaqs.faq10.question")}
           img={`${staticPath}/peligroso.jpg`}
-          answer={t("whoWeAreFaqs.faq8.answer")}
+          answer={t("whoWeAreFaqs.faq10.answer")}
         />
       </section>
       <section
