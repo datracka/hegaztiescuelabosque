@@ -674,6 +674,29 @@ const english = {
         answer: "The school hours are from 9:00 to 14:00 Monday to Friday.",
       },
       faq2: {
+        question: "What is the school's price?",
+        answer: `
+        <p className={tw("mb-4")}>
+         The price of the school is as follows:
+        </p>.
+        <p className={tw("mb-4")}>
+        €350 per month, full-time (25 hours per week).
+        </p>
+        <p className={tw("mb-4")}>
+        €250 per child, reduced rate (15 hours per week).
+        </p>
+        <p className={tw("mb-4")}>
+        €150 per child, super reduced rate (10 hours per week).
+        </p>
+        <p className={tw("mb-4")}>
+        And finally, for individual days: €20 per day.
+        </p>
+        <p className={tw("mb-4")}>
+        Depending on each family's circumstances, we are open to discussing the rates, which can potentially be offset through community work or activities benefiting the children and the school.
+        </p>
+        `,
+      },
+      faq3: {
         question: "What is the ratio in each group?",
         answer: `
         <p className={tw("mb-4")}>
@@ -688,7 +711,7 @@ const english = {
         </p>
         `,
       },
-      faq3: {
+      faq4: {
         question:
           "Do you need special clothing to go to a forest school? What if it rains?",
         answer: `
@@ -699,7 +722,7 @@ const english = {
         
         `,
       },
-      faq4: {
+      faq5: {
         question: "Is there any insurance?",
         answer: `
         <p className={tw("mb-4")}>
@@ -709,7 +732,7 @@ const english = {
       </p>
         `,
       },
-      faq5: {
+      faq6: {
         question: "What about food?",
         answer: `
           <p className={tw("mb-4")}>
@@ -719,7 +742,7 @@ const english = {
           </p>
         `,
       },
-      faq6: {
+      faq7: {
         question: "How much time do they spend outside? What about in winter?",
         answer: `
         <p className={tw("mb-4")}>
@@ -743,7 +766,7 @@ const english = {
       </p>
         `,
       },
-      faq7: {
+      faq8: {
         question: "Can you visit the school to get to know it?",
         answer: `
         <p className={tw("mb-4")}>
@@ -760,7 +783,7 @@ Isn't it dangerous for children to play in the forest?
       </p>
           `,
       },
-      faq8: {
+      faq9: {
         question: "What rules and limits are there in the forest school?",
         answer: `
         <p className={tw("mb-4")}>
@@ -769,7 +792,7 @@ Isn't it dangerous for children to play in the forest?
       </p>
         `,
       },
-      faq19: {
+      faq10: {
         question: "Isn't it dangerous for children to play in the forest?",
         answer: `
         <p className={tw("mb-4")}>
