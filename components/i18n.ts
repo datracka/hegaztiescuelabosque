@@ -1831,6 +1831,11 @@ Isn't it dangerous for children to play in the forest?
         "We are located in the Valdearas area, 1 kilometer from Viana and 9 km from Logroño.",
       timeTableTitle: "Forest School Schedule:",
       timeTableText: "Monday to Friday from 9:00 AM to 2:00 PM.",
+      priceTableTitle: "Rates for the 2023/2024 School Year:",
+      priceTableText1: "Full-time (25 hours/week): €350 per child.",
+      priceTableText2: "Reduced rate (15 hours/week): €250 per child.",
+      priceTableText3: "Super reduced rate (10 hours/week): €150 per child.",
+      priceTableText4: "Single days: €20 per day.",
       timeTableTextSummerTitle:
         "Winter, Spring, or Summer Toy Library Schedule:",
       timeTableTextSummerText: "From 9:00 AM to 2:00 PM.",
@@ -4136,6 +4141,11 @@ const spanish = {
         "Estamos ubicados en el Paraje de Valdearas a 1 kilómetro de Viana y a 9 km de Logroño.",
       timeTableTitle: "Horario de Escuela Bosque:",
       timeTableText: " De Lunes a Vierns de 9:00 a 14:00 hrs.",
+      priceTableTitle: "Tarifas Curso 20223 / 2024:",
+      priceTableText1: "Jornada completa (25 horas/semana): 350€ por niño.",
+      priceTableText2: "Tarifa reducida (15 horas/semana): 250€ por niño.",
+      priceTableText3: "Tarifa super reducida (10 horas/semana): 150€ por niño.",
+      priceTableText4: "Días sueltos: 20€ por día.",
       timeTableTextSummerTitle:
         "Horario Ludotecas de Invierno, Primavera o Verano:",
       timeTableTextSummerText: "De 9:00 a 14:00 hrs.",
