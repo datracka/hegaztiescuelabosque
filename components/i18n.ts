@@ -47,7 +47,7 @@ const english = {
         },
         aDayInHegazti: {
           url: "whoweare-hegazti",
-          text: "A day at Hegazti"
+          text: "A day at Hegazti",
         },
         faqs: {
           url: "whoweare-faqs",
@@ -68,7 +68,7 @@ const english = {
       },
       scholarCalendar: {
         url: "//docs.google.com/document/d/1Dk-Hd-NI8Y8oh9TxotYUyBzqWnu9dXUMpjkJ1dkAsCY/edit?usp=sharing",
-        text: "School Calendar 23/24"
+        text: "School Calendar 23/24",
       },
     },
     home: {
@@ -1831,6 +1831,11 @@ Isn't it dangerous for children to play in the forest?
         "We are located in the Valdearas area, 1 kilometer from Viana and 9 km from Logroño.",
       timeTableTitle: "Forest School Schedule:",
       timeTableText: "Monday to Friday from 9:00 AM to 2:00 PM.",
+      priceTableTitle: "Rates for the 2023/2024 School Year:",
+      priceTableText1: "Full-time (25 hours/week): €350 per child.",
+      priceTableText2: "Reduced rate (15 hours/week): €250 per child.",
+      priceTableText3: "Super reduced rate (10 hours/week): €150 per child.",
+      priceTableText4: "Single days: €20 per day.",
       timeTableTextSummerTitle:
         "Winter, Spring, or Summer Toy Library Schedule:",
       timeTableTextSummerText: "From 9:00 AM to 2:00 PM.",
@@ -1843,15 +1848,15 @@ Isn't it dangerous for children to play in the forest?
       `,
       cookiePolicy: {
         url: "legal-cookie-policy",
-        text: "Cookie Policy"
+        text: "Cookie Policy",
       },
       privacyPolicy: {
         url: "legal-privacy-policy",
-        text: "Privacy Policy"
+        text: "Privacy Policy",
       },
       legal: {
         url: "legal-notice",
-        text: "Legal Notice"
+        text: "Legal Notice",
       },
       contact: "Contact",
       contactWithUs: "CONTACT WITH US",
@@ -1870,7 +1875,7 @@ const spanish = {
         },
         childhoodClass: {
           url: "aula-infantil",
-          text: "Infantil"
+          text: "Infantil",
         },
         primarySchool: {
           url: "primary-school",
@@ -1878,12 +1883,12 @@ const spanish = {
         },
         extracurricularActivitiesPlayRoom: {
           url: "aula-extraescolares-ludoteca",
-          text: "Extraescolares - Ludoteca"
+          text: "Extraescolares - Ludoteca",
         },
         extracurricularActivitiesSaturdays: {
           url: "//",
           text: "Extraescolares - Sábados en familia",
-        }
+        },
       },
       whoWeAre: {
         text: "Quiénes somos",
@@ -1893,32 +1898,32 @@ const spanish = {
         },
         natureSpaces: {
           url: "quienes-somos-espacios",
-          text: "Naturaleza y espacios"
+          text: "Naturaleza y espacios",
         },
         aDayInHegazti: {
           url: "quienes-somos-hegazti",
-          text: "Un día en Hegazti"
+          text: "Un día en Hegazti",
         },
         faqs: {
           url: "quienes-somos-faqs",
-          text: "Preguntas frecuentes"
+          text: "Preguntas frecuentes",
         },
       },
       contact: {
         url: "mas-informacion",
-        text: "Contacto"
+        text: "Contacto",
       },
       extracurricularActivities: {
         url: "extraescolares-2023-2024",
-        text: "Extraescolares"
+        text: "Extraescolares",
       },
       blog: {
         url: "//blog.hegaztiescuelabosque.org",
-        text: "Blog"
+        text: "Blog",
       },
       scholarCalendar: {
         url: "//docs.google.com/document/d/1Dk-Hd-NI8Y8oh9TxotYUyBzqWnu9dXUMpjkJ1dkAsCY/edit?usp=sharing",
-        text: "Calendario escolar"
+        text: "Calendario escolar",
       },
     },
     home: {
@@ -2667,10 +2672,36 @@ const spanish = {
       },
       faq1: {
         question: "¿Cuál es el horario?",
-        answer:
-          "El horario de la escuela es de 9.00 a 14.00 de lunes a viernes.",
+        answer: `
+          <p className={tw("mb-4")}>
+            El horario de la escuela es de 9.00 a 14.00 de lunes a viernes.
+          </p>.
+          `,
       },
       faq2: {
+        question: "¿Cuál es el precio de la escuela?",
+        answer: `
+        <p className={tw("mb-4")}>
+          El precio de la escuela es de:
+        </p>.
+        <p className={tw("mb-4")}>
+          350€ al mes, jornada completa (25 horas/semana).
+        </p>
+        <p className={tw("mb-4")}>
+          250€ por niño, tarifa reducida (15 horas/semana).
+        </p>
+        <p className={tw("mb-4")}>
+        150€ por niño, tarifa super reducida (10 horas/semana).
+        </p>
+        <p className={tw("mb-4")}>
+        Y finalmente, días sueltos: 20€ por día.
+        </p>
+        <p className={tw("mb-4")}>
+        En función de las problematicas de cada familia estamos abiertos a hablar de las tarifas, pudiendo aportarse en trabajos comunitarios u actividades en beneficio de los niños y la escuela.
+        </p>
+        `,
+      },
+      faq3: {
         question: "¿Cuál es el ratio en cada grupo?",
         answer: `
           <p className={tw("mb-4")}>
@@ -2685,7 +2716,7 @@ const spanish = {
           </p>
         `,
       },
-      faq3: {
+      faq4: {
         question:
           "¿Se necesita ropa especial para ir a una escuela bosque?¿Y si llueve?",
         answer: `
@@ -2695,7 +2726,7 @@ const spanish = {
            </p>
         `,
       },
-      faq4: {
+      faq5: {
         question: "¿Hay algún seguro?",
         answer: `
             <p className={tw("mb-4")}>
@@ -2705,7 +2736,7 @@ const spanish = {
           </p>
         `,
       },
-      faq5: {
+      faq6: {
         question: "¿Y la comida?",
         answer: `
           <p className={tw("mb-4")}>
@@ -2715,7 +2746,7 @@ const spanish = {
           </p>
         `,
       },
-      faq6: {
+      faq7: {
         question: "¿Cuánto tiempo están afuera? ¿y en invierno?",
         answer: `
           <p className={tw("mb-4")}>
@@ -2747,7 +2778,7 @@ const spanish = {
           </p>
         `,
       },
-      faq7: {
+      faq8: {
         question: "¿Se puede hacer una visita a la escuela para conocerla?",
         answer: `
           <p className={tw("mb-4")}>
@@ -2755,7 +2786,7 @@ const spanish = {
           </p>
           `,
       },
-      faq8: {
+      faq9: {
         question: "¿Qué normas y límites hay en la escuela bosque?",
         answer: `
            <p className={tw("mb-4")}>
@@ -2766,7 +2797,7 @@ const spanish = {
           </p>
         `,
       },
-      faq19: {
+      faq10: {
         question: "¿No es peligroso que los niños jueguen en el bosque?",
         answer: `
           <p className={tw("mb-4")}>
@@ -4136,6 +4167,12 @@ const spanish = {
         "Estamos ubicados en el Paraje de Valdearas a 1 kilómetro de Viana y a 9 km de Logroño.",
       timeTableTitle: "Horario de Escuela Bosque:",
       timeTableText: " De Lunes a Vierns de 9:00 a 14:00 hrs.",
+      priceTableTitle: "Tarifas Curso 20223 / 2024:",
+      priceTableText1: "Jornada completa (25 horas/semana): 350€ por niño.",
+      priceTableText2: "Tarifa reducida (15 horas/semana): 250€ por niño.",
+      priceTableText3:
+        "Tarifa super reducida (10 horas/semana): 150€ por niño.",
+      priceTableText4: "Días sueltos: 20€ por día.",
       timeTableTextSummerTitle:
         "Horario Ludotecas de Invierno, Primavera o Verano:",
       timeTableTextSummerText: "De 9:00 a 14:00 hrs.",
@@ -4148,15 +4185,15 @@ const spanish = {
       `,
       cookiePolicyText: {
         url: "legal-politica-de-cookies",
-        text: "política de cookies"
+        text: "política de cookies",
       },
       privacyPolicyText: {
         url: "legal-politica-de-privacidad",
-        text: "Política de privacidad"
+        text: "Política de privacidad",
       },
       legalText: {
         url: "legal-aviso-legal",
-        text: "Aviso legal"
+        text: "Aviso legal",
       },
       contact: "Contacto",
       contactWithUs: "CONTACTA CON NOSOTROS",
