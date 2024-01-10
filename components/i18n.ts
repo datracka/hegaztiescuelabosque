@@ -82,8 +82,8 @@ const english = {
         },
       },
       hero: {
-        claim: "Growing up in nature.",
-        subClaim: "HEGAZTI FOREST SCHOOL",
+        claim: "HEGAZTI FOREST SCHOOL",
+        subClaim: "Alternative Education in Nature",
       },
       presentation: {
         learnInNatureHeader: "Learning in Nature.",
@@ -1960,8 +1960,8 @@ const spanish = {
         },
       },
       hero: {
-        claim: "Creciendo en la naturaleza",
-        subClaim: "HEGAZTI ESCUELA BOSQUE",
+        claim: "HEGAZTI ESCUELA BOSQUE",
+        subClaim: "Educación Alternativa en la Naturaleza",
       },
       presentation: {
         learnInNatureHeader: "Aprender en la Naturaleza",

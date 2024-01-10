@@ -3,5 +3,27 @@
   "deno.lint": true,
   "editor.defaultFormatter": "denoland.vscode-deno",
   "deno.unstable": true,
-  "github.copilot.advanced": {}
+  "github.copilot.advanced": {},
+  "oracledevtools.connections": [
+    {
+      "authenticationType": 1,
+      "dBAPrivilege": "SYSDBA",
+      "userID": "SYS",
+      "passwordSaved": false,
+      "dataSource": "localhost:1521/freeXDB",
+      "connectionType": 2,
+      "databaseHostName": "localhost",
+      "databasePortNumber": "1521",
+      "databaseServiceName": "freeXDB",
+      "tnsAdmin": "/Users/vicensfayos/Oracle/network/admin",
+      "name": "SYS.freeXDB.2",
+      "color": "none",
+      "currentSchema": "",
+      "addSettingsScopeToConnectionName": false,
+      "addCurrentSchemaToConnectionName": false,
+      "filters": [],
+      "useCompatibleNamesDirectoryPath": true
+    }
+  ],
+  "oracledevtools.defaultConnection": "SYS.freeXDB.2"
 }
