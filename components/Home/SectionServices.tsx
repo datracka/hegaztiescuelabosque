@@ -50,7 +50,6 @@ const SectionServices = ({ t }: { t: any }) => (
       `mx-auto max-w-7xl px-2 sm:px-6 lg:px-8 `,
     )}
   >
-    <h2 className={tw`hegazti-h2 mb-6`}></h2>
     <ServiceItem
       title={t("home.services.bumbleBeeHouseTitle")}
       description={t("home.services.bumbleBeeHouseText")}
@@ -79,13 +78,15 @@ const SectionServices = ({ t }: { t: any }) => (
       link={t("menu.forestAsClassroom.extracurricularActivitiesPlayRoom.url")}
       button={t("home.services.button")}
     />
-   {/*  <ServiceItem
+    {
+      /*  <ServiceItem
       title={t("home.services.extracurricularSaturdaysInFamilyTitle")}
       description={t("home.services.extracurricularSaturdaysInFamilyText")}
       img="imgs/home/servicios-extraescolares-sabados.jpg"
       link={t("menu.forestAsClassroom.extracurricularActivitiesSaturdays.url")}
       button={t("home.services.button")}
-    /> */}
+    /> */
+    }
   </section>
 );
 

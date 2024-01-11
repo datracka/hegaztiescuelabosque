@@ -1,19 +1,19 @@
-import { css, tw } from "twind/css";
+import { tw } from "twind/css";
 import NavBar from "@/islands/NavBar.tsx";
 import SectionFooter from "@/components/Shared/SectionFooter.tsx";
 import Hero from "@/components/Shared/Hero.tsx";
-import { Head } from "$fresh/runtime.ts";
 import Faq from "@/components/WhoWeAreFaqs/Faq.tsx";
 import getFixedT from "@/components/i18n.ts";
 import { useContext } from "preact/hooks";
 import { ContextState } from "@/routes/_app.tsx";
-import { RouteConfig } from "$fresh/server.ts";
+import { PageProps, RouteConfig } from "$fresh/server.ts";
+import HeadElement from "@/components/HeadElement.tsx";
 
 export const config: RouteConfig = {
   routeOverride: "/(whoweare-faqs|quienes-somos-faqs)",
 };
 
-export default function QuienesSomosFaqs() {
+export default function QuienesSomosFaqs(props: PageProps) {
   const { languageAccepted } = useContext(ContextState);
   const t = getFixedT(languageAccepted);
   const menuTexts = t("menu", { returnObjects: true });
@@ -21,15 +21,11 @@ export default function QuienesSomosFaqs() {
   const staticPath = "/imgs/quienes-somos-faqs";
   return (
     <>
-      <Head>
-        <title>
-          {t("whoWeAreFaqs.header.title")}
-        </title>
-        <meta
-          name="description"
-          content={t("whoWeAreFaqs.header.meta.description")}
-        />
-      </Head>
+      <HeadElement
+        description={t("whoWeAreFaqs.header.meta.description")}
+        title={t("whoWeAreFaqs.header.title")}
+        url={props.url}
+      />
       <NavBar menuTexts={menuTexts} />
       <Hero
         title={t("whoWeAreFaqs.hero.claim")}

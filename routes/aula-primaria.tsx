@@ -1,21 +1,21 @@
 import NavBar from "@/islands/NavBar.tsx";
 import SectionFooter from "@/components/Shared/SectionFooter.tsx";
 import Hero from "@/components/Shared/Hero.tsx";
-import { Head } from "$fresh/runtime.ts";
 import SectionContent from "@/components/PrimaryClassroom/SectionContent.tsx";
 import SectionSaying from "@/components/Shared/SectionSaying.tsx";
 import SectionGrid from "@/components/Shared/SectionGrid.tsx";
 import { useContext } from "preact/hooks";
 import { ContextState } from "@/routes/_app.tsx";
 import getFixedT from "@/components/i18n.ts";
-import { RouteConfig } from "$fresh/server.ts";
+import { PageProps, RouteConfig } from "$fresh/server.ts";
+import HeadElement from "@/components/HeadElement.tsx";
 
 export const config: RouteConfig = {
   routeOverride: "/(primary-school|aula-primaria)",
 };
 
 
-export default function AulaPrimaria() {
+export default function AulaPrimaria(props: PageProps) {
   const staticPath = "/imgs/aula-primaria";
 
   const { languageAccepted } = useContext(ContextState);
@@ -24,13 +24,7 @@ export default function AulaPrimaria() {
 
   return (
     <>
-      <Head>
-        <title>Hegazti Escuela Bosque | Aula - Primaria</title>
-        <meta
-          name={t("primarySchool.header.title")}
-          content={t("primarySchool.header.meta.description.content")}
-        />
-      </Head>
+    <HeadElement description={t("primarySchool.header.meta.description.content")} title={t("primarySchool.header.title")} url={props.url} />
       <NavBar menuTexts={menuTexts} />
       <Hero
         title={t("primarySchool.hero.claim")}
