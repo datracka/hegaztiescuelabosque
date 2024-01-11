@@ -13,10 +13,10 @@ const english = {
   translation: {
     menu: {
       forestAsClassroom: {
-        text: "The forest as a classroom",
+        text: "The Forest As a Classroom",
         daytimeMother: {
           url: "daily-mother-schoolroom",
-          text: "Daytime mother",
+          text: "Daytime Mother",
         },
         childhoodClass: {
           url: "preschool-classroom",
@@ -36,7 +36,7 @@ const english = {
         },
       },
       whoWeAre: {
-        text: "Who we are",
+        text: "Who We Are",
         project: {
           url: "whoweare-project",
           text: "Project",
@@ -47,7 +47,7 @@ const english = {
         },
         aDayInHegazti: {
           url: "whoweare-hegazti",
-          text: "A day at Hegazti",
+          text: "A Day at Hegazti",
         },
         faqs: {
           url: "whoweare-faqs",
