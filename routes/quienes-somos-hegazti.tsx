@@ -1,19 +1,19 @@
-import { css, tw } from "twind/css";
+import { tw } from "twind/css";
 import NavBar from "@/islands/NavBar.tsx";
 import SectionFooter from "@/components/Shared/SectionFooter.tsx";
-import { Head } from "$fresh/runtime.ts";
 import Hero from "@/components/Shared/Hero.tsx";
 import SectionContent from "@/components/WhoWeAreDayInHegazti/SectionContent.tsx";
 import getFixedT from "@/components/i18n.ts";
 import { useContext } from "preact/hooks";
 import { ContextState } from "@/routes/_app.tsx";
-import { RouteConfig } from "$fresh/server.ts";
+import { PageProps, RouteConfig } from "$fresh/server.ts";
+import HeadElement from "@/components/HeadElement.tsx";
 
 export const config: RouteConfig = {
   routeOverride: "/(whoweare-hegazti|quienes-somos-hegazti)",
 };
 
-export default function QuienesSomosHegazti() {
+export default function QuienesSomosHegazti(props: PageProps) {
   const { languageAccepted } = useContext(ContextState);
   const t = getFixedT(languageAccepted);
   const menuTexts = t("menu", { returnObjects: true });
@@ -21,22 +21,17 @@ export default function QuienesSomosHegazti() {
   const staticPath = "/imgs/quienes-somos-hegazti";
   return (
     <>
-      <Head>
-        <title>
-          {t("whoWeAreADayInHegazti.header.title")}
-        </title>
-        <meta
-          name="description"
-          content={t("whoWeAreADayInHegazti.header.meta.description.content")}
-        />
-      </Head>
+      <HeadElement
+        description={t("whoWeAreADayInHegazti.hero.subClaim")}
+        title={t("whoWeAreADayInHegazti.hero.claim")}
+        url={props.url}
+      />
       <NavBar menuTexts={menuTexts} />
       <Hero
         title={t("whoWeAreADayInHegazti.hero.claim")}
         description={t("whoWeAreADayInHegazti.hero.subClaim")}
         backgroundImage={`${staticPath}/hero-image.jpg`}
       />
-
       <section
         className={tw(
           `mx-auto max-w-7xl px-2 sm:px-6 lg:px-8`,

@@ -1,19 +1,19 @@
 import NavBar from "@/islands/NavBar.tsx";
 import SectionFooter from "@/components/Shared/SectionFooter.tsx";
 import Hero from "@/components/Shared/Hero.tsx";
-import { Head } from "$fresh/runtime.ts";
 import SectionContent from "@/components/WhoWeAreSpaces/SectionContent.tsx";
 import SectionGrid from "@/components/Shared/SectionGrid.tsx";
 import getFixedT from "@/components/i18n.ts";
 import { useContext } from "preact/hooks";
 import { ContextState } from "@/routes/_app.tsx";
-import { RouteConfig } from "$fresh/server.ts";
+import { PageProps, RouteConfig } from "$fresh/server.ts";
+import HeadElement from "@/components/HeadElement.tsx";
 
 export const config: RouteConfig = {
   routeOverride: "/(whoweare-spaces|quienes-somos-espacios)",
 };
 
-export default function QuienesSomosEspacios() {
+export default function QuienesSomosEspacios(props: PageProps) {
   const { languageAccepted } = useContext(ContextState);
   const t = getFixedT(languageAccepted);
   const menuTexts = t("menu", { returnObjects: true });
@@ -21,15 +21,11 @@ export default function QuienesSomosEspacios() {
   const staticPath = "/imgs/quienes-somos-espacios";
   return (
     <>
-      <Head>
-        <title>
-          {t("whoWeAreSpaces.header.title")}
-        </title>
-        <meta
-          name="description"
-          content={t("whoWeAreSpaces.header.meta.description.content")}
-        />
-      </Head>
+      <HeadElement
+        description={t("whoWeAreSpaces.header.meta.description.content")}
+        title={t("whoWeAreSpaces.header.title")}
+        url={props.url}
+      />
       <NavBar menuTexts={menuTexts} />
       <Hero
         title={t("whoWeAreSpaces.hero.claim")}

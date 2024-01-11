@@ -3,9 +3,9 @@ import NavBar from "@/islands/NavBar.tsx";
 import Hero from "@/components/Shared/Hero.tsx";
 import { Head } from "$fresh/runtime.ts";
 import SectionFooter from "@/components/Shared/SectionFooter.tsx";
-import SectionMasInformacion from "@/islands/SectionMasInformacion.tsx";
 import GetToKnow from "@/components/OpenDoors2023/GetToKnow.tsx";
 
+// pending to translate!!
 export default function JornadaPuertasAbiertas() {
   const staticPath = "/imgs/jornada-puertas-abiertas-2023";
   return (

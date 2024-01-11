@@ -1,30 +1,28 @@
 import { tw } from "twind/css";
-import { RouteConfig } from "$fresh/server.ts";
+import { PageProps, RouteConfig } from "$fresh/server.ts";
 import NavBar from "@/islands/NavBar.tsx";
 import SectionFooter from "@/components/Shared/SectionFooter.tsx";
 import SectionMasInformacion from "@/islands/SectionMasInformacion.tsx";
-import { Head } from "$fresh/runtime.ts";
 import getFixedT from "@/components/i18n.ts";
 import { useContext } from "preact/hooks";
 import { ContextState } from "@/routes/_app.tsx";
+import HeadElement from "@/components/HeadElement.tsx";
 
 export const config: RouteConfig = {
   routeOverride: "/(mas-informacion|more-information)",
 };
 
-export default function MasInformacion() {
+export default function MasInformacion(props: PageProps) {
   const { languageAccepted, enableForm } = useContext(ContextState);
   const t = getFixedT(languageAccepted);
   const menuTexts = t("menu", { returnObjects: true });
   return (
     <>
-      <Head>
-        <title>{t("moreInformation.header.title")}</title>
-        <meta
-          name="description"
-          content={t("moreInformation.header.meta.description.content")}
-        />
-      </Head>
+      <HeadElement
+        description={t("moreInformation.header.meta.description.content")}
+        title={t("moreInformation.header.title")}
+        url={props.url}
+      />
       <NavBar menuTexts={menuTexts} />
       <section
         className={tw(
