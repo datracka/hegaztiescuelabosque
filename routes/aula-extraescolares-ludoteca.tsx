@@ -6,13 +6,14 @@ import Hero from "@/components/Shared/Hero.tsx";
 import { useContext } from "preact/hooks";
 import { ContextState } from "@/routes/_app.tsx";
 import getFixedT from "@/components/i18n.ts";
-import { RouteConfig } from "$fresh/server.ts";
+import { PageProps, RouteConfig } from "$fresh/server.ts";
+import HeadElement from "@/components/HeadElement.tsx";
 
 export const config: RouteConfig = {
   routeOverride: "/(extracurricular-playroom|aula-extraescolares-ludoteca)",
 };
 
-export default function AulaExtraescolaresLudoteca() {
+export default function AulaExtraescolaresLudoteca(props: PageProps) {
   const aspectRatio = css({
     aspect_ratio: 1 / 1,
   });
@@ -25,13 +26,11 @@ export default function AulaExtraescolaresLudoteca() {
 
   return (
     <>
-      <Head>
-        <title>{t("extracurricularPlayroom.header")}</title>
-        <meta
-          name="description"
-          content={t("extracurricularPlayroom.meta.description.content")}
-        />
-      </Head>
+      <HeadElement
+        description={t("extracurricularPlayroom.meta.description.content")}
+        title={t("extracurricularPlayroom.header")}
+        url={props.url}
+      />
       <NavBar menuTexts={menuTexts} />
       <Hero
         title={t("extracurricularPlayroom.hero.claim")}

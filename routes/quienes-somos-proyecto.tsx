@@ -1,36 +1,31 @@
+import { tw } from "twind/css";
 import NavBar from "@/islands/NavBar.tsx";
-import { css, tw } from "twind/css";
 import SectionCardList from "@/components/Shared/SectionCardList.tsx";
 import SectionFooter from "@/components/Shared/SectionFooter.tsx";
-import { Head } from "$fresh/runtime.ts";
 import Hero from "@/components/Shared/Hero.tsx";
 import { useContext } from "preact/hooks";
 import { ContextState } from "@/routes/_app.tsx";
 import getFixedT from "@/components/i18n.ts";
-import { RouteConfig } from "$fresh/server.ts";
+import { PageProps, RouteConfig } from "$fresh/server.ts";
+import HeadElement from "@/components/HeadElement.tsx";
 
 export const config: RouteConfig = {
   routeOverride: "/(quienes-somos-proyecto|whoweare-project)",
 };
 
-export default function QuienesSomosProyecto() {
+export default function QuienesSomosProyecto(props: PageProps) {
   const staticPath = "/imgs/quienes-somos-proyecto";
-
   const { languageAccepted } = useContext(ContextState);
   const t = getFixedT(languageAccepted);
   const menuTexts = t("menu", { returnObjects: true });
 
   return (
     <>
-      <Head>
-        <title>
-          {t("whoWeAreProject.header.title")}
-        </title>
-        <meta
-          name="description"
-          content={t("whoWeAreProject.header.meta.description.content")}
-        />
-      </Head>
+      <HeadElement
+        description={t("whoWeAreProject.header.meta.description.content")}
+        title={t("whoWeAreProject.header.title")}
+        url={props.url}
+      />
       <NavBar menuTexts={menuTexts} />
       <Hero
         title={t("whoWeAreProject.hero.claim")}
@@ -60,44 +55,37 @@ export default function QuienesSomosProyecto() {
           },
           {
             title: t("whoWeAreProject.cardList.title3"),
-            description:
-              t("whoWeAreProject.cardList.text3"),
+            description: t("whoWeAreProject.cardList.text3"),
             img: `${staticPath}/juego-libre.jpg`,
           },
           {
             title: t("whoWeAreProject.cardList.title4"),
-            description:
-              t("whoWeAreProject.cardList.text4"),
+            description: t("whoWeAreProject.cardList.text4"),
             img: `${staticPath}/vinculo.jpg`,
           },
           {
             title: t("whoWeAreProject.cardList.title5"),
-            description:
-              t("whoWeAreProject.cardList.text5"),
+            description: t("whoWeAreProject.cardList.text5"),
             img: `${staticPath}/acompanamiento-emocional-y-respetuoso.jpg`,
           },
           {
             title: t("whoWeAreProject.cardList.title6"),
-            description:
-              t("whoWeAreProject.cardList.text6"),
+            description: t("whoWeAreProject.cardList.text6"),
             img: `${staticPath}/comunicacion-no-violenta.jpg`,
           },
           {
             title: t("whoWeAreProject.cardList.title7"),
-            description:
-              t("whoWeAreProject.cardList.text7"),
+            description: t("whoWeAreProject.cardList.text7"),
             img: `${staticPath}/interedad.jpg`,
           },
           {
             title: t("whoWeAreProject.cardList.title8"),
-            description:
-              t("whoWeAreProject.cardList.text8"),
+            description: t("whoWeAreProject.cardList.text8"),
             img: `${staticPath}/movimiento-libre.jpg`,
           },
           {
             title: t("whoWeAreProject.cardList.title9"),
-            description:
-              t("whoWeAreProject.cardList.text9"),
+            description: t("whoWeAreProject.cardList.text9"),
             img: `${staticPath}/valores-solidarios.jpg`,
           },
         ]}

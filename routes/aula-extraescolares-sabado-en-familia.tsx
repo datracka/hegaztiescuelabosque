@@ -1,23 +1,20 @@
 import NavBar from "@/islands/NavBar.tsx";
 import { css, screen, tw } from "twind/css";
 import SectionFooter from "@/components/Shared/SectionFooter.tsx";
-import { Head } from "$fresh/runtime.ts";
 import Hero from "@/components/Shared/Hero.tsx";
+import HeadElement from "@/components/HeadElement.tsx";
+import { PageProps } from "$fresh/server.ts";
 
 // PENDING TO TRANSLATE !!
-export default function AulaExtraescolaresSabadoEnFamilia() {
+export default function AulaExtraescolaresSabadoEnFamilia(props: PageProps) {
   const staticPath = "/imgs/aula-extraescolares-sabados-en-familia";
   return (
     <>
-      <Head>
-        <title>
-          Hegazti Escuela Bosque | Extraescolares - Sábados en familia
-        </title>
-        <meta
-          name="description"
-          content="La Escuela Bosque ofrece una experiencia en la naturaleza para familias con su programa 'Sábados en Familia'. Durante el segundo sábado de cada mes, se organizan actividades como juegos en familia, cuentos, vínculo con las yeguas, chocolatada y bizcochada. El horario es de 10:00 a 14:00 hrs. Los precios son 15 € por niño/a, 25€ por 2 niños/as, 35€ por 3 niños/as y la entrada para adultos es libre."
-        />
-      </Head>
+      <HeadElement
+        description="La Escuela Bosque ofrece una experiencia en la naturaleza para familias con su programa 'Sábados en Familia'. Durante el segundo sábado de cada mes, se organizan actividades como juegos en familia, cuentos, vínculo con las yeguas, chocolatada y bizcochada. El horario es de 10:00 a 14:00 hrs. Los precios son 15 € por niño/a, 25€ por 2 niños/as, 35€ por 3 niños/as y la entrada para adultos es libre."
+        title="Hegazti Escuela Bosque | Extraescolares - Sábados en familia"
+        url={props.url}
+      />
       <NavBar />
       <Hero
         title="SÁBADOS EN FAMILIA"

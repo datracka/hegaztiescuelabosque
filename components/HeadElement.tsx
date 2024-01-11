@@ -1,17 +1,22 @@
 import { Head } from "$fresh/runtime.ts";
+import { FunctionalComponent, h } from "preact";
 
 export type HeadProps = {
   url: URL;
   title: string;
   description: string;
   image?: string;
+  children?: h.JSX.Element | h.JSX.Element[] | string | number | null;
 };
 
-export function HeadElement({ description, image, title, url }: HeadProps) {
+const HeadElement: FunctionalComponent<HeadProps>  =  (
+  { description, image, title, url, children }: HeadProps,
+) => {
   return (
     <Head>
       <title>{title}</title>
       <link rel="icon" href="/favicon.ico" sizes="32x32" />
+      <link rel="canonical" href={url.href} />
       <meta name="description" content={description} />
 
       {/* Facebook Meta Tags */}
@@ -28,6 +33,9 @@ export function HeadElement({ description, image, title, url }: HeadProps) {
       <meta name="twitter:title" content={title} />
       <meta name="twitter:description" content={description} />
       {image && <meta name="twitter:image" content={image} />}
+      {children ? children : null}
     </Head>
   );
 }
+
+export default HeadElement

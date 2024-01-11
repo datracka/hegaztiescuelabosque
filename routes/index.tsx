@@ -1,4 +1,3 @@
-import { Head } from "$fresh/runtime.ts";
 import { PageProps } from "$fresh/server.ts";
 import Hero from "@/components/Shared/Hero.tsx";
 import CallToAction from "@/components/Home/CallToAction.tsx";
@@ -12,20 +11,15 @@ import SectionGallery from "@/components/Home/SectionGallery.tsx";
 import getFixedT from "@/components/i18n.ts";
 import { useContext } from "preact/hooks";
 import { ContextState } from "@/routes/_app.tsx";
+import HeadElement from "@/components/HeadElement.tsx";
 
-export default function Home() {
+export default function Home(props: PageProps) {
   const { languageAccepted } = useContext(ContextState);
   const t = getFixedT(languageAccepted);
   const menuTexts = t("menu", { returnObjects: true });
   return (
     <>
-      <Head>
-        <title>{t("home.header.title")}</title>
-        <meta
-          name="description"
-          content={t("home.header.meta.description.content")}
-        />
-      </Head>
+      <HeadElement description={t("home.header.meta.description.content")} title={t("home.header.title")} url={props.url} />
       <NavBar menuTexts={menuTexts} />
       <Hero
         title={t("home.hero.claim")}

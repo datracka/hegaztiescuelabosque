@@ -1,39 +1,34 @@
 import NavBar from "@/islands/NavBar.tsx";
 import {
-  HandlerContext,
-  Handlers,
   PageProps,
   RouteConfig,
 } from "$fresh/server.ts";
 import SectionFooter from "@/components/Shared/SectionFooter.tsx";
 import Hero from "@/components/Shared/Hero.tsx";
-import { Head } from "$fresh/runtime.ts";
 import SectionContent from "@/components/InfantClassroom/SectionContent.tsx";
 import SectionSaying from "@/components/Shared/SectionSaying.tsx";
 import SectionGrid from "@/components/Shared/SectionGrid.tsx";
 import getFixedT from "@/components/i18n.ts";
 import { useContext } from "preact/hooks";
 import { ContextState } from "@/routes/_app.tsx";
-// import SectionCallToAction from "@/components/Shared/SectionCallToAction.tsx";
+import HeadElement from "@/components/HeadElement.tsx";
 
 export const config: RouteConfig = {
   routeOverride: "/(aula-infantil|preschool-classroom)",
 };
 
-export default function AulaInfantil() {
+export default function AulaInfantil(props: PageProps) {
   const { languageAccepted } = useContext(ContextState);
   const t = getFixedT(languageAccepted);
   const menuTexts = t("menu", { returnObjects: true });
   const staticPath = "/imgs/aula-infantil";
   return (
     <>
-      <Head>
-        <title>{t("preschoolClassroom.header.title")}</title>
-        <meta
-          name="description"
-          content={t("preschoolClassroom.header.meta.description.content")}
-        />
-      </Head>
+     <HeadElement
+        description={t("preschoolClassroom.header.meta.description.content")}
+        title={t("preschoolClassroom.header.title")}
+        url={props.url}
+      />
       <NavBar menuTexts={menuTexts} />
       <Hero
         title={t("preschoolClassroom.hero.claim")}
