@@ -12,7 +12,7 @@ import getFixedT from "@/components/i18n.ts";
 import { useContext } from "preact/hooks";
 import { ContextState } from "@/routes/_app.tsx";
 import HeadElement from "@/components/HeadElement.tsx";
-import Prices from "../components/Prices/Prices.tsx";
+import Prices from "@/components/Prices/Prices.tsx";
 import Opinions from "@/components/Opinions/Opinions.tsx";
 
 export default function Home(props: PageProps) {
