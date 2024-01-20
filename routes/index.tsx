@@ -13,6 +13,7 @@ import { useContext } from "preact/hooks";
 import { ContextState } from "@/routes/_app.tsx";
 import HeadElement from "@/components/HeadElement.tsx";
 import Prices from "../components/Prices/Prices.tsx";
+import Opinions from "@/components/Opinions/Opinions.tsx";
 
 export default function Home(props: PageProps) {
   const { languageAccepted } = useContext(ContextState);
@@ -38,7 +39,6 @@ export default function Home(props: PageProps) {
         buttonText={t("home.callToAction.button")}
         buttonLink={t("menu.contact.url")}
       />
-      <Prices t={t} />
       <SectionServices t={t} />
       <SectionForestAsClassroom t={t} />
       <SectionGallery
@@ -68,9 +68,27 @@ export default function Home(props: PageProps) {
           image: "imgs/home/home-caballos.jpg",
         }]}
       />
+      <Prices t={t} />
       <SectionSaying
         text={t("home.quote.text")}
         author={t("home.quote.author")}
+      />
+      <Opinions
+        title={t("home.opinions.title")}
+        list={[
+          {
+            testimonial: t("home.opinions.testimonial1"),
+            name: t("home.opinions.name1"),
+          },
+          {
+            testimonial: t("home.opinions.testimonial2"),
+            name: t("home.opinions.name2"),
+          },
+          {
+            testimonial: t("home.opinions.testimonial3"),
+            name: t("home.opinions.name3"),
+          },
+        ]}
       />
       <SectionFooter />
     </>

@@ -35,7 +35,7 @@ const ItemImage = (item: GalleryItemProps) => (
 );
 
 const SectionGallery = (ctx: GalleryProps) => (
-  <section className={tw(`mx-auto max-w-7xl px-2 sm:px-6 lg:px-8`)}>
+  <section className={tw(`mx-auto max-w-7xl px-2 sm:px-6 lg:px-8 mb-16`)}>
     <div className={tw(`flex flex-col sm:flex-row gap-4`)}>
       <ItemImage
         title={ctx.list[0].title}

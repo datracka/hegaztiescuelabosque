@@ -139,10 +139,12 @@ const english = {
         rates: {
           fullTime: "Full-time (25 hours/week): €350 per child.",
           reducedTime: "Reduced rate (15 hours/week): €250 per child.",
-          superReducedTime: "Super reduced rate (10 hours/week): €150 per child.",
+          superReducedTime:
+            "Super reduced rate (10 hours/week): €150 per child.",
           daily: "Single days: €20 per day.",
-          flexible: "Depending on each family's circumstances, we are open to discussing the rates, which can potentially be offset through community work or activities benefiting the children and the school."
-        }  
+          flexible:
+            "Depending on each family's circumstances, we are open to discussing the rates, which can potentially be offset through community work or activities benefiting the children and the school.",
+        },
       },
       forestAsClassroom: {
         title: "The forest as a classroom",
@@ -181,6 +183,18 @@ const english = {
       quote: {
         text: "”Tell me, and I forget. Teach me, and I remember. Involve me, and I learn.”",
         author: "— Benjamin Franklin",
+      },
+      opinions: {
+        title: "WHAT DO THEY SAY ABOUT US?",
+        testimonial1:
+          "As a parent, I've watched my child flourish at Hegazti Forest School. The school's unique approach of using nature as a classroom has ignited a passion for learning in my son. He's developed a deeper understanding and respect for the environment, which is something textbooks alone could never have provided. ",
+        name1: "Vicens Fayos",
+        testimonial2:
+          "My daughter's experience at Hegazti Forest School has been transformative. The school's emphasis on experiential learning and emotional intelligence has helped her grow into a confident and self-assured individual. She has developed a strong sense of curiosity and a love for outdoor activities.",
+        name2: "Yoryina Polanco",
+        testimonial3:
+          "Hegazti Forest School is not just a school; it's a community where children learn to value nature, develop empathy, and build social skills. My child has learned the importance of teamwork, responsibility, and resilience in this enriching environment.",
+        name3: "Inma Sánchez",
       },
     },
     moreInformation: {
