@@ -12,7 +12,7 @@ import getFixedT from "@/components/i18n.ts";
 import { useContext } from "preact/hooks";
 import { ContextState } from "@/routes/_app.tsx";
 import HeadElement from "@/components/HeadElement.tsx";
-import Prices from "@/components/prices/prices.tsx";
+import Prices from "../components/Prices/prices.tsx";
 
 export default function Home(props: PageProps) {
   const { languageAccepted } = useContext(ContextState);
