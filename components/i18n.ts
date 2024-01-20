@@ -73,11 +73,11 @@ const english = {
     },
     home: {
       header: {
-        title: "Hegazti Forest School",
+        title: "Hegazti Forest School, Viana (Navarra)",
         meta: {
           description: {
             content:
-              "Hegazti Forest School is a school that offers an educational approach based on nature-based learning and environmental connection. We provide a variety of services, including Bumblebee, Forest, Treehouse, and Bird's Nest cottages for children aged 0 to 12. We also offer extracurricular activities such as winter, spring, and summer playrooms, as well as Family Saturdays. In our school, learning is a holistic process that is functionally experienced and integrated into everyday life. Our goals are to promote the comprehensive development of all individuals involved and to cultivate emotional intelligence alongside problem-solving skills. In our living classroom, children can explore, investigate, and learn in direct contact with nature, while our guides provide support and tools to enrich their experience.",
+              "Join our vibrant community, immerse yourself in the wonders of nature, and enjoy flexible pricing options. Experience education in its purest form.",
           },
         },
       },
@@ -132,6 +132,17 @@ const english = {
         extracurricularSaturdaysInFamilyText:
           "Our Forest School opens space for experiences in nature for families. On the second Saturday of each month, Hegazti opens its doors and organizes a day for families in nature.",
         button: "To know more",
+      },
+      prices: {
+        title: "WHAT IS THE SCHOOL'S PRICE?",
+        description: "The price of the school is as follows:",
+        rates: {
+          fullTime: "Full-time (25 hours/week): €350 per child.",
+          reducedTime: "Reduced rate (15 hours/week): €250 per child.",
+          superReducedTime: "Super reduced rate (10 hours/week): €150 per child.",
+          daily: "Single days: €20 per day.",
+          flexible: "Depending on each family's circumstances, we are open to discussing the rates, which can potentially be offset through community work or activities benefiting the children and the school."
+        }  
       },
       forestAsClassroom: {
         title: "The forest as a classroom",
@@ -1951,11 +1962,11 @@ const spanish = {
     },
     home: {
       header: {
-        title: "Hegazti Escuela Bosque",
+        title: "Hegazti Escuela Bosque, Viana (Navarra)",
         meta: {
           description: {
             content:
-              "Hegazti Escuela Bosque es una escuela que ofrece un enfoque educativo basado en el aprendizaje en la naturaleza y la conexión con el medio ambiente. Ofrecemos una variedad de servicios que incluyen Casitas Abejorro, del Bosque, del Árbol y Nido de Pájaro para niños y niñas de 0 a 12 años. También ofrecemos actividades extracurriculares como ludotecas de invierno, primavera y verano, y sábados en familia. En nuestra escuela, el aprendizaje es un proceso holístico que se vive de manera funcional y se integra en la vida cotidiana. Nuestros objetivos son promover el desarrollo integral de todas las personas involucradas y desarrollar la inteligencia emocional junto con la resolución de problemas. En nuestro aula viva, los niños pueden explorar, investigar y aprender en contacto directo con la naturaleza, mientras nuestros guías les brindan apoyo y herramientas para enriquecer su experiencia.",
+              "Únete a nuestra comunidad vibrante, sumérgete en las maravillas de la naturaleza y disfruta de opciones de precios flexibles. Experimenta la educación en su forma más pura.",
           },
         },
       },

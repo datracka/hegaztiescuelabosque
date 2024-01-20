@@ -12,6 +12,7 @@ import getFixedT from "@/components/i18n.ts";
 import { useContext } from "preact/hooks";
 import { ContextState } from "@/routes/_app.tsx";
 import HeadElement from "@/components/HeadElement.tsx";
+import Prices from "@/components/prices/prices.tsx";
 
 export default function Home(props: PageProps) {
   const { languageAccepted } = useContext(ContextState);
@@ -19,7 +20,11 @@ export default function Home(props: PageProps) {
   const menuTexts = t("menu", { returnObjects: true });
   return (
     <>
-      <HeadElement description={t("home.header.meta.description.content")} title={t("home.header.title")} url={props.url} />
+      <HeadElement
+        description={t("home.header.meta.description.content")}
+        title={t("home.header.title")}
+        url={props.url}
+      />
       <NavBar menuTexts={menuTexts} />
       <Hero
         title={t("home.hero.claim")}
@@ -33,6 +38,7 @@ export default function Home(props: PageProps) {
         buttonText={t("home.callToAction.button")}
         buttonLink={t("menu.contact.url")}
       />
+      <Prices t={t} />
       <SectionServices t={t} />
       <SectionForestAsClassroom t={t} />
       <SectionGallery
