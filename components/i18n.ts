@@ -135,12 +135,20 @@ const english = {
       },
       prices: {
         title: "WHAT IS THE SCHOOL'S PRICE?",
-        description: "The price of the school is as follows:",
+        description: `
+          We are entirely self-financed and do not receive any public funding.
+          As a result, we must charge a fee to cover the school's expenses.
+          However, we understand that each family's situation is unique, and
+          we are open to discussing rates, which may be adjusted based on
+          individual circumstances. Additionally, opportunities for offsetting
+          costs through community involvement or activities benefiting both
+          the children and the school can be explored.
+        `,
         rates: {
+          title: "The prices of School is as follows:",
           fullTime: "Full-time (25 hours/week): €350 per child.",
-          reducedTime: "Reduced rate (15 hours/week): €250 per child.",
-          superReducedTime:
-            "Super reduced rate (10 hours/week): €150 per child.",
+          reduced: "Reduced rate (15 hours/week): €250 per child.",
+          superReduced: "Super reduced rate (10 hours/week): €150 per child.",
           daily: "Single days: €20 per day.",
           flexible:
             "Depending on each family's circumstances, we are open to discussing the rates, which can potentially be offset through community work or activities benefiting the children and the school.",
