@@ -195,7 +195,7 @@ const english = {
       opinions: {
         title: "WHAT DO THEY SAY ABOUT US?",
         testimonial1:
-          "As a parent, I've watched my child flourish at Hegazti Forest School. The school's unique approach of using nature as a classroom has ignited a passion for learning in my son. He's developed a deeper understanding and respect for the environment, which is something textbooks alone could never have provided. ",
+          "As a parent, I've watched my child flourish at Hegazti Forest School. The school's unique approach of using nature as a classroom has ignited a passion for learning in my son. He's developed a deeper understanding and respect for the environment, which is something textbooks alone could never have provided.",
         name1: "Vicens Fayos",
         testimonial2:
           "My daughter's experience at Hegazti Forest School has been transformative. The school's emphasis on experiential learning and emotional intelligence has helped her grow into a confident and self-assured individual. She has developed a strong sense of curiosity and a love for outdoor activities.",
@@ -2046,6 +2046,22 @@ const spanish = {
           "Nuestra Escuela Bosque abre espacio a experiencias en la naturaleza para familias. El segundo sábado de cada mes Hegazti abre las puertas y organiza una jornada para familias en la naturaleza.",
         button: "Saber más",
       },
+      prices: {
+        title: "¿CUÁL ES EL PRECIO DE LA ESCUELA?",
+        description: `
+        Somos completamente autofinanciados y no recibimos ningún tipo de financiamiento público. Como resultado, debemos cobrar una tarifa para cubrir los gastos de la escuela. Sin embargo, entendemos que la situación de cada familia es única y estamos abiertos a discutir las tarifas, las cuales pueden ajustarse según las circunstancias individuales. Además, se pueden explorar oportunidades para compensar los costos a través de la participación en la comunidad o actividades que beneficien tanto a los niños como a la escuela.
+        `,
+        rates: {
+          title: "Los precios de la escuela son los siguientes:",
+          fullTime: "Tiempo completo (25 horas/semana): €350 por niño.",
+          reduced: "Tarifa reducida (15 horas/semana): €250 por niño.",
+          superReduced:
+            "Tarifa súper reducida (10 horas/semana): €150 por niño.",
+          daily: "Días individuales: €20 por día.",
+          flexible:
+            "Dependiendo de las circunstancias de cada familia, estamos abiertos a discutir las tarifas, las cuales pueden posiblemente ser compensadas a través de trabajo comunitario o actividades que beneficien a los niños y a la escuela.",
+        },
+      },
       forestAsClassroom: {
         title: "El bosque como aula",
         keys: "Creatividad / Descubrimiento / Experienias Vividas / Inteligencia Emocional / Juego Libre / Conciencia Ecológica / Valores Solidarios / Habilidades Cognitivas, emocionales y sociales/ Desarrollo Integral",
@@ -2091,6 +2107,18 @@ const spanish = {
       quote: {
         text: "”Dímelo y lo olvido. Enseñame y lo recuerdo. Involúcrame y lo aprendo.”",
         author: "— Benjamin Franklin",
+      },
+      opinions: {
+        title: "¿QUÉ DICEN DE NOSOTROS?",
+        testimonial1:
+          "Como padre, he visto a mi hijo florecer en la Escuela Forestal Hegazti. El enfoque único de la escuela de utilizar la naturaleza como aula ha encendido una pasión por el aprendizaje en mi hijo. Ha desarrollado una comprensión más profunda y un respeto por el medio ambiente, algo que los libros de texto por sí solos nunca podrían haber proporcionado.",
+        name1: "Vicens Fayos",
+        testimonial2:
+          "La experiencia de mi hija en la Escuela Forestal Hegazti ha sido transformadora. El énfasis de la escuela en el aprendizaje experiencial y la inteligencia emocional la ha ayudado a crecer como una persona segura y segura de sí misma. Ha desarrollado un fuerte sentido de curiosidad y un amor por las actividades al aire libre.",
+        name2: "Yoryina Polanco",
+        testimonial3:
+          "La Escuela Forestal Hegazti no es solo una escuela; es una comunidad donde los niños aprenden a valorar la naturaleza, desarrollar empatía y construir habilidades sociales. Mi hijo ha aprendido la importancia del trabajo en equipo, la responsabilidad y la resiliencia en este entorno enriquecedor.",
+        name3: "Inma Sánchez",
       },
     },
     moreInformation: {
