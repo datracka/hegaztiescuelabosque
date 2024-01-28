@@ -50,9 +50,9 @@ const SectionContent = ({ staticPath }: ContentProps) => {
         <p className={tw("mb-4")}>
           {t("primarySchool.introText5")}
         </p>
-        <h3 className={tw("text-3xl my-8 p-8 border-l-1")}>
+        <h2 className={tw("text-3xl my-8 p-8 border-l-1")}>
           {t("primarySchool.introBullet")}
-        </h3>
+        </h2>
         <p className={tw("mb-4")}>
           {t("primarySchool.introText6")}
         </p>
