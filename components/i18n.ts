@@ -2053,6 +2053,14 @@ Isn't it dangerous for children to play in the forest?
       },
       contact: "Contact",
       contactWithUs: "Contact with us",
+      viana: {
+        url: "/",
+        text: "Viana",
+      },
+      spain: {
+        url: "spain",
+        text: "Spain",
+      },
     },
   },
 };
@@ -4545,6 +4553,14 @@ const spanish = {
       },
       contact: "Contacto",
       contactWithUs: "Contacta con nosotros",
+      viana: {
+        url: "https://hegaztiescuelabosque.org",
+        text: "Viana, Navarra",
+      },
+      spain: {
+        url: "https://hegaztiescuelabosque.org/spain",
+        text: "Spain",
+      },
     },
   },
 };

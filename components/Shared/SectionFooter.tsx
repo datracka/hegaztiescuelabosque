@@ -73,6 +73,18 @@ const SectionFooter = () => {
           >
             {t("footer.contact")}
           </a>
+          <a
+            href={t("footer.viana.url")}
+            class={tw`block sm:inline-block px-2 mx-2`}
+          >
+            {t("footer.viana.text")}
+          </a>
+          <a
+            href={t("footer.spain.url")}
+            class={tw`block sm:inline-block px-2 mx-2`}
+          >
+            {t("footer.spain.text")}
+          </a>
         </p>
       </div>
       {/*<CookieBanner />*/}
