@@ -106,7 +106,7 @@ const english = {
         `,
       },
       callToAction: {
-        title: "ENROLLMENT OPEN",
+        title: "Enrollment Open",
         button: "MORE INFO",
       },
       services: {
@@ -138,7 +138,7 @@ const english = {
         button: "To know more",
       },
       prices: {
-        title: "WHAT IS THE SCHOOL'S PRICE?",
+        title: "What is the school price?",
         description: `
           We are entirely self-financed and do not receive any public funding.
           As a result, we must charge a fee to cover the school's expenses.
@@ -197,7 +197,7 @@ const english = {
         author: "— Benjamin Franklin",
       },
       opinions: {
-        title: "WHAT DO THEY SAY ABOUT US?",
+        title: "What do they say about us?",
         testimonial1:
           "As a parent, I've watched my child flourish at Hegazti Forest School. The school's unique approach of using nature as a classroom has ignited a passion for learning in my son. He's developed a deeper understanding and respect for the environment, which is something textbooks alone could never have provided.",
         name1: "Vicens Fayos",
@@ -1886,7 +1886,7 @@ Isn't it dangerous for children to play in the forest?
       `,
     },
     footer: {
-      whereAreWe: "WHERE WE ARE LOCATED",
+      whereAreWe: "Where we are located?",
       whereAreWeExtended:
         "We are located in the Valdearas area, 1 kilometer from Viana and 9 km from Logroño.",
       timeTableTitle: "Forest School Schedule:",
@@ -1919,7 +1919,7 @@ Isn't it dangerous for children to play in the forest?
         text: "Legal Notice",
       },
       contact: "Contact",
-      contactWithUs: "CONTACT WITH US",
+      contactWithUs: "Contact with us",
     },
   },
 };
@@ -2027,7 +2027,7 @@ const spanish = {
         `,
       },
       callToAction: {
-        title: "MATRÍCULAS ABIERTAS",
+        title: "Matrículas abiertas",
         button: "MÁS INFO",
       },
       services: {
@@ -4252,7 +4252,7 @@ const spanish = {
       `,
     },
     footer: {
-      whereAreWe: "DONDE ESTAMOS UBICADOS",
+      whereAreWe: "¿Dónde estamos ubicados?",
       whereAreWeExtended:
         "Estamos ubicados en el Paraje de Valdearas a 1 kilómetro de Viana y a 9 km de Logroño.",
       timeTableTitle: "Horario de Escuela Bosque:",
@@ -4286,7 +4286,7 @@ const spanish = {
         text: "Aviso legal",
       },
       contact: "Contacto",
-      contactWithUs: "CONTACTA CON NOSOTROS",
+      contactWithUs: "Contacta con nosotros",
     },
   },
 };

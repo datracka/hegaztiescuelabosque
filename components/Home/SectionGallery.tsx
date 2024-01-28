@@ -28,7 +28,7 @@ const ItemImage = (item: GalleryItemProps) => (
         `absolute w-9/12 p-4 bg-black text-center bg-opacity-50 text-white top-2/4 left-2/4 translate-y-[-50%] translate-x-[-50%]`,
       )}
     >
-      <h4 class={tw`text-2xl`}>{item.title}</h4>
+      <p class={tw`text-2xl`}>{item.title}</p>
       <p class={tw`text-xs`}>{item.description}</p>
     </div>
   </div>
