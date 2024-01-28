@@ -22,9 +22,9 @@ const Hero = (
             <h1 className="hegazti-h1">
               {ctx.title}
             </h1>
-            <h2 className="hegazti-h3 sm:text-center mt-6">
+            <p className="hegazti-h3 sm:text-center mt-6">
               {ctx.description}
-            </h2>
+            </p>
           </div>
         </div>
       </div>
