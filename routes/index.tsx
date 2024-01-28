@@ -39,7 +39,45 @@ export default function Home(props: PageProps) {
         buttonText={t("home.callToAction.button")}
         buttonLink={t("menu.contact.url")}
       />
-      <SectionServices t={t} />
+      <SectionServices 
+        list={[
+          {
+            title: t("home.services.bumbleBeeHouseTitle"),
+            description: t("home.services.bumbleBeeHouseText"),
+            img: "imgs/home/servicios-madre-de-dia.jpg",
+            link: t("menu.forestAsClassroom.daytimeMother.url"),
+            button: t("home.services.button"),
+          },
+          {
+            title: t("home.services.forestHouseTitle"),
+            description: t("home.services.forestHouseText"),
+            img: "imgs/home/servicios-infantil.jpg",
+            link: t("menu.forestAsClassroom.childhoodClass.url"),
+            button: t("home.services.button"),
+          },
+          {
+            title: t("home.services.birdNestTitle"),
+            description: t("home.services.birdNestText"),
+            img: "imgs/home/servicios-primaria.jpg",
+            link: t("menu.forestAsClassroom.primarySchool.url"),
+            button: t("home.services.button"),
+          },
+          {
+            title: t("home.services.extracurricularPlayRoomTitle"),
+            description: t("home.services.extracurricularPlayRoomText"),
+            img: "imgs/home/servicios-extraescolares-ludoteca.jpg",
+            link: t("menu.forestAsClassroom.extracurricularActivitiesPlayRoom.url"),
+            button: t("home.services.button"),
+          },
+          {
+            title: t("home.services.extracurricularSaturdaysInFamilyTitle"),
+            description: t("home.services.extracurricularSaturdaysInFamilyText"),
+            img: "imgs/home/servicios-extraescolares-sabados.jpg",
+            link: t("menu.forestAsClassroom.extracurricularActivitiesSaturdays.url"),
+            button: t("home.services.button"),
+          },
+        ]}
+      />
       <SectionForestAsClassroom t={t} />
       <SectionGallery
         list={[{

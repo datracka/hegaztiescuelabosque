@@ -123,14 +123,12 @@ const english = {
           "Primary, treehouse, and bird's nest<h3>Primary school / Elementary school</h3>",
         birdNestText: `
         It is a natural space where girls and boys from 6 to 12 years old learn through exploration and investigation in the context of nature.
-        <br/>
-        <br/>
         The learning method continues to be experienced and functional for their daily lives and for holistic development through the natural environment.
         `,
         extracurricularPlayRoomTitle:
           "Playroom<h3>Extra-curricular Activities</h3>",
         extracurricularPlayRoomText:
-          "Ludotecas de invierno, primavera y verano<br/><br/>Nuestra Escuela Bosque se abre a otros niños/as de 3 a 12 años que quieran compartir nuestra preciosa escuela y tener esta experiencia en contacto con la naturaleza y los animales.",
+          "Winter, spring, and summer playrooms. Our Forest School opens its doors to other children aged 3 to 12 who want to share our beautiful school and have this experience in contact with nature and animals.",
         extracurricularSaturdaysInFamilyTitle:
           "EXTRA-CURRICULAR - SATURDAYS WITH FAMILY",
         extracurricularSaturdaysInFamilyText:
@@ -209,6 +207,7 @@ const english = {
         name3: "Inma Sánchez",
       },
     },
+    homeSpain: {},
     moreInformation: {
       header: {
         title: "Hegazti Forest School | More Information",
@@ -2041,11 +2040,11 @@ const spanish = {
         birdNestTitle:
           "Primaria, casita del árbol y nido de pájaro<h3>Primaria</h3>",
         birdNestText:
-          "Es un espacio natural en el que niñas y niños de 6 a 12 años aprenden a través de la exploración y la investigación en el contexto de la naturaleza.<br/><br/>El método de aprendizaje sigue siendo vivenciado y funcional para su día a día y para el desarrollo holístico a través del medio natural.",
+          "Es un espacio natural en el que niñas y niños de 6 a 12 años aprenden a través de la exploración y la investigación en el contexto de la naturaleza. El método de aprendizaje sigue siendo vivenciado y funcional para su día a día y para el desarrollo holístico a través del medio natural.",
         extracurricularPlayRoomTitle:
           "Actividades extracurriculares<h3>Extraescolares / Ludoteca</h3>",
         extracurricularPlayRoomText:
-          "Ludotecas de invierno, primavera y verano<br/><br/>Nuestra Escuela Bosque se abre a otros niños/as de 3 a 12 años que quieran compartir nuestra preciosa escuela y tener esta experiencia en contacto con la naturaleza y los animales.",
+          "Ludotecas de invierno, primavera y verano. Nuestra Escuela Bosque se abre a otros niños/as de 3 a 12 años que quieran compartir nuestra preciosa escuela y tener esta experiencia en contacto con la naturaleza y los animales.",
         extracurricularSaturdaysInFamilyTitle:
           "Extraescolares - Sábados en Familia",
         extracurricularSaturdaysInFamilyText:
