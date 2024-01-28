@@ -27,7 +27,11 @@ const ServiceItem = (item: ServiceItemProps) => (
       </div>
     </div>
     <div className={tw`sm:w-[48%] sm:flex-grow flex flex-col`}>
-      <h3 className={tw(`hegazti-h3 text-left!`)}>{item.title}</h3>
+      <p
+        className={tw(`hegazti-h3 text-left!`)}
+        dangerouslySetInnerHTML={{ __html: item.title }}
+      >
+      </p>
       <p dangerouslySetInnerHTML={{ __html: item.description }}></p>
       <div className={tw`mt-auto mr-auto`}>
         <a

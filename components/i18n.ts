@@ -111,20 +111,24 @@ const english = {
       },
       services: {
         title: "SERVICES",
-        bumbleBeeHouseTitle: "Daytime mother, little bumblebee house",
+        bumbleBeeHouseTitle:
+          "Daytime mother, little bumblebee house<h3>Nursery / Daycare</h3>",
         bumbleBeeHouseText:
           "<p><strong>In the <span>Casita Abejorro</span>,</strong> girls and boys from 0 to 3 years old can experience a daily space of calm and respect in contact with nature. We believe that girls and boys are complete beings who need a safe and loving place to develop and grow in a healthy way, in connection with nature and their own needs.</p>",
-        forestHouseTitle: "Childhood, little forest house",
+        forestHouseTitle:
+          "Childhood, little forest house<h3>Preschool / kindergarten</h3>",
         forestHouseText:
           "<p><strong>In the <span>Casita del Bosque</span>,</strong> girls and boys from 3 to 6 years old coexist daily with trees, water, earth, insects, animals, sky, air, sun... all of this allows them to grow in harmony with who they are, in an inspiring, changing, organic, and inclusive context.</p>",
-        birdNestTitle: "Primary, treehouse, and bird's nest",
+        birdNestTitle:
+          "Primary, treehouse, and bird's nest<h3>Primary school / Elementary school</h3>",
         birdNestText: `
         It is a natural space where girls and boys from 6 to 12 years old learn through exploration and investigation in the context of nature.
         <br/>
         <br/>
         The learning method continues to be experienced and functional for their daily lives and for holistic development through the natural environment.
         `,
-        extracurricularPlayRoomTitle: "Extra-curricular Activities - Playroom",
+        extracurricularPlayRoomTitle:
+          "Playroom<h3>Extra-curricular Activities</h3>",
         extracurricularPlayRoomText:
           "Ludotecas de invierno, primavera y verano<br/><br/>Nuestra Escuela Bosque se abre a otros niños/as de 3 a 12 años que quieran compartir nuestra preciosa escuela y tener esta experiencia en contacto con la naturaleza y los animales.",
         extracurricularSaturdaysInFamilyTitle:
@@ -2028,16 +2032,18 @@ const spanish = {
       },
       services: {
         title: "SERVICIOS",
-        bumbleBeeHouseTitle: "Madre de día, casita abejorro",
+        bumbleBeeHouseTitle: `Madre de día, casita abejorro <h3>Guardería / Jardín de infancia</h3`,
         bumbleBeeHouseText:
           "En la <strong>Casita Abejorro</strong>, las niñas y niños de 0 a 3 años, pueden vivenciar cada día un espacio de calma y respeto en contacto con la naturaleza. Creemos que las niñas y los niños son seres completos que necesitan un lugar seguro y amoroso en el que desarrollarse y crecer de manera sana, en contacto con la naturaleza y con sus propias necesidades.",
-        forestHouseTitle: "Infantil, casita del bosque",
+        forestHouseTitle: "Infantil, casita del bosque<h3>Preescolar</h3>",
         forestHouseText:
           "La <strong>Casita del Bosque</strong> es un espacio natural en el que niñas y niños de 3 a 6 años, conviven a diario con los árboles, el agua, la tierra, los insectos, los animales, el cielo, el aire, el sol… todo esto les permite crecer en armonía con lo que son, en un contexto inspirador, cambiante, orgánico e integrador.",
-        birdNestTitle: "Primaria, casita del árbol y nido de pájaro",
+        birdNestTitle:
+          "Primaria, casita del árbol y nido de pájaro<h3>Primaria</h3>",
         birdNestText:
           "Es un espacio natural en el que niñas y niños de 6 a 12 años aprenden a través de la exploración y la investigación en el contexto de la naturaleza.<br/><br/>El método de aprendizaje sigue siendo vivenciado y funcional para su día a día y para el desarrollo holístico a través del medio natural.",
-        extracurricularPlayRoomTitle: "Extraescolares - Ludoteca",
+        extracurricularPlayRoomTitle:
+          "Actividades extracurriculares<h3>Extraescolares / Ludoteca</h3>",
         extracurricularPlayRoomText:
           "Ludotecas de invierno, primavera y verano<br/><br/>Nuestra Escuela Bosque se abre a otros niños/as de 3 a 12 años que quieran compartir nuestra preciosa escuela y tener esta experiencia en contacto con la naturaleza y los animales.",
         extracurricularSaturdaysInFamilyTitle:
