@@ -8,6 +8,7 @@ import { ContextState } from "@/routes/_app.tsx";
 import getFixedT from "@/components/i18n.ts";
 import { PageProps, RouteConfig } from "$fresh/server.ts";
 import HeadElement from "@/components/HeadElement.tsx";
+import Prices from "@/components/Prices/Prices.tsx";
 
 export const config: RouteConfig = {
   routeOverride: "/(extracurricular-playroom|aula-extraescolares-ludoteca)",
@@ -62,9 +63,9 @@ export default function AulaExtraescolaresLudoteca(props: PageProps) {
           />
         </div>
         <div className={tw`order-1 sm:order-2 sm:w-[48%] sm:flex-grow`}>
-          <h3 className={tw("hegazti-h3  mb-4 ")}>
+          <p className={tw("hegazti-h3  mb-4 ")}>
             {t("extracurricularPlayroom.subTitle")}
-          </h3>
+          </p>
           <p className={tw("mb-4")}>
             {t("extracurricularPlayroom.text1")}
           </p>
@@ -91,6 +92,7 @@ export default function AulaExtraescolaresLudoteca(props: PageProps) {
           </p>
         </div>
       </section>
+      <Prices t={t} />
       <SectionFooter />
     </>
   );

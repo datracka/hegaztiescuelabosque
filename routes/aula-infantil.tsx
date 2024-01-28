@@ -12,6 +12,7 @@ import getFixedT from "@/components/i18n.ts";
 import { useContext } from "preact/hooks";
 import { ContextState } from "@/routes/_app.tsx";
 import HeadElement from "@/components/HeadElement.tsx";
+import Prices from "@/components/Prices/Prices.tsx";
 
 export const config: RouteConfig = {
   routeOverride: "/(aula-infantil|preschool-classroom)",
@@ -85,6 +86,7 @@ export default function AulaInfantil(props: PageProps) {
           },
         ]}
       />
+      <Prices t={t} />
       <SectionFooter />
     </>
   );

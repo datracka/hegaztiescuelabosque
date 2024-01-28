@@ -73,11 +73,11 @@ const english = {
     },
     home: {
       header: {
-        title: "Hegazti Forest School",
+        title: "Hegazti Forest School, Viana (Navarra)",
         meta: {
           description: {
             content:
-              "Hegazti Forest School is a school that offers an educational approach based on nature-based learning and environmental connection. We provide a variety of services, including Bumblebee, Forest, Treehouse, and Bird's Nest cottages for children aged 0 to 12. We also offer extracurricular activities such as winter, spring, and summer playrooms, as well as Family Saturdays. In our school, learning is a holistic process that is functionally experienced and integrated into everyday life. Our goals are to promote the comprehensive development of all individuals involved and to cultivate emotional intelligence alongside problem-solving skills. In our living classroom, children can explore, investigate, and learn in direct contact with nature, while our guides provide support and tools to enrich their experience.",
+              "Join our vibrant community, immerse yourself in the wonders of nature, and enjoy flexible pricing options. Experience education in its purest form.",
           },
         },
       },
@@ -106,32 +106,190 @@ const english = {
         `,
       },
       callToAction: {
-        title: "ENROLLMENT OPEN",
+        title: "Enrollment Open",
         button: "MORE INFO",
       },
       services: {
         title: "SERVICES",
-        bumbleBeeHouseTitle: "Daytime mother, little bumblebee house",
+        bumbleBeeHouseTitle:
+          "Daytime mother, little bumblebee house<h3>Nursery / Daycare</h3>",
+        bumbleBeeHouseText:
+          "<p><strong>At the <span>Bumblebee House</span>,</strong> infants aged 0 to 3 have the opportunity to immerse themselves in a daily environment of tranquility and respect in close proximity to nature. We hold the belief that children, both girls and boys, are whole individuals who require a secure and affectionate environment for their healthy development, fostering a connection with nature and their individual needs.</p>",
+        forestHouseTitle:
+          "Childhood, little forest house<h3>Preschool / kindergarten</h3>",
+        forestHouseText:
+          "<p><strong>In the <span>Forest Cottage</span>,</strong> children aged 3 to 6 coexist daily with trees, water, earth, insects, animals, sky, air, sun... all of these elements enable them to thrive in alignment with their true selves, within an inspiring, ever-changing, organic, and inclusive environment.</p>",
+        birdNestTitle:
+          "Primary, treehouse, and bird's nest<h3>Primary school / Elementary school</h3>",
+        birdNestText: `
+        It's a natural setting where children aged 6 to 12 learn through exploration and investigation within the natural environment. The learning approach remains experiential and practical, contributing to their daily lives and promoting holistic development within the natural setting.
+        `,
+        extracurricularPlayRoomTitle:
+          "Playroom<h3>Extra-curricular Activities</h3>",
+        extracurricularPlayRoomText:
+          "Winter, spring, and summer playrooms are available. Our Forest School welcomes children aged 3 to 12 who wish to join our wonderful school and have the opportunity to experience nature and interact with animals.",
+        extracurricularSaturdaysInFamilyTitle:
+          "EXTRA-CURRICULAR - SATURDAYS WITH FAMILY",
+        extracurricularSaturdaysInFamilyText:
+          "Our Forest School provides opportunities for family experiences in nature. Every second Saturday of the month, Hegazti opens its doors and arranges a nature day for families.",
+        button: "To know more",
+      },
+      prices: {
+        title: "What is the school price?",
+        description: `
+          We are entirely self-financed and do not receive any public funding.
+          As a result, we must charge a fee to cover the school's expenses.
+          However, we understand that each family's situation is unique, and
+          we are open to discussing rates, which may be adjusted based on
+          individual circumstances. Additionally, opportunities for offsetting
+          costs through community involvement or activities benefiting both
+          the children and the school can be explored.
+        `,
+        rates: {
+          title: "The prices of School is as follows:",
+          fullTime: "Full-time (25 hours/week): €350 per child.",
+          reduced: "Reduced rate (15 hours/week): €250 per child.",
+          superReduced: "Super reduced rate (10 hours/week): €150 per child.",
+          daily: "Single days: €20 per day.",
+          flexible:
+            "Depending on each family's circumstances, we are open to discussing the rates, which can potentially be offset through community work or activities benefiting the children and the school.",
+        },
+      },
+      forestAsClassroom: {
+        title: "The forest as a classroom",
+        keys: `
+        Creativity / Discovery / Lived Experiences / Emotional Intelligence / Free Play / Ecological Awareness / Solidarity Values / Cognitive, Emotional, and Social Skills / Comprehensive Development
+        `,
+        text: `
+        <p className="mb-4">
+  Learning through direct experience in the natural environment is at the core. The forest, with its multisensory attributes, transforms into the ultimate classroom for our young learners. Its wealth of resources is virtually boundless, and these resources hold substantial educational value as they are practical, authentic, and lived experiences.
+</p>
+<p className="mb-4">
+  Our objectives encompass fostering holistic development for all individuals involved. Our aim is to create an environment for resilient, self-assured, independent, and creative individuals. At <strong>Hegazti Forest School</strong>, the cultivation of emotional intelligence is as paramount as honing problem-solving skills.
+</p>
+<p className="mb-12">
+  For the most part, individuals take the lead in directing their own learning.
+</p>
+<p className="mb-12">
+  The guide's role is to enhance the overall experience, offering support, tools, and knowledge.
+</p>
+        `,
+      },
+      gallery: {
+        imageWalkingInTheForestTitle: "HIKES IN THE MOUNTAINS",
+        imageWalkingInTheForestDescription: "EVERY DAY",
+        imageNaturalElementsTitle: "NATURAL ELEMENTS",
+        imageNaturalElementsDescription: "AWAKENING CURIOSITY",
+        imagesBuildingTogetherTitle: "BUILDING TOGETHER",
+        imagesBuildingTogetherDescription: "TEAMWORK",
+        imageObservingTitle: "OBSERVATION",
+        imageObservingDescription: "FOLLOWING CYCLES",
+        imageTakingCareHorsesTitle: "TAKING CARE OF HORSES",
+        imageTakingCareHorsesDescription: "RESPONSIBILITY AND EMPATHY",
+        imageFreeGameTitle: "FREE PLAY",
+        imageFreeGameDescription: "FOLLOWING IMPULSE",
+      },
+      quote: {
+        text: "”Tell me, and I forget. Teach me, and I remember. Involve me, and I learn.”",
+        author: "— Benjamin Franklin",
+      },
+      opinions: {
+        title: "What do they say about us?",
+        testimonial1:
+          "As a parent, I've watched my child flourish at Hegazti Forest School. The school's unique approach of using nature as a classroom has ignited a passion for learning in my son. He's developed a deeper understanding and respect for the environment, which is something textbooks alone could never have provided.",
+        name1: "Vicens Fayos",
+        testimonial2:
+          "My daughter's experience at Hegazti Forest School has been transformative. The school's emphasis on experiential learning and emotional intelligence has helped her grow into a confident and self-assured individual. She has developed a strong sense of curiosity and a love for outdoor activities.",
+        name2: "Yoryina Polanco",
+        testimonial3:
+          "Hegazti Forest School is not just a school; it's a community where children learn to value nature, develop empathy, and build social skills. My child has learned the importance of teamwork, responsibility, and resilience in this enriching environment.",
+        name3: "Inma Sánchez",
+      },
+    },
+    homeSpain: {
+      header: {
+        title: "Hegazti Forest School, Spain",
+        meta: {
+          description: {
+            content:
+              "Join our vibrant community, immerse yourself in the wonders of nature, and enjoy flexible pricing options. Experience education in its purest form.",
+          },
+        },
+      },
+      hero: {
+        claim: "HEGAZTI - FOREST SCHOOL IN SPAIN",
+        subClaim: "Alternative Education in Nature",
+      },
+      presentation: {
+        learnInNatureHeader: "Learning in Nature.",
+        learnInNatureBody: `
+      <p className="mb-4">
+        Our essence is freedom, our environment is nature, and the gift of childhood is motor and cognitive curiosity.
+      </p>
+      <p className="mb-4">
+        Learning in harmony with what we are—free and diverse beings, living beings who feel and think.
+      </p>
+      <p className="mb-12">
+        In the classroom, nature lives. Where you can see the sky, touch the earth, smell the flowers, feel, move freely, investigate the environment, and observe the real context.
+      </p>
+      <p className="mb-12">
+        This classroom nurtures the needs of a human being, feeds curiosity, stimulates the senses, and allows feelings, connection with the diversity of each person.
+      </p>
+      <p className="mb-12">
+        It is an inclusive classroom, where each being has its place.
+      </p>
+        `,
+      },
+      callToAction: {
+        title: "Enrollment Open",
+        button: "MORE INFO",
+      },
+      services: {
+        title: "SERVICES",
+        bumbleBeeHouseTitle:
+          "Daytime mother, little bumblebee house<h3>Nursery / Daycare</h3>",
         bumbleBeeHouseText:
           "<p><strong>In the <span>Casita Abejorro</span>,</strong> girls and boys from 0 to 3 years old can experience a daily space of calm and respect in contact with nature. We believe that girls and boys are complete beings who need a safe and loving place to develop and grow in a healthy way, in connection with nature and their own needs.</p>",
-        forestHouseTitle: "Childhood, little forest house",
+        forestHouseTitle:
+          "Childhood, little forest house<h3>Preschool / kindergarten</h3>",
         forestHouseText:
           "<p><strong>In the <span>Casita del Bosque</span>,</strong> girls and boys from 3 to 6 years old coexist daily with trees, water, earth, insects, animals, sky, air, sun... all of this allows them to grow in harmony with who they are, in an inspiring, changing, organic, and inclusive context.</p>",
-        birdNestTitle: "Primary, treehouse, and bird's nest",
+        birdNestTitle:
+          "Primary, treehouse, and bird's nest<h3>Primary school / Elementary school</h3>",
         birdNestText: `
         It is a natural space where girls and boys from 6 to 12 years old learn through exploration and investigation in the context of nature.
-        <br/>
-        <br/>
         The learning method continues to be experienced and functional for their daily lives and for holistic development through the natural environment.
         `,
-        extracurricularPlayRoomTitle: "Extra-curricular Activities - Playroom",
+        extracurricularPlayRoomTitle:
+          "Playroom<h3>Extra-curricular Activities</h3>",
         extracurricularPlayRoomText:
-          "Ludotecas de invierno, primavera y verano<br/><br/>Nuestra Escuela Bosque se abre a otros niños/as de 3 a 12 años que quieran compartir nuestra preciosa escuela y tener esta experiencia en contacto con la naturaleza y los animales.",
+          "Winter, spring, and summer playrooms. Our Forest School opens its doors to other children aged 3 to 12 who want to share our beautiful school and have this experience in contact with nature and animals.",
         extracurricularSaturdaysInFamilyTitle:
           "EXTRA-CURRICULAR - SATURDAYS WITH FAMILY",
         extracurricularSaturdaysInFamilyText:
           "Our Forest School opens space for experiences in nature for families. On the second Saturday of each month, Hegazti opens its doors and organizes a day for families in nature.",
         button: "To know more",
+      },
+      prices: {
+        title: "What is the school price?",
+        description: `
+          We are entirely self-financed and do not receive any public funding.
+          As a result, we must charge a fee to cover the school's expenses.
+          However, we understand that each family's situation is unique, and
+          we are open to discussing rates, which may be adjusted based on
+          individual circumstances. Additionally, opportunities for offsetting
+          costs through community involvement or activities benefiting both
+          the children and the school can be explored.
+        `,
+        rates: {
+          title: "The prices of School is as follows:",
+          fullTime: "Full-time (25 hours/week): €350 per child.",
+          reduced: "Reduced rate (15 hours/week): €250 per child.",
+          superReduced: "Super reduced rate (10 hours/week): €150 per child.",
+          daily: "Single days: €20 per day.",
+          flexible:
+            "Depending on each family's circumstances, we are open to discussing the rates, which can potentially be offset through community work or activities benefiting the children and the school.",
+        },
       },
       forestAsClassroom: {
         title: "The forest as a classroom",
@@ -170,6 +328,18 @@ const english = {
       quote: {
         text: "”Tell me, and I forget. Teach me, and I remember. Involve me, and I learn.”",
         author: "— Benjamin Franklin",
+      },
+      opinions: {
+        title: "What do they say about us?",
+        testimonial1:
+          "As a parent, I've watched my child flourish at Hegazti Forest School. The school's unique approach of using nature as a classroom has ignited a passion for learning in my son. He's developed a deeper understanding and respect for the environment, which is something textbooks alone could never have provided.",
+        name1: "Vicens Fayos",
+        testimonial2:
+          "My daughter's experience at Hegazti Forest School has been transformative. The school's emphasis on experiential learning and emotional intelligence has helped her grow into a confident and self-assured individual. She has developed a strong sense of curiosity and a love for outdoor activities.",
+        name2: "Yoryina Polanco",
+        testimonial3:
+          "Hegazti Forest School is not just a school; it's a community where children learn to value nature, develop empathy, and build social skills. My child has learned the importance of teamwork, responsibility, and resilience in this enriching environment.",
+        name3: "Inma Sánchez",
       },
     },
     moreInformation: {
@@ -1849,7 +2019,7 @@ Isn't it dangerous for children to play in the forest?
       `,
     },
     footer: {
-      whereAreWe: "WHERE WE ARE LOCATED",
+      whereAreWe: "Where we are located?",
       whereAreWeExtended:
         "We are located in the Valdearas area, 1 kilometer from Viana and 9 km from Logroño.",
       timeTableTitle: "Forest School Schedule:",
@@ -1882,7 +2052,15 @@ Isn't it dangerous for children to play in the forest?
         text: "Legal Notice",
       },
       contact: "Contact",
-      contactWithUs: "CONTACT WITH US",
+      contactWithUs: "Contact with us",
+      viana: {
+        url: "/",
+        text: "Viana",
+      },
+      spain: {
+        url: "spain",
+        text: "Spain",
+      },
     },
   },
 };
@@ -1951,11 +2129,11 @@ const spanish = {
     },
     home: {
       header: {
-        title: "Hegazti Escuela Bosque",
+        title: "Hegazti Escuela Bosque, Viana (Navarra)",
         meta: {
           description: {
             content:
-              "Hegazti Escuela Bosque es una escuela que ofrece un enfoque educativo basado en el aprendizaje en la naturaleza y la conexión con el medio ambiente. Ofrecemos una variedad de servicios que incluyen Casitas Abejorro, del Bosque, del Árbol y Nido de Pájaro para niños y niñas de 0 a 12 años. También ofrecemos actividades extracurriculares como ludotecas de invierno, primavera y verano, y sábados en familia. En nuestra escuela, el aprendizaje es un proceso holístico que se vive de manera funcional y se integra en la vida cotidiana. Nuestros objetivos son promover el desarrollo integral de todas las personas involucradas y desarrollar la inteligencia emocional junto con la resolución de problemas. En nuestro aula viva, los niños pueden explorar, investigar y aprender en contacto directo con la naturaleza, mientras nuestros guías les brindan apoyo y herramientas para enriquecer su experiencia.",
+              "Únete a nuestra comunidad vibrante, sumérgete en las maravillas de la naturaleza y disfruta de opciones de precios flexibles. Experimenta la educación en su forma más pura.",
           },
         },
       },
@@ -1990,28 +2168,46 @@ const spanish = {
         `,
       },
       callToAction: {
-        title: "MATRÍCULAS ABIERTAS",
+        title: "Matrículas abiertas",
         button: "MÁS INFO",
       },
       services: {
         title: "SERVICIOS",
-        bumbleBeeHouseTitle: "Madre de día, casita abejorro",
+        bumbleBeeHouseTitle: `Madre de día, casita abejorro <h3>Guardería / Jardín de infancia</h3`,
         bumbleBeeHouseText:
           "En la <strong>Casita Abejorro</strong>, las niñas y niños de 0 a 3 años, pueden vivenciar cada día un espacio de calma y respeto en contacto con la naturaleza. Creemos que las niñas y los niños son seres completos que necesitan un lugar seguro y amoroso en el que desarrollarse y crecer de manera sana, en contacto con la naturaleza y con sus propias necesidades.",
-        forestHouseTitle: "Infantil, casita del bosque",
+        forestHouseTitle: "Infantil, casita del bosque<h3>Preescolar</h3>",
         forestHouseText:
           "La <strong>Casita del Bosque</strong> es un espacio natural en el que niñas y niños de 3 a 6 años, conviven a diario con los árboles, el agua, la tierra, los insectos, los animales, el cielo, el aire, el sol… todo esto les permite crecer en armonía con lo que son, en un contexto inspirador, cambiante, orgánico e integrador.",
-        birdNestTitle: "Primaria, casita del árbol y nido de pájaro",
+        birdNestTitle:
+          "Primaria, casita del árbol y nido de pájaro<h3>Primaria</h3>",
         birdNestText:
-          "Es un espacio natural en el que niñas y niños de 6 a 12 años aprenden a través de la exploración y la investigación en el contexto de la naturaleza.<br/><br/>El método de aprendizaje sigue siendo vivenciado y funcional para su día a día y para el desarrollo holístico a través del medio natural.",
-        extracurricularPlayRoomTitle: "Extraescolares - Ludoteca",
+          "Es un espacio natural en el que niñas y niños de 6 a 12 años aprenden a través de la exploración y la investigación en el contexto de la naturaleza. El método de aprendizaje sigue siendo vivenciado y funcional para su día a día y para el desarrollo holístico a través del medio natural.",
+        extracurricularPlayRoomTitle:
+          "Actividades extracurriculares<h3>Extraescolares / Ludoteca</h3>",
         extracurricularPlayRoomText:
-          "Ludotecas de invierno, primavera y verano<br/><br/>Nuestra Escuela Bosque se abre a otros niños/as de 3 a 12 años que quieran compartir nuestra preciosa escuela y tener esta experiencia en contacto con la naturaleza y los animales.",
+          "Ludotecas de invierno, primavera y verano. Nuestra Escuela Bosque se abre a otros niños/as de 3 a 12 años que quieran compartir nuestra preciosa escuela y tener esta experiencia en contacto con la naturaleza y los animales.",
         extracurricularSaturdaysInFamilyTitle:
           "Extraescolares - Sábados en Familia",
         extracurricularSaturdaysInFamilyText:
           "Nuestra Escuela Bosque abre espacio a experiencias en la naturaleza para familias. El segundo sábado de cada mes Hegazti abre las puertas y organiza una jornada para familias en la naturaleza.",
         button: "Saber más",
+      },
+      prices: {
+        title: "¿CUÁL ES EL PRECIO DE LA ESCUELA?",
+        description: `
+        Somos completamente autofinanciados y no recibimos ningún tipo de financiamiento público. Como resultado, debemos cobrar una tarifa para cubrir los gastos de la escuela. Sin embargo, entendemos que la situación de cada familia es única y estamos abiertos a discutir las tarifas, las cuales pueden ajustarse según las circunstancias individuales. Además, se pueden explorar oportunidades para compensar los costos a través de la participación en la comunidad o actividades que beneficien tanto a los niños como a la escuela.
+        `,
+        rates: {
+          title: "Los precios de la escuela son los siguientes:",
+          fullTime: "Tiempo completo (25 horas/semana): €350 por niño.",
+          reduced: "Tarifa reducida (15 horas/semana): €250 por niño.",
+          superReduced:
+            "Tarifa súper reducida (10 horas/semana): €150 por niño.",
+          daily: "Días individuales: €20 por día.",
+          flexible:
+            "Dependiendo de las circunstancias de cada familia, estamos abiertos a discutir las tarifas, las cuales pueden posiblemente ser compensadas a través de trabajo comunitario o actividades que beneficien a los niños y a la escuela.",
+        },
       },
       forestAsClassroom: {
         title: "El bosque como aula",
@@ -2058,6 +2254,143 @@ const spanish = {
       quote: {
         text: "”Dímelo y lo olvido. Enseñame y lo recuerdo. Involúcrame y lo aprendo.”",
         author: "— Benjamin Franklin",
+      },
+      opinions: {
+        title: "¿QUÉ DICEN DE NOSOTROS?",
+        testimonial1:
+          "Como padre, he visto a mi hijo florecer en la Escuela Forestal Hegazti. El enfoque único de la escuela de utilizar la naturaleza como aula ha encendido una pasión por el aprendizaje en mi hijo. Ha desarrollado una comprensión más profunda y un respeto por el medio ambiente, algo que los libros de texto por sí solos nunca podrían haber proporcionado.",
+        name1: "Vicens Fayos",
+        testimonial2:
+          "La experiencia de mi hija en la Escuela Forestal Hegazti ha sido transformadora. El énfasis de la escuela en el aprendizaje experiencial y la inteligencia emocional la ha ayudado a crecer como una persona segura y segura de sí misma. Ha desarrollado un fuerte sentido de curiosidad y un amor por las actividades al aire libre.",
+        name2: "Yoryina Polanco",
+        testimonial3:
+          "La Escuela Forestal Hegazti no es solo una escuela; es una comunidad donde los niños aprenden a valorar la naturaleza, desarrollar empatía y construir habilidades sociales. Mi hijo ha aprendido la importancia del trabajo en equipo, la responsabilidad y la resiliencia en este entorno enriquecedor.",
+        name3: "Inma Sánchez",
+      },
+    },
+    homeSpain: {
+      header: {
+        title: "Hegazti Escuela Bosque, España",
+        meta: {
+          description: {
+            content:
+              "Únete a nuestra comunidad vibrante, sumérgete en las maravillas de la naturaleza y disfruta de opciones de precios flexibles. Experimenta la educación en su forma más pura.",
+          },
+        },
+      },
+      hero: {
+        claim: "HEGAZTI - ESCUELA BOSQUE EN ESPAÑA",
+        subClaim: "Educación Alternativa en la Naturaleza",
+      },
+      presentation: {
+        learnInNatureHeader: "Aprender en la Naturaleza",
+        learnInNatureBody: `
+        <p className="mb-4">
+        Nuestra esencia se basa en la libertad, nuestro entorno es la naturaleza, y el don de la infancia es la inquietud motora y cognitiva.
+      </p>
+      <p className="mb-4">
+        Aprender en sintonía con nuestra verdadera naturaleza: seres libres y diversos, seres vivos que experimentan, sienten y razonan.
+      </p>
+      <p className="mb-12">
+        En el aula, la Naturaleza está presente en todo su esplendor. Aquí puedes contemplar el cielo, tocar la tierra, inhalar los aromas de las flores, sentirte libre para moverte, explorar el entorno y observar la realidad circundante.
+      </p>
+      <p className="mb-12">
+        Esta aula atiende a las necesidades fundamentales de la persona, nutriendo la curiosidad, estimulando los sentidos y fomentando la conexión con la diversidad de cada individuo.
+      </p> 
+      <p className="mb-12">
+        Es un entorno educativo integrador, donde cada ser ocupa un lugar especial.
+      </p> 
+        `,
+      },
+      callToAction: {
+        title: "Matrículas abiertas",
+        button: "MÁS INFO",
+      },
+      services: {
+        title: "SERVICIOS",
+        bumbleBeeHouseTitle: `Madre de día, casita abejorro <h3>Guardería / Jardín de infancia</h3`,
+        bumbleBeeHouseText:
+          "En la <strong>Casita Abejorro</strong>, los pequeños de 0 a 3 años pueden experimentar un ambiente tranquilo y respetuoso en contacto con la naturaleza todos los días. Estamos convencidos de que los niños y las niñas son seres integrales que requieren un entorno seguro y lleno de cariño para su desarrollo saludable, en conexión con la naturaleza y sus propias necesidades.",
+        forestHouseTitle: "Infantil, casita del bosque<h3>Preescolar</h3>",
+        forestHouseText:
+          "La <strong>Casita del Bosque</strong> es un entorno natural en el que niñas y niños de 3 a 6 años conviven diariamente con la presencia de árboles, agua, tierra, insectos, animales, cielo, aire y sol. Todo esto les brinda la oportunidad de crecer en armonía con su verdadera naturaleza, en un entorno inspirador, dinámico, orgánico e inclusivo.",
+        birdNestTitle:
+          "Primaria, casita del árbol y nido de pájaro<h3>Primaria</h3>",
+        birdNestText:
+          "Este es un entorno natural donde las niñas y niños de 6 a 12 años adquieren conocimiento mediante la exploración y la investigación en el marco de la naturaleza. Este enfoque de aprendizaje sigue siendo experiencial y funcional en su vida diaria, contribuyendo a su desarrollo integral a través del entorno natural.",
+        extracurricularPlayRoomTitle:
+          "Actividades extracurriculares<h3>Extraescolares / Ludoteca</h3>",
+        extracurricularPlayRoomText:
+          "Ofrecemos ludotecas durante el invierno, la primavera y el verano. Nuestra Escuela Bosque está abierta a otros niños y niñas de 3 a 12 años que deseen unirse a nuestra maravillosa escuela y disfrutar de esta enriquecedora experiencia en contacto con la naturaleza y los animales.",
+        extracurricularSaturdaysInFamilyTitle:
+          "Extraescolares - Sábados en Familia",
+        extracurricularSaturdaysInFamilyText:
+          "Nuestra Escuela Bosque brinda oportunidades para vivir experiencias en la naturaleza en familia. El segundo sábado de cada mes, Hegazti abre sus puertas y organiza una jornada para que las familias disfruten de la naturaleza juntas.",
+        button: "Saber más",
+      },
+      prices: {
+        title: "¿CUÁL ES EL PRECIO DE LA ESCUELA?",
+        description: `
+        Somos completamente autofinanciados y no recibimos ningún tipo de financiamiento público. Como resultado, debemos cobrar una tarifa para cubrir los gastos de la escuela. Sin embargo, entendemos que la situación de cada familia es única y estamos abiertos a discutir las tarifas, las cuales pueden ajustarse según las circunstancias individuales. Además, se pueden explorar oportunidades para compensar los costos a través de la participación en la comunidad o actividades que beneficien tanto a los niños como a la escuela.
+        `,
+        rates: {
+          title: "Los precios de la escuela son los siguientes:",
+          fullTime: "Tiempo completo (25 horas/semana): €350 por niño.",
+          reduced: "Tarifa reducida (15 horas/semana): €250 por niño.",
+          superReduced:
+            "Tarifa súper reducida (10 horas/semana): €150 por niño.",
+          daily: "Días individuales: €20 por día.",
+          flexible:
+            "Dependiendo de las circunstancias de cada familia, estamos abiertos a discutir las tarifas, las cuales pueden posiblemente ser compensadas a través de trabajo comunitario o actividades que beneficien a los niños y a la escuela.",
+        },
+      },
+      forestAsClassroom: {
+        title: "El bosque como aula",
+        keys: "Creatividad / Descubrimiento / Experienias Vividas / Inteligencia Emocional / Juego Libre / Conciencia Ecológica / Valores Solidarios / Habilidades Cognitivas, emocionales y sociales/ Desarrollo Integral",
+        text: `
+        <p className="mb-4">
+  El aprendizaje vivencial en el entorno natural es fundamental. El bosque, gracias a su naturaleza multisensorial, se convierte en el mejor entorno educativo que podemos proporcionar a los niños. La variedad de recursos que ofrece es prácticamente infinita, y estos recursos tienen un gran valor educativo porque son funcionales, reales y vividos.
+</p>
+<p className="mb-4">
+  Nuestros objetivos son promover el desarrollo integral de todas las personas involucradas. Buscamos fomentar la resiliencia, la autoconfianza, la autonomía y la creatividad. En <strong>Hegazti Escuela Bosque</strong>, damos igual importancia al desarrollo de la inteligencia emocional que a la resolución de problemas.
+</p>
+<p className="mb-12">
+  La mayoría del tiempo, son las propias personas las que dirigen su propio proceso de aprendizaje.
+</p>
+<p className="mb-12">
+  El papel del guía es enriquecer la experiencia, brindar apoyo, proporcionar herramientas y compartir conocimientos.
+</p>
+        `,
+      },
+      gallery: {
+        imageWalkingInTheForestTitle: "PASEOS POR EL MONTE",
+        imageWalkingInTheForestDescription: "TODOS LOS DIAS",
+        imageNaturalElementsTitle: "ELEMENTOS NATURALES",
+        imageNaturalElementsDescription: "DESPERTANDO LA CURIOSIDAD",
+        imagesBuildingTogetherTitle: "CONSTRUYENDO JUNTOS",
+        imagesBuildingTogetherDescription: "TRABAJO EN EQUIPO",
+        imageObservingTitle: "OBSERVACIÓN",
+        imageObservingDescription: "SEGUIENDO LOS CICLOS",
+        imageTakingCareHorsesTitle: "CUIDANDO DE LOS CABALLOS",
+        imageTakingCareHorsesDescription: "RESPONSABILIDAD Y EMPATÍA",
+        imageFreeGameTitle: "JUEGO LIBRE",
+        imageFreeGameDescription: "SIGUIENDO EL IMPULSO",
+      },
+      quote: {
+        text: "”Dímelo y lo olvido. Enseñame y lo recuerdo. Involúcrame y lo aprendo.”",
+        author: "— Benjamin Franklin",
+      },
+      opinions: {
+        title: "¿QUÉ DICEN DE NOSOTROS?",
+        testimonial1:
+          "Como padre, he visto a mi hijo florecer en la Escuela Forestal Hegazti. El enfoque único de la escuela de utilizar la naturaleza como aula ha encendido una pasión por el aprendizaje en mi hijo. Ha desarrollado una comprensión más profunda y un respeto por el medio ambiente, algo que los libros de texto por sí solos nunca podrían haber proporcionado.",
+        name1: "Vicens Fayos",
+        testimonial2:
+          "La experiencia de mi hija en la Escuela Forestal Hegazti ha sido transformadora. El énfasis de la escuela en el aprendizaje experiencial y la inteligencia emocional la ha ayudado a crecer como una persona segura y segura de sí misma. Ha desarrollado un fuerte sentido de curiosidad y un amor por las actividades al aire libre.",
+        name2: "Yoryina Polanco",
+        testimonial3:
+          "La Escuela Forestal Hegazti no es solo una escuela; es una comunidad donde los niños aprenden a valorar la naturaleza, desarrollar empatía y construir habilidades sociales. Mi hijo ha aprendido la importancia del trabajo en equipo, la responsabilidad y la resiliencia en este entorno enriquecedor.",
+        name3: "Inma Sánchez",
       },
     },
     moreInformation: {
@@ -4185,7 +4518,7 @@ const spanish = {
       `,
     },
     footer: {
-      whereAreWe: "DONDE ESTAMOS UBICADOS",
+      whereAreWe: "¿Dónde estamos ubicados?",
       whereAreWeExtended:
         "Estamos ubicados en el Paraje de Valdearas a 1 kilómetro de Viana y a 9 km de Logroño.",
       timeTableTitle: "Horario de Escuela Bosque:",
@@ -4219,7 +4552,15 @@ const spanish = {
         text: "Aviso legal",
       },
       contact: "Contacto",
-      contactWithUs: "CONTACTA CON NOSOTROS",
+      contactWithUs: "Contacta con nosotros",
+      viana: {
+        url: "https://hegaztiescuelabosque.org",
+        text: "Viana, Navarra",
+      },
+      spain: {
+        url: "https://hegaztiescuelabosque.org/spain",
+        text: "Spain",
+      },
     },
   },
 };

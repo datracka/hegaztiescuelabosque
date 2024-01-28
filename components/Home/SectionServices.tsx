@@ -7,6 +7,11 @@ type ServiceItemProps = {
   link: string;
   button: string;
 };
+
+type ServiceProps = {
+  list: ServiceItemProps[];
+};
+
 // css`aspect-ratio:1/1`
 const ServiceItem = (item: ServiceItemProps) => (
   <article
@@ -27,7 +32,11 @@ const ServiceItem = (item: ServiceItemProps) => (
       </div>
     </div>
     <div className={tw`sm:w-[48%] sm:flex-grow flex flex-col`}>
-      <h3 className={tw(`hegazti-h3 text-left!`)}>{item.title}</h3>
+      <p
+        className={tw(`hegazti-h3 text-left!`)}
+        dangerouslySetInnerHTML={{ __html: item.title }}
+      >
+      </p>
       <p dangerouslySetInnerHTML={{ __html: item.description }}></p>
       <div className={tw`mt-auto mr-auto`}>
         <a
@@ -43,40 +52,39 @@ const ServiceItem = (item: ServiceItemProps) => (
   </article>
 );
 
-// deno-lint-ignore no-explicit-any
-const SectionServices = ({ t }: { t: any }) => (
+const SectionServices = (ctx: ServiceProps) => (
   <section
     className={tw(
       `mx-auto max-w-7xl px-2 sm:px-6 lg:px-8 `,
     )}
   >
     <ServiceItem
-      title={t("home.services.bumbleBeeHouseTitle")}
-      description={t("home.services.bumbleBeeHouseText")}
-      img="imgs/home/servicios-madre-de-dia.jpg"
-      link={t("menu.forestAsClassroom.daytimeMother.url")}
-      button={t("home.services.button")}
+      title={ctx.list[0].title}
+      description={ctx.list[0].description}
+      img={ctx.list[0].img}
+      link={ctx.list[0].link}
+      button={ctx.list[0].button}
     />
     <ServiceItem
-      title={t("home.services.forestHouseTitle")}
-      description={t("home.services.forestHouseText")}
-      img="imgs/home/servicios-infantil.jpg"
-      link={t("menu.forestAsClassroom.childhoodClass.url")}
-      button={t("home.services.button")}
+      title={ctx.list[1].title}
+      description={ctx.list[1].description}
+      img={ctx.list[1].img}
+      link={ctx.list[1].link}
+      button={ctx.list[1].button}
     />
     <ServiceItem
-      title={t("home.services.birdNestTitle")}
-      description={t("home.services.birdNestText")}
-      img="imgs/home/servicios-primaria.jpg"
-      link={t("menu.forestAsClassroom.primarySchool.url")}
-      button={t("home.services.button")}
+      title={ctx.list[2].title}
+      description={ctx.list[2].description}
+      img={ctx.list[2].img}
+      link={ctx.list[2].link}
+      button={ctx.list[2].button}
     />
     <ServiceItem
-      title={t("home.services.extracurricularPlayRoomTitle")}
-      description={t("home.services.extracurricularPlayRoomText")}
-      img="imgs/home/servicios-extraescolares-ludoteca.jpg"
-      link={t("menu.forestAsClassroom.extracurricularActivitiesPlayRoom.url")}
-      button={t("home.services.button")}
+      title={ctx.list[3].title}
+      description={ctx.list[3].description}
+      img={ctx.list[3].img}
+      link={ctx.list[3].link}
+      button={ctx.list[3].button}
     />
     {
       /*  <ServiceItem

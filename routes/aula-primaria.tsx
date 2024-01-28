@@ -9,11 +9,11 @@ import { ContextState } from "@/routes/_app.tsx";
 import getFixedT from "@/components/i18n.ts";
 import { PageProps, RouteConfig } from "$fresh/server.ts";
 import HeadElement from "@/components/HeadElement.tsx";
+import Prices from "@/components/Prices/Prices.tsx";
 
 export const config: RouteConfig = {
   routeOverride: "/(primary-school|aula-primaria)",
 };
-
 
 export default function AulaPrimaria(props: PageProps) {
   const staticPath = "/imgs/aula-primaria";
@@ -24,7 +24,11 @@ export default function AulaPrimaria(props: PageProps) {
 
   return (
     <>
-    <HeadElement description={t("primarySchool.header.meta.description.content")} title={t("primarySchool.header.title")} url={props.url} />
+      <HeadElement
+        description={t("primarySchool.header.meta.description.content")}
+        title={t("primarySchool.header.title")}
+        url={props.url}
+      />
       <NavBar menuTexts={menuTexts} />
       <Hero
         title={t("primarySchool.hero.claim")}
@@ -72,6 +76,7 @@ export default function AulaPrimaria(props: PageProps) {
           },
         ]}
       />
+      <Prices t={t} />
       <SectionFooter />
     </>
   );

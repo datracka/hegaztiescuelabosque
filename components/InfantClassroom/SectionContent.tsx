@@ -47,9 +47,9 @@ const SectionContent = ({ staticPath, languageAccepted }: ContentProps) => {
         <p className={tw("mb-4")}>
         {t("preschoolClassroom.introText3")}
         </p>
-        <h3 className={tw("hegazti-h3 my-8 p-8 border-l-1")}>
+        <p className={tw("hegazti-h3 my-8 p-8 border-l-1")}>
         {t("preschoolClassroom.introBullet")}
-        </h3>
+        </p>
         <p className={tw("mb-4")}>
         {t("preschoolClassroom.introText4")}
         </p>
