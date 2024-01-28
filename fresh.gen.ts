@@ -20,6 +20,7 @@ import * as $quienes_somos_espacios from "./routes/quienes-somos-espacios.tsx";
 import * as $quienes_somos_faqs from "./routes/quienes-somos-faqs.tsx";
 import * as $quienes_somos_hegazti from "./routes/quienes-somos-hegazti.tsx";
 import * as $quienes_somos_proyecto from "./routes/quienes-somos-proyecto.tsx";
+import * as $spain from "./routes/spain.tsx";
 import * as $AnimatedMenuItem from "./islands/AnimatedMenuItem.tsx";
 import * as $AnimatedMobileMenuItem from "./islands/AnimatedMobileMenuItem.tsx";
 import * as $CookieBanner from "./islands/CookieBanner.tsx";
@@ -55,6 +56,7 @@ const manifest = {
     "./routes/quienes-somos-faqs.tsx": $quienes_somos_faqs,
     "./routes/quienes-somos-hegazti.tsx": $quienes_somos_hegazti,
     "./routes/quienes-somos-proyecto.tsx": $quienes_somos_proyecto,
+    "./routes/spain.tsx": $spain,
   },
   islands: {
     "./islands/AnimatedMenuItem.tsx": $AnimatedMenuItem,

@@ -12,6 +12,8 @@ import getFixedT from "@/components/i18n.ts";
 import { useContext } from "preact/hooks";
 import { ContextState } from "@/routes/_app.tsx";
 import HeadElement from "@/components/HeadElement.tsx";
+import Prices from "@/components/Prices/Prices.tsx";
+import Opinions from "@/components/Opinions/Opinions.tsx";
 
 export default function Home(props: PageProps) {
   const { languageAccepted } = useContext(ContextState);
@@ -19,7 +21,11 @@ export default function Home(props: PageProps) {
   const menuTexts = t("menu", { returnObjects: true });
   return (
     <>
-      <HeadElement description={t("home.header.meta.description.content")} title={t("home.header.title")} url={props.url} />
+      <HeadElement
+        description={t("home.header.meta.description.content")}
+        title={t("home.header.title")}
+        url={props.url}
+      />
       <NavBar menuTexts={menuTexts} />
       <Hero
         title={t("home.hero.claim")}
@@ -33,8 +39,49 @@ export default function Home(props: PageProps) {
         buttonText={t("home.callToAction.button")}
         buttonLink={t("menu.contact.url")}
       />
-      <SectionServices t={t} />
-      <SectionForestAsClassroom t={t} />
+      <SectionServices 
+        list={[
+          {
+            title: t("home.services.bumbleBeeHouseTitle"),
+            description: t("home.services.bumbleBeeHouseText"),
+            img: "imgs/home/servicios-madre-de-dia.jpg",
+            link: t("menu.forestAsClassroom.daytimeMother.url"),
+            button: t("home.services.button"),
+          },
+          {
+            title: t("home.services.forestHouseTitle"),
+            description: t("home.services.forestHouseText"),
+            img: "imgs/home/servicios-infantil.jpg",
+            link: t("menu.forestAsClassroom.childhoodClass.url"),
+            button: t("home.services.button"),
+          },
+          {
+            title: t("home.services.birdNestTitle"),
+            description: t("home.services.birdNestText"),
+            img: "imgs/home/servicios-primaria.jpg",
+            link: t("menu.forestAsClassroom.primarySchool.url"),
+            button: t("home.services.button"),
+          },
+          {
+            title: t("home.services.extracurricularPlayRoomTitle"),
+            description: t("home.services.extracurricularPlayRoomText"),
+            img: "imgs/home/servicios-extraescolares-ludoteca.jpg",
+            link: t("menu.forestAsClassroom.extracurricularActivitiesPlayRoom.url"),
+            button: t("home.services.button"),
+          },
+          {
+            title: t("home.services.extracurricularSaturdaysInFamilyTitle"),
+            description: t("home.services.extracurricularSaturdaysInFamilyText"),
+            img: "imgs/home/servicios-extraescolares-sabados.jpg",
+            link: t("menu.forestAsClassroom.extracurricularActivitiesSaturdays.url"),
+            button: t("home.services.button"),
+          },
+        ]}
+      />
+      <SectionForestAsClassroom 
+          title={t("home.forestAsClassroom.title")} 
+          keys={t("home.forestAsClassroom.keys")} 
+          text={t("home.forestAsClassroom.text")} />
       <SectionGallery
         list={[{
           title: t("home.gallery.imageWalkingInTheForestTitle"),
@@ -62,9 +109,27 @@ export default function Home(props: PageProps) {
           image: "imgs/home/home-caballos.jpg",
         }]}
       />
+      <Prices t={t} />
       <SectionSaying
         text={t("home.quote.text")}
         author={t("home.quote.author")}
+      />
+      <Opinions
+        title={t("home.opinions.title")}
+        list={[
+          {
+            testimonial: t("home.opinions.testimonial1"),
+            name: t("home.opinions.name1"),
+          },
+          {
+            testimonial: t("home.opinions.testimonial2"),
+            name: t("home.opinions.name2"),
+          },
+          {
+            testimonial: t("home.opinions.testimonial3"),
+            name: t("home.opinions.name3"),
+          },
+        ]}
       />
       <SectionFooter />
     </>

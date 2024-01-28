@@ -36,27 +36,25 @@ const SectionContent = ({ staticPath, t }: ContentProps) => {
         />
       </div>
       <div className={tw`order-1 sm:w-[48%] sm:flex-grow`}>
-        <h2 title="Casita Abejorro">
-          <img
-            src={`${staticPath}/logo-abejorros.jpg`}
-            className={tw("w-full mb-4")}
-            alt={t("daytimeMother.imgLogo")}
-          />
-        </h2>
+        <img
+          src={`${staticPath}/logo-abejorros.jpg`}
+          className={tw("w-full mb-4")}
+          alt={t("daytimeMother.imgLogo")}
+        />
         <p>
           {t("daytimeMother.descriptionText1")}
         </p>
-        <h3 className={tw("hegazti-h3 my-8 p-8 border-l-1")}>
+        <h2 className={tw("hegazti-h3 my-8 p-8 border-l-1")}>
           {t("daytimeMother.descriptionText2")}
-        </h3>
+        </h2>
         <p>
           {t("daytimeMother.descriptionText3")}
         </p>
       </div>
       <div className={tw`order-3 sm:w-[48%] sm:flex-grow  flex flex-col`}>
-        <h3 className={tw("hegazti-h3 my-4")}>
+        <p className={tw("hegazti-h3 my-4")}>
           {t("daytimeMother.yurta.title")}
-        </h3>
+        </p>
         <p className={tw("mb-4")}>
           {t("daytimeMother.yurta.text")}
         </p>
@@ -67,9 +65,9 @@ const SectionContent = ({ staticPath, t }: ContentProps) => {
         />
       </div>
       <div className={tw`order-3 sm:w-[48%] sm:flex-grow flex flex-col`}>
-        <h3 className={tw("hegazti-h3 my-4")}>
+        <p className={tw("hegazti-h3 my-4")}>
           {t("daytimeMother.companion.title")}
-        </h3>
+        </p>
         <p className={tw("mb-4")}>
           {t("daytimeMother.companion.text")}
         </p>

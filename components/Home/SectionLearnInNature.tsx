@@ -1,7 +1,7 @@
 import { tw } from "twind/css";
 
 const SectionLearnInNature = ({ t }: { t: any }) => (
-  <section className={tw`mx-auto max-w-7xl px-2 sm:px-6 lg:px-8`}>
+  <section className={tw`mx-auto max-w-7xl px-2 sm:px-6 lg:px-8 gap-4`}>
     <div class={tw`flex flex-col sm:flex-row gap-4`}>
       <div>
         <h2 class={tw`hegazti-h2`}>

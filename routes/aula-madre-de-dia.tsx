@@ -12,6 +12,7 @@ import getFixedT from "@/components/i18n.ts";
 import { useContext } from "preact/hooks";
 import { ContextState } from "@/routes/_app.tsx";
 import HeadElement from "@/components/HeadElement.tsx";
+import Prices from "@/components/Prices/Prices.tsx";
 
 export const config: RouteConfig = {
   routeOverride: "/(aula-madre-de-dia|daily-mother-schoolroom)",
@@ -109,6 +110,7 @@ export default function AulaMadreDeDia(props: PageProps) {
           },
         ]}
       />
+      <Prices t={t} />
       {/* we pass languageAccepted to get the proper form. It should be handlded as context */}
       <SectionFooter />
     </>

@@ -28,14 +28,14 @@ const ItemImage = (item: GalleryItemProps) => (
         `absolute w-9/12 p-4 bg-black text-center bg-opacity-50 text-white top-2/4 left-2/4 translate-y-[-50%] translate-x-[-50%]`,
       )}
     >
-      <h4 class={tw`text-2xl`}>{item.title}</h4>
+      <p class={tw`text-2xl`}>{item.title}</p>
       <p class={tw`text-xs`}>{item.description}</p>
     </div>
   </div>
 );
 
 const SectionGallery = (ctx: GalleryProps) => (
-  <section className={tw(`mx-auto max-w-7xl px-2 sm:px-6 lg:px-8`)}>
+  <section className={tw(`mx-auto max-w-7xl px-2 sm:px-6 lg:px-8 mb-16`)}>
     <div className={tw(`flex flex-col sm:flex-row gap-4`)}>
       <ItemImage
         title={ctx.list[0].title}
