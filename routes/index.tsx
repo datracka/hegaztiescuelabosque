@@ -78,7 +78,10 @@ export default function Home(props: PageProps) {
           },
         ]}
       />
-      <SectionForestAsClassroom t={t} />
+      <SectionForestAsClassroom 
+          title={t("home.forestAsClassroom.title")} 
+          keys={t("home.forestAsClassroom.keys")} 
+          text={t("home.forestAsClassroom.text")} />
       <SectionGallery
         list={[{
           title: t("home.gallery.imageWalkingInTheForestTitle"),
