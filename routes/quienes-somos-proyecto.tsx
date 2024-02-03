@@ -46,7 +46,7 @@ export default function QuienesSomosProyecto(props: PageProps) {
           {
             title: t("whoWeAreProject.cardList.title1"),
             description: t("whoWeAreProject.cardList.text1"),
-            img: `${staticPath}/convicencia-diaria-con-la-naturaleza.jpg`,
+            img: `${staticPath}/convivencia-diaria-con-la-naturaleza.jpg`,
           },
           {
             title: t("whoWeAreProject.cardList.title2"),
