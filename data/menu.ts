@@ -4,7 +4,7 @@ export type menuTypeProps = {
   target?: string;
   subOptions?: { url: string; name: string }[];
   highlighted?: boolean;
-  noFollow?: boolean
+  noFollow?: boolean;
 };
 
 const menu = (menuTexts: any): menuTypeProps[] => {
@@ -25,8 +25,10 @@ const menu = (menuTexts: any): menuTypeProps[] => {
           name: menuTexts?.forestAsClassroom?.primarySchool.text,
         },
         {
-          url: menuTexts?.forestAsClassroom?.extracurricularActivitiesPlayRoom.url,
-          name: menuTexts?.forestAsClassroom?.extracurricularActivitiesPlayRoom.text,
+          url: menuTexts?.forestAsClassroom?.extracurricularActivitiesPlayRoom
+            .url,
+          name: menuTexts?.forestAsClassroom?.extracurricularActivitiesPlayRoom
+            .text,
         },
         // PENDING TO TRANSLATE !!!!!
         /* {
@@ -39,7 +41,10 @@ const menu = (menuTexts: any): menuTypeProps[] => {
     {
       name: menuTexts?.whoWeAre?.text,
       subOptions: [
-        { url: menuTexts?.whoWeAre?.project.url, name: menuTexts?.whoWeAre?.project.text },
+        {
+          url: menuTexts?.whoWeAre?.project.url,
+          name: menuTexts?.whoWeAre?.project.text,
+        },
         {
           url: menuTexts?.whoWeAre?.natureSpaces.url,
           name: menuTexts?.whoWeAre?.natureSpaces.text,
@@ -58,17 +63,17 @@ const menu = (menuTexts: any): menuTypeProps[] => {
       name: menuTexts?.contact.text,
       url: menuTexts?.contact.url,
     },
-    /* {
+    {
       name: "Jornada de puertas abiertas",
       url: "jornada-puertas-abiertas-2023",
       highlighted: true,
-    }, */
+    },
     {
       name: menuTexts?.blog.text,
       url: menuTexts?.blog.url,
       target: "_blank",
     },
-   /*  {
+    /*  {
       name: menuTexts?.extracurricularActivities.text,
       url: menuTexts?.extracurricularActivities.url,
       highlighted: true,
@@ -77,10 +82,9 @@ const menu = (menuTexts: any): menuTypeProps[] => {
       name: menuTexts?.scholarCalendar.text,
       url: menuTexts?.scholarCalendar.url,
       target: "_blank",
-      noFollow: true
+      noFollow: true,
     },
   ];
 };
-
 
 export default menu;
