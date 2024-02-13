@@ -37,8 +37,8 @@ const GetToKnow = () => (
           con el mundo. ¡Esperamos verte pronto en la Escuela Bosque Hegazti!
         </p>
         <p className={tw`mb-4`}>
-          Llámanos al 697 24 57 75 o envíanos un email a
-          hegaztiescuelabosque@gmail.com si quieres saber más. ¡Te esperamos!
+          Llámanos al 678 40 13 54 (Yoryina) o envíanos un email a
+          info@hegaztiescuelabosque.org si quieres saber más. ¡Te esperamos!
         </p>
         <img
           className={tw`mb-12`}
