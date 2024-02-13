@@ -11,7 +11,7 @@ import * as $aula_madre_de_dia from "./routes/aula-madre-de-dia.tsx";
 import * as $aula_primaria from "./routes/aula-primaria.tsx";
 import * as $extraescolares_2023_2024 from "./routes/extraescolares-2023-2024.tsx";
 import * as $index from "./routes/index.tsx";
-import * as $jornada_puertas_abiertas_2023 from "./routes/jornada-puertas-abiertas-2023.tsx";
+import * as $jornada_puertas_abiertas from "./routes/jornada-puertas-abiertas.tsx";
 import * as $legal_aviso_legal from "./routes/legal-aviso-legal.tsx";
 import * as $legal_politica_de_cookies from "./routes/legal-politica-de-cookies.tsx";
 import * as $legal_politica_de_privacidad from "./routes/legal-politica-de-privacidad.tsx";
@@ -46,8 +46,7 @@ const manifest = {
     "./routes/aula-primaria.tsx": $aula_primaria,
     "./routes/extraescolares-2023-2024.tsx": $extraescolares_2023_2024,
     "./routes/index.tsx": $index,
-    "./routes/jornada-puertas-abiertas-2023.tsx":
-      $jornada_puertas_abiertas_2023,
+    "./routes/jornada-puertas-abiertas.tsx": $jornada_puertas_abiertas,
     "./routes/legal-aviso-legal.tsx": $legal_aviso_legal,
     "./routes/legal-politica-de-cookies.tsx": $legal_politica_de_cookies,
     "./routes/legal-politica-de-privacidad.tsx": $legal_politica_de_privacidad,

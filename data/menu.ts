@@ -65,7 +65,7 @@ const menu = (menuTexts: any): menuTypeProps[] => {
     },
     {
       name: "Jornada de puertas abiertas",
-      url: "jornada-puertas-abiertas-2023",
+      url: "jornada-puertas-abiertas",
       highlighted: true,
     },
     {
