@@ -64,8 +64,8 @@ const menu = (menuTexts: any): menuTypeProps[] => {
       url: menuTexts?.contact.url,
     },
     {
-      name: "Jornada de puertas abiertas",
-      url: "jornada-puertas-abiertas",
+      name: menuTexts.openDoors.text,
+      url: menuTexts.openDoors.url,
       highlighted: true,
     },
     {

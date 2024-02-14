@@ -66,6 +66,10 @@ const english = {
         url: "//blog.hegaztiescuelabosque.org",
         text: "Blog",
       },
+      openDoors: {
+        url: "open-house-days",
+        text: "Open House Days",
+      },
       scholarCalendar: {
         url: "//docs.google.com/document/d/1Dk-Hd-NI8Y8oh9TxotYUyBzqWnu9dXUMpjkJ1dkAsCY/edit?usp=sharing",
         text: "School Calendar 23/24",
@@ -1030,6 +1034,50 @@ Isn't it dangerous for children to play in the forest?
         hegaztiescuelabosque@gmail.com if you want to know more. We are waiting for you!
       </p>
       `,
+    },
+    openDoors: {
+      header: {
+        title: "Hegazti Escuela Bosque | Open House Day",
+        meta: {
+          description: {
+            content:
+              "Every Wednesday, we have an open house so you can get to know our school and our educational project.",
+          },
+        },
+      },
+      hero: {
+        claim: "Open House Day",
+        subClaim: "Every Wednesday from February to March.",
+      },
+      getToKnow: {
+        title: "Open House Day",
+        text: `
+          <p className="pb-12">
+          Welcome to the Open Day at Hegazti Forest School! We invite you to join us to discover our unique way of teaching.
+        </p>
+        <br/>
+        <p className="pb-12">
+          At Hegazti Forest School, we believe in freedom and nature as means for learning. Childhood is a time of motor and cognitive restlessness, and our school is designed to nurture and stimulate this natural curiosity.
+        </p>
+        <br/>
+        <p className="pb-12">
+          Our classroom is nature, where children can experience real life and feel free to move and investigate the world around them. The sky, the earth, and the flowers are learning tools that allow them to connect with their environment and experience diversity.
+        </p>
+        <br/>
+        <p className="pb-12">
+          Our integrative approach ensures that each child has their place in the school. We are committed to the development of free and diverse human beings, who feel and think for themselves.
+        </p>
+        <br/>
+        <p className="pb-12">
+          We invite you to join us at the Open Day to experience the school in person. You will discover how our living classroom is the perfect environment to nurture curiosity and connection with the world. We look forward to seeing you soon at Hegazti Forest School!
+        </p>
+        <br/>
+        <br/>
+        <p className="pb-12">
+          Call us at 678 40 13 54 (Yoryina) or send us an email to info@hegaztiescuelabosque.org if you want to know more. We are waiting for you!
+        </p>
+          `,
+      },
     },
     cookiePolicy: {
       header: {
@@ -2113,6 +2161,10 @@ const spanish = {
       contact: {
         url: "mas-informacion",
         text: "Contacto",
+      },
+      openDoors: {
+        url: "jornadas-de-puertas-abiertas",
+        text: "Jornadas de puertas abiertas",
       },
       extracurricularActivities: {
         url: "extraescolares-2023-2024",
@@ -3226,6 +3278,64 @@ const spanish = {
         hegaztiescuelabosque@gmail.com si quieres saber más. ¡Te esperamos!
       </p>
       `,
+    },
+    openDoors: {
+      header: {
+        title: "Hegazti Escuela Bosque | Puertas Abiertas",
+        meta: {
+          description: {
+            content:
+              "Cada Miércoles, tenemos una jornada de puertas abiertas para que puedas conocer nuestra escuela y nuestro proyecto educativo.",
+          },
+        },
+      },
+      hero: {
+        claim: "Jornada de puertas abiertas",
+        subClaim: "Cada Miércoles de Febrero a Marzo.",
+      },
+      getToKnow: {
+        title: "Jornada de Puertas Abiertas",
+        text: `
+              <p className="mb-4">
+              ¡Bienvenidos a la Jornada de Puertas Abiertas de la Escuela Bosque
+              Hegazti! Te invitamos a unirte a nosotros para descubrir nuestra
+              manera única de enseñar.
+            </p>
+            <br/>
+            <p className="mb-4">
+              En la Escuela Bosque Hegazti, creemos en la libertad y la naturaleza
+              como medios para el aprendizaje. La infancia es un tiempo de inquietud
+              motora y cognitiva, y nuestra escuela está diseñada para nutrir y
+              estimular esta curiosidad natural.
+            </p>
+            <br/>
+            <p className="mb-4">
+              Nuestro aula es la naturaleza, donde los niños pueden experimentar la
+              vida real y sentirse libres para moverse e investigar el mundo que les
+              rodea. El cielo, la tierra y las flores son herramientas de
+              aprendizaje que les permiten conectarse con su entorno y experimentar
+              la diversidad.
+            </p>
+            <br/>
+            <p className="mb-4">
+              Nuestro enfoque integrador garantiza que cada niño tenga su lugar en
+              la escuela. Estamos comprometidos con el desarrollo de seres humanos
+              libres y diversos, que sienten y piensan por sí mismos.
+            </p>
+            <br/>
+            <p className="mb-4">
+              Te invitamos a unirte a nosotros en la Jornada de Puertas Abiertas
+              para experimentar la escuela en persona. Descubrirás cómo nuestra aula
+              viva es el ambiente perfecto para nutrir la curiosidad y la conexión
+              con el mundo. ¡Esperamos verte pronto en la Escuela Bosque Hegazti!
+            </p>
+            <br/>
+            <p className="mb-4">
+              Llámanos al 678 40 13 54 (Yoryina) o envíanos un email a
+              info@hegaztiescuelabosque.org si quieres saber más. ¡Te esperamos!
+            </p>
+           `,
+      },
     },
     cookiePolicy: {
       header: {
