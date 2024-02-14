@@ -534,7 +534,7 @@ const english = {
         meta: {
           description: {
             content:
-              "The Forest School offers extracurricular activities for children aged 3 to 12 in contact with nature and animals. They provide a playgroup and playgroups during winter, spring, and summer, from 9:00 AM to 2:00 PM. Interested individuals are invited to make their reservations in advance.",
+              "The Forest School offers extracurricular activities for children aged 3 to 12 in contact with nature and animals. They provide a playgroup and playgroups during winter, spring, and summer, from 9:00 AM to 17:00 PM. Interested individuals are invited to make their reservations in advance.",
           },
         },
       },
@@ -2071,15 +2071,15 @@ Isn't it dangerous for children to play in the forest?
       whereAreWeExtended:
         "We are located in the Valdearas area, 1 kilometer from Viana and 9 km from Logroño.",
       timeTableTitle: "Forest School Schedule:",
-      timeTableText: "Monday to Friday from 9:00 AM to 2:00 PM.",
-      priceTableTitle: "Rates for the 2023/2024 School Year:",
-      priceTableText1: "Full-time (25 hours/week): €350 per child.",
+      timeTableText: "Monday to Friday from 9:00 AM to 14:00 PM and working to extend it to 17:00 (with meal).",
+      priceTableTitle: "Rates for the 2024/2025 School Year:",
+      priceTableText1: "Full-time (25 hours/week): €350 per child. (part/time)",
       priceTableText2: "Reduced rate (15 hours/week): €250 per child.",
       priceTableText3: "Super reduced rate (10 hours/week): €150 per child.",
       priceTableText4: "Single days: €20 per day.",
       timeTableTextSummerTitle:
         "Winter, Spring, or Summer Toy Library Schedule:",
-      timeTableTextSummerText: "From 9:00 AM to 2:00 PM.",
+      timeTableTextSummerText: "From 9:00 AM 14:00 and working to extend it to 17:00 PM (with meal).",
       timeTableTextSaturdayTitle: "Family Saturdays Schedule:",
       timeTableTextSaturdayText: "From 10:00 AM to 2:00 PM.",
       address: `
@@ -2679,7 +2679,7 @@ const spanish = {
         meta: {
           description: {
             content:
-              "La Escuela Bosque ofrece actividades extraescolares para niños/as de 3 a 12 años en contacto con la naturaleza y los animales. Ofrecen ludoteca y ludotecas de invierno, primavera y verano en un horario de 9:00 a 14:00 horas. Se invita a los interesados a hacer su reserva con anticipación.",
+              "La Escuela Bosque ofrece actividades extraescolares para niños/as de 3 a 12 años en contacto con la naturaleza y los animales. Ofrecen ludoteca y ludotecas de invierno, primavera y verano en un horario de 9:00 a 17:00 horas. Se invita a los interesados a hacer su reserva con anticipación.",
           },
         },
       },
@@ -4632,16 +4632,16 @@ const spanish = {
       whereAreWeExtended:
         "Estamos ubicados en el Paraje de Valdearas a 1 kilómetro de Viana y a 9 km de Logroño.",
       timeTableTitle: "Horario de Escuela Bosque:",
-      timeTableText: " De Lunes a Vierns de 9:00 a 14:00 hrs.",
-      priceTableTitle: "Tarifas Curso 20223 / 2024:",
-      priceTableText1: "Jornada completa (25 horas/semana): 350€ por niño.",
+      timeTableText: " De Lunes a Vierns de 9:00 a 14:00 y mirando de extenderlo hasta las 17:00 hrs. (con comida)",
+      priceTableTitle: "Tarifas Curso 2024 / 2025:",
+      priceTableText1: "Jornada completa (25 horas/semana): 350€ por niño. (mañanas)",
       priceTableText2: "Tarifa reducida (15 horas/semana): 250€ por niño.",
       priceTableText3:
         "Tarifa super reducida (10 horas/semana): 150€ por niño.",
       priceTableText4: "Días sueltos: 20€ por día.",
       timeTableTextSummerTitle:
         "Horario Ludotecas de Invierno, Primavera o Verano:",
-      timeTableTextSummerText: "De 9:00 a 14:00 hrs.",
+      timeTableTextSummerText: "De 9:00 a 14:00 hrs y mirando de extenderlo hasta las 17:00 (con comida).",
       timeTableTextSaturdayTitle: "Horario Sábados en Familia:",
       timeTableTextSaturdayText: "De 10:00 a 14:00 hrs.",
       address: `
