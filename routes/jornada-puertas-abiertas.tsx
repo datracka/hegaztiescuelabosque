@@ -4,26 +4,41 @@ import Hero from "@/components/Shared/Hero.tsx";
 import { Head } from "$fresh/runtime.ts";
 import SectionFooter from "@/components/Shared/SectionFooter.tsx";
 import GetToKnow from "@/components/OpenDoors2023/GetToKnow.tsx";
+import { useContext } from "preact/hooks";
+import HeadElement from "@/components/HeadElement.tsx";
+import { ContextState } from "@/routes/_app.tsx";
+import getFixedT from "@/components/i18n.ts";
+import { PageProps, RouteConfig } from "$fresh/server.ts";
+
+export const config: RouteConfig = {
+  routeOverride: "/(open-house-days|jornada-puertas-abiertas)",
+};
 
 // pending to translate!!
-export default function JornadaPuertasAbiertas() {
+export default function JornadaPuertasAbiertas(props: PageProps) {
   const staticPath = "/imgs/jornada-puertas-abiertas";
+
+  const { languageAccepted } = useContext(ContextState);
+  const t = getFixedT(languageAccepted);
+  const menuTexts = t("menu", { returnObjects: true });
+
   return (
     <>
-      <Head>
-        <title>Hegazti Escuela Bosque | Ven a Conocernos</title>
-        <meta
-          name="description"
-          content="Cada Miércoles, tenemos una jornada de puertas abiertas para que puedas conocer nuestra escuela y nuestro proyecto educativo."
-        />
-      </Head>
-      <NavBar />
+      <HeadElement
+        description={t("opendoors.header.meta.description.content")}
+        title={t("openDoors.header.title")}
+        url={props.url}
+      />
+      <NavBar menuTexts={menuTexts} />
       <Hero
-        title="Jornada de puertas abiertas"
-        description="Cada Miércoles de Febrero a Marzo."
+        title={t("openDoors.hero.claim")}
+        description={t("openDoors.hero.subClaim")}
         backgroundImage={`${staticPath}/ninos-jugando.jpg`}
       />
-      <GetToKnow />
+      <GetToKnow
+        title={t("openDoors.getToKnow.title")}
+        text={t("openDoors.getToKnow.text")}
+      />
       <SectionFooter />
     </>
   );
