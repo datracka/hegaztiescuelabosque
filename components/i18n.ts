@@ -1047,7 +1047,7 @@ Isn't it dangerous for children to play in the forest?
       },
       hero: {
         claim: "Open House Day",
-        subClaim: "Every Wednesday from February to March.",
+        subClaim: "Every Wednesday and on 10th Sunday.",
       },
       getToKnow: {
         title: "Open House Day",
@@ -1071,6 +1071,21 @@ Isn't it dangerous for children to play in the forest?
         <p className="pb-12">
           We invite you to join us at the Open Day to experience the school in person. You will discover how our living classroom is the perfect environment to nurture curiosity and connection with the world. We look forward to seeing you soon at Hegazti Forest School!
         </p>
+        <br/>
+        <br/>
+        <h2 className="hegazti-h2">This weekend we're also open!</h2>
+        <p class="mb-4">
+    Sunday 10th, for those who can't come during the week or want to enjoy a day in nature.
+    
+    Starting at 11:30 we'll be there to welcome you and address all your doubts.
+    <ul>
+    <li>- Educators will be there to answer your questions.</li>
+    <li>- You'll be able to see the space and the materials we use.</li>
+    <li>- You'll also be able to see photos and the school's educational curriculum.</li>
+    <li>- And enjoy a delicious hot chocolate!</li>
+    </ul>
+    Don't miss out, we're waiting for you!
+</p>
         <br/>
         <br/>
         <p className="pb-12">
@@ -2071,7 +2086,8 @@ Isn't it dangerous for children to play in the forest?
       whereAreWeExtended:
         "We are located in the Valdearas area, 1 kilometer from Viana and 9 km from Logroño.",
       timeTableTitle: "Forest School Schedule:",
-      timeTableText: "Monday to Friday from 9:00 AM to 14:00 PM and working to extend it to 17:00 (with meal).",
+      timeTableText:
+        "Monday to Friday from 9:00 AM to 14:00 PM and working to extend it to 17:00 (with meal).",
       priceTableTitle: "Rates for the 2024/2025 School Year:",
       priceTableText1: "Full-time (25 hours/week): €350 per child. (part/time)",
       priceTableText2: "Reduced rate (15 hours/week): €250 per child.",
@@ -2079,7 +2095,8 @@ Isn't it dangerous for children to play in the forest?
       priceTableText4: "Single days: €20 per day.",
       timeTableTextSummerTitle:
         "Winter, Spring, or Summer Toy Library Schedule:",
-      timeTableTextSummerText: "From 9:00 AM 14:00 and working to extend it to 17:00 PM (with meal).",
+      timeTableTextSummerText:
+        "From 9:00 AM 14:00 and working to extend it to 17:00 PM (with meal).",
       timeTableTextSaturdayTitle: "Family Saturdays Schedule:",
       timeTableTextSaturdayText: "From 10:00 AM to 2:00 PM.",
       address: `
@@ -3285,18 +3302,18 @@ const spanish = {
         meta: {
           description: {
             content:
-              "Cada Miércoles, tenemos una jornada de puertas abiertas para que puedas conocer nuestra escuela y nuestro proyecto educativo.",
+              "Tenemos jornadas de puertas abiertas para que puedas conocer nuestro proyecto educativo.",
           },
         },
       },
       hero: {
         claim: "Jornada de puertas abiertas",
-        subClaim: "Cada Miércoles de Febrero a Marzo.",
+        subClaim: "Cada Miércoles de Febrero a Marzo y el Domingo 10.",
       },
       getToKnow: {
         title: "Jornada de Puertas Abiertas",
         text: `
-              <p className="mb-4">
+            <p className="mb-4">
               ¡Bienvenidos a la Jornada de Puertas Abiertas de la Escuela Bosque
               Hegazti! Te invitamos a unirte a nosotros para descubrir nuestra
               manera única de enseñar.
@@ -3328,6 +3345,21 @@ const spanish = {
               para experimentar la escuela en persona. Descubrirás cómo nuestra aula
               viva es el ambiente perfecto para nutrir la curiosidad y la conexión
               con el mundo. ¡Esperamos verte pronto en la Escuela Bosque Hegazti!
+            </p>
+            <br/>
+            <br/>
+            <h2 className="hegazti-h2">Este fin de semana abrimos también!</h2>
+            <p className="mb-4">
+            El domingo 10, para aquellos que no puedan venir entre semana o quieran disfrutar de un día en la naturaleza.
+
+            A partir de las 11:30 estaremos allí para recibirte y resolver todas tus dudas.
+            <ul>
+            <li>- Las educadoras estarán allí para responder tus preguntas.</li>
+            <li>- Podrás ver el espacio y el material que utilizamos.</li>
+            <li>- También podrás ver fotos y el currículum educativo de la escuela.</li>
+            <li>- ¡Y disfrutar de una deliciosa chocolatada!</li>
+            </ul>
+            ¡No te lo pierdas, te esperamos!
             </p>
             <br/>
             <p className="mb-4">
@@ -4632,16 +4664,19 @@ const spanish = {
       whereAreWeExtended:
         "Estamos ubicados en el Paraje de Valdearas a 1 kilómetro de Viana y a 9 km de Logroño.",
       timeTableTitle: "Horario de Escuela Bosque:",
-      timeTableText: " De Lunes a Vierns de 9:00 a 14:00 y mirando de extenderlo hasta las 17:00 hrs. (con comida)",
+      timeTableText:
+        " De Lunes a Vierns de 9:00 a 14:00 y mirando de extenderlo hasta las 17:00 hrs. (con comida)",
       priceTableTitle: "Tarifas Curso 2024 / 2025:",
-      priceTableText1: "Jornada completa (25 horas/semana): 350€ por niño. (mañanas)",
+      priceTableText1:
+        "Jornada completa (25 horas/semana): 350€ por niño. (mañanas)",
       priceTableText2: "Tarifa reducida (15 horas/semana): 250€ por niño.",
       priceTableText3:
         "Tarifa super reducida (10 horas/semana): 150€ por niño.",
       priceTableText4: "Días sueltos: 20€ por día.",
       timeTableTextSummerTitle:
         "Horario Ludotecas de Invierno, Primavera o Verano:",
-      timeTableTextSummerText: "De 9:00 a 14:00 hrs y mirando de extenderlo hasta las 17:00 (con comida).",
+      timeTableTextSummerText:
+        "De 9:00 a 14:00 hrs y mirando de extenderlo hasta las 17:00 (con comida).",
       timeTableTextSaturdayTitle: "Horario Sábados en Familia:",
       timeTableTextSaturdayText: "De 10:00 a 14:00 hrs.",
       address: `

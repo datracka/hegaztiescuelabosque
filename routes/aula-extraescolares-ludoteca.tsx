@@ -43,7 +43,7 @@ export default function AulaExtraescolaresLudoteca(props: PageProps) {
           `mx-auto max-w-7xl px-2 sm:px-6 lg:px-8 `,
         )}
       >
-        <h2 className={tw(`hegazti-h2 py-14 px-4 text-center border-b-1 mb-8`)}>
+        <h2 className="hegazti-h2 py-14 px-4 text-center border-b-1 mb-8">
           {t("extracurricularPlayroom.title")}
         </h2>
       </section>
