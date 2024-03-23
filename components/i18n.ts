@@ -70,6 +70,10 @@ const english = {
         url: "open-house-days",
         text: "Open House Days",
       },
+      playGroup: {
+        url: "playgroup",
+        text: "Eastern Playgroup",
+      },
       scholarCalendar: {
         url: "//docs.google.com/document/d/1Dk-Hd-NI8Y8oh9TxotYUyBzqWnu9dXUMpjkJ1dkAsCY/edit?usp=sharing",
         text: "School Calendar 23/24",
@@ -1034,6 +1038,45 @@ Isn't it dangerous for children to play in the forest?
         hegaztiescuelabosque@gmail.com if you want to know more. We are waiting for you!
       </p>
       `,
+    },
+    playGroup: {
+      header: {
+        title: "Hegazti Escuela Bosque | Eastern playgroup",
+        meta: {
+          description: {
+            content:
+              "In April, come to our playgroup and enjoy the Easter holidays in nature.",
+          },
+        },
+      },
+      hero: {
+        claim: "Eastern Playgroup",
+        subClaim: "First week in April, from 2nd to 5th April.",
+      },
+      getToKnow: {
+        title: "Eastern Playgroup",
+        text: `
+        <p className="mb-4">
+        Join us for the Great April Playroom at Hegazti Forest School! A unique adventure awaits you from April 2nd to 5th, exploring learning through play and nature.
+      </p>
+      <br/>
+      <p className="mb-4">
+        At Hegazti Forest School, we strongly believe in development through play and direct contact with the environment. Our playroom is designed to offer children the freedom to play, learn, and grow in harmony with nature.
+      </p>
+      <br/>
+      <p className="mb-4">
+        Each day, nature becomes our play space, allowing children to explore, imagine, and create in a natural setting. Trees, stones, and rivers transform into scenes of unforgettable adventures.
+      </p>
+      <br/>
+      <p className="mb-4">
+        Our pedagogical approach seeks to foster curiosity, creativity, and autonomy in each child, ensuring a unique experience of learning and fun.
+      </p>
+      <br/>
+      <p className="mb-4">
+        Join us in this special playroom event to experience outdoor play and discover how our natural environment promotes a deep and meaningful connection with the world. Don’t miss this opportunity to enjoy and learn at the Hegazti Forest School!
+      </p>
+          `,
+      },
     },
     openDoors: {
       header: {
@@ -2183,6 +2226,10 @@ const spanish = {
         url: "jornadas-de-puertas-abiertas",
         text: "Jornadas de puertas abiertas",
       },
+      playGroup: {
+        url: "ludoteca",
+        text: "Ludoteca Semana Santa",
+      },
       extracurricularActivities: {
         url: "extraescolares-2023-2024",
         text: "Extraescolares",
@@ -3295,6 +3342,45 @@ const spanish = {
         hegaztiescuelabosque@gmail.com si quieres saber más. ¡Te esperamos!
       </p>
       `,
+    },
+    playGroup: {
+      header: {
+        title: "Hegazti Escuela Bosque | Ludoteca Semana Santa",
+        meta: {
+          description: {
+            content:
+              "La primera semana de abril, ven a disfrutar de la naturaleza y el juego en la ludoteca de Hegazti Escuela Bosque.",
+          },
+        },
+      },
+      hero: {
+        claim: "Ludoteca Semana Santa",
+        subClaim: "Primera semana de abril (2 al 5 de Abril)",
+      },
+      getToKnow: {
+        title: "Ludoteca Semana Santa",
+        text: `
+        <p className="mb-4">
+  ¡Te esperamos en la Gran Ludoteca de Abril en la Escuela Bosque Hegazti! Una aventura única te aguarda del 2 al 5 de abril, para explorar el aprendizaje a través del juego y la naturaleza.
+</p>
+<br/>
+<p className="mb-4">
+  En la Escuela Bosque Hegazti, creemos firmemente en el desarrollo a través del juego y el contacto directo con el medio ambiente. Nuestra ludoteca está diseñada para ofrecer a los niños la libertad de jugar, aprender y crecer en armonía con la naturaleza.
+</p>
+<br/>
+<p className="mb-4">
+  Cada día, la naturaleza se convierte en nuestro espacio de juego, permitiendo que los niños exploren, imaginen y creen en un entorno natural. Árboles, piedras y ríos se transforman en escenarios de aventuras inolvidables.
+</p>
+<br/>
+<p className="mb-4">
+  Nuestro enfoque pedagógico busca fomentar la curiosidad, la creatividad y la autonomía en cada niño, asegurando una experiencia única de aprendizaje y diversión.
+</p>
+<br/>
+<p className="mb-4">
+  Únete a nosotros en esta ludoteca especial para vivir la experiencia de juego al aire libre y descubrir cómo nuestro entorno natural fomenta una conexión profunda y significativa con el mundo. ¡No te pierdas esta oportunidad de disfrutar y aprender en la Escuela Bosque Hegazti!
+</p>
+          `,
+      },
     },
     openDoors: {
       header: {

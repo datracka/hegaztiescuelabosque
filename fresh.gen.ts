@@ -15,6 +15,7 @@ import * as $jornada_puertas_abiertas from "./routes/jornada-puertas-abiertas.ts
 import * as $legal_aviso_legal from "./routes/legal-aviso-legal.tsx";
 import * as $legal_politica_de_cookies from "./routes/legal-politica-de-cookies.tsx";
 import * as $legal_politica_de_privacidad from "./routes/legal-politica-de-privacidad.tsx";
+import * as $ludoteca from "./routes/ludoteca.tsx";
 import * as $mas_informacion from "./routes/mas-informacion.tsx";
 import * as $quienes_somos_espacios from "./routes/quienes-somos-espacios.tsx";
 import * as $quienes_somos_faqs from "./routes/quienes-somos-faqs.tsx";
@@ -50,6 +51,7 @@ const manifest = {
     "./routes/legal-aviso-legal.tsx": $legal_aviso_legal,
     "./routes/legal-politica-de-cookies.tsx": $legal_politica_de_cookies,
     "./routes/legal-politica-de-privacidad.tsx": $legal_politica_de_privacidad,
+    "./routes/ludoteca.tsx": $ludoteca,
     "./routes/mas-informacion.tsx": $mas_informacion,
     "./routes/quienes-somos-espacios.tsx": $quienes_somos_espacios,
     "./routes/quienes-somos-faqs.tsx": $quienes_somos_faqs,
