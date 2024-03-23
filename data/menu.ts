@@ -64,10 +64,15 @@ const menu = (menuTexts: any): menuTypeProps[] => {
       url: menuTexts?.contact.url,
     },
     {
+      name: menuTexts.playGroup.text,
+      url: menuTexts.playGroup.url,
+      highlighted: true,
+    },
+/*     {
       name: menuTexts.openDoors.text,
       url: menuTexts.openDoors.url,
       highlighted: true,
-    },
+    }, */
     {
       name: menuTexts?.blog.text,
       url: menuTexts?.blog.url,
