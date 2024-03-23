@@ -3,7 +3,7 @@ import NavBar from "@/islands/NavBar.tsx";
 import Hero from "@/components/Shared/Hero.tsx";
 import { Head } from "$fresh/runtime.ts";
 import SectionFooter from "@/components/Shared/SectionFooter.tsx";
-import GetToKnow from "@/components/OpenDoors2023/GetToKnow.tsx";
+import GetToKnow from "../components/OpenDoors/GetToKnow.tsx";
 import { useContext } from "preact/hooks";
 import HeadElement from "@/components/HeadElement.tsx";
 import { ContextState } from "@/routes/_app.tsx";
