@@ -63,11 +63,11 @@ const menu = (menuTexts: any): menuTypeProps[] => {
       name: menuTexts?.contact.text,
       url: menuTexts?.contact.url,
     },
-    {
+/*     {
       name: menuTexts.playGroup.text,
       url: menuTexts.playGroup.url,
       highlighted: true,
-    },
+    }, */
 /*     {
       name: menuTexts.openDoors.text,
       url: menuTexts.openDoors.url,
