@@ -34,6 +34,10 @@ const english = {
           url: "extracurricular-family-satuday",
           text: "Extracurriculars - Family Saturday",
         },
+        summerPlayroom: {
+          url: "summer-playroom",
+          text: "Summer Playroom",
+        },
       },
       whoWeAre: {
         text: "Who We Are",
@@ -70,13 +74,13 @@ const english = {
         url: "open-house-days",
         text: "Open House Days",
       },
-      playGroup: {
-        url: "playgroup",
-        text: "Eastern Playgroup",
-      },
       scholarCalendar: {
         url: "//docs.google.com/document/d/1Dk-Hd-NI8Y8oh9TxotYUyBzqWnu9dXUMpjkJ1dkAsCY/edit?usp=sharing",
         text: "School Calendar 23/24",
+      },
+      summerPlayroom: {
+        url: "summer-playroom",
+        text: "Summer Playroom",
       },
     },
     home: {
@@ -1039,41 +1043,41 @@ Isn't it dangerous for children to play in the forest?
       </p>
       `,
     },
-    playGroup: {
+    summerPlayroom: {
       header: {
-        title: "Hegazti Escuela Bosque | Eastern playgroup",
+        title: "Hegazti Forest School | Summer Playroom",
         meta: {
           description: {
             content:
-              "In April, come to our playgroup and enjoy the Easter holidays in nature.",
+              "Welcome to Our Forest School Summer Playground!",
           },
         },
       },
       hero: {
-        claim: "Eastern Playgroup",
-        subClaim: "First week in April, from 2nd to 5th April.",
+        claim: "Summer Playroom",
+        subClaim: "Welcome to Our Forest School Summer Playground!",
       },
       getToKnow: {
-        title: "Eastern Playgroup",
+        title: "Summer Playroom",
         text: `
         <p className="mb-4">
-        Join us for the Great April Playroom at Hegazti Forest School! A unique adventure awaits you from April 2nd to 5th, exploring learning through play and nature.
+        Nestled in the heart of nature, our summer playground at the forest school is a magical place where children can explore, learn, and grow amidst the lush greenery and tranquil surroundings. This unique playground is designed to harmonize with the forest environment, featuring natural materials and eco-friendly equipment that encourage sustainable play.
       </p>
       <br/>
       <p className="mb-4">
-        At Hegazti Forest School, we strongly believe in development through play and direct contact with the environment. Our playroom is designed to offer children the freedom to play, learn, and grow in harmony with nature.
+      Children will delight in our adventurous climbing structures made from robust, weathered wood, ropes that weave between the trees, and gentle earth mounds perfect for scrambling up and rolling down. Our playground also includes a charming wooden fort that serves as a hub for imaginative play and storytelling.
       </p>
       <br/>
       <p className="mb-4">
-        Each day, nature becomes our play space, allowing children to explore, imagine, and create in a natural setting. Trees, stones, and rivers transform into scenes of unforgettable adventures.
+      In addition to physical activities, our playground is equipped with sensory stations that engage all five senses, from scented herb gardens to tactile play panels with natural textures. A small stream meanders through the site, offering children the chance to experiment with water play and learn about the local aquatic ecosystem.
       </p>
       <br/>
       <p className="mb-4">
-        Our pedagogical approach seeks to foster curiosity, creativity, and autonomy in each child, ensuring a unique experience of learning and fun.
+      Safety is a priority in our forest school playground, with all structures carefully designed to be age-appropriate and inspected regularly. Our dedicated staff are always on hand to guide and supervise, ensuring a safe and enriching play experience for every child.
       </p>
       <br/>
       <p className="mb-4">
-        Join us in this special playroom event to experience outdoor play and discover how our natural environment promotes a deep and meaningful connection with the world. Don’t miss this opportunity to enjoy and learn at the Hegazti Forest School!
+      Join us this summer for an unforgettable adventure in our forest school playground, where fun meets learning in the great outdoors!
       </p>
           `,
       },
@@ -2222,13 +2226,13 @@ const spanish = {
         url: "mas-informacion",
         text: "Contacto",
       },
+      summerPlayroom: {
+        url: "ludoteca-verano",
+        text: "Ludoteca Verano",
+      },
       openDoors: {
         url: "jornadas-de-puertas-abiertas",
         text: "Jornadas de puertas abiertas",
-      },
-      playGroup: {
-        url: "ludoteca",
-        text: "Ludoteca Semana Santa",
       },
       extracurricularActivities: {
         url: "extraescolares-2023-2024",
@@ -3157,13 +3161,13 @@ const spanish = {
           El precio de la escuela es de:
         </p>.
         <p className={tw("mb-4")}>
-          350€ al mes, jornada completa (25 horas/semana).
+          250€ al mes, jornada completa (25 horas/semana).
         </p>
         <p className={tw("mb-4")}>
-          250€ por niño, tarifa reducida (15 horas/semana).
+          150€ por niño, tarifa reducida (15 horas/semana).
         </p>
         <p className={tw("mb-4")}>
-        150€ por niño, tarifa super reducida (10 horas/semana).
+        100€ por niño, tarifa super reducida (10 horas/semana).
         </p>
         <p className={tw("mb-4")}>
         Y finalmente, días sueltos: 20€ por día.
@@ -3343,42 +3347,37 @@ const spanish = {
       </p>
       `,
     },
-    playGroup: {
+    summerPlayroom: {
       header: {
-        title: "Hegazti Escuela Bosque | Ludoteca Semana Santa",
+        title: "Hegazti Escuela Bosque | Ludoteca Verano",
         meta: {
           description: {
             content:
-              "La primera semana de abril, ven a disfrutar de la naturaleza y el juego en la ludoteca de Hegazti Escuela Bosque.",
+              "¡Bienvenidos a Nuestro Patio de Recreo de Verano de la Escuela Forestal!",
           },
         },
       },
       hero: {
-        claim: "Ludoteca Semana Santa",
-        subClaim: "Primera semana de abril (2 al 5 de Abril)",
+        claim: "Ludoteca Verano",
+        subClaim: "¡Bienvenidos a Nuestro Patio de Recreo de Verano de la Escuela Forestal!",
       },
       getToKnow: {
         title: "Ludoteca Semana Santa",
         text: `
         <p className="mb-4">
-  ¡Te esperamos en la Gran Ludoteca de Abril en la Escuela Bosque Hegazti! Una aventura única te aguarda del 2 al 5 de abril, para explorar el aprendizaje a través del juego y la naturaleza.
-</p>
-<br/>
-<p className="mb-4">
-  En la Escuela Bosque Hegazti, creemos firmemente en el desarrollo a través del juego y el contacto directo con el medio ambiente. Nuestra ludoteca está diseñada para ofrecer a los niños la libertad de jugar, aprender y crecer en armonía con la naturaleza.
-</p>
-<br/>
-<p className="mb-4">
-  Cada día, la naturaleza se convierte en nuestro espacio de juego, permitiendo que los niños exploren, imaginen y creen en un entorno natural. Árboles, piedras y ríos se transforman en escenarios de aventuras inolvidables.
-</p>
-<br/>
-<p className="mb-4">
-  Nuestro enfoque pedagógico busca fomentar la curiosidad, la creatividad y la autonomía en cada niño, asegurando una experiencia única de aprendizaje y diversión.
-</p>
-<br/>
-<p className="mb-4">
-  Únete a nosotros en esta ludoteca especial para vivir la experiencia de juego al aire libre y descubrir cómo nuestro entorno natural fomenta una conexión profunda y significativa con el mundo. ¡No te pierdas esta oportunidad de disfrutar y aprender en la Escuela Bosque Hegazti!
-</p>
+        Ubicado en el corazón de la naturaleza, nuestro patio de recreo de verano en la escuela bosque es un lugar mágico donde los niños pueden explorar, aprender y crecer en medio de la naturaleza y el entorno tranquilo. Esta ludotea está diseñada para armonizar con el bosque.
+      </p>
+      <br/>
+      <p className="mb-4">
+      Los niños se deleitarán con nuestras instalaciones, cuerdas que se entretejen entre los árboles, y excursiones.      </p>
+      <br/>
+      <p className="mb-4">
+      Además de las actividades físicas, nuestra ludoteca cuenta con acompañantes que participarán de las aventuras de nuestros pequeños con los cinco sentidos.
+      </p>
+      <br/>
+      <p className="mb-4">
+      ¡Únete a nosotros este verano para una aventura inolvidable en nuestra ludoteca de la escuela bosque, donde la diversión se encuentra con el aprendizaje al aire libre!
+      </p>
           `,
       },
     },
@@ -4751,18 +4750,18 @@ const spanish = {
         "Estamos ubicados en el Paraje de Valdearas a 1 kilómetro de Viana y a 9 km de Logroño.",
       timeTableTitle: "Horario de Escuela Bosque:",
       timeTableText:
-        " De Lunes a Vierns de 9:00 a 14:00 y mirando de extenderlo hasta las 17:00 hrs. (con comida)",
+        " De Lunes a Viernes de 9:00 a 14:00 y mirando de extenderlo hasta las 17:00 hrs. (con comida)",
       priceTableTitle: "Tarifas Curso 2024 / 2025:",
       priceTableText1:
-        "Jornada completa (25 horas/semana): 350€ por niño. (mañanas)",
-      priceTableText2: "Tarifa reducida (15 horas/semana): 250€ por niño.",
+        "Jornada completa (25 horas/semana): 250€ por niño. (mañanas)",
+      priceTableText2: "Tarifa reducida (15 horas/semana): 150€ por niño.",
       priceTableText3:
-        "Tarifa super reducida (10 horas/semana): 150€ por niño.",
+        "Tarifa super reducida (10 horas/semana): 100€ por niño.",
       priceTableText4: "Días sueltos: 20€ por día.",
       timeTableTextSummerTitle:
-        "Horario Ludotecas de Invierno, Primavera o Verano:",
+        "Horario:",
       timeTableTextSummerText:
-        "De 9:00 a 14:00 hrs y mirando de extenderlo hasta las 17:00 (con comida).",
+        "Actuamente De 9:00 a 14:00 hrs y mirando de extenderlo hasta las 17:00 (con comida).",
       timeTableTextSaturdayTitle: "Horario Sábados en Familia:",
       timeTableTextSaturdayText: "De 10:00 a 14:00 hrs.",
       address: `
