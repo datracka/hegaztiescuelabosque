@@ -78,6 +78,11 @@ const menu = (menuTexts: any): menuTypeProps[] => {
       url: menuTexts?.blog.url,
       target: "_blank",
     },
+    {
+      name: menuTexts?.summerPlayroom.text,
+      url: menuTexts?.summerPlayroom.url,
+      highlighted: true,
+    },
     /*  {
       name: menuTexts?.extracurricularActivities.text,
       url: menuTexts?.extracurricularActivities.url,
