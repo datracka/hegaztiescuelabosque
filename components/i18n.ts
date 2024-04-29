@@ -159,9 +159,9 @@ const english = {
         `,
         rates: {
           title: "The prices of School is as follows:",
-          fullTime: "Full-time (25 hours/week): €350 per child.",
-          reduced: "Reduced rate (15 hours/week): €250 per child.",
-          superReduced: "Super reduced rate (10 hours/week): €150 per child.",
+          fullTime: "Full-time (25 hours/week): €250 per child.",
+          reduced: "Reduced rate (15 hours/week): €150 per child.",
+          superReduced: "Super reduced rate (10 hours/week): €100 per child.",
           daily: "Single days: €20 per day.",
           flexible:
             "Depending on each family's circumstances, we are open to discussing the rates, which can potentially be offset through community work or activities benefiting the children and the school.",
@@ -2320,10 +2320,10 @@ const spanish = {
         `,
         rates: {
           title: "Los precios de la escuela son los siguientes:",
-          fullTime: "Tiempo completo (25 horas/semana): €350 por niño.",
-          reduced: "Tarifa reducida (15 horas/semana): €250 por niño.",
+          fullTime: "Tiempo completo (25 horas/semana): €250 por niño.",
+          reduced: "Tarifa reducida (15 horas/semana): €150 por niño.",
           superReduced:
-            "Tarifa súper reducida (10 horas/semana): €150 por niño.",
+            "Tarifa súper reducida (10 horas/semana): €100 por niño.",
           daily: "Días individuales: €20 por día.",
           flexible:
             "Dependiendo de las circunstancias de cada familia, estamos abiertos a discutir las tarifas, las cuales pueden posiblemente ser compensadas a través de trabajo comunitario o actividades que beneficien a los niños y a la escuela.",
@@ -3362,7 +3362,7 @@ const spanish = {
         subClaim: "¡Bienvenidos a Nuestro Patio de Recreo de Verano de la Escuela Forestal!",
       },
       getToKnow: {
-        title: "Ludoteca Semana Santa",
+        title: "Ludoteca de Verano",
         text: `
         <p className="mb-4">
         Ubicado en el corazón de la naturaleza, nuestro patio de recreo de verano en la escuela bosque es un lugar mágico donde los niños pueden explorar, aprender y crecer en medio de la naturaleza y el entorno tranquilo. Esta ludotea está diseñada para armonizar con el bosque.
