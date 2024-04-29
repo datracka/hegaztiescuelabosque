@@ -3,7 +3,7 @@ import NavBar from "@/islands/NavBar.tsx";
 import Hero from "@/components/Shared/Hero.tsx";
 import { Head } from "$fresh/runtime.ts";
 import SectionFooter from "@/components/Shared/SectionFooter.tsx";
-import GetToKnow from "../components/PlayGroup/GetToKnow.tsx";
+import GetToKnow from "../components/SummerPlayroom/GetToKnow.tsx";
 import { useContext } from "preact/hooks";
 import HeadElement from "@/components/HeadElement.tsx";
 import { ContextState } from "@/routes/_app.tsx";
@@ -11,12 +11,12 @@ import getFixedT from "@/components/i18n.ts";
 import { PageProps, RouteConfig } from "$fresh/server.ts";
 
 export const config: RouteConfig = {
-  routeOverride: "/(playgroup|ludoteca)",
+  routeOverride: "/(summer-playroom|ludoteca-verano)",
 };
 
 // pending to translate!!
-export default function JornadaPuertasAbiertas(props: PageProps) {
-  const staticPath = "/imgs/ludoteca";
+export default function LudotecaVerano(props: PageProps) {
+  const staticPath = "/imgs/ludoteca-verano";
 
   const { languageAccepted } = useContext(ContextState);
   const t = getFixedT(languageAccepted);
@@ -25,19 +25,19 @@ export default function JornadaPuertasAbiertas(props: PageProps) {
   return (
     <>
       <HeadElement
-        description={t("playGroup.header.meta.description.content")}
-        title={t("playGroup.header.title")}
+        description={t("summerPlayroom.header.meta.description.content")}
+        title={t("summerPlayroom.header.title")}
         url={props.url}
       />
       <NavBar menuTexts={menuTexts} />
       <Hero
-        title={t("playGroup.hero.claim")}
-        description={t("playGroup.hero.subClaim")}
+        title={t("summerPlayroom.hero.claim")}
+        description={t("summerPlayroom.hero.subClaim")}
         backgroundImage={`${staticPath}/ninos-jugando.jpg`}
       />
       <GetToKnow
-        title={t("playGroup.getToKnow.title")}
-        text={t("playGroup.getToKnow.text")}
+        title={t("summerPlayroom.getToKnow.title")}
+        text={t("summerPlayroom.getToKnow.text")}
       />
       <SectionFooter />
     </>

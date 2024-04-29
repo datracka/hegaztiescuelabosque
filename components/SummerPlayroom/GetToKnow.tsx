@@ -13,7 +13,7 @@ const GetToKnow = ({ title, text }: GetToKnowProps) => (
     />
     <br />
     <br />
-    <img className={tw`mb-12`} src="/imgs/ludoteca/cartel.jpeg" />
+    <img className={tw`mb-12`} src="/imgs/ludoteca-verano/cartel.jpeg" />
   </section>
 );
 
