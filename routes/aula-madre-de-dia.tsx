@@ -110,6 +110,7 @@ export default function AulaMadreDeDia(props: PageProps) {
           },
         ]}
       />
+      <Prices t={t} />
       {/* we pass languageAccepted to get the proper form. It should be handlded as context */}
       <SectionFooter />
     </>
