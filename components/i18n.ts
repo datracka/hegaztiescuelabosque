@@ -3362,7 +3362,7 @@ const spanish = {
         subClaim: "¡Bienvenidos a Nuestro Patio de Recreo de Verano de la Escuela Forestal!",
       },
       getToKnow: {
-        title: "Ludoteca Semana Santa",
+        title: "Ludoteca de Verano",
         text: `
         <p className="mb-4">
         Ubicado en el corazón de la naturaleza, nuestro patio de recreo de verano en la escuela bosque es un lugar mágico donde los niños pueden explorar, aprender y crecer en medio de la naturaleza y el entorno tranquilo. Esta ludotea está diseñada para armonizar con el bosque.
